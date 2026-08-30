@@ -1,0 +1,327 @@
+:root {
+  --sakura-pink: #ffb7c5;
+  --sakura-deep: #e8869c;
+  --sakura-dark: #3a2530;
+  --ink: #2b2b2b;
+  --paper: #fffaf9;
+  --glass-bg: rgba(255, 255, 255, 0.18);
+  --glass-border: rgba(255, 255, 255, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+body {
+  font-family: "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
+  color: var(--ink);
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff0f3 0%, #ffe4ea 40%, #fff8f9 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Header: always transparent, sits above video or page background ===== */
+header.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+header.site-header .logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--sakura-dark);
+  text-shadow: 0 1px 6px rgba(255,255,255,0.6);
+}
+
+header.site-header nav a {
+  margin-left: 20px;
+  font-size: 0.95rem;
+  color: var(--sakura-dark);
+  text-shadow: 0 1px 6px rgba(255,255,255,0.6);
+}
+
+/* ===== Hero (top page video area) ===== */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #1a1015; /* fallback until video is added */
+}
+
+.hero video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  padding: 24px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.55);
+  margin: 0 0 10px;
+  letter-spacing: 0.08em;
+}
+
+.hero p.tagline {
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+  font-size: 1.1rem;
+  margin: 0 0 30px;
+}
+
+/* ===== Sections below hero: transparent panels over page background ===== */
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.section {
+  padding: 60px 6vw;
+  background: transparent;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  color: var(--sakura-dark);
+  border-left: 6px solid var(--sakura-pink);
+  padding-left: 12px;
+  margin-bottom: 24px;
+}
+
+/* ===== Search box (glass / transparent card) ===== */
+.search-box {
+  max-width: 640px;
+  margin: 0 auto 20px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 999px;
+  padding: 6px 6px 6px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  padding: 12px 0;
+  color: var(--ink);
+}
+
+.search-box button {
+  border: none;
+  background: var(--sakura-deep);
+  color: #fff;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filter-tabs button {
+  border: 1px solid var(--sakura-deep);
+  background: transparent;
+  color: var(--sakura-dark);
+  padding: 6px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.filter-tabs button.active {
+  background: var(--sakura-deep);
+  color: #fff;
+}
+
+/* ===== Alphabet quick nav ===== */
+.alpha-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.alpha-nav a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  font-size: 0.85rem;
+  color: var(--sakura-dark);
+}
+
+/* ===== Country grid / cards ===== */
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.country-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 18px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(232, 134, 156, 0.25);
+}
+
+.country-card .flag {
+  font-size: 2.2rem;
+}
+
+.country-card h3 {
+  margin: 8px 0 4px;
+  font-size: 1.05rem;
+  color: var(--sakura-dark);
+}
+
+.country-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.letter-group-title {
+  font-size: 1.3rem;
+  color: var(--sakura-deep);
+  margin: 30px 0 12px;
+  font-weight: 700;
+}
+
+/* ===== Country detail page ===== */
+.country-hero {
+  padding: 140px 6vw 40px;
+  text-align: center;
+  background: transparent;
+}
+
+.country-hero .flag-big {
+  font-size: 4rem;
+}
+
+.country-hero h1 {
+  margin: 6px 0 2px;
+  color: var(--sakura-dark);
+}
+
+.country-hero .name-en {
+  color: #888;
+  letter-spacing: 0.08em;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 0 6vw 80px;
+}
+
+.info-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.info-card h3 {
+  margin: 0 0 10px;
+  color: var(--sakura-deep);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-card p, .info-card ul {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.info-card ul {
+  padding-left: 1.2em;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 20px 6vw;
+  color: var(--sakura-deep);
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.empty-state {
+  text-align: center;
+  color: #888;
+  padding: 40px;
+}

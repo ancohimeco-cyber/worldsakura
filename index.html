@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界の図鑑 | WORLD SAKURA</title>
+  <meta name="description" content="世界193か国をアルファベット順に紹介する図鑑サイト。国旗の由来、首都、民族、生息動物、言語、観光名所などから逆引き検索もできます。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">🌸 世界の図鑑</a>
+    <nav>
+      <a href="index.html#country-list-section">国一覧</a>
+      <a href="index.html#reverse-search-section">逆引き検索</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <!-- ここに動画を配置します。例: <video autoplay muted loop playsinline><source src="assets/video/top.mp4" type="video/mp4"></video> -->
+    <div class="hero-overlay">
+      <h1>世界の図鑑</h1>
+      <p class="tagline">世界193か国を、旗・言葉・生きものからめぐる</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section" id="country-list-section">
+      <h2>国を探す(アルファベット順)</h2>
+      <div class="alpha-nav" id="alpha-nav"></div>
+      <div id="country-list"></div>
+    </section>
+
+    <section class="section" id="reverse-search-section">
+      <h2>逆引き検索</h2>
+      <div class="search-box">
+        <input id="reverse-search-input" type="text" placeholder="言語・動物・首都・観光名所などで検索(例: スペイン語、パンダ、パリ)" />
+        <button onclick="document.getElementById('reverse-search-input').focus()">検索</button>
+      </div>
+      <div class="filter-tabs">
+        <button class="active" data-filter="all">すべて</button>
+        <button data-filter="language">言語</button>
+        <button data-filter="animal">生息動物</button>
+        <button data-filter="capital">首都</button>
+        <button data-filter="landmark">観光名所</button>
+      </div>
+      <div id="reverse-search-results">
+        <p class="empty-state">キーワードを入力すると、該当する国が表示されます。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
