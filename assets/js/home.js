@@ -9,6 +9,7 @@ const MONTHLY_FEATURE = {
   desc: "各国の朝は、どんな料理から始まるのでしょう。世界の食卓を旅してみましょう。",
   link: "food.html",
   linkLabel: "世界の食べ物を見る →",
+  img: "assets/img/categories/monthly-breakfast.png",
 };
 
 function dayOfYear() {
@@ -59,8 +60,12 @@ async function renderHomeHighlights() {
 function renderMonthlyFeature() {
   const container = document.getElementById("monthly-feature");
   if (!container) return;
+  const imgHtml = MONTHLY_FEATURE.img
+    ? `<img class="monthly-feature-img" src="${MONTHLY_FEATURE.img}" alt="${MONTHLY_FEATURE.title}" loading="lazy" />`
+    : "";
   container.innerHTML = `
     <div class="monthly-feature-card">
+      ${imgHtml}
       <span class="monthly-label">${MONTHLY_FEATURE.label}</span>
       <h3>${MONTHLY_FEATURE.title}</h3>
       <p>${MONTHLY_FEATURE.desc}</p>

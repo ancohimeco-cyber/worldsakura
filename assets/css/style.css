@@ -706,13 +706,14 @@ footer {
 .category-card-photo .card-bg {
   position: absolute;
   inset: 0;
-  background-size: 130%;
+  background-size: cover;
   background-position: center;
-  transition: background-size 0.4s ease;
+  transform: scale(1.02);
+  transition: transform 0.4s ease;
 }
 
 .category-card-photo:hover .card-bg {
-  background-size: 150%;
+  transform: scale(1.1);
 }
 
 .category-card-photo::after {
@@ -778,6 +779,14 @@ footer {
   border-radius: 18px;
   padding: 28px;
   text-align: center;
+}
+
+.monthly-feature-img {
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
 .monthly-feature-card .monthly-label {
