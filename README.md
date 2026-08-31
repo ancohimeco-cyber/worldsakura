@@ -51,12 +51,19 @@ ISO国コード(国旗ファイル名と対応)です。
   "continent": "北アメリカ",
   "location": "位置の説明",
   "capital": "首都名",
+  "population": "人口(概数)",
+  "currency": "通貨名(通貨コード)",
   "languages": ["言語1", "言語2"],
   "ethnicGroups": ["民族1", "民族2"],
+  "food": "代表的な食べ物",
+  "nature": "自然・地形の特徴",
   "animals": ["動物1", "動物2"],
   "flagOrigin": "国旗の由来の説明",
   "trivia": "トリビア",
-  "landmarks": ["観光名所1", "観光名所2"]
+  "proverb": "現地のことわざ・名言",
+  "japanConnection": "日本とのつながり",
+  "landmarks": ["観光名所1", "観光名所2"],
+  "videoUrl": "関連動画のURL(あれば)"
 }
 ```
 
