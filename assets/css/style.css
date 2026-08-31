@@ -1,17 +1,17 @@
 :root {
   /* オーシャンブルー×ネイビー×ゴールドを基調に、桜色は少量のアクセントとして残す */
   --sakura-pink: #ffb7c5;
-  --sakura-deep: #d9a962;   /* ゴールド(ボタン・リンク・アクティブ状態) */
-  --sakura-dark: #f3ead9;   /* 見出し・ロゴ用の温かみのある白 */
+  --sakura-deep: #4f9eff;   /* ロイヤルブルー(ボタン・リンク・アクティブ状態) */
+  --sakura-dark: #eaf3ff;   /* 見出し・ロゴ用の薄い水色がかった白 */
   --ocean-navy: #06111f;
   --ocean-deep: #0a2038;
   --ocean-blue: #2f6690;
-  --gold: #d9a962;
+  --gold: #4f9eff;
   --ink: #f3eef1;
   --ink-soft: #b9c4d1;
   --paper: #fffaf9;
   --glass-bg: rgba(8, 20, 38, 0.45);
-  --glass-border: rgba(217, 169, 98, 0.28);
+  --glass-border: rgba(147, 197, 253, 0.28);
 }
 
 * {
@@ -134,7 +134,7 @@ header.site-header nav a {
 }
 
 .nav-dropdown-menu a:hover {
-  background: rgba(217, 169, 98, 0.15);
+  background: rgba(37, 99, 235, 0.18);
 }
 
 @media (max-width: 760px) {
@@ -158,7 +158,7 @@ header.site-header nav a {
   header.site-header nav a,
   .nav-dropdown-toggle {
     padding: 10px 6px;
-    border-top: 1px solid rgba(217, 169, 98, 0.15);
+    border-top: 1px solid rgba(37, 99, 235, 0.18);
   }
 
   .nav-dropdown {
@@ -762,10 +762,10 @@ footer {
 }
 
 .card-bg-countries { background: linear-gradient(135deg, #0a2038, #06111f); }
-.card-bg-flags { background: linear-gradient(135deg, #1a2f4a, #7a5a25); }
+.card-bg-flags { background: linear-gradient(135deg, #1a2f4a, #0891b2); }
 .card-bg-capitals { background: radial-gradient(circle at 30% 30%, #2a3d55, #050b14 70%); }
-.card-bg-culture { background: linear-gradient(135deg, #6b4a2a, #2a1a10); }
-.card-bg-food { background: linear-gradient(135deg, #8a5a2a, #3a2410); }
+.card-bg-culture { background: linear-gradient(135deg, #3b82f6, #0a1a2e); }
+.card-bg-food { background: linear-gradient(135deg, #0369a1, #082f49); }
 .card-bg-animals { background: linear-gradient(135deg, #10352f, #05100e); }
 .card-bg-words { background: linear-gradient(135deg, #2a2560, #0d0b28); }
 
