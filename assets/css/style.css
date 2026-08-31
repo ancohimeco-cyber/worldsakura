@@ -41,25 +41,36 @@ header.site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 28px;
-  background: transparent;
+  flex-wrap: wrap;
+  row-gap: 6px;
+  padding: 12px 28px;
+  background: rgba(20, 10, 20, 0.35);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
 }
 
 header.site-header .logo {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--sakura-dark);
   text-shadow: 0 1px 8px rgba(0,0,0,0.7);
+  white-space: nowrap;
+}
+
+header.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 16px;
+  row-gap: 4px;
 }
 
 header.site-header nav a {
-  margin-left: 20px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--sakura-dark);
   text-shadow: 0 1px 8px rgba(0,0,0,0.7);
+  white-space: nowrap;
 }
 
 /* ===== Fixed full-page background (video on top page / image on other pages) ===== */
@@ -476,6 +487,14 @@ footer {
   padding: 12px 28px;
   font-size: 0.95rem;
   color: var(--sakura-dark);
+}
+
+.sns-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
 }
 
 /* ===== Coming soon page ===== */
