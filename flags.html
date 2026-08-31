@@ -13,15 +13,21 @@
 
   <header class="site-header">
     <a class="logo" href="index.html">🌸 世界の図鑑</a>
-    <nav>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false">☰</button>
+    <nav id="site-nav">
       <a href="index.html">ホーム</a>
-      <a href="countries.html">国</a>
-      <a href="flags.html">国旗</a>
-      <a href="capitals.html">首都</a>
-      <a href="culture.html">文化・暮らし</a>
-      <a href="food.html">食べ物</a>
-      <a href="animals.html">動物・自然</a>
-      <a href="words.html">言葉・雑学</a>
+      <a href="countries.html">193か国</a>
+      <a href="flags.html">世界の国旗</a>
+      <a href="capitals.html">世界の首都</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">テーマから探す ▾</button>
+        <div class="nav-dropdown-menu">
+          <a href="culture.html">文化・暮らし</a>
+          <a href="food.html">食べ物</a>
+          <a href="animals.html">動物・自然</a>
+          <a href="words.html">言葉・雑学</a>
+        </div>
+      </div>
       <a href="search.html">検索</a>
       <a href="sns.html">SNS</a>
     </nav>

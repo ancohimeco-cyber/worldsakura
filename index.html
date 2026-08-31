@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>世界の図鑑 | WORLD SAKURA</title>
-  <meta name="description" content="世界193か国を、国・国旗・首都・言葉・生きもの・旅・雑学、いろいろな入口から巡る図鑑サイト。" />
+  <title>世界の図鑑 WORLD SAKURA｜193か国を国旗・首都・文化から旅する</title>
+  <meta name="description" content="WORLD SAKURAは、世界193か国を国旗、首都、文化、食べ物、動物、自然、言葉、雑学から楽しめる世界図鑑です。英語国名のABC順やテーマ別に世界を探せます。" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -16,15 +16,21 @@
 
   <header class="site-header">
     <a class="logo" href="index.html">🌸 世界の図鑑</a>
-    <nav>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false">☰</button>
+    <nav id="site-nav">
       <a href="index.html">ホーム</a>
-      <a href="countries.html">国</a>
-      <a href="flags.html">国旗</a>
-      <a href="capitals.html">首都</a>
-      <a href="culture.html">文化・暮らし</a>
-      <a href="food.html">食べ物</a>
-      <a href="animals.html">動物・自然</a>
-      <a href="words.html">言葉・雑学</a>
+      <a href="countries.html">193か国</a>
+      <a href="flags.html">世界の国旗</a>
+      <a href="capitals.html">世界の首都</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">テーマから探す ▾</button>
+        <div class="nav-dropdown-menu">
+          <a href="culture.html">文化・暮らし</a>
+          <a href="food.html">食べ物</a>
+          <a href="animals.html">動物・自然</a>
+          <a href="words.html">言葉・雑学</a>
+        </div>
+      </div>
       <a href="search.html">検索</a>
       <a href="sns.html">SNS</a>
     </nav>
@@ -32,82 +38,118 @@
 
   <section class="hero">
     <h1>世界の図鑑</h1>
-    <p class="tagline">世界を、いろいろな入口から旅する図鑑</p>
+    <p class="hero-en">WORLD SAKURA</p>
+    <p class="tagline">193か国を、国旗・首都・文化・食・自然・言葉から旅する世界図鑑</p>
+    <div class="hero-buttons">
+      <a class="hero-btn hero-btn-primary" href="countries.html">世界193か国から探す</a>
+      <a class="hero-btn hero-btn-secondary" href="#categories">テーマから世界を探す</a>
+    </div>
   </section>
 
   <main>
-    <section class="section">
+    <section class="section intro-section">
+      <h2>今日は、世界のどこを旅する?</h2>
+      <p class="intro-text">WORLD SAKURAは、世界193か国を英語国名のアルファベット順で紹介する世界図鑑です。国旗、首都、文化、食べ物、動物、自然、言葉など、気になる入口から世界を旅できます。</p>
+    </section>
+
+    <section class="section" id="categories">
       <h2>大カテゴリーから探す</h2>
-      <div class="category-grid">
-        <a class="category-card" href="countries.html">
-          <span class="category-icon">🌍</span>
-          <h3>国から探す</h3>
-          <p>世界193か国・ABC順</p>
+      <div class="category-grid-photo">
+        <a class="category-card-photo" href="countries.html">
+          <div class="card-bg card-bg-countries"></div>
+          <div class="card-content">
+            <span class="card-icon">🌍</span>
+            <h3>世界193か国</h3>
+            <p>英語国名のABC順、国番号1〜193から世界を探す</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="flags.html">
-          <span class="category-icon">🚩</span>
-          <h3>国旗から探す</h3>
-          <p>国旗の意味・色・由来</p>
+        <a class="category-card-photo" href="flags.html">
+          <div class="card-bg card-bg-flags"></div>
+          <div class="card-content">
+            <span class="card-icon">🚩</span>
+            <h3>世界の国旗</h3>
+            <p>国旗の色・模様・歴史・込められた意味を知る</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="capitals.html">
-          <span class="category-icon">🏙</span>
-          <h3>首都から探す</h3>
-          <p>世界の首都一覧</p>
+        <a class="category-card-photo" href="capitals.html">
+          <div class="card-bg card-bg-capitals"></div>
+          <div class="card-content">
+            <span class="card-icon">🏙</span>
+            <h3>世界の首都</h3>
+            <p>世界の街並み、ランドマーク、首都の物語を巡る</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="culture.html">
-          <span class="category-icon">🎎</span>
-          <h3>文化・暮らしから探す</h3>
-          <p>民族衣装・行事・マナー</p>
+        <a class="category-card-photo" href="culture.html">
+          <div class="card-bg card-bg-culture"></div>
+          <div class="card-content">
+            <span class="card-icon">🎎</span>
+            <h3>世界の文化・暮らし</h3>
+            <p>民族衣装、お祭り、習慣、ルールやマナーを知る</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="food.html">
-          <span class="category-icon">🍜</span>
-          <h3>食べ物から探す</h3>
-          <p>代表料理・朝ごはん・屋台料理</p>
+        <a class="category-card-photo" href="food.html">
+          <div class="card-bg card-bg-food"></div>
+          <div class="card-content">
+            <span class="card-icon">🍜</span>
+            <h3>世界の食べ物</h3>
+            <p>代表料理、朝ごはん、屋台料理、世界の味を巡る</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="animals.html">
-          <span class="category-icon">🐾</span>
-          <h3>動物・自然から探す</h3>
-          <p>国獣・固有種・世界自然遺産</p>
+        <a class="category-card-photo" href="animals.html">
+          <div class="card-bg card-bg-animals"></div>
+          <div class="card-content">
+            <span class="card-icon">🐾</span>
+            <h3>世界の動物・自然</h3>
+            <p>国獣、固有種、絶景、世界自然遺産を知る</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
-        <a class="category-card" href="words.html">
-          <span class="category-icon">🗣</span>
-          <h3>言葉・雑学から探す</h3>
-          <p>あいさつ・ことわざ・意外な話</p>
+        <a class="category-card-photo" href="words.html">
+          <div class="card-bg card-bg-words"></div>
+          <div class="card-content">
+            <span class="card-icon">🗣</span>
+            <h3>世界の言葉・雑学</h3>
+            <p>あいさつ、ことわざ、日本とのつながり、意外な話</p>
+            <span class="card-more">詳しく見る →</span>
+          </div>
         </a>
       </div>
     </section>
 
     <section class="section">
-      <h2>注目コンテンツ</h2>
-      <div class="highlight-block">
-        <h3 class="highlight-title">✨ 今日の国</h3>
-        <div class="country-grid" id="today-country"></div>
-      </div>
-      <div class="highlight-block">
-        <h3 class="highlight-title">🆕 追加ずみの国</h3>
-        <div class="country-grid" id="added-countries"></div>
-      </div>
-      <div class="highlight-block">
-        <h3 class="highlight-title">💡 世界の豆知識</h3>
-        <div class="info-card" id="trivia-snippet"></div>
-      </div>
+      <h2>✨ 今日の国</h2>
+      <div id="today-country"></div>
     </section>
 
     <section class="section">
-      <h2>世界を検索</h2>
+      <h2>🆕 新しく追加された国</h2>
+      <div class="country-grid" id="added-countries"></div>
+      <p class="section-sub-link"><a href="countries.html">世界193か国をすべて見る →</a></p>
+    </section>
+
+    <section class="section">
+      <h2>今月の世界特集</h2>
+      <div id="monthly-feature"></div>
+    </section>
+
+    <section class="section">
+      <h2>気になる世界を検索</h2>
+      <p class="section-intro">国名、首都、言葉、動物、料理、観光名所などから探せます。</p>
       <form class="search-box" id="home-search-form">
-        <input id="home-search-input" type="text" placeholder="言語・動物・首都・観光名所などで検索(例: スペイン語、パンダ、パリ)" />
-        <button type="submit">検索</button>
+        <input id="home-search-input" type="text" placeholder="例: フランス、パンダ、スペイン語、世界の朝ごはん" />
+        <button type="submit">世界を検索</button>
       </form>
       <p class="section-sub-link"><a href="search.html">くわしい検索ページを開く →</a></p>
     </section>
 
-    <section class="section banner-section">
-      <a class="big-banner" href="countries.html">🌍 世界193か国を見る</a>
-    </section>
-
     <section class="section sns-section">
-      <h2>SNS</h2>
+      <h2>SNSでも世界を旅する</h2>
+      <p class="section-intro">Instagramや動画でも、世界193か国を紹介しています。</p>
       <a class="sns-link" href="sns.html">📱 SNSアカウント一覧を見る →</a>
     </section>
   </main>

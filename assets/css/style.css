@@ -1,12 +1,17 @@
 :root {
+  /* オーシャンブルー×ネイビー×ゴールドを基調に、桜色は少量のアクセントとして残す */
   --sakura-pink: #ffb7c5;
-  --sakura-deep: #ff9db3;
-  --sakura-dark: #ffe3ea;
+  --sakura-deep: #d9a962;   /* ゴールド(ボタン・リンク・アクティブ状態) */
+  --sakura-dark: #f3ead9;   /* 見出し・ロゴ用の温かみのある白 */
+  --ocean-navy: #06111f;
+  --ocean-deep: #0a2038;
+  --ocean-blue: #2f6690;
+  --gold: #d9a962;
   --ink: #f3eef1;
-  --ink-soft: #d9cfd5;
+  --ink-soft: #b9c4d1;
   --paper: #fffaf9;
-  --glass-bg: rgba(30, 18, 26, 0.4);
-  --glass-border: rgba(255, 255, 255, 0.22);
+  --glass-bg: rgba(8, 20, 38, 0.45);
+  --glass-border: rgba(217, 169, 98, 0.28);
 }
 
 * {
@@ -44,7 +49,7 @@ header.site-header {
   flex-wrap: wrap;
   row-gap: 6px;
   padding: 12px 28px;
-  background: rgba(20, 10, 20, 0.35);
+  background: rgba(5, 12, 22, 0.4);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
 }
@@ -73,6 +78,102 @@ header.site-header nav a {
   white-space: nowrap;
 }
 
+.nav-toggle {
+  display: none;
+  order: 2;
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--sakura-dark);
+  font-size: 1.3rem;
+  line-height: 1;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown-toggle {
+  background: transparent;
+  border: none;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--sakura-dark);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.7);
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(6, 14, 26, 0.92);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 8px;
+  min-width: 160px;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 200;
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+  display: flex;
+}
+
+.nav-dropdown-menu a {
+  padding: 8px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: rgba(217, 169, 98, 0.15);
+}
+
+@media (max-width: 760px) {
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  header.site-header nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding-top: 8px;
+  }
+
+  header.site-header nav.open {
+    display: flex;
+  }
+
+  header.site-header nav a,
+  .nav-dropdown-toggle {
+    padding: 10px 6px;
+    border-top: 1px solid rgba(217, 169, 98, 0.15);
+  }
+
+  .nav-dropdown {
+    display: block;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    background: rgba(0,0,0,0.2);
+    border: none;
+    margin-left: 12px;
+  }
+}
+
 /* ===== Fixed full-page background (video on top page / image on other pages) ===== */
 .fixed-bg {
   position: fixed;
@@ -95,7 +196,7 @@ header.site-header nav a {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10, 6, 12, 0.35) 0%, rgba(10, 6, 12, 0.6) 100%);
+  background: linear-gradient(180deg, rgba(4, 10, 20, 0.4) 0%, rgba(3, 8, 16, 0.68) 100%);
 }
 
 /* ===== Hero (top page title area, scrolls over the fixed video) ===== */
@@ -120,11 +221,46 @@ header.site-header nav a {
   letter-spacing: 0.08em;
 }
 
+.hero p.hero-en {
+  color: var(--gold);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+  font-size: 1rem;
+  letter-spacing: 0.25em;
+  margin: 0 0 4px;
+}
+
 .hero p.tagline {
   color: #fff;
   text-shadow: 0 2px 12px rgba(0,0,0,0.55);
   font-size: 1.1rem;
   margin: 0 0 30px;
+  max-width: 640px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.hero-btn {
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.hero-btn-primary {
+  background: var(--gold);
+  color: var(--ocean-navy);
+}
+
+.hero-btn-secondary {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: #fff;
 }
 
 /* ===== Sections below hero: transparent panels over page background ===== */
@@ -508,6 +644,222 @@ footer {
   margin: 0;
   font-size: 0.85rem;
   color: var(--ink-soft);
+}
+
+/* ===== Site intro (top page) ===== */
+.intro-section {
+  text-align: center;
+}
+
+.intro-section h2 {
+  display: inline-block;
+  border-left: none;
+  padding-left: 0;
+}
+
+.intro-text {
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+/* ===== Category entrance cards with photo/gradient background ===== */
+.category-grid-photo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .category-grid-photo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .category-grid-photo {
+    grid-template-columns: 1fr;
+  }
+}
+
+.category-card-photo {
+  position: relative;
+  display: block;
+  border-radius: 18px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--glass-border);
+  isolation: isolate;
+}
+
+.category-card-photo .card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: 130%;
+  background-position: center;
+  transition: background-size 0.4s ease;
+}
+
+.category-card-photo:hover .card-bg {
+  background-size: 150%;
+}
+
+.category-card-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(3,8,16,0.15) 0%, rgba(3,8,16,0.75) 100%);
+}
+
+.category-card-photo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.4);
+}
+
+.category-card-photo .card-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+}
+
+.category-card-photo .card-icon {
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+}
+
+.category-card-photo h3 {
+  margin: 0 0 4px;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.category-card-photo p {
+  margin: 0 0 8px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.category-card-photo .card-more {
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.card-bg-countries { background: linear-gradient(135deg, #0a2038, #06111f); }
+.card-bg-flags { background: linear-gradient(135deg, #1a2f4a, #7a5a25); }
+.card-bg-capitals { background: radial-gradient(circle at 30% 30%, #2a3d55, #050b14 70%); }
+.card-bg-culture { background: linear-gradient(135deg, #6b4a2a, #2a1a10); }
+.card-bg-food { background: linear-gradient(135deg, #8a5a2a, #3a2410); }
+.card-bg-animals { background: linear-gradient(135deg, #10352f, #05100e); }
+.card-bg-words { background: linear-gradient(135deg, #2a2560, #0d0b28); }
+
+/* ===== Monthly feature ===== */
+.monthly-feature-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  padding: 28px;
+  text-align: center;
+}
+
+.monthly-feature-card .monthly-label {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ocean-navy);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.monthly-feature-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  color: var(--sakura-dark);
+}
+
+.monthly-feature-card p {
+  color: var(--ink-soft);
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+
+/* ===== Today's country (richer card) ===== */
+.today-card {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+@media (max-width: 560px) {
+  .today-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.today-card .flag {
+  width: 90px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  flex-shrink: 0;
+}
+
+.today-card .today-body {
+  flex: 1;
+}
+
+.today-card .today-num {
+  font-size: 0.75rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+}
+
+.today-card h3 {
+  margin: 4px 0 2px;
+  font-size: 1.2rem;
+  color: var(--sakura-dark);
+}
+
+.today-card .today-en {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+
+.today-card .today-desc {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.today-card .today-btn {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ocean-navy);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+  border-radius: 999px;
 }
 
 /* ===== Homepage highlight blocks ===== */
