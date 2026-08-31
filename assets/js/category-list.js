@@ -9,6 +9,12 @@ function categorySnippet(country, fields) {
   return parts.length ? parts.join(" ／ ") : "準備中";
 }
 
+function firstItem(value) {
+  if (Array.isArray(value)) return value[0] || "";
+  if (typeof value === "string") return value.split(/[、,]/)[0].trim();
+  return "";
+}
+
 function categoryCard(country, fields) {
   return `
     <a class="country-card" href="country.html?id=${country.id}">
@@ -18,16 +24,37 @@ function categoryCard(country, fields) {
     </a>`;
 }
 
+function primaryCard(country, primaryField) {
+  const primary = firstItem(country[primaryField]) || "準備中";
+  return `
+    <a class="country-card" href="country.html?id=${country.id}">
+      <img class="flag" src="assets/flags/${country.code}.svg" alt="${country.nameEn}の国旗" loading="lazy" />
+      <h3>${primary}</h3>
+      <p>${country.name}(${country.nameEn})</p>
+    </a>`;
+}
+
 async function renderCategoryList(config) {
   const countries = await fetchCountries();
   const nav = document.getElementById("alpha-nav");
   const container = document.getElementById("country-list");
+  if (!container) return;
+
+  if (config.primaryField) {
+    // 代表項目(例: 代表料理・代表言語)の五十音順で、国ではなくその項目を主役に表示
+    const sorted = [...countries]
+      .filter((c) => firstItem(c[config.primaryField]))
+      .sort((a, b) => firstItem(a[config.primaryField]).localeCompare(firstItem(b[config.primaryField]), "ja"));
+    container.innerHTML = `<div class="country-grid">${sorted.map((c) => primaryCard(c, config.primaryField)).join("")}</div>`;
+    const countEl = document.getElementById("category-count");
+    if (countEl) countEl.textContent = `${sorted.length}か国を表示中`;
+    return;
+  }
 
   if (nav) {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
     nav.innerHTML = letters.map((l) => `<a href="#letter-${l}">${l}</a>`).join("");
   }
-  if (!container) return;
 
   const sorted = [...countries].sort((a, b) => a.id - b.id);
   const groups = {};

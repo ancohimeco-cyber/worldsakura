@@ -30,8 +30,8 @@
   <main>
     <section class="section page-title-section">
       <h2>🗣 言葉・雑学から探す</h2>
-      <p class="section-intro">公用語やことわざから、世界193か国をアルファベット順にめぐります。</p>
-      <div class="alpha-nav" id="alpha-nav"></div>
+      <p class="section-intro">代表言語の名前で、世界193か国をめぐります。</p>
+      <p class="empty-state" id="category-count"></p>
       <div id="country-list"></div>
     </section>
   </main>
@@ -39,7 +39,7 @@
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
 
   <script src="assets/js/shared.js"></script>
-  <script>window.CATEGORY_CONFIG = { fields: ["languages", "proverb"] };</script>
+  <script>window.CATEGORY_CONFIG = { primaryField: "languages" };</script>
   <script src="assets/js/category-list.js"></script>
 </body>
 </html>
