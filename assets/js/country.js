@@ -12,8 +12,12 @@ function textOrPlaceholder(value, placeholder) {
 async function loadCountry() {
   const params = new URLSearchParams(window.location.search);
   const id = Number(params.get("id"));
-  const res = await fetch("data/countries.json");
-  const countries = await res.json();
+  const [countriesRes, animalsRes] = await Promise.all([
+    fetch("data/countries.json"),
+    fetch("data/animals.json"),
+  ]);
+  const countries = await countriesRes.json();
+  const animals = await animalsRes.json();
   const country = countries.find((c) => c.id === id);
 
   const root = document.getElementById("country-root");
@@ -31,6 +35,17 @@ async function loadCountry() {
   const videoBlock = country.videoUrl
     ? `<p><a href="${country.videoUrl}" target="_blank" rel="noopener">関連動画を見る →</a></p>`
     : `<p>準備中です。</p>`;
+
+  const countryAnimals = animals.filter((a) => a.countries.includes(country.code));
+  const animalsBlock =
+    countryAnimals.length === 0
+      ? `<p>準備中です。</p>`
+      : `<ul>${countryAnimals
+          .map((a) => {
+            const badge = a.isNationalAnimalOf.includes(country.code) ? "(🏅国獣)" : "";
+            return `<li><a href="animals.html?key=${a.key}">${a.name}</a>${badge}</li>`;
+          })
+          .join("")}</ul>`;
 
   root.innerHTML = `
     <section class="country-hero">
@@ -76,7 +91,7 @@ async function loadCountry() {
       </div>
       <div class="info-card">
         <h3>🦁 生息動物</h3>
-        ${listOrPlaceholder(country.animals, "準備中です。")}
+        ${animalsBlock}
       </div>
       <div class="info-card">
         <h3>🏳 国旗の由来</h3>

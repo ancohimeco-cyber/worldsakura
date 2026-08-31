@@ -388,6 +388,39 @@ footer {
   padding: 40px;
 }
 
+/* ===== Animal entity cards ===== */
+.animal-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.animal-icon-big {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.rarity-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(255, 183, 197, 0.18);
+  border: 1px solid var(--glass-border);
+  font-size: 0.75rem;
+  color: var(--sakura-dark);
+}
+
+.source-note {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  padding: 0 6vw 60px;
+  word-break: break-all;
+}
+
+.source-note a {
+  color: var(--sakura-deep);
+}
+
 /* ===== Category grid (homepage entrance cards) ===== */
 .category-grid {
   display: grid;

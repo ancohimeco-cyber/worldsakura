@@ -28,18 +28,21 @@
   </header>
 
   <main>
-    <section class="section page-title-section">
-      <h2>🐾 動物・自然から探す</h2>
-      <p class="section-intro">代表的な動物や自然の見どころから、世界193か国をめぐります。</p>
-      <div class="alpha-nav" id="alpha-nav"></div>
-      <div id="country-list"></div>
+    <section class="section page-title-section" id="animal-list-section">
+      <h2>🐾 世界の生きもの</h2>
+      <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
+      <div class="filter-tabs" id="type-tabs"></div>
+      <div class="filter-tabs" id="continent-tabs"></div>
+      <p class="empty-state" id="animal-count"></p>
+      <div id="animal-list"></div>
     </section>
+
+    <div id="animal-detail" hidden></div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
 
   <script src="assets/js/shared.js"></script>
-  <script>window.CATEGORY_CONFIG = { fields: ["animals", "nature"] };</script>
-  <script src="assets/js/category-list.js"></script>
+  <script src="assets/js/animals.js"></script>
 </body>
 </html>

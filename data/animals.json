@@ -1,0 +1,2258 @@
+[
+  {
+    "key": "nubian_ibex",
+    "name": "アイベックス",
+    "nameEn": "Nubian ibex",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "eg",
+      "il",
+      "jo",
+      "om",
+      "sd"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヌビアアイベックスは北アフリカと中東の山岳砂漠地帯に生息する小型の野生ヤギで、エジプト、ヨルダン、イスラエル、オマーン、スーダンなどに孤立した個体群が分布する。成熟個体数は約4500頭と推定され、狩猟や生息地の喪失、家畜との競合により減少しており、IUCNでは危急種に指定されている。古代美術にも数多く描かれるなど中東地域で文化的に重要な動物である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nubian_ibex",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://animaldiversity.org/accounts/Capra_nubiana/",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "red_fox",
+    "name": "アカギツネ",
+    "nameEn": "Red fox",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "be",
+      "de",
+      "fr",
+      "gb"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アカギツネはキツネ属最大の種で、北半球全域に分布し食肉目の中で最も分布域が広い動物である。約40万年前にユーラシアで出現したとされ、都市部を含む多様な環境に適応してきた。西ヨーロッパで唯一の在来キツネ種であり、オーストラリアなど導入先では在来種への影響が懸念されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_fox",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "red_deer",
+    "name": "アカシカ",
+    "nameEn": "Red deer",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "at",
+      "dk",
+      "li",
+      "lu"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アカシカはヨーロッパ、西アジア、北アフリカに広く分布する大型のシカ類で、4室の胃を持つ反芻動物である。オスは毎年生え変わる立派な角を持ち、顕著な性的二型を示す。IUCNでは軽度懸念に分類されており、多くの地域で個体数は安定または回復傾向にある。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_deer",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "grey_seal",
+    "name": "アザラシ",
+    "nameEn": "Grey seal",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "dk",
+      "ie",
+      "nl"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ハイイロアザラシ(Halichoerus grypus)は北大西洋に生息する大型のアザラシで、オスがメスより顕著に大きい性的二型を示す。分布は米国からロシアにまで及び、デンマーク・アイルランド・オランダを含む18カ国で常在個体群が確認されている。IUCNのレッドリストでは「軽度懸念(Least Concern)」に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grey_seal",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "asian_elephant",
+    "name": "アジアゾウ",
+    "nameEn": "Asian elephant",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "bd",
+      "kh",
+      "la",
+      "lk",
+      "mm",
+      "th",
+      "vn"
+    ],
+    "isNationalAnimalOf": [
+      "th",
+      "la"
+    ],
+    "blurb": "アジアゾウは1本指状の突起を持つ長い鼻と雄に見られる大きな牙、横に折りたたまれた大きな耳、しわの寄った灰色の皮膚が特徴で、雄は体重約4トン、雌は約2.7トンに達する。インド亜大陸から東南アジアにかけて、西はインド、北はネパール、東はボルネオ島、南はスマトラ島まで分布し、草原や熱帯林、落葉林に生息する。2019年時点で世界の野生個体数の4分の3近くがインドに生息し、タイとラオスでは国獣に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Asian_elephant",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "asiatic_wild_ass",
+    "name": "アジアノロバ",
+    "nameEn": "Asiatic wild ass",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "tm",
+      "uz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "背中に黒い縦筋の入った赤褐色から黄褐色の体色を持つウマ科動物で、時速70kmに達することもある俊足な陸生哺乳類の一つ。中央アジアの砂漠・草原・山岳地帯に生息し、亜種によってハーレムを形成したり縄張りを持ったりと社会構造は多様である。トルクメニスタンには亜種トルクメンクーランが生息し、ウズベキスタンやカザフスタン南部にも再導入された個体群が存在する。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Onager",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "addax",
+    "name": "アダックス",
+    "nameEn": "Addax",
+    "type": "哺乳類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "dz",
+      "ly",
+      "ne"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アダックスはサハラ砂漠に生息するらせん状の角を持つウシ科動物で、かつては北アフリカ全域に広く分布していたが、乱獲と生息地破壊により野生個体数は激減した。現在、自立的に存続している野生個体群はニジェールのテルミット山塊保護区にほぼ限られ、野生下の総個体数は500頭未満と推定される。アルジェリアとリビアでは既に野生では絶滅している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Addax",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "african_buffalo",
+    "name": "アフリカスイギュウ",
+    "nameEn": "African buffalo",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "rw",
+      "sz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アフリカスイギュウは左右の角の基部が融合して額を覆う「ボス」と呼ばれる盾状構造をもつ頑丈なウシ科動物で、サバンナや湿地、氾濫原に生息し水場を必要とする。気性が荒く狩猟者から恐れられ「黒い死神」の異名をもつ。セネガル南東部から西・中央アフリカを経て南部アフリカまで分断的に分布し、ルワンダのヴィルンガ山地には亜種マウンテンバッファローが、エスワティニなど南部アフリカにはケープバッファローの個体群が生息する。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/African_buffalo",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "african_elephant",
+    "name": "アフリカゾウ",
+    "nameEn": "African elephant",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "ao",
+      "bf",
+      "bj",
+      "bw",
+      "cf",
+      "ci",
+      "cm",
+      "gh",
+      "gm",
+      "gn",
+      "ke",
+      "ml",
+      "mw",
+      "mz",
+      "na",
+      "ne",
+      "ng",
+      "ss",
+      "td",
+      "tg",
+      "tz",
+      "ug",
+      "za",
+      "zm",
+      "zw"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アフリカゾウはサハラ以南アフリカに広く分布する陸上最大の哺乳類で、体温調節に役立つ大きな耳と、4万~6万本もの筋肉を持つ器用な鼻が特徴である。サバンナの疎林から乾燥した低木地、熱帯雨林まで多様な環境に適応しており、2021年のIUCN再評価によりサバンナに生息する種(危機)と中央・西アフリカの森林に生息する種(深刻な危機)の2種に分けられた。南アフリカや中央アフリカ共和国、コートジボワールなど複数の国の紋章にも描かれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/African_elephant",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "american_bison",
+    "name": "アメリカバイソン",
+    "nameEn": "American bison",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "us"
+    ],
+    "isNationalAnimalOf": [
+      "us"
+    ],
+    "blurb": "北米大陸に固有の大型ウシ科動物で、冬毛は濃い茶色のふさふさした毛に覆われる。オスは体重1,270kgに達することもあり、草原やプレーリー、ヤマヨモギ地帯でイネ科・カヤツリグサ科の植物を主食とする。かつてはアラスカからメキシコ湾岸、東は大西洋岸まで広く分布し、現在はアメリカ合衆国の国獣として正式に位置づけられている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/American_bison",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "arabian_oryx",
+    "name": "アラビアオリックス",
+    "nameEn": "Arabian oryx",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "ae",
+      "bh",
+      "jo",
+      "kw",
+      "om",
+      "qa",
+      "sa",
+      "sy",
+      "ye"
+    ],
+    "isNationalAnimalOf": [
+      "jo",
+      "om",
+      "ae",
+      "bh",
+      "qa"
+    ],
+    "blurb": "アラビアオリックスは肩にこぶ状の隆起と、まっすぐ長い角、房のある尾を持つ中型のアンテロープで、オリックス属の中では最も小さい。アラビア半島の砂漠やステップ地帯に生息するが、1970年代初頭に野生では一度絶滅し、動物園での繁殖と1980年以降の再導入によって野生復帰を果たした。ヨルダン、オマーン、アラブ首長国連邦、バーレーン、カタールでは国獣に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Arabian_oryx",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "arabian_leopard",
+    "name": "アラビアヒョウ",
+    "nameEn": "Arabian leopard",
+    "type": "哺乳類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "om",
+      "sa",
+      "ye"
+    ],
+    "isNationalAnimalOf": [
+      "ye"
+    ],
+    "blurb": "アラビアヒョウ(Panthera pardus nimr)はヒョウの亜種の中で最も小型で、かつてはアラビア半島の山岳地帯に広く分布していた。現在はオマーンとイエメンに合わせて100〜120頭ほどが残るのみで、サウジアラビアでは絶滅した可能性が高いとされる。IUCNにより「深刻な危機(Critically Endangered)」に分類されており、2008年にイエメンが自国の国獣に定めている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Arabian_leopard",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "alpaca",
+    "name": "アルパカ",
+    "nameEn": "Alpaca",
+    "type": "哺乳類",
+    "iucn": "未評価",
+    "countries": [
+      "bo",
+      "pe"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アルパカ(Lama pacos)はアンデス山脈原産の家畜化されたラクダ科動物で、標高の高いエクアドル・ペルー・ボリビア・チリ北部を中心に伝統的に飼育されてきた。毛質の異なるスリ種とワカイア種の2品種があり、現在ペルーは世界のアルパカの半数以上を有する最大の飼育国となっている。家畜種のため、IUCNのレッドリスト評価の対象外(未評価)である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alpaca",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "alpine_ibex",
+    "name": "アルプスアイベックス",
+    "nameEn": "Alpine ibex",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "at",
+      "ch",
+      "de",
+      "fr",
+      "it",
+      "li"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アルプスアイベックスはヨーロッパアルプスの険しい高山地帯、標高3300mに達する場所にも生息する野生ヤギである。19世紀には乱獲によりイタリアのグランパラディーゾに100頭未満まで減少したが、再導入事業によりフランス、スイス、リヒテンシュタイン、ドイツ、オーストリアなど旧分布域の多くで回復した。オスはメスより大きく長い角を持つなど顕著な性的二型が見られる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alpine_ibex",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "green_iguana",
+    "name": "イグアナ",
+    "nameEn": "Green iguana",
+    "type": "爬虫類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "lc"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "グリーンイグアナは体長1.7mに達する大型の樹上性トカゲで、余分な塩分を排出する塩腺を発達させ植物食に適応している。中南米原産で水辺近くの樹上環境を好み、生息地によって体色に著しい変異がみられる。セントルシアには在来個体群が生息し、2019年には同島固有とされる2亜種が識別されたが、分類学的な位置づけには議論が残る(なお近縁の在来種ジャマイカイグアナが生息するジャマイカでは、本種は近年持ち込まれた外来種として問題になっている)。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Green_iguana",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "wild_boar",
+    "name": "イノシシ",
+    "nameEn": "Wild boar",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "be",
+      "lb",
+      "lu"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "イノシシはユーラシアと北アフリカに広く分布するイノシシ科の動物で、家畜ブタの祖先種としても知られる。針葉樹林から砂漠まで多様な環境に生息し、母系の群れで生活する。レバノンには在来のアナトリア亜種に加え20世紀後半に導入された中央ヨーロッパ亜種の個体群も定着しており、適応力の高さからIUCNでは軽度懸念に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wild_boar",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8884024/",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "sacred_ibis",
+    "name": "イビス",
+    "nameEn": "Sacred ibis",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "eg"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アフリカクロトキ(サクリッドアイビス)は体長68cmほどの白い水鳥で、黒く禿げた頭部と湾曲したくちばし、黒い脚が特徴。湿地や湿原に生息し、無脊椎動物や魚、カエルなどを浅瀬で捕食する。古代エジプトでは知恵の神トトと結びつけられ神聖視されたが、生息地の消失により19世紀半ばまでにエジプトでは繁殖・渡来個体群ともに姿を消したとされる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/African_sacred_ibis",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "iberian_wolf",
+    "name": "イベリアオオカミ",
+    "nameEn": "Iberian wolf",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "es",
+      "pt"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "タイリクオオカミの一亜種で、上唇の白い斑や尾・前脚の暗色模様を持つ、やや華奢な体つきが特徴。イベリア半島北西部(スペイン北部からポルトガル北部)に少数の群れで生息し、イノシシやノロジカなどの有蹄類を主な獲物とする。西ヨーロッパ最大級の個体群を維持しており、イノシシの数を抑えることで生態系のバランスにも寄与している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iberian_wolf",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "iberian_lynx",
+    "name": "イベリアオオヤマネコ",
+    "nameEn": "Iberian lynx",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "es",
+      "pt"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "イベリア半島に固有の中型のヤマネコで、黄褐色の斑点模様の毛皮と房状の耳が特徴。地中海性の低木林や森林に生息し、単独で狩りを行い、餌のほとんどをアナウサギに依存している。かつては半島全域に分布したが、現在はシエラ・モレナやドニャーナなどスペイン・ポルトガル南部の限られた地域に生息域が縮小している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iberian_lynx",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "irrawaddy_dolphin",
+    "name": "イラワジイルカ",
+    "nameEn": "Irrawaddy dolphin",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "kh",
+      "mm"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "イラワジイルカ(Orcaella brevirostris)は丸みを帯びた頭部と目立たない口吻を特徴とする汽水・淡水域にも生息するイルカで、ベンガル湾から東南アジアの沿岸・河川に点在する個体群として生息する。カンボジアのメコン川とミャンマーのエーヤワディー川の個体群がよく知られ、カンボジアではメコン川の健全性を示す象徴的な存在として「国の宝」とも称される。IUCNにより「危機(Endangered)」に分類され、個体数の減少が続いている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Irrawaddy_dolphin",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "common_bottlenose_dolphin",
+    "name": "イルカ",
+    "nameEn": "Common bottlenose dolphin",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "dj",
+      "hr"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ハンドウイルカは体長2〜4mほどの中型のクジラ類で、短くはっきりとしたくちばし状の吻と灰色の体色をもつ。知能が高く群れ(ポッド)で暮らし、高度な鳴音やエコーロケーションでコミュニケーションをとることで知られる。極地を除く世界中の温帯・亜熱帯・熱帯の海域に広く分布し、地中海や黒海の個体群も確認されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "indian_rhinoceros",
+    "name": "インドサイ",
+    "nameEn": "Indian rhinoceros",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "in",
+      "np"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "インドサイは体重2.2トンに達するアジア最大のサイで、灰褐色の皮膚に淡紅色のひだが特徴。インド北東部からネパールにかけてのインド・ガンジス平野の保護区に分布し、インド・アッサム州のカジランガ国立公園だけで世界の個体群の約7割が生息する。20世紀初頭にはカジランガで12頭にまで減少したが、保護活動により2025年時点で約4,075頭まで回復した。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "indochinese_tiger",
+    "name": "インドシナトラ",
+    "nameEn": "Indochinese tiger",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "th"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ベンガルトラに比べて体色が濃く縞模様が細く短いトラの一亜種で、東南アジアの熱帯・亜熱帯の常緑広葉樹林に生息する。サンバーやウシ科動物、イノシシなどを主な獲物とする。かつてはカンボジア・中国南部・ベトナムにも分布したが、密猟や生息地の分断によりこれらの国では絶滅し、現在はミャンマーとタイの一部地域に個体群が残るのみとなっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indochinese_tiger",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "green_sea_turtle",
+    "name": "ウミガメ",
+    "nameEn": "Green sea turtle",
+    "type": "爬虫類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ag",
+      "bb",
+      "bs",
+      "cv",
+      "fj",
+      "fm",
+      "gq",
+      "gw",
+      "ht",
+      "ki",
+      "km",
+      "kn",
+      "mh",
+      "mv",
+      "pw",
+      "sb",
+      "st",
+      "tl",
+      "to",
+      "tt",
+      "tv",
+      "vc",
+      "vu",
+      "ws"
+    ],
+    "isNationalAnimalOf": [
+      "ky"
+    ],
+    "blurb": "ウミガメ(アオウミガメ)は熱帯・亜熱帯の海に世界的に分布し、成長すると海草を主食とする、水生ウミガメとしては唯一完全な植物食性を持つ種である。オリーブ色から黒色の甲羅を持ち、浅い沿岸の海草藻場やサンゴ礁、砂浜の海岸を主な生息・産卵環境とする。ケイマン諸島では国章や国旗、通貨の透かしにも用いられる国の象徴的な生き物となっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "harpy_eagle",
+    "name": "オウギワシ",
+    "nameEn": "Harpy eagle",
+    "type": "鳥類",
+    "iucn": "危急",
+    "countries": [
+      "pa"
+    ],
+    "isNationalAnimalOf": [
+      "pa"
+    ],
+    "blurb": "オウギワシは雌6〜9kg、雄4〜6kgに達する世界最大級の猛禽類の一種で、メキシコ南部から中南米の熱帯雨林にかけて生息し、樹上に暮らすナマケモノやサルなどを主な獲物として捕食する。森林破壊や狩猟による生息地の減少が深刻な脅威となっている。パナマの国鳥に指定されており、同国の国章にも描かれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harpy_eagle",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "giant_anteater",
+    "name": "オオアリクイ",
+    "nameEn": "Giant anteater",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "br",
+      "py",
+      "ve"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オオアリクイは中南米に生息する大型のアリ食動物で、細長い鼻先と房状の尾、白黒の体色が特徴である。最大45cmまで伸びる粘着質の舌を1分間に160回も出し入れし、アリやシロアリを捕食する。生息地の破壊や交通事故、火災、狩猟により地域的な絶滅が進んでおり、IUCNでは危急種に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_anteater",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://xenarthrans.org/trinidadandtobagos-xenarthrans/",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "gray_wolf",
+    "name": "オオカミ",
+    "nameEn": "Gray wolf",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ba",
+      "bg",
+      "cz",
+      "ee",
+      "fi",
+      "hu",
+      "me",
+      "pl",
+      "ro"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オオカミ(ハイイロオオカミ)はイヌ科最大の現生種で、体長は105~160センチに達する。ユーラシア大陸と北アメリカ大陸に広く分布し、主に大型の有蹄類を家族群で協力して狩る一方、人間による迫害で生息域は歴史的な範囲の約3分の2にまで縮小した。群れの規模は北米で平均8頭、ヨーロッパでは平均5.5頭ほどである。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wolf",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "giant_otter",
+    "name": "オオカワウソ",
+    "nameEn": "Giant otter",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "gy",
+      "sr"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オオカワウソはイタチ科最大種で体長は最大1.8mに達し、南米の澄んだ河川や岩・砂の川底を好んで生息する。3〜8頭ほどの結束の固い家族群で暮らす社会性の高さがイタチ科の中でも際立っている。分布の中心はアマゾン川流域とパンタナールだが、ガイアナとスリナムを含む「ギアナ三国」は南米で同種が最後まで残る重要な拠点とされている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_otter",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "flying_fox",
+    "name": "オオコウモリ",
+    "nameEn": "Flying fox",
+    "type": "哺乳類",
+    "iucn": "種により異なる(軽度懸念〜深刻な危機・絶滅)",
+    "countries": [
+      "fm",
+      "sc",
+      "sg",
+      "st",
+      "to",
+      "vu",
+      "ws"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オオコウモリはオオコウモリ属(プテロプス属)に属する大型のコウモリの総称で、体重は120~1600グラムと種によって幅があり、キツネに似た顔つきと長く滑らかな体毛、尾を持たないのが特徴である。南アジア、東南アジア、オーストラリア、東アフリカ、インド洋・太平洋の島々に分布し、体重の25~35%にあたる量の果実や花、花蜜を毎日食べる。2018年時点で評価された62種のうち、保全状況は軽度懸念から深刻な危機、絶滅まで種によって大きく異なり、島嶼に固有の種ほど脅威に晒されやすい。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flying_fox",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "eurasian_lynx",
+    "name": "オオヤマネコ",
+    "nameEn": "Eurasian lynx",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "al",
+      "ba",
+      "by",
+      "cz",
+      "ee",
+      "hr",
+      "lt",
+      "mk",
+      "ro",
+      "rs",
+      "se",
+      "si",
+      "sk",
+      "ua"
+    ],
+    "isNationalAnimalOf": [
+      "mk"
+    ],
+    "blurb": "オオヤマネコ(ユーラシアオオヤマネコ)は4種のオオヤマネコ属の中で最大の種で、体長76~106センチ、耳先の房毛と短い尾が特徴である。北欧・中欧からシベリア、中央アジア、チベット高原やヒマラヤにかけての温帯・亜寒帯林に生息し、待ち伏せてノロジカなどの有蹄類を中心に狩る。バルカン地域の亜種は北マケドニアの国の象徴とされ、1993年発行の5デナル硬貨にも描かれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eurasian_lynx",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "okapi",
+    "name": "オカピ",
+    "nameEn": "Okapi",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "cd"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "体高約1.5mのキリン科動物で、チョコレート色の体毛と脚の白い横縞模様が特徴。コンゴ民主共和国北東部、コンゴ川より北かつ東側の熱帯林に生息域が限られ、標高500〜1500mの林冠下で葉や芽、草、菌類を長い舌で選び取って食べる。単独性で主に昼行性であり、かつて生息していたウガンダではすでに絶滅している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Okapi",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "orangutan",
+    "name": "オランウータン",
+    "nameEn": "Orangutan",
+    "type": "哺乳類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "id",
+      "my"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オランウータンは腕を広げると約2mにもなる長い腕と短い脚をもつ樹上性の大型類人猿で、アジアで唯一生息する大型類人猿である。ボルネオ島(インドネシア領カリマンタン・マレーシア領サバ/サラワク)とスマトラ島の熱帯雨林に生息し、道具を使う知能の高さで知られる一方、生息地の減少によりボルネオ・スマトラ・タパヌリの3種すべてが深刻な危機(近絶滅種)に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orangutan",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "dorcas_gazelle",
+    "name": "ガゼル",
+    "nameEn": "Dorcas gazelle",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "iq",
+      "mr"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ドルカスガゼルは肩高55〜65cmほどの小型で個体数の多いガゼルで、草原やステップ、涸れ川(ワジ)、山岳砂漠などアフリカ北部から中東の乾燥地帯に生息する。野生個体は35,000〜40,000頭ほどと推定され、サハラ地域ではかつての生息域の86%をすでに失っている。モーリタニアでは大半の地域で姿を消し、バン・ダルガン国立公園周辺にわずかに残るのみで、中東方面では近縁亜種サウジアラビアガゼルがイラクなどに分布する。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dorcas_gazelle",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "hippopotamus",
+    "name": "カバ",
+    "nameEn": "Hippopotamus",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "bf",
+      "bi",
+      "bw",
+      "gh",
+      "gm",
+      "gn",
+      "gw",
+      "ml",
+      "mw",
+      "mz",
+      "ng",
+      "tg",
+      "zm"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "カバは陸生哺乳類としてゾウや一部のサイに次ぐ大きさを誇る半水生動物で、樽型の体と短い脚、厚さ約6センチの分厚い皮膚を持つ。ガンビアからウガンダ、タンザニア、ケニア、エチオピア、ソマリア、スーダンを経て南アフリカに至るサハラ以南アフリカの河川や湖、マングローブ林に生息する。草食性で日中は水中で過ごし、夕方に陸へ上がって草を食べる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "balkan_chamois",
+    "name": "カモシカ",
+    "nameEn": "Balkan chamois",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "al"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "バルカンカモシカ(Rupicapra rupicapra balcanica)はヤギとレイヨウの中間的な姿を持つウシ科の亜種で、バルカン半島の山岳地帯に固有に分布し、アルバニアをはじめクロアチアからギリシャ、ブルガリアにかけて生息する。夏は標高の高い草地、冬は標高の低い針葉樹林へと季節的に移動する。カモシカ(シャモア)全体としてのIUCN保全状況は「軽度懸念(Least Concern)」である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Balkan_chamois",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "platypus",
+    "name": "カモノハシ",
+    "nameEn": "Platypus",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "au"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アヒルのようなくちばしとビーバーに似た尾を持つ、卵を産む半水生の哺乳類。オーストラリア東部の淡水域に固有で、水中では目と耳を閉じ、電気受容によって獲物を探知する。夜行性で1日のおよそ半分を水中で過ごし、切手や硬貨のデザイン、2000年シドニー五輪のマスコットにも採用されるなどオーストラリアの文化的象徴となっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Platypus",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "red_kangaroo",
+    "name": "カンガルー",
+    "nameEn": "Red kangaroo",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "au"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "現生有袋類の中で最大級の種であり、オーストラリア本土に固有の大型草食動物。オスは赤褐色、メスは青灰色がかった体色をしており、乾燥・半乾燥地帯の草原や低木地に生息する。夜行性・薄明性で、日中は日陰で休み、活動時間の大半を採食に費やす。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_kangaroo",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "kiwi",
+    "name": "キーウィ",
+    "nameEn": "Kiwi",
+    "type": "鳥類",
+    "iucn": "種により異なる(危急〜準絶滅危惧)",
+    "countries": [
+      "nz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ニワトリほどの大きさの飛べない鳥で、ニュージーランドに固有の5種が知られる。羽毛に覆われた痕跡的な翼を持ち、夜行性で嗅覚に優れ、亜熱帯・温帯の森林からブナ林、亜高山帯の低木地まで幅広く生息する。体重の最大20%に達する大きな卵を産み、法律による正式な国鳥指定はないものの、事実上のニュージーランドの国のシンボルとして広く親しまれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kiwi_(bird)",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "giraffe",
+    "name": "キリン",
+    "nameEn": "Giraffe",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "ke",
+      "sz",
+      "td"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "キリン(Giraffa camelopardalis)は現生の陸上動物で最も背が高い種で、長い首と脚、網目状の斑紋を特徴とする。チャドから南アフリカ、ニジェールからソマリアにかけてのアフリカのサバンナに広く分布し、ケニアやエスワティニでも生息が確認されている。IUCNのレッドリストでは「危急(Vulnerable)」に指定されており、生息地の減少により個体数が減少している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giraffe",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "clownfish",
+    "name": "クマノミ",
+    "nameEn": "Clownfish",
+    "type": "魚類",
+    "iucn": "軽度懸念(種による違いあり)",
+    "countries": [
+      "fm",
+      "ki",
+      "mh",
+      "nr",
+      "tv",
+      "ws"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "クマノミはスズメダイ科クマノミ亜科に属する魚の総称で、赤・オレンジ・黄・褐色などの体色に白い縦縞が入るのが特徴である。刺胞を持つイソギンチャクと共生し、身を守ってもらう代わりに掃除や外敵からの防御を行う相利共生の関係で知られる。紅海からフランス領ポリネシア、日本からオーストラリアまでのインド太平洋の暖かい熱帯海域のサンゴ礁に生息し、宿主となるイソギンチャクの分布に生息域が制限される。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clownfish",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "grizzly_bear",
+    "name": "グリズリー",
+    "nameEn": "Grizzly bear",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "us"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヒグマ(Ursus arctos)の一亜種・地域個体群で、アラスカ、カナダ西部、アメリカ合衆国北西部の山岳・森林地帯に生息する。食肉目に属しながら植物と動物の両方を食べる雑食性で、単独で行動し、5〜7か月にわたり冬眠する。かつてカリフォルニアに生息した個体群(カリフォルニアハイイログマ)は絶滅したが、今もカリフォルニア州旗に描かれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grizzly_bear",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brown_bear",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "resplendent_quetzal",
+    "name": "ケツァール",
+    "nameEn": "Resplendent quetzal",
+    "type": "鳥類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "cr",
+      "gt",
+      "hn",
+      "mx",
+      "ni",
+      "pa",
+      "sv"
+    ],
+    "isNationalAnimalOf": [
+      "gt"
+    ],
+    "blurb": "ケツァールはメキシコ南部からパナマにかけての山地雲霧林に生息する鳥で、オスは光沢のある緑色の羽と赤い下面が特徴的である。主に果実を食べ、種子散布者として雲霧林生態系に重要な役割を果たす。グアテマラでは国の動物とされ、国旗や紋章に描かれるほか、同国通貨ケツァルの名前の由来にもなっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Resplendent_quetzal",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "koala",
+    "name": "コアラ",
+    "nameEn": "Koala",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "au"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オーストラリア東部・南部の沿岸地域に生息する樹上性の有袋類で、体毛の色は銀灰色から茶色まで個体差がある。1日に最大20時間ほどを眠って過ごし、ユーカリの葉を主食とする単独性の動物である。カンガルーと並び、世界的にオーストラリアを象徴する動物として広く認識されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Koala",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "white_stork",
+    "name": "コウノトリ",
+    "nameEn": "White stork",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "by",
+      "cz",
+      "de",
+      "dk",
+      "hu",
+      "lt",
+      "lu",
+      "lv",
+      "md",
+      "nl",
+      "pl",
+      "pt",
+      "rs",
+      "ua"
+    ],
+    "isNationalAnimalOf": [
+      "lt",
+      "by",
+      "pl"
+    ],
+    "blurb": "コウノトリ(シュバシコウ)は全長100~115センチ、翼開長155~215センチに達する大型の鳥で、白い羽毛に黒い風切羽、赤い脚とくちばしを持つのが特徴である。ヨーロッパから北西アフリカ、西アジアにかけての草地や農地、浅い湿地に生息し、冬にはサハラ以南アフリカやインド亜大陸まで長距離を渡る。リトアニア、ベラルーシ、ポーランドでは国鳥に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/White_stork",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "persian_leopard",
+    "name": "コーカサスヒョウ",
+    "nameEn": "Persian leopard",
+    "type": "哺乳類",
+    "iucn": "絶滅危惧",
+    "countries": [
+      "am",
+      "az",
+      "ge"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "コーカサスヒョウはペルシャヒョウ(Panthera pardus tulliana)がコーカサス地方に生息する際の地域名で、イラン高原からコーカサスにかけての標高600〜3800mの山岳地帯に生息する。アルメニア、アゼルバイジャン、ジョージアではザンゲズール山脈やヒルカン国立公園などの保護区で確認されている。成熟個体数は1100頭未満と推定され、生息地の分断や密猟、報復駆除により深刻な脅威にさらされている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Persian_leopard",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "komodo_dragon",
+    "name": "コモドオオトカゲ",
+    "nameEn": "Komodo dragon",
+    "type": "爬虫類",
+    "iucn": "危機",
+    "countries": [
+      "id"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "インドネシアのコモド島やリンチャ島など5つの島にのみ生息する世界最大のトカゲで、乾燥した草原や低地の熱帯林に生息する。単独で獲物を待ち伏せし、高速の突進によってシカやイノシシなどの大型哺乳類を襲う。代謝が遅く年間約12回の捕食で足りるとされ、インドネシアの50ルピア硬貨のデザインにも採用されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Komodo_dragon",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "western_lowland_gorilla",
+    "name": "ゴリラ",
+    "nameEn": "Western lowland gorilla",
+    "type": "哺乳類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "ao",
+      "cd",
+      "cf",
+      "cg",
+      "cm",
+      "ga",
+      "gq"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ニシローランドゴリラはゴリラ4亜種の中で最も小型であり、中部アフリカの原生林や湿地林に生息する。生息地の喪失や密猟、感染症により深刻な危機に瀕しており、IUCNでも最も高い脅威区分に分類されている。シルバーバックと呼ばれるオスを中心とした家族群で生活し、種子散布者として生態系に重要な役割を果たす。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "scarlet_macaw",
+    "name": "コンゴウインコ",
+    "nameEn": "Scarlet macaw",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "br",
+      "gy",
+      "hn",
+      "sr",
+      "ve"
+    ],
+    "isNationalAnimalOf": [
+      "hn"
+    ],
+    "blurb": "コンゴウインコは体長約84cmに達する大型のインコで、鮮やかな赤色を基調に黄色・緑・青の羽を持つ。メキシコ南東部から中米を経て南米まで、湿潤な低地林や疎林、サバンナに分布する。ホンジュラスでは国鳥に指定されているが、中米では生息地破壊やペット取引により個体数が分断されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Scarlet_macaw",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "andean_condor",
+    "name": "コンドル",
+    "nameEn": "Andean condor",
+    "type": "鳥類",
+    "iucn": "危急",
+    "countries": [
+      "ar",
+      "bo",
+      "cl",
+      "co",
+      "ec",
+      "pe"
+    ],
+    "isNationalAnimalOf": [
+      "bo",
+      "cl",
+      "co",
+      "ec"
+    ],
+    "blurb": "アンデスコンドルは翼開長最大3.3メートル、体重15キロに達する世界最大級の飛翔鳥で、全身ほぼ黒色の羽毛に首元の白い羽毛、雄では翼に大きな白斑を持つのが特徴である。アンデス山脈とその太平洋側斜面に生息し、標高5000メートルに達する高山の開けた草地を好む。生息域はベネズエラ、コロンビアから南下してエクアドル、ペルー、チリ、ボリビア、アルゼンチン西部を経てティエラ・デル・フエゴまで及び、ボリビア、チリ、コロンビア、エクアドルでは国鳥に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Andean_condor",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "white_rhinoceros",
+    "name": "サイ",
+    "nameEn": "White rhinoceros",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "sz",
+      "zw"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "シロサイは現生のサイの中で最大の種で、幅広く四角い口が草原でのグレイジングに適応している。南アフリカを中心にナミビア、ボツワナ、ジンバブエ、ケニア、エスワティニなど複数の国に分布するミナミシロサイと、ケニアの保護区で雌2頭のみが飼育下に生存するに至った野生絶滅寸前のキタシロサイの2亜種に分けられる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "saiga_antelope",
+    "name": "サイガ",
+    "nameEn": "Saiga antelope",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "kz",
+      "uz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "サイガは下向きに膨らんだ独特な鼻をもつウシ科動物で、体重26〜69kg、中央アジアの半砂漠やステップ地帯に生息し、季節ごとに大群で移動して厳しい気候をしのぐ。現在の主要な生息地はロシアのカルムイキア共和国・アストラハン州や、カザフスタンのウラル山脈・ウスチュルト高原・ベトパク・ダラ地方に限られ、越冬期には一部がウズベキスタンやトルクメニスタンへも移動する。カザフスタンには世界の個体群の約99%が生息している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saiga_antelope",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "humpback_whale",
+    "name": "ザトウクジラ",
+    "nameEn": "Humpback whale",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "do",
+      "to"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ザトウクジラは体長14〜17mに達する大型のヒゲクジラで、長い胸びれと頭部のこぶ状突起が特徴。ブリーチングなど派手な水面行動で知られ、極域の索餌海域と赤道付近の繁殖海域の間を年間最大8,000kmも回遊する。ドミニカ共和国のシルバーバンクや南太平洋のトンガ・バヴァウ諸島周辺は、世界的に知られるザトウクジラの繁殖・子育て海域となっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Humpback_whale",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://dan.org/alert-diver/article/humpback-whales-tonga-and-the-silver-bank/",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "cichlid",
+    "name": "シクリッド",
+    "nameEn": "Cichlid",
+    "type": "魚類",
+    "iucn": "種により異なる",
+    "countries": [
+      "bi",
+      "mw"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "シクリッド(カワスズメ科、Cichlidae)は少なくとも1760種、推定2000〜3000種を擁する多様な淡水魚のグループで、アフリカ大陸(マダガスカルを含む)、南米、中東、インド亜大陸に広く分布する。ブルンジが面するタンガニーカ湖やマラウイが面するマラウイ湖は、爆発的な種分化により固有種が集中することで知られるシクリッドの宝庫である。2010年時点でIUCNは184種を危急、52種を危機、106種を深刻な危機に分類しており、種によって保全状況は大きく異なる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cichlid",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "giant_panda",
+    "name": "ジャイアントパンダ",
+    "nameEn": "Giant panda",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "cn"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "中国に固有のクマ科動物で、白い体に目・耳・脚・肩の黒い斑模様が特徴。四川省を中心に陝西省・甘粛省の山岳地帯に分断された形で生息し、食性の約99%をタケが占める。単独性で、鳴き声や匂い付けによってコミュニケーションを取り、1982年から中国のゴールドパンダコインに描かれるなど中国を代表する象徴として扱われている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_panda",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "jaguar",
+    "name": "ジャガー",
+    "nameEn": "Jaguar",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "br",
+      "bz",
+      "co",
+      "gt",
+      "gy",
+      "hn",
+      "mx",
+      "ni",
+      "pa",
+      "py",
+      "sr"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ジャガーはアメリカ大陸最大のネコ科動物で、世界でも3番目に大きい体格を持ち、体重は最大158キロに達する。淡黄色の体毛に黒い斑紋(ロゼット)が特徴で、まれに黒色化した個体も見られる。メキシコからアルゼンチン・パラグアイにかけての熱帯・亜熱帯の森林や湿地に生息し、カピバラやオオアリクイなどを捕食対象とし、頭骨を噛み砕いて仕留める独特の狩猟法で知られる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jaguar",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "dugong",
+    "name": "ジュゴン",
+    "nameEn": "Dugong",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "mz",
+      "pg",
+      "pw",
+      "sb",
+      "tl",
+      "vu"
+    ],
+    "isNationalAnimalOf": [
+      "pg"
+    ],
+    "blurb": "ジュゴンは背びれと後肢を欠く紡錘形の体を持つ大型海生哺乳類で、海草を食べるために下向きに曲がった吻を持つ。インド洋・西太平洋の暖かい沿岸域に広く分布し、パプアニューギニアでは国の動物とされている。生息地の劣化や混獲、狩猟により各地で個体数が減少しており、IUCNでは危急種に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dugong",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "whale_shark",
+    "name": "ジンベエザメ",
+    "nameEn": "Whale shark",
+    "type": "魚類",
+    "iucn": "危機",
+    "countries": [
+      "mv",
+      "ph"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ジンベエザメは全長18.8mに達する記録もある現生最大の魚類で、1時間に6,000リットル以上もの海水をろ過してプランクトンなどを食べるおとなしい性質をもち、人には無害とされる。世界中の熱帯・温帯の海に分布し、モルディブの南アリ環礁マーミギリやフィリピンのティカオ海峡などは、ジンベエザメが集まる名所としてダイバーによく知られている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Whale_shark",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "african_wild_ass",
+    "name": "ソマリノロバ",
+    "nameEn": "African wild ass",
+    "type": "哺乳類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "er",
+      "so"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アフリカノロバは体高約1.2m、体重約250kgの小型のウマ科動物で、淡い灰褐色の体に白い腹部と脚、黒い背中線をもち、砂漠の暑さに適応した大きな耳が特徴。エリトリア、エチオピア、ソマリアなど「アフリカの角」地域に残存し、かつてはスーダンやエジプト、リビアまで広く分布していたが、生息地の減少や狩猟により野生個体は約570頭にまで激減した。声が大きく3km先まで届くこともあり、家畜ロバの祖先種と考えられている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/African_wild_ass",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "takahe",
+    "name": "タカヘ",
+    "nameEn": "Takahē",
+    "type": "鳥類",
+    "iucn": "危機",
+    "countries": [
+      "nz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "クイナ科最大の種とされる飛べない鳥で、ニュージーランド南島に固有。一度は絶滅したと考えられていたが、フィヨルドランド国立公園のマーチソン山地で再発見され、現在は捕食者のいない島などでも保全個体群が維持されている。高山草原に生息してツソック草を主食とし、一夫一妻で子育てを行う。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Takah%C4%93",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "red_crowned_crane",
+    "name": "タンチョウ",
+    "nameEn": "Red-crowned crane",
+    "type": "鳥類",
+    "iucn": "危急",
+    "countries": [
+      "cn",
+      "jp"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "タンチョウは頭頂部の赤い斑が特徴的な北東アジア原産の大型のツルで、全身が雪のように白く風切羽は黒色、体重4.8〜10.5kgに達しツル科でも最大級の重さをもつ。ロシア極東や中国東北部で繁殖し朝鮮半島や中国東部で越冬するほか、日本の北海道には周年生息する個体群がいる。東アジアの文化では長寿・夫婦円満・幸運の象徴とされ、日本では千年生きると伝えられている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red-crowned_crane",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "chimpanzee",
+    "name": "チンパンジー",
+    "nameEn": "Chimpanzee",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "ci",
+      "cm",
+      "gm",
+      "gn",
+      "lr",
+      "sl",
+      "sn",
+      "ug"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "チンパンジーは全身が粗い黒色の体毛で覆われた中型の大型類人猿で、顔や指先、足の裏、手のひらのみ体毛がない。野生では最大200頭ほどの共同体を形成しつつ日々は少人数の群れで行動し、道具の使用や毛づくろい・採食技術の地域的な伝承など高い知能を示す。赤道アフリカの熱帯雨林や山地林、湿地林、サバンナ、乾燥林に生息し、ウガンダ、タンザニア、カメルーン、ギニアなどに個体群が分布する。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chimpanzee",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "gibbon",
+    "name": "テナガザル",
+    "nameEn": "Gibbon",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "la",
+      "th"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "テナガザルは優れた腕渡り(ブラキエーション)能力と長期的なつがい関係で知られる小型の類人猿で、特殊な手首の関節により時速55kmもの速さで樹冠を移動できる。遠くまで届く独特な鳴き声でコミュニケーションをとり、東バングラデシュ・北東インドから東南アジア本土を経てインドネシアのスマトラ島・ボルネオ島・ジャワ島まで、熱帯・亜熱帯林に広く分布する(タイやラオスにも複数種が生息する)。生息地の減少により、1種を除くほぼすべての種が絶滅危惧種または近絶滅種に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gibbon",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "proboscis_monkey",
+    "name": "テングザル",
+    "nameEn": "Proboscis monkey",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "bn",
+      "my"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "テングザル(Nasalis larvatus)は大きく突き出た鼻と赤褐色の体色、長い尾を特徴とするオナガザル科の樹上性サル類で、ボルネオ島に固有の種である。ブルネイ・インドネシア・マレーシアの3カ国にまたがって分布し、主にマングローブ林や沿岸部の森林に生息する。IUCNにより「危機(Endangered)」に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Proboscis_monkey",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "reindeer",
+    "name": "トナカイ",
+    "nameEn": "Reindeer",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "fi",
+      "no",
+      "ru",
+      "se"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "トナカイはヨーロッパ・シベリア・北米の北極圏および亜北極圏に広く分布する環極性のシカ科動物で、メスも角を持つ点でシカ科の中でも珍しい特徴を持つ。フィンランド、ノルウェー、スウェーデン、ロシアなどで野生・半家畜群が管理されており、北方民族の生活を古くから支えてきた。生息数の減少によりIUCNでは危急種に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Reindeer",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "tiger",
+    "name": "トラ",
+    "nameEn": "Tiger",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "kp",
+      "mm"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "トラはオレンジ色の体毛に黒い縞模様、白い腹部をもつアジア最大級のネコ科動物で、ロシア極東の冷温帯林から東南アジアの熱帯林まで幅広い環境に生息する頂点捕食者である。20世紀初頭以降、歴史的な生息域の93%以上を失い、現在は当時の分布域の7%未満にまで生息域が縮小しているとされる。朝鮮半島はかつてアムールトラの歴史的分布域に含まれていた可能性があり、ミャンマーには現在もインドシナトラの個体群が生息している。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tiger",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "nile_crocodile",
+    "name": "ナイルワニ",
+    "nameEn": "Nile crocodile",
+    "type": "爬虫類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "bi",
+      "eg",
+      "sd",
+      "ss"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ナイルワニはアフリカ最大の捕食性爬虫類で、通常体長3.5〜5m、体重225〜750kgに達し、サハラ以南アフリカの26カ国の淡水域に生息する。魚類や爬虫類、鳥類、哺乳類を機会的に捕食する強力な捕食者であり、全体の個体群は安定していることからIUCNでは軽度懸念に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nile_crocodile",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "roe_deer",
+    "name": "ノロジカ",
+    "nameEn": "Roe deer",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "be",
+      "de",
+      "md"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ノロジカ(ヨーロッパノロジカ)はヨーロッパに広く分布する小型のシカで、地中海沿岸から北欧、コーカサス方面まで生息域を広げている。開けた農地から密林まで多様な環境に適応し、高い繁殖力により西ヨーロッパを中心に個体数は増加傾向にある。IUCNでは軽度懸念に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roe_deer",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "barbary_macaque",
+    "name": "バーバリマカク",
+    "nameEn": "Barbary macaque",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "dz",
+      "ma"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "バーバリマカク(Macaca sylvanus)は顔がピンク色で尾がほとんど退化したオナガザル科の霊長類で、サハラ砂漠以北に生息する唯一の野生霊長類として知られる。モロッコとアルジェリアのアトラス山脈のシダー・モミ・オークの森林に分布し、ジブラルタルには人為的に導入された個体群も存在する。IUCNにより「危機(Endangered)」に分類され、野生個体数は1万2000〜2万1000頭程度と推定される。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barbary_macaque",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "bald_eagle",
+    "name": "ハクトウワシ",
+    "nameEn": "Bald eagle",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "us"
+    ],
+    "isNationalAnimalOf": [
+      "us"
+    ],
+    "blurb": "白い頭部と暗褐色の体が特徴の北米大陸固有の大型猛禽類で、魚が豊富な大きな水域周辺の湿地環境に生息し、老木に北米最大級の巣を作る。飛行速度は時速70km、急降下では時速160kmに達する。アメリカ合衆国の国章に描かれており、国鳥および国の象徴として公式に位置づけられている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "peregrine_falcon",
+    "name": "ハヤブサ",
+    "nameEn": "Peregrine falcon",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ae",
+      "ye"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "青灰色の背と白く横縞の入った腹部、黒い頭部模様を持つカラス大の猛禽類で、高速の急降下により獲物を捕らえることで知られる。山地や河川、海岸、近年では都市部にも生息域を広げ、主にハトなどの鳥類を捕食する。南極や高山、熱帯雨林の一部を除き地球上のほぼ全域に分布し、アラビア半島にも渡り経路や越冬地としてアラブ首長国連邦やイエメンを含む地域に多数飛来する。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "pampas_deer",
+    "name": "パンパスジカ",
+    "nameEn": "Pampas deer",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "ar",
+      "uy"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "パンパスジカ(Ozotoceros bezoarticus)は肩高60〜70cmほどの南米原産の小型シカで、アルゼンチンやウルグアイをはじめブラジル・ボリビア・パラグアイの草原地帯に生息する。アルゼンチンとウルグアイの両国でそれぞれ「天然記念物」に指定されているが、依然として狩猟の圧力にさらされている。IUCNでは「準絶滅危惧(Near Threatened)」に分類され、野生個体数は約8万頭と推定される。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pampas_deer",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "brown_bear",
+    "name": "ヒグマ",
+    "nameEn": "Brown bear",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ba",
+      "bg",
+      "fi",
+      "ge",
+      "me",
+      "mk",
+      "ro",
+      "ru",
+      "si",
+      "sk"
+    ],
+    "isNationalAnimalOf": [
+      "fi"
+    ],
+    "blurb": "ヒグマはユーラシア大陸と北アメリカ大陸に分布する大型のクマで、陸生の肉食獣としてはホッキョクグマに次ぐ大きさを誇る。雄の体重は80~600キロと個体群によって大きく異なり、湾曲した長い爪と筋肉のみでできた肩の盛り上がりが特徴である。食性の約9割は植物質で、果実や根のほか魚や大型の獲物も時折捕食し、フィンランドでは1985年に国獣に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brown_bear",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "pygmy_hippopotamus",
+    "name": "ピグミーカバ",
+    "nameEn": "Pygmy hippopotamus",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "ci",
+      "lr",
+      "sl"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ピグミーカバ(Choeropsis liberiensis)は肩高75〜100cm程度の小型の半水生哺乳類で、西アフリカの森林や湿地に生息する。主な生息地はリベリアで、コートジボワールやシエラレオネにも少数の個体群が残るが、ナイジェリアでは既に絶滅したとされる。IUCNにより「危機(Endangered)」に分類され、野生個体数は2500頭未満と推定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pygmy_hippopotamus",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "dromedary_camel",
+    "name": "ヒトコブラクダ",
+    "nameEn": "Dromedary camel",
+    "type": "哺乳類",
+    "iucn": "未評価",
+    "countries": [
+      "ae",
+      "bh",
+      "eg",
+      "ir",
+      "jo",
+      "kw",
+      "ly",
+      "ma",
+      "ml",
+      "mr",
+      "ne",
+      "qa",
+      "sa",
+      "sd",
+      "so",
+      "tn"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヒトコブラクダはラクダ科3種の中で最も背が高い種で、雄は肩高1.8~2.4メートルに達し、背中に1つのこぶを持つのが特徴である。体重の30%を超える水分損失にも耐えられるなど砂漠環境への適応が著しく、紀元前4000~3000年頃にアラビア半島南部で家畜化されたとされる。現在は北アフリカからアラビア半島、インド、パキスタン、中央アジアの乾燥地帯で家畜として飼育され、家畜種のため野生個体群としてのIUCN評価は行われていない。なお、二こぶのフタコブラクダと異なり、モンゴルなど中央アジアの寒冷な砂漠地帯には本来分布しない。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dromedary",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bactrian_camel",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "leopard",
+    "name": "ヒョウ",
+    "nameEn": "Leopard",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "cf",
+      "lk",
+      "tm"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヒョウ(Panthera pardus)は淡黄色から濃い金色の体毛に薔薇状の斑紋を持つネコ科の肉食獣で、サバンナから熱帯雨林まで幅広い環境に適応する。中央アフリカ共和国のほか、独自の亜種スリランカヒョウが生息するスリランカ、ペルシャヒョウの個体群が確認されるトルクメニスタンなど、アフリカから中央・南アジアにかけて分布域は広い。IUCNにより「危急(Vulnerable)」に分類され、生息地の分断と個体数の減少が進んでいる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leopard",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "philippine_eagle",
+    "name": "フィリピンワシ",
+    "nameEn": "Philippine eagle",
+    "type": "鳥類",
+    "iucn": "深刻な危機",
+    "countries": [
+      "ph"
+    ],
+    "isNationalAnimalOf": [
+      "ph"
+    ],
+    "blurb": "体長86〜102cmに達する大型の猛禽類で、茶と白の羽毛と特徴的な逆立った冠羽を持つ。フィリピンのルソン島東部・サマール島・レイテ島・ミンダナオ島の低地から山地の熱帯林に固有で、一夫一妻のつがいは約133平方kmにも及ぶ広い縄張りを必要とする。1995年7月4日、フィデル・ラモス大統領による布告第615号により正式にフィリピンの国鳥に指定された。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Philippine_eagle",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "fennec_fox",
+    "name": "フェネック",
+    "nameEn": "Fennec fox",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "dz",
+      "ly",
+      "ma",
+      "tn"
+    ],
+    "isNationalAnimalOf": [
+      "dz"
+    ],
+    "blurb": "フェネックはイヌ科最小の種で、西サハラからシナイ半島にかけての北アフリカの砂漠地帯に生息する。熱を放散し地中の獲物を探知する大きな耳が特徴で、夜行性で昆虫や小型哺乳類、鳥類を捕食する。アルジェリアでは国の動物とされ、サッカー代表チームの愛称「レ・フェネック」の由来にもなっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fennec_fox",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "greater_flamingo",
+    "name": "フラミンゴ",
+    "nameEn": "Greater flamingo",
+    "type": "鳥類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "az",
+      "bh",
+      "cy",
+      "es",
+      "fr",
+      "it",
+      "kw",
+      "lb",
+      "mr",
+      "qa",
+      "tr"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "オオフラミンゴはフラミンゴ科の中で最大かつ最も広く分布する種で、体高110~150センチ、体重2~4キロに達し、ピンク色の羽毛と先端が黒い嘴が特徴である。北アフリカから地中海沿岸、中東、中央アジア、インド亜大陸にかけての泥地や浅い沿岸の潟湖に生息し、小型の甲殻類や藻類、昆虫の幼虫、貝類などを水中で濾過して食べる。旧世界(アフリカ・ヨーロッパ・アジア)に分布し、カリブ海に生息する近縁のベニイロフラミンゴとは別種として扱われる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Greater_flamingo",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "eurasian_elk",
+    "name": "ヘラジカ",
+    "nameEn": "Eurasian elk (moose)",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ee",
+      "fi",
+      "lt",
+      "lv",
+      "se"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヘラジカ(ユーラシアエルク)はシカ科最大級の動物で、ノルウェー、スウェーデン、フィンランド、ラトビア、エストニアなど北欧からロシアにかけての森林地帯に広く分布する。北米のムースと同じ種(Alces alces)だが、角の形状はユーラシア産では貝殻状で一枚の裂片を持つ点で北米産と異なる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Moose",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "pelican",
+    "name": "ペリカン",
+    "nameEn": "Pelican",
+    "type": "鳥類",
+    "iucn": "種により異なる",
+    "countries": [
+      "al",
+      "kn"
+    ],
+    "isNationalAnimalOf": [
+      "kn"
+    ],
+    "blurb": "ペリカン属(Pelecanus)は長いくちばしと大きな喉袋を持つ大型の水鳥で、南極大陸を除く温暖な地域に広く分布する。セントクリストファー・ネイビスでは近縁種のカッショクペリカンが国鳥に指定されており、アルバニアでは絶滅危惧種ダルマチアペリカンの重要な繁殖地カラヴァスタ潟湖が知られ、国の紋章的な象徴にも用いられている。ペリカン属のIUCN保全状況は種により異なり、大半は軽度懸念だがダルマチアペリカンなど3種は準絶滅危惧に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pelican",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "bengal_tiger",
+    "name": "ベンガルトラ",
+    "nameEn": "Bengal tiger",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "bd",
+      "bt",
+      "in",
+      "np"
+    ],
+    "isNationalAnimalOf": [
+      "bd",
+      "in"
+    ],
+    "blurb": "ベンガルトラはインド亜大陸に生息する大型のネコ科動物で、インドから南部ネパール、バングラデシュ、ブータンを経て中国南西部にかけて分布する。密猟や生息地の喪失、人と野生動物の軋轢により個体数は脅かされているが、プロジェクト・タイガーなどの保護活動により一部地域では回復が見られる。インドとバングラデシュの国獣に指定されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bengal_tiger",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "howler_monkey",
+    "name": "ホエザル",
+    "nameEn": "Howler monkey",
+    "type": "哺乳類",
+    "iucn": "種により異なる",
+    "countries": [
+      "cr",
+      "gt",
+      "sv"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ホエザル属(Alouatta)は新大陸で最も広く分布する霊長類の一つで、密林の奥深くまで届く大きな鳴き声で知られる。コスタリカ、グアテマラ、エルサルバドルを含む中央アメリカから南アメリカの森林に生息し、木の葉や果実を主に食べる樹上性の動物である。属内には15種が含まれ、IUCNの保全状況は種によって大きく異なる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Howler_monkey",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "polar_bear",
+    "name": "ホッキョクグマ",
+    "nameEn": "Polar bear",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "ca",
+      "no"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ホッキョクグマ(Ursus maritimus)は現生のクマ科動物およびネコ目(食肉目)の中で最大級の陸生哺乳類で、オスは体重300〜800kgに達する。グリーンランド・カナダ・アラスカ・ロシア・ノルウェーのスヴァールバル諸島など北極圏一帯の海氷上に生息し、アザラシを主な獲物として狩る。海氷の減少という気候変動の影響を強く受けており、IUCNでは「危急(Vulnerable)」に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Polar_bear",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "bonobo",
+    "name": "ボノボ",
+    "nameEn": "Bonobo",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "cd"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "コンゴ民主共和国のコンゴ川以南・カサイ川以北の湿潤な熱帯林にのみ生息する大型類人猿で、母系的な群れを形成する。性行動が挨拶や社会的絆の形成、対立の解消といった社会的な役割を果たす点が特徴で、近縁のチンパンジーに比べて攻撃性が低いとされる。主に果実を食べる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bonobo",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "alpine_marmot",
+    "name": "マーモット",
+    "nameEn": "Alpine marmot",
+    "type": "哺乳類",
+    "iucn": "軽度懸念",
+    "countries": [
+      "ad",
+      "at",
+      "ch",
+      "it",
+      "li"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "アルプスマーモットはリス科に属する大型の地上性げっ歯類で、頭胴長43~73センチ、体重1.9~8キロ、金色がかった茶色や赤みを帯びた灰色の毛皮を持つ。標高800~3200メートルの高山草原に生息し、アルプス山脈やカルパチア山脈にまたがってフランス、イタリア、スイス、ドイツ、スロベニア、オーストリアなどに分布するほか、1948年にはピレネー山脈にも導入され定着した。冬季は心拍数を1分間5回にまで下げて年間最大9か月にも及ぶ冬眠を行うなど、寒冷な高山環境への高度な適応を示す。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alpine_marmot",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "mountain_gorilla",
+    "name": "マウンテンゴリラ",
+    "nameEn": "Mountain gorilla",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "cd",
+      "rw",
+      "ug"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "マウンテンゴリラ(Gorilla beringei beringei)はゴリラの亜種で、他のゴリラより厚く長い体毛を持ち寒冷な山岳環境に適応している。コンゴ民主共和国・ルワンダ・ウガンダにまたがるヴィルンガ山地と、ウガンダのブウィンディ原生国立公園の2つの個体群に分かれて生息する。IUCNでは「危機(Endangered)」に指定されており、2019年時点の推定生息数は約1063頭である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mountain_gorilla",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "west_indian_manatee",
+    "name": "マナティー",
+    "nameEn": "West Indian manatee",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "bz",
+      "dm",
+      "hn",
+      "jm",
+      "lc"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "マナティー(アメリカマナティー)は体長2.7~3.5メートル、体重200~600キロに達する大型の水生哺乳類で、流線型の体を持ち後肢を欠くのが特徴である。感覚に優れたひげ(洞毛)を使って濁った水中で採食や移動を行い、60種以上の水生植物を食べる植食性動物である。アメリカ合衆国東部沿岸からカリブ海を経てブラジル北部にかけての温暖な沿岸海域や河川に生息し、西アフリカに分布する近縁種のアフリカマナティーとは別種である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/West_Indian_manatee",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "marco_polo_sheep",
+    "name": "マルコポーロヒツジ",
+    "nameEn": "Marco Polo sheep",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "af",
+      "kg",
+      "tj"
+    ],
+    "isNationalAnimalOf": [
+      "tj"
+    ],
+    "blurb": "マルコポーロヒツジはヒツジ科の中で最も長い角を持つことで知られる中央アジアの野生ヒツジで、アフガニスタン・キルギス・タジキスタンにまたがるパミール高原やワハーン回廊に生息する。トロフィーハンティングや生息地の喪失により脅かされており、母種であるアルガリはIUCNで準絶滅危惧に分類されている。タジキスタンでは国の象徴的な動物として扱われている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marco_Polo_sheep",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "mandrill",
+    "name": "マンドリル",
+    "nameEn": "Mandrill",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "ga",
+      "gq"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "マンドリルは顔面と臀部に赤と青の鮮やかな色をもつ「世界で最も色彩豊かな哺乳類」ともいわれるオナガザル科最大種で、雌雄の外見差が非常に大きい。中央アフリカ西部の熱帯雨林に生息し、数百頭規模の大群を作って地上で長い時間を採食に費やす。分布はカメルーン南部からガボン、赤道ギニア(リオムニ)、コンゴ共和国の一部に及び、ガボンは同種最大の生息拠点とされる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mandrill",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "coconut_crab",
+    "name": "ヤシガニ",
+    "nameEn": "Coconut crab",
+    "type": "甲殻類",
+    "iucn": "危急",
+    "countries": [
+      "mh",
+      "tv"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ヤシガニは体重4.1kg、脚を広げると1mに達する現生最大の陸生節足動物で、インド洋・太平洋の島々に生息し、果実や種子などを主に食べながら優れた登はん能力を発揮する。名前とは裏腹に、ココナッツを食べる割合は食性全体のごく一部にすぎない。成体はえらではなく気管支様の器官(branchiostegal lung)で呼吸するため陸上生活が可能だが、逆に長時間水中に沈むと溺れてしまう。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coconut_crab",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "snow_leopard",
+    "name": "ユキヒョウ",
+    "nameEn": "Snow leopard",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "af",
+      "bt",
+      "kg",
+      "kz",
+      "mn",
+      "pk",
+      "tj",
+      "uz"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "ユキヒョウは白みがかった灰色の体毛に黒い斑点を持ち、背中や脇腹の大きめのロゼット模様と太い尾が特徴の大型ネコ科動物である。標高3000~4500メートルの高山・亜高山帯を中心に中央アジアと南アジアの山岳地帯に生息し、アフガニスタン、ブータン、キルギス、カザフスタン、モンゴル、パキスタン、タジキスタン、ウズベキスタンなどにまたがって分布する。カザフスタンやキルギスでは国章などにも描かれ、中央アジアで文化的に重要な存在とされている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Snow_leopard",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "european_bison",
+    "name": "ヨーロッパバイソン",
+    "nameEn": "European bison",
+    "type": "哺乳類",
+    "iucn": "準絶滅危惧",
+    "countries": [
+      "by",
+      "pl",
+      "ua"
+    ],
+    "isNationalAnimalOf": [
+      "by",
+      "pl"
+    ],
+    "blurb": "ヨーロッパバイソンはヨーロッパ最大の陸生野生動物で、オスの体重は920kgに達することもある。1927年に野生では絶滅したが、1929年以降の再導入事業により、ポーランドとベラルーシにまたがるビャウォヴィエジャの森を中心にウクライナなど各地で個体群が回復した。ポーランドとベラルーシでは国の動物のひとつとされている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/European_bison",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "lion",
+    "name": "ライオン",
+    "nameEn": "Lion",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "bj",
+      "bw",
+      "ke",
+      "sn",
+      "tz",
+      "za",
+      "zm",
+      "zw"
+    ],
+    "isNationalAnimalOf": [
+      "ke"
+    ],
+    "blurb": "ライオンはサハラ以南アフリカとインド北西部(グジャラート州ギル国立公園)にのみ生息する大型のネコ科動物で、雄は頭部から肩、胸にかけて伸びるたてがみを持つのが特徴である。プライドと呼ばれる、血縁の雌とその子、少数の雄からなる社会集団を形成し、1日の約20時間を休息に費やし、主に明け方に狩りを行う。ケニアでは国獣に指定され、国章にも2頭のライオンが描かれている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lion",
+        "checked": "2026-08-31"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Kenya",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "llama",
+    "name": "リャマ",
+    "nameEn": "Llama",
+    "type": "哺乳類",
+    "iucn": "未評価",
+    "countries": [
+      "bo",
+      "pe"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "リャマ(Lama glama)はプレコロンブス期から荷役や食肉用に利用されてきた南米原産の家畜化ラクダ科動物で、ボリビアやペルーのアンデス高地を中心に飼育されている。体重の25〜30%の荷物を背負って5〜8マイルを運べるほど頑健で、アンデス文明やインカ帝国の文化において重要な役割を果たしてきた。家畜種であるため、IUCNのレッドリスト評価の対象外(未評価)となっている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Llama",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "red_panda",
+    "name": "レッサーパンダ",
+    "nameEn": "Red panda",
+    "type": "哺乳類",
+    "iucn": "危機",
+    "countries": [
+      "bt",
+      "np"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "レッサーパンダ(Ailurus fulgens)は赤褐色の体毛に黒い腹部と脚、白い縁取りのある耳を持つ小型の樹上性哺乳類で、東ヒマラヤから中国南西部にかけての標高2000〜4300mの地域に生息する。ネパールやブータンのほかインド北東部、ミャンマーにも分布し、ブータン中部では僧侶の生まれ変わりとみなされるなど地域文化の中で特別な存在とされている。IUCNにより「危機(Endangered)」に分類され、野生個体数は約1万頭と推定される。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_panda",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "frigatebird",
+    "name": "軍艦鳥",
+    "nameEn": "Frigatebird",
+    "type": "鳥類",
+    "iucn": "種により異なる",
+    "countries": [
+      "ag",
+      "nr"
+    ],
+    "isNationalAnimalOf": [
+      "ag",
+      "nr"
+    ],
+    "blurb": "グンカンドリ科(Fregatidae)は深く二股に分かれた尾と鉤状のくちばしを持つ黒い海鳥で、世界中の熱帯・亜熱帯の海域に生息する。アンティグア・バーブーダの国鳥に指定されているほか、ナウルでも国章に描かれる国のシンボルであり、伝統的にグンカンドリを捕らえる文化があった。IUCNの保全状況は5種で異なり、多くは軽度懸念だがクリスマスグンカンドリは深刻な危機、アセンショングンカンドリは危急に分類されている。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Frigatebird",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "water_buffalo",
+    "name": "水牛",
+    "nameEn": "Water buffalo",
+    "type": "哺乳類",
+    "iucn": "未評価",
+    "countries": [
+      "iq",
+      "kh"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "スイギュウ(Bubalus bubalis)は野生スイギュウを祖先とする大型の家畜ウシ科動物で、インド亜大陸からバルカン半島・エジプト・イタリアまで分布するリバー型と、東南アジアから中国長江流域まで分布するスワンプ型の2系統に大別される。紀元前2500年頃にはインダス文明からメソポタミア(現在のイラク)へ交易された記録があり、現在もイラクの湿地民の暮らしを支えるほか、カンボジアなど東南アジア各地でも農耕用に広く飼育されている。家畜種であるため、IUCNのレッドリスト評価の対象外(未評価)である。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Water_buffalo",
+        "checked": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "key": "mediterranean_monk_seal",
+    "name": "地中海モンクアザラシ",
+    "nameEn": "Mediterranean monk seal",
+    "type": "哺乳類",
+    "iucn": "危急",
+    "countries": [
+      "me",
+      "mt"
+    ],
+    "isNationalAnimalOf": [],
+    "blurb": "地中海モンクアザラシは体長約2.4mに達する大型のアザラシで、腹部の白い斑紋の形が雌は長方形、雄は蝶形と異なる性的二型を示す。人間の干渉を避けるため、この100年ほどの間に水中に入り口をもつ隠れた海食洞窟を利用するようになった。モンテネグロやマルタでは局所的に絶滅したとみられていたが、2024年7月にはマルタで約30年ぶりに1頭が目撃されるなど、再定着の兆しもみられる。",
+    "img": "",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mediterranean_monk_seal",
+        "checked": "2026-08-31"
+      }
+    ]
+  }
+]
