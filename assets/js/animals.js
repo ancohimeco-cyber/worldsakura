@@ -45,13 +45,20 @@ function animalContinents(a) {
   return Array.from(conts);
 }
 
-function animalCard(a) {
+function animalMedia(a, cssClass) {
   const icon = ANIMAL_TYPE_ICONS[a.type] || "🐾";
+  if (a.img) {
+    return `<img class="${cssClass}" src="${a.img}" alt="${a.name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'${cssClass}-fallback',textContent:'${icon}'}))" />`;
+  }
+  return `<div class="${cssClass}-fallback">${icon}</div>`;
+}
+
+function animalCard(a) {
   const shown = a.countries.slice(0, 6).map(isoToFlagEmoji).join(" ");
   const more = a.countries.length > 6 ? ` 他${a.countries.length - 6}` : "";
   return `
-    <a class="country-card" href="animals.html?key=${a.key}">
-      <div class="animal-icon">${icon}</div>
+    <a class="country-card animal-card" href="animals.html?key=${a.key}">
+      ${animalMedia(a, "animal-photo")}
       <h3>${a.name}</h3>
       <p>生息: ${shown}${more}</p>
       <span class="rarity-badge">${IUCN_LABELS[a.iucn] || a.iucn}</span>
@@ -150,7 +157,7 @@ function renderDetail(key) {
 
   root.innerHTML = `
     <section class="country-hero">
-      <div class="animal-icon-big">${ANIMAL_TYPE_ICONS[a.type] || "🐾"}</div>
+      ${animalMedia(a, "animal-photo-big")}
       <h1>${a.name}</h1>
       <div class="name-en">${a.nameEn} / ${a.type}</div>
       <div class="id-badge">${IUCN_LABELS[a.iucn] || a.iucn}</div>

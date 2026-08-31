@@ -399,6 +399,49 @@ footer {
   line-height: 1;
 }
 
+.animal-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.animal-photo-fallback {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  background: var(--glass-bg);
+  margin-bottom: 4px;
+}
+
+.animal-photo-big {
+  width: min(320px, 80vw);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+.animal-photo-big-fallback {
+  width: min(320px, 80vw);
+  aspect-ratio: 4 / 3;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  background: var(--glass-bg);
+}
+
 .rarity-badge {
   display: inline-block;
   margin-top: 8px;
