@@ -12,12 +12,14 @@ function textOrPlaceholder(value, placeholder) {
 async function loadCountry() {
   const params = new URLSearchParams(window.location.search);
   const id = Number(params.get("id"));
-  const [countriesRes, animalsRes] = await Promise.all([
+  const [countriesRes, animalsRes, motifsRes] = await Promise.all([
     fetch("data/countries.json"),
     fetch("data/animals.json"),
+    fetch("data/flag_motifs.json"),
   ]);
   const countries = await countriesRes.json();
   const animals = await animalsRes.json();
+  const motifs = await motifsRes.json();
   const country = countries.find((c) => c.id === id);
 
   const root = document.getElementById("country-root");
@@ -35,6 +37,11 @@ async function loadCountry() {
   const videoBlock = country.videoUrl
     ? `<p><a href="${country.videoUrl}" target="_blank" rel="noopener">関連動画を見る →</a></p>`
     : `<p>準備中です。</p>`;
+
+  const motif = motifs.find((m) => m.countries.includes(country.code));
+  const motifLink = motif
+    ? `<p><a href="flags.html#motif-${motif.key}">同じモチーフ「${motif.label}」の国を見る →</a></p>`
+    : "";
 
   const countryAnimals = animals.filter((a) => a.countries.includes(country.code));
   const animalsBlock =
@@ -96,6 +103,7 @@ async function loadCountry() {
       <div class="info-card">
         <h3>🏳 国旗の由来</h3>
         ${textOrPlaceholder(country.flagOrigin, "準備中です。")}
+        ${motifLink}
       </div>
       <div class="info-card">
         <h3>💡 トリビア</h3>

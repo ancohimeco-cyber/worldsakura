@@ -1,0 +1,964 @@
+{
+  "af": [
+    "black",
+    "green",
+    "red",
+    "white"
+  ],
+  "al": [
+    "black"
+  ],
+  "dz": [
+    "white",
+    "green",
+    "red"
+  ],
+  "ad": [
+    "red",
+    "yellow",
+    "blue",
+    "white"
+  ],
+  "ao": [
+    "black",
+    "yellow"
+  ],
+  "ag": [
+    "white",
+    "black",
+    "blue",
+    "red",
+    "yellow"
+  ],
+  "ar": [
+    "green",
+    "white",
+    "yellow"
+  ],
+  "am": [
+    "red",
+    "blue",
+    "yellow"
+  ],
+  "au": [
+    "white"
+  ],
+  "at": [
+    "white",
+    "red"
+  ],
+  "az": [
+    "green",
+    "red",
+    "blue",
+    "white"
+  ],
+  "bs": [
+    "white",
+    "yellow",
+    "blue",
+    "black"
+  ],
+  "bh": [
+    "white",
+    "red"
+  ],
+  "bd": [
+    "red"
+  ],
+  "bb": [
+    "yellow",
+    "black"
+  ],
+  "by": [
+    "red",
+    "white"
+  ],
+  "be": [
+    "black",
+    "yellow",
+    "red"
+  ],
+  "bz": [
+    "red",
+    "blue",
+    "white",
+    "green",
+    "yellow",
+    "black"
+  ],
+  "bj": [
+    "green",
+    "yellow",
+    "red"
+  ],
+  "bt": [
+    "yellow",
+    "red",
+    "white"
+  ],
+  "bo": [
+    "yellow",
+    "red",
+    "white",
+    "green",
+    "blue"
+  ],
+  "ba": [
+    "blue",
+    "yellow",
+    "white"
+  ],
+  "bw": [
+    "blue",
+    "white",
+    "black"
+  ],
+  "br": [
+    "green",
+    "yellow",
+    "blue",
+    "white"
+  ],
+  "bn": [
+    "yellow",
+    "white",
+    "black",
+    "red"
+  ],
+  "bg": [
+    "white",
+    "green",
+    "red"
+  ],
+  "bf": [
+    "red",
+    "green",
+    "yellow"
+  ],
+  "bi": [
+    "green",
+    "red",
+    "white"
+  ],
+  "cv": [
+    "white",
+    "red",
+    "yellow"
+  ],
+  "kh": [
+    "blue",
+    "red",
+    "white"
+  ],
+  "cm": [
+    "red",
+    "yellow"
+  ],
+  "ca": [
+    "white",
+    "red"
+  ],
+  "cf": [
+    "blue",
+    "yellow",
+    "green",
+    "white"
+  ],
+  "td": [
+    "red",
+    "yellow"
+  ],
+  "cl": [
+    "white",
+    "blue",
+    "red"
+  ],
+  "cn": [
+    "yellow",
+    "red"
+  ],
+  "co": [
+    "yellow",
+    "red"
+  ],
+  "km": [
+    "yellow",
+    "white",
+    "red",
+    "blue",
+    "green"
+  ],
+  "cr": [
+    "blue",
+    "white",
+    "red"
+  ],
+  "ci": [
+    "green",
+    "yellow",
+    "white"
+  ],
+  "hr": [
+    "white",
+    "blue",
+    "yellow"
+  ],
+  "cu": [
+    "white",
+    "red"
+  ],
+  "cy": [
+    "white",
+    "orange"
+  ],
+  "cz": [
+    "white",
+    "red"
+  ],
+  "cd": [
+    "blue",
+    "yellow",
+    "red"
+  ],
+  "dk": [
+    "red",
+    "white"
+  ],
+  "dj": [
+    "green",
+    "white"
+  ],
+  "dm": [
+    "green",
+    "yellow",
+    "black",
+    "white",
+    "red"
+  ],
+  "do": [
+    "white",
+    "red",
+    "black",
+    "yellow",
+    "green"
+  ],
+  "ec": [
+    "yellow",
+    "red",
+    "blue",
+    "white"
+  ],
+  "eg": [
+    "black",
+    "white",
+    "red"
+  ],
+  "sv": [
+    "blue",
+    "white",
+    "red",
+    "black",
+    "yellow"
+  ],
+  "gq": [
+    "red",
+    "white",
+    "green",
+    "blue"
+  ],
+  "er": [
+    "red",
+    "green"
+  ],
+  "ee": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "sz": [
+    "blue",
+    "yellow",
+    "white",
+    "black"
+  ],
+  "et": [
+    "yellow",
+    "red",
+    "green",
+    "blue"
+  ],
+  "fj": [
+    "green",
+    "white",
+    "red",
+    "yellow",
+    "black",
+    "blue"
+  ],
+  "fi": [
+    "white"
+  ],
+  "fr": [
+    "white",
+    "red"
+  ],
+  "ga": [
+    "yellow",
+    "green",
+    "blue"
+  ],
+  "gm": [
+    "white",
+    "blue",
+    "green"
+  ],
+  "ge": [
+    "white"
+  ],
+  "de": [
+    "yellow",
+    "black"
+  ],
+  "gh": [
+    "yellow",
+    "red",
+    "black"
+  ],
+  "gr": [
+    "blue",
+    "white"
+  ],
+  "gd": [
+    "yellow",
+    "red"
+  ],
+  "gt": [
+    "blue",
+    "white",
+    "green",
+    "red",
+    "yellow"
+  ],
+  "gn": [
+    "yellow",
+    "green"
+  ],
+  "gw": [
+    "red",
+    "yellow",
+    "green",
+    "black"
+  ],
+  "gy": [
+    "green",
+    "white",
+    "yellow",
+    "black",
+    "red"
+  ],
+  "ht": [
+    "red",
+    "blue",
+    "yellow",
+    "white",
+    "black"
+  ],
+  "hn": [
+    "blue",
+    "white"
+  ],
+  "hu": [
+    "white",
+    "green",
+    "red"
+  ],
+  "is": [
+    "blue",
+    "white",
+    "red"
+  ],
+  "in": [
+    "yellow",
+    "white",
+    "green"
+  ],
+  "id": [
+    "red",
+    "white"
+  ],
+  "ir": [
+    "white",
+    "red",
+    "green"
+  ],
+  "iq": [
+    "white",
+    "red",
+    "black",
+    "green"
+  ],
+  "ie": [
+    "white",
+    "green",
+    "orange"
+  ],
+  "il": [
+    "white",
+    "blue"
+  ],
+  "it": [
+    "white",
+    "green",
+    "red"
+  ],
+  "jm": [
+    "black",
+    "green",
+    "yellow"
+  ],
+  "jp": [
+    "white",
+    "red"
+  ],
+  "jo": [
+    "black",
+    "white",
+    "green"
+  ],
+  "kz": [
+    "blue",
+    "yellow"
+  ],
+  "ke": [
+    "white",
+    "black",
+    "red"
+  ],
+  "ki": [
+    "red",
+    "yellow",
+    "white"
+  ],
+  "kw": [
+    "white",
+    "red",
+    "green",
+    "black"
+  ],
+  "kg": [
+    "yellow"
+  ],
+  "la": [
+    "red",
+    "blue",
+    "white"
+  ],
+  "lv": [
+    "white"
+  ],
+  "lb": [
+    "red",
+    "white",
+    "green"
+  ],
+  "ls": [
+    "white",
+    "green",
+    "blue"
+  ],
+  "lr": [
+    "white",
+    "red"
+  ],
+  "ly": [
+    "green",
+    "black",
+    "red",
+    "white"
+  ],
+  "li": [
+    "red",
+    "yellow",
+    "black"
+  ],
+  "lt": [
+    "red",
+    "yellow"
+  ],
+  "lu": [
+    "red",
+    "white",
+    "blue"
+  ],
+  "mg": [
+    "red",
+    "white"
+  ],
+  "mw": [
+    "red",
+    "green",
+    "black"
+  ],
+  "my": [
+    "red",
+    "white",
+    "yellow"
+  ],
+  "mv": [
+    "red",
+    "white"
+  ],
+  "ml": [
+    "green",
+    "yellow"
+  ],
+  "mt": [
+    "white",
+    "red"
+  ],
+  "mh": [
+    "blue",
+    "yellow",
+    "white"
+  ],
+  "mr": [
+    "red",
+    "green",
+    "yellow"
+  ],
+  "mu": [
+    "green",
+    "red",
+    "yellow"
+  ],
+  "mx": [
+    "red",
+    "white",
+    "yellow",
+    "blue",
+    "black",
+    "green",
+    "orange"
+  ],
+  "fm": [
+    "green",
+    "white"
+  ],
+  "md": [
+    "blue",
+    "yellow",
+    "red",
+    "green"
+  ],
+  "mc": [
+    "red",
+    "white"
+  ],
+  "mn": [
+    "yellow",
+    "red",
+    "blue"
+  ],
+  "me": [
+    "yellow",
+    "red",
+    "green"
+  ],
+  "ma": [
+    "red"
+  ],
+  "mz": [
+    "green",
+    "white",
+    "black",
+    "yellow"
+  ],
+  "mm": [
+    "yellow",
+    "green",
+    "red",
+    "white"
+  ],
+  "na": [
+    "white",
+    "blue",
+    "green",
+    "red",
+    "yellow"
+  ],
+  "nr": [
+    "yellow",
+    "white"
+  ],
+  "np": [
+    "red",
+    "white"
+  ],
+  "nl": [
+    "white"
+  ],
+  "nz": [
+    "blue",
+    "white",
+    "red"
+  ],
+  "ni": [
+    "blue",
+    "white",
+    "orange",
+    "yellow",
+    "green",
+    "red"
+  ],
+  "ne": [
+    "green",
+    "white",
+    "red"
+  ],
+  "ng": [
+    "white",
+    "green"
+  ],
+  "kp": [
+    "white",
+    "blue",
+    "red"
+  ],
+  "mk": [
+    "red",
+    "yellow"
+  ],
+  "no": [
+    "red",
+    "white"
+  ],
+  "om": [
+    "red",
+    "green",
+    "white"
+  ],
+  "pk": [
+    "white"
+  ],
+  "pw": [
+    "blue",
+    "yellow"
+  ],
+  "pa": [
+    "white",
+    "red",
+    "blue"
+  ],
+  "pg": [
+    "black",
+    "yellow",
+    "white"
+  ],
+  "py": [
+    "blue",
+    "white",
+    "red",
+    "green",
+    "yellow"
+  ],
+  "pe": [
+    "red",
+    "white"
+  ],
+  "ph": [
+    "blue",
+    "red",
+    "white",
+    "yellow"
+  ],
+  "pl": [
+    "white",
+    "red"
+  ],
+  "pt": [
+    "yellow",
+    "white",
+    "black",
+    "blue"
+  ],
+  "qa": [
+    "white"
+  ],
+  "ro": [
+    "blue",
+    "yellow",
+    "red"
+  ],
+  "ru": [
+    "white",
+    "blue",
+    "red"
+  ],
+  "rw": [
+    "yellow",
+    "blue"
+  ],
+  "kn": [
+    "yellow",
+    "green",
+    "red",
+    "black",
+    "white"
+  ],
+  "lc": [
+    "green",
+    "white",
+    "black",
+    "yellow"
+  ],
+  "vc": [
+    "yellow",
+    "green",
+    "blue"
+  ],
+  "ws": [
+    "red",
+    "white"
+  ],
+  "sm": [
+    "blue",
+    "white",
+    "yellow",
+    "green",
+    "red"
+  ],
+  "st": [
+    "green",
+    "yellow",
+    "red",
+    "black"
+  ],
+  "sa": [
+    "white"
+  ],
+  "sn": [
+    "yellow",
+    "red"
+  ],
+  "rs": [
+    "white",
+    "red",
+    "black",
+    "yellow"
+  ],
+  "sc": [
+    "white",
+    "red",
+    "yellow"
+  ],
+  "sl": [
+    "blue",
+    "white",
+    "green"
+  ],
+  "sg": [
+    "white",
+    "red"
+  ],
+  "sk": [
+    "red",
+    "blue",
+    "white"
+  ],
+  "si": [
+    "white",
+    "red",
+    "blue",
+    "yellow"
+  ],
+  "sb": [
+    "blue",
+    "yellow",
+    "white"
+  ],
+  "so": [
+    "blue",
+    "white"
+  ],
+  "za": [
+    "black",
+    "red",
+    "yellow",
+    "green",
+    "white"
+  ],
+  "kr": [
+    "white",
+    "black",
+    "red",
+    "blue"
+  ],
+  "ss": [
+    "green",
+    "white",
+    "black",
+    "red",
+    "blue",
+    "yellow"
+  ],
+  "es": [
+    "yellow",
+    "white",
+    "green",
+    "blue",
+    "red"
+  ],
+  "lk": [
+    "yellow",
+    "red",
+    "black"
+  ],
+  "sd": [
+    "black",
+    "white",
+    "green"
+  ],
+  "sr": [
+    "white",
+    "yellow"
+  ],
+  "se": [
+    "yellow"
+  ],
+  "ch": [
+    "white"
+  ],
+  "sy": [
+    "white",
+    "green",
+    "red"
+  ],
+  "tj": [
+    "white",
+    "red",
+    "yellow"
+  ],
+  "tz": [
+    "blue",
+    "green",
+    "black",
+    "yellow"
+  ],
+  "th": [
+    "white"
+  ],
+  "tl": [
+    "red",
+    "yellow",
+    "black",
+    "white"
+  ],
+  "tg": [
+    "yellow",
+    "green",
+    "red",
+    "white"
+  ],
+  "to": [
+    "red",
+    "white"
+  ],
+  "tt": [
+    "white",
+    "red",
+    "black"
+  ],
+  "tn": [
+    "red",
+    "white"
+  ],
+  "tr": [
+    "red",
+    "white"
+  ],
+  "tm": [
+    "green",
+    "white",
+    "red",
+    "black",
+    "yellow"
+  ],
+  "tv": [
+    "blue",
+    "yellow",
+    "white",
+    "red"
+  ],
+  "ug": [
+    "yellow",
+    "black",
+    "red",
+    "white"
+  ],
+  "ua": [
+    "blue"
+  ],
+  "ae": [
+    "white",
+    "black"
+  ],
+  "gb": [
+    "blue",
+    "white",
+    "red"
+  ],
+  "us": [
+    "red",
+    "white"
+  ],
+  "uy": [
+    "white",
+    "blue",
+    "yellow"
+  ],
+  "uz": [
+    "green",
+    "blue",
+    "red",
+    "white"
+  ],
+  "vu": [
+    "green",
+    "red",
+    "yellow"
+  ],
+  "va": [
+    "white",
+    "yellow",
+    "red"
+  ],
+  "ve": [
+    "white",
+    "red",
+    "blue",
+    "yellow"
+  ],
+  "vn": [
+    "red",
+    "yellow"
+  ],
+  "ye": [
+    "white",
+    "red",
+    "black"
+  ],
+  "zm": [
+    "green",
+    "orange",
+    "black",
+    "red"
+  ],
+  "zw": [
+    "blue",
+    "yellow",
+    "red",
+    "black",
+    "white"
+  ]
+}
