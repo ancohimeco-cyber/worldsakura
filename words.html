@@ -28,14 +28,18 @@
   </header>
 
   <main>
-    <section class="section page-title-section coming-soon">
-      <span class="category-icon big">🗣</span>
-      <h2>言葉・雑学から探す</h2>
-      <p>あいさつ・ことわざ・名言や、日本とのつながり・意外な話など、言葉と雑学から国を探せるページを準備中です。</p>
-      <a class="back-link" href="index.html">← トップに戻る</a>
+    <section class="section page-title-section">
+      <h2>🗣 言葉・雑学から探す</h2>
+      <p class="section-intro">公用語やことわざから、世界193か国をアルファベット順にめぐります。</p>
+      <div class="alpha-nav" id="alpha-nav"></div>
+      <div id="country-list"></div>
     </section>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
+
+  <script src="assets/js/shared.js"></script>
+  <script>window.CATEGORY_CONFIG = { fields: ["languages", "proverb"] };</script>
+  <script src="assets/js/category-list.js"></script>
 </body>
 </html>

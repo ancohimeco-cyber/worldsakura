@@ -146,6 +146,12 @@ main {
   margin-bottom: 24px;
 }
 
+.section-intro {
+  color: var(--ink-soft);
+  margin: -10px 0 24px 12px;
+  font-size: 0.95rem;
+}
+
 /* ===== Search box (glass / transparent card) ===== */
 .search-box {
   max-width: 640px;
@@ -267,6 +273,10 @@ main {
   margin: 0;
   font-size: 0.85rem;
   color: var(--ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .letter-group-title {

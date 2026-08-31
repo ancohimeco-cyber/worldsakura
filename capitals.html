@@ -28,14 +28,18 @@
   </header>
 
   <main>
-    <section class="section page-title-section coming-soon">
-      <span class="category-icon big">🏙</span>
-      <h2>首都から探す</h2>
-      <p>世界の首都を一覧できるページを準備中です。</p>
-      <a class="back-link" href="index.html">← トップに戻る</a>
+    <section class="section page-title-section">
+      <h2>🏙 首都から探す</h2>
+      <p class="section-intro">世界193か国の首都を、アルファベット順にめぐります。</p>
+      <div class="alpha-nav" id="alpha-nav"></div>
+      <div id="country-list"></div>
     </section>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
+
+  <script src="assets/js/shared.js"></script>
+  <script>window.CATEGORY_CONFIG = { fields: ["capital", "location"] };</script>
+  <script src="assets/js/category-list.js"></script>
 </body>
 </html>
