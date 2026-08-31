@@ -697,14 +697,10 @@ footer {
 /* ===== Category entrance cards with photo/gradient background ===== */
 .category-grid-photo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-}
-
-@media (max-width: 900px) {
-  .category-grid-photo {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
@@ -789,6 +785,7 @@ footer {
 .card-bg-food { background: linear-gradient(135deg, #0369a1, #082f49); }
 .card-bg-animals { background: linear-gradient(135deg, #10352f, #05100e); }
 .card-bg-words { background: linear-gradient(135deg, #2a2560, #0d0b28); }
+.card-bg-peoples { background: linear-gradient(135deg, #1e3a8a, #0a0a2e); }
 
 /* ===== Monthly feature ===== */
 .monthly-feature-card {

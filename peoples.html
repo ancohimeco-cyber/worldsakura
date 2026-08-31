@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>国一覧 | 世界の図鑑</title>
-  <meta name="description" content="世界193か国をアルファベット順に一覧できるページです。" />
+  <title>世界の民族・人びと | 世界の図鑑</title>
+  <meta name="description" content="世界の民族・人びと(People of the World)。地域ごとに、暮らし・言語・文化・現代の生活を紹介します。" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -36,17 +36,20 @@
   </header>
 
   <main>
-    <section class="section page-title-section">
-      <h2>国を探す(アルファベット順)</h2>
-      <p class="empty-state" id="progress-note"></p>
-      <div class="alpha-nav" id="alpha-nav"></div>
-      <div id="country-list"></div>
+    <section class="section page-title-section" id="peoples-list-section">
+      <h2>🧑‍🤝‍🧑 世界の民族・人びと</h2>
+      <p class="section-intro">People of the World。国境を越えて暮らす人びとを、地域ごとに紹介します。伝統だけでなく、今の暮らしも一緒に。</p>
+      <div class="filter-tabs" id="region-tabs"></div>
+      <p class="empty-state" id="peoples-count"></p>
+      <div id="peoples-list"></div>
     </section>
+
+    <div id="peoples-detail" hidden></div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA</footer>
 
   <script src="assets/js/shared.js"></script>
-  <script src="assets/js/countries-list.js"></script>
+  <script src="assets/js/peoples.js"></script>
 </body>
 </html>

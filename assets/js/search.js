@@ -1,5 +1,6 @@
 let countries = [];
 let animalsData = [];
+let peoplesData = [];
 let activeFilter = "all";
 
 function fieldsForFilter(country) {
@@ -27,6 +28,15 @@ function animalSearchCard(a) {
     </a>`;
 }
 
+function peopleSearchCard(p) {
+  return `
+    <a class="country-card" href="peoples.html?key=${p.key}">
+      <div class="animal-icon">🧑‍🤝‍🧑</div>
+      <h3>${p.name}</h3>
+      <p>${p.nameEn} ・ ${(p.region || []).join("・")}</p>
+    </a>`;
+}
+
 function runSearch(query) {
   const results = document.getElementById("reverse-search-results");
   const q = query.trim().toLowerCase();
@@ -48,6 +58,18 @@ function runSearch(query) {
     return;
   }
 
+  if (activeFilter === "people") {
+    const matched = peoplesData.filter(
+      (p) => p.name.toLowerCase().includes(q) || p.nameEn.toLowerCase().includes(q)
+    );
+    if (matched.length === 0) {
+      results.innerHTML = `<p class="empty-state">「${query}」に一致する民族が見つかりませんでした。</p>`;
+      return;
+    }
+    results.innerHTML = `<div class="country-grid">${matched.map(peopleSearchCard).join("")}</div>`;
+    return;
+  }
+
   const matched = countries.filter((c) => fieldsForFilter(c).some((v) => v && v.toLowerCase().includes(q)));
 
   if (matched.length === 0) {
@@ -59,9 +81,10 @@ function runSearch(query) {
 }
 
 async function setupReverseSearch() {
-  [countries, animalsData] = await Promise.all([
+  [countries, animalsData, peoplesData] = await Promise.all([
     fetchCountries(),
     fetch("data/animals.json").then((r) => r.json()),
+    fetch("data/peoples.json").then((r) => r.json()),
   ]);
 
   const input = document.getElementById("reverse-search-input");
