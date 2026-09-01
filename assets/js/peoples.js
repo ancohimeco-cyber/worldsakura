@@ -13,11 +13,19 @@ async function fetchPeoples() {
   return res.json();
 }
 
+function peopleMedia(p, cssClass) {
+  const icon = "🧑‍🤝‍🧑";
+  if (p.img) {
+    return `<img class="${cssClass}" src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'${cssClass}-fallback',textContent:'${icon}'}))" />`;
+  }
+  return `<div class="${cssClass}-fallback">${icon}</div>`;
+}
+
 function peopleCard(p) {
   const flags = (p.countries || []).slice(0, 6).map(isoToFlagEmoji).join(" ");
   return `
     <a class="country-card" href="peoples.html?key=${p.key}">
-      <div class="animal-icon">🧑‍🤝‍🧑</div>
+      ${peopleMedia(p, "animal-photo")}
       <h3>${p.name}</h3>
       <p>${(p.region || []).join("・")} ・ ${flags}</p>
     </a>`;
@@ -95,7 +103,7 @@ function renderDetail(key) {
 
   root.innerHTML = `
     <section class="country-hero">
-      <div class="animal-icon-big">🧑‍🤝‍🧑</div>
+      ${peopleMedia(p, "animal-photo-big")}
       <h1>${p.name}</h1>
       <div class="name-en">${p.nameEn}${p.nameLocal ? " / " + p.nameLocal : ""}</div>
       <div class="id-badge">${(p.region || []).join("・")}</div>

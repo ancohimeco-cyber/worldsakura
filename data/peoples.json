@@ -35,7 +35,8 @@
         "url": "https://www.britannica.com/topic/Maasai",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/maasai.jpg"
   },
   {
     "key": "zulu",
@@ -71,7 +72,8 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%BC%E4%BA%BA",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/zulu.jpg"
   },
   {
     "key": "amazigh_berber",
@@ -110,7 +112,8 @@
         "url": "https://www.britannica.com/topic/Berber",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/amazigh_berber.jpg"
   },
   {
     "key": "tuareg",
@@ -150,7 +153,8 @@
         "url": "https://www.britannica.com/topic/Tuareg",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/tuareg.jpg"
   },
   {
     "key": "yoruba",
@@ -186,7 +190,8 @@
         "url": "https://en.wikipedia.org/wiki/Yoruba_culture",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/yoruba.jpg"
   },
   {
     "key": "hausa",
@@ -222,7 +227,8 @@
         "url": "https://online-resources.aa-ken.jp/resources/detail/IOR000164",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/hausa.jpg"
   },
   {
     "key": "fulani",
@@ -261,7 +267,8 @@
         "url": "https://www.britannica.com/topic/Fulani",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/fulani.jpg"
   },
   {
     "key": "amhara",
@@ -296,7 +303,8 @@
         "url": "https://suzukicoffee.co.jp/6516/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/amhara.jpg"
   },
   {
     "key": "somali",
@@ -339,7 +347,8 @@
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%A8%E3%82%BD%E3%83%9E%E3%83%AA%E3%82%A2%E3%81%AE%E9%96%A2%E4%BF%82",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/somali.jpg"
   },
   {
     "key": "malagasy",
@@ -379,7 +388,8 @@
         "url": "https://www.kson-jp.jp/ja/a4-11166-16402/%E6%B0%97%E3%81%AB%E3%81%AA%E3%82%8B%E3%83%90%E3%83%8B%E3%83%A9%E5%B8%82%E5%A0%B4%E3%81%AE%E7%8F%BE%E7%8A%B6.html",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/malagasy.jpg"
   },
   {
     "key": "bedouin",
@@ -418,7 +428,8 @@
         "url": "https://www.britannica.com/topic/Bedouin",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/bedouin.jpg"
   },
   {
     "key": "kurd",
@@ -460,7 +471,8 @@
         "url": "https://ja.wikipedia.org/wiki/%E5%9C%A8%E6%97%A5%E3%82%AF%E3%83%AB%E3%83%89%E4%BA%BA",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/kurd.jpg"
   },
   {
     "key": "punjabi",
@@ -500,7 +512,8 @@
         "url": "https://ja.wikipedia.org/wiki/在日パキスタン人",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/punjabi.jpg"
   },
   {
     "key": "pashtun",
@@ -540,7 +553,8 @@
         "url": "https://en.wikipedia.org/wiki/Pashtun_clothing",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/pashtun.jpg"
   },
   {
     "key": "tamil",
@@ -580,7 +594,8 @@
         "url": "https://en.wikipedia.org/wiki/Pongal",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/tamil.jpg"
   },
   {
     "key": "sinhalese",
@@ -619,7 +634,8 @@
         "url": "https://owop.gr.jp/column-SriLanka_President_JR_Jayewardene_Japan.htm",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/sinhalese.jpg"
   },
   {
     "key": "sherpa",
@@ -654,7 +670,8 @@
         "url": "https://www.britannica.com/topic/Sherpa-people",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/sherpa.jpg"
   },
   {
     "key": "mongol",
@@ -693,7 +710,8 @@
         "url": "https://www.nippon.com/ja/japan-topics/g02263/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/mongol.jpg"
   },
   {
     "key": "kazakh",
@@ -732,7 +750,8 @@
         "url": "https://ja.wikipedia.org/wiki/日本とカザフスタンの関係",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/kazakh.jpg"
   },
   {
     "key": "han_chinese",
@@ -771,7 +790,8 @@
         "url": "https://en.wikipedia.org/wiki/Siheyuan",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/han_chinese.jpg"
   },
   {
     "key": "ainu",
@@ -810,7 +830,8 @@
         "url": "https://www.nippon.com/ja/in-depth/d00479/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/ainu.jpg"
   },
   {
     "key": "korean",
@@ -850,7 +871,8 @@
         "url": "https://ja.wikipedia.org/wiki/在日韓国・朝鮮人",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/korean.jpg"
   },
   {
     "key": "malay",
@@ -893,7 +915,8 @@
         "url": "https://www.my.emb-japan.go.jp/itpr_en/LEP40.html",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/malay.jpg"
   },
   {
     "key": "javanese",
@@ -930,7 +953,8 @@
         "url": "https://factsanddetails.com/indonesia/People_and_Life/sub6_2e/entry-9686.html",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/javanese.jpg"
   },
   {
     "key": "balinese",
@@ -971,7 +995,8 @@
         "url": "https://www.nowbali.co.id/traditional-balinese-clothing-an-introduction/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/balinese.jpg"
   },
   {
     "key": "hmong",
@@ -1013,7 +1038,8 @@
         "url": "https://www.hmongembroidery.org/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/hmong.jpg"
   },
   {
     "key": "thai",
@@ -1053,7 +1079,8 @@
         "url": "https://www.tatnews.org/2021/03/thailands-songkran-festival-its-origins-history-and-modern-day-observance/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/thai.jpg"
   },
   {
     "key": "kinh_vietnamese",
@@ -1089,7 +1116,8 @@
         "url": "https://zoomjapan.info/2025/04/15/n149-focus-with-the-vietnamese-from-japan/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/kinh_vietnamese.jpg"
   },
   {
     "key": "maori",
@@ -1129,7 +1157,8 @@
         "url": "https://www.newzealand.com/us/feature/maori-hangi/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/maori.jpg"
   },
   {
     "key": "aboriginal_australian",
@@ -1169,7 +1198,8 @@
         "url": "https://en.wikipedia.org/wiki/Possum-skin_cloak",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/aboriginal_australian.jpg"
   },
   {
     "key": "polynesian",
@@ -1211,7 +1241,8 @@
         "url": "https://matangitonga.to/2014/10/20/naturally-built-sumo",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/polynesian.jpg"
   },
   {
     "key": "melanesian",
@@ -1254,7 +1285,8 @@
         "url": "https://en.wikipedia.org/wiki/New_Guinea_campaign",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/melanesian.jpg"
   },
   {
     "key": "micronesian",
@@ -1298,7 +1330,8 @@
         "url": "https://unseen-japan.com/japan-forgotten-colonies-micronesia/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/micronesian.jpg"
   },
   {
     "key": "sami",
@@ -1342,7 +1375,8 @@
         "url": "https://www.uplink.co.jp/sami/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/sami.jpg"
   },
   {
     "key": "basque",
@@ -1384,7 +1418,8 @@
         "url": "https://www.touken-world.jp/tips/97014/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/basque.jpg"
   },
   {
     "key": "catalan",
@@ -1424,7 +1459,8 @@
         "url": "https://www.veltra.com/jp/yokka/article/sagradafamilia-heritage/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/catalan.jpg"
   },
   {
     "key": "roma",
@@ -1467,7 +1503,8 @@
         "url": "https://www.anif.jp/ctt_anif_hajimete.htm",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/roma.jpg"
   },
   {
     "key": "gaelic_celtic",
@@ -1509,7 +1546,8 @@
         "url": "https://ja.wikipedia.org/wiki/竹鶴政孝",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/gaelic_celtic.jpg"
   },
   {
     "key": "navajo",
@@ -1545,7 +1583,8 @@
         "url": "https://www.britannica.com/topic/Navajo-people",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/navajo.jpg"
   },
   {
     "key": "inuit",
@@ -1583,7 +1622,8 @@
         "url": "https://ottawamagazine.com/arts-and-culture/artful-musing/artful-blogger-inuit-arts-japanese-connection-revealed-in-new-exhibit/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/inuit.jpg"
   },
   {
     "key": "maya",
@@ -1623,7 +1663,8 @@
         "url": "https://artexhibition.jp/topics/news/20230202-AEJ1225809/",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/maya.jpg"
   },
   {
     "key": "nahua",
@@ -1659,7 +1700,8 @@
         "url": "https://www.britannica.com/topic/Nahua",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/nahua.jpg"
   },
   {
     "key": "quechua",
@@ -1697,7 +1739,8 @@
         "url": "https://www.jica.go.jp/overseas/peru/activities/index.html",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/quechua.jpg"
   },
   {
     "key": "aymara",
@@ -1735,7 +1778,8 @@
         "url": "https://www.jica.go.jp/overseas/bolivia/index.html",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/aymara.jpg"
   },
   {
     "key": "guarani",
@@ -1773,7 +1817,8 @@
         "url": "https://en.wikipedia.org/wiki/La_Colmena,_Paraguay",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/guarani.jpg"
   },
   {
     "key": "mapuche",
@@ -1810,6 +1855,7 @@
         "url": "https://www.britannica.com/topic/Mapuche",
         "checked": "2026-09-01"
       }
-    ]
+    ],
+    "img": "assets/img/peoples/mapuche.jpg"
   }
 ]
