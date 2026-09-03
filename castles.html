@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>逆引き検索 | 世界の図鑑</title>
-  <meta name="description" content="言語・生息動物・首都・観光名所などから、世界の国を逆引きで検索できます。" />
+  <title>世界のお城 | 世界の図鑑</title>
+  <meta name="description" content="世界のお城・城郭(Castles of the World)。日本の名城からヨーロッパの古城まで、歴史・様式・見どころを紹介します。" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16.png" />
   <link rel="icon" href="assets/img/favicon/favicon.ico" sizes="any" />
@@ -41,30 +41,20 @@
   </header>
 
   <main>
-    <section class="section page-title-section">
-      <h2>逆引き検索</h2>
-      <div class="search-box">
-        <input id="reverse-search-input" type="text" placeholder="言語・動物・首都・観光名所などで検索(例: スペイン語、パンダ、パリ)" />
-        <button onclick="document.getElementById('reverse-search-input').focus()">検索</button>
-      </div>
-      <div class="filter-tabs">
-        <button class="active" data-filter="all">すべて</button>
-        <button data-filter="language">言語</button>
-        <button data-filter="animal">生息動物</button>
-        <button data-filter="people">民族</button>
-        <button data-filter="castle">お城</button>
-        <button data-filter="capital">首都</button>
-        <button data-filter="landmark">観光名所</button>
-      </div>
-      <div id="reverse-search-results">
-        <p class="empty-state">キーワードを入力すると、該当する国が表示されます。</p>
-      </div>
+    <section class="section page-title-section" id="castles-list-section">
+      <h2>🏰 世界のお城</h2>
+      <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
+      <div class="filter-tabs" id="region-tabs"></div>
+      <p class="empty-state" id="castles-count"></p>
+      <div id="castles-list"></div>
     </section>
+
+    <div id="castles-detail" hidden></div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div></footer>
 
   <script src="assets/js/shared.js"></script>
-  <script src="assets/js/search.js"></script>
+  <script src="assets/js/castles.js"></script>
 </body>
 </html>

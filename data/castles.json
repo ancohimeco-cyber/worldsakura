@@ -1,0 +1,1585 @@
+[
+  {
+    "key": "himeji_castle",
+    "name": "姫路城",
+    "nameEn": "Himeji Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "兵庫県姫路市",
+    "era": "1346年築城との説があり、現在の姿は1601年から1609年にかけて池田輝政が築造",
+    "style": "平山城（渦郭式縄張）、白漆喰総塗籠の大壁造",
+    "unesco": "1993年12月、日本初のユネスコ世界文化遺産に登録。大天守・小天守など8棟が国宝、74棟が国の重要文化財、日本100名城",
+    "history": "1346年に赤松貞範が築いたとされ、戦国時代末期には黒田氏による拡張を経て、豊臣秀吉が1580年に本格的な城郭へ改修した。関ヶ原の戦いの戦功で入城した池田輝政が1601年から8年をかけて現在の規模に拡張し、以後江戸時代を通じて西国の外様大名を監視する要となった。",
+    "highlights": "白漆喰で塗り固められた優美な外観から「白鷺城」とも呼ばれ、997か所もの狭間を備えるなど高度な防御機能を持つ。第二次世界大戦の空襲を免れ、築城当時の姿をほぼそのまま残す日本最大級の現存木造城郭として知られる。",
+    "currentUse": "姫路公園として一般公開され、多くの観光客が訪れるほか時代劇のロケ地としても利用されている。",
+    "img": "assets/img/castles/himeji_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/姫路城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Himeji_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "osaka_castle",
+    "name": "大阪城",
+    "nameEn": "Osaka Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "大阪府大阪市",
+    "era": "1583年（天正11年）豊臣秀吉が築城開始、1620年代に徳川秀忠が大規模に再築",
+    "style": "輪郭式平城",
+    "unesco": "国の特別史跡、建造物13棟が国の重要文化財、天守は登録有形文化財",
+    "history": "豊臣秀吉が1583年に築城を開始し、豊臣政権の本拠となったが、1614〜1615年の大坂の陣で豊臣氏は滅亡した。その後1620年から1629年にかけて徳川秀忠が石垣・堀を一新する大規模な再築を行ったが、1665年の落雷で徳川期の天守は焼失し、以後長らく天守のない状態が続いた。",
+    "highlights": "本丸東面の石垣は高さ約32メートルと日本最高峰を誇り、江戸時代には三重櫓12基・二重櫓15基を数え日本城郭史上最多の櫓数を持った。現在の天守は1931年に鉄骨鉄筋コンクリート構造で再建されたもの。",
+    "currentUse": "天守は「大阪城天守閣」として博物館になっており、周囲約71万平方メートルは大阪城公園として整備され特別史跡に指定されている。",
+    "img": "assets/img/castles/osaka_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/大阪城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Osaka_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "nagoya_castle",
+    "name": "名古屋城",
+    "nameEn": "Nagoya Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "愛知県名古屋市",
+    "era": "1609年（慶長14年）徳川家康が築城開始、1612年天守完成",
+    "style": "梯郭式（輪郭式）平城、北西部から見ると平山城的な性格も持つ",
+    "unesco": "天守は1930年に国宝指定されたが戦災焼失、1952年に城跡が国の特別史跡指定、本丸御殿障壁画1047面や櫓・門が国の重要文化財",
+    "history": "徳川家康が九男・徳川義直の尾張藩居城として1609年に築城を開始し、いわゆる「清須越し」により城下町ごと移転整備された。以後明治維新まで尾張徳川家17代の居城となったが、1945年5月の名古屋大空襲で本丸御殿と大小天守が焼失し、天守は1959年に鉄骨鉄筋コンクリート造で再建された。",
+    "highlights": "大天守は層塔型5層5階地下1階で延べ床面積は史上最大規模を誇り、屋根に輝く金鯱は名古屋の象徴として知られる。2018年には本丸御殿が木造復元され一般公開された。",
+    "currentUse": "天守は再建後の展示施設として一般公開されており、木造復元計画も検討されているが石垣保存やバリアフリー対応をめぐり議論が続いている。",
+    "img": "assets/img/castles/nagoya_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/名古屋城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nagoya_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "kumamoto_castle",
+    "name": "熊本城",
+    "nameEn": "Kumamoto Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "熊本県熊本市",
+    "era": "1591年に加藤清正が築城開始、1600年頃に天守完成",
+    "style": "梯郭式平山城（面積約98ヘクタール、周囲約5.3km）",
+    "unesco": "櫓11棟・門1棟・塀1棟が国の重要文化財、城跡は国の特別史跡、日本100名城",
+    "history": "加藤清正が朝鮮出兵での築城経験を活かして1591年から築城し、防御に優れた堅城として知られたが、西南戦争直前の1877年2月に天守と本丸御殿を焼失した。2016年の熊本地震では全石垣の約3割にあたる約2万3600平方メートルが被害を受け、完全復旧には長期間を要する見通しとなっている。",
+    "highlights": "加藤清正が考案したとされる反り立つ「武者返し」の石垣は極めて高い防御力を誇り、この技術が西南戦争での籠城戦を支えたとされる。",
+    "currentUse": "1960年に鉄筋コンクリート造で再建された天守は熊本市立熊本博物館分館として公開され、地震からの復旧に伴い門や櫓の木造復元も順次進められている。",
+    "img": "assets/img/castles/kumamoto_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/熊本城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kumamoto_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "matsumoto_castle",
+    "name": "松本城",
+    "nameEn": "Matsumoto Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "長野県松本市",
+    "era": "1504年に深志城として築城、安土桃山〜江戸初期に石川数正・康長父子が天守など城郭を整備",
+    "style": "平城（梯郭式に輪郭式を加えた縄張）、現存12天守で唯一の平城",
+    "unesco": "天守（大天守・乾小天守・渡櫓・辰巳附櫓・月見櫓の5棟）が1952年に国宝指定、日本100名城",
+    "history": "信濃守護家小笠原氏が林城の支城として深志城を築いたのが始まりで、武田氏の支配などを経て小笠原貞慶が奪還し松本城と改称した。江戸時代には松本藩の藩庁として機能し、明治時代の解体の危機を乗り越えて1950年代に大規模修理が行われた。",
+    "highlights": "黒漆塗りの下見板張りの外壁から「烏城」とも呼ばれ、層塔型と望楼型の過渡期的な構造を示す貴重な現存天守として知られる。",
+    "currentUse": "松本城公園として市民や観光客に公開され、四季を通じてさまざまなイベントが開催されている。",
+    "img": "assets/img/castles/matsumoto_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/松本城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Matsumoto_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hikone_castle",
+    "name": "彦根城",
+    "nameEn": "Hikone Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "滋賀県彦根市",
+    "era": "1603年（慶長8年）築城開始、1606年天守完成、1622年全工事完了",
+    "style": "連郭式平山城（琵琶湖畔の彦根山に立地）",
+    "unesco": "天守と附櫓・多聞櫓が国宝指定（国宝天守を持つ5城の一つ）、1992年に世界遺産暫定リスト記載",
+    "history": "関ヶ原の戦い後に徳川四天王の一人・井伊直政がこの地を与えられたが、直政の死後、その遺志を継いだ井伊直継が築城を進めた。江戸時代には彦根藩の政庁として機能し、明治の廃城令による取り壊しを免れ現存天守として残った。",
+    "highlights": "大津城の天守を移築・縮小したとされる複合式望楼型で、最大62度に達する急角度の階段など独特の構造を持つ。1992年に世界遺産暫定リストへ記載されたが、20年以上正式推薦が見送られている。",
+    "currentUse": "彦根市に寄付され、天守内部の見学が可能な観光拠点として一般公開されている。",
+    "img": "assets/img/castles/hikone_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/彦根城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hikone_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "inuyama_castle",
+    "name": "犬山城",
+    "nameEn": "Inuyama Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "愛知県犬山市",
+    "era": "1537年（天文6年）織田信康が築城",
+    "style": "平山城（木曽川南岸、標高約88mの丘上に立地）、別名「白帝城」",
+    "unesco": "天守が国宝指定（国宝天守を持つ5城の一つ、1952年指定）、日本100名城",
+    "history": "織田信長の叔父・織田信康が1537年に築いたとされ、江戸時代には徳川家康の付家老・成瀬正成が城主となって以降、成瀬氏が9代にわたり明治まで統治した。2004年に個人所有から公益財団法人犬山城白帝文庫の所有へ移り、「日本で最後まで個人が所有していた城」として知られる。",
+    "highlights": "外観3重内部4階地下2階の複合式望楼型天守で、年輪年代法調査により主要建材が1585年前後に伐採されたと判明し、現存天守の中で最も古い可能性が指摘されている。",
+    "currentUse": "観光施設として一般公開されており、近年は年間約69万人が訪れる人気観光地となっている。",
+    "img": "assets/img/castles/inuyama_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/犬山城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Inuyama_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "nijo_castle",
+    "name": "二条城",
+    "nameEn": "Nijo Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "京都府京都市",
+    "era": "1601年（慶長6年）徳川家康が築城開始",
+    "style": "輪郭式平城（本丸を二の丸が取り囲む構造）",
+    "unesco": "1994年12月「古都京都の文化財」の一部としてユネスコ世界文化遺産登録、二の丸御殿6棟が国宝、日本100名城",
+    "history": "徳川家康が上洛時の宿所・京都御所の守護として1601年に築城し、以後将軍上洛時の宿舎として使われた。1867年には15代将軍徳川慶喜が二の丸御殿黒書院で大政奉還を表明し、江戸幕府の始まりと終わりを象徴する場所となった。",
+    "highlights": "二の丸御殿は狩野派一門による豪壮な金地の障壁画で飾られた武家書院造の集大成であり、うぐいす張りの廊下などの意匠でも知られる。",
+    "currentUse": "1939年に京都市へ譲渡され、「元離宮二条城」として一般公開されている。",
+    "img": "assets/img/castles/nijo_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/二条城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nij%C5%8D_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "kochi_castle",
+    "name": "高知城",
+    "nameEn": "Kochi Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "高知県高知市",
+    "era": "1601年（慶長6年）山内一豊が築城開始、1603年本丸完成、1611年全体完工",
+    "style": "梯郭式平山城（大高坂山、標高約45mに立地）",
+    "unesco": "天守を含む15棟の建造物が国の重要文化財、城跡は国の史跡、日本100名城",
+    "history": "関ヶ原の戦いで長宗我部元親が敗れた後、土佐国を与えられた山内一豊が築城した。江戸時代初期の建物の大半は1727年の大火で焼失したが25年かけて再建され、明治の廃城令や太平洋戦争の戦禍も免れて江戸期の姿を今に伝えている。",
+    "highlights": "「本丸建造物が完全な形で現存する唯一の城」であり、天守と本丸御殿が両方現存する全国唯一の城としても知られる。",
+    "currentUse": "高知公園として整備され一般公開されており、天守・本丸御殿の内部は有料で見学できる。",
+    "img": "assets/img/castles/kochi_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/高知城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kochi_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "matsue_castle",
+    "name": "松江城",
+    "nameEn": "Matsue Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "島根県松江市",
+    "era": "1607年（慶長12年）築城開始、1611年完成",
+    "style": "輪郭連郭複合式平山城（宍道湖畔の亀田山に立地、日本三大湖城の一つ）",
+    "unesco": "天守が2015年7月に国宝指定（国宝天守を持つ5城の一つ、山陰地方唯一の現存天守）、日本100名城",
+    "history": "関ヶ原の戦いで戦功のあった堀尾忠氏が軍学者・小瀬甫庵に設計させて築城したが、1633年に堀尾氏は改易となり、以後京極氏、松平氏が統治した。1871年の廃藩置県で廃城となったが、1873年に天守が地元有志により買い戻されて保存され、1927年に松江市へ寄付された。",
+    "highlights": "階数をまたぐ通し柱を多用した独特の耐震構造を持つ複合式望楼型の天守で、現存天守の中でも最大級となる約2メートルの鯱を戴く。",
+    "currentUse": "松江城山公園として一般公開されており、日本さくら名所100選にも選ばれている。",
+    "img": "assets/img/castles/matsue_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/松江城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Matsue_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "matsuyama_castle",
+    "name": "松山城",
+    "nameEn": "Matsuyama Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "愛媛県松山市",
+    "era": "1602年（慶長7年）加藤嘉明が築城開始",
+    "style": "連郭式平山城（山頂に本丸、麓に二之丸・三之丸を配する連立式天守）",
+    "unesco": "大天守を含む21棟が国の重要文化財、城郭遺構は国の史跡、日本100名城",
+    "history": "加藤嘉明が1602年に築城を開始し、江戸時代は伊予松山藩主の居城として機能した。1784年に落雷で焼失した天守は1854年（幕末）に再建されており、現存12天守の中では最も新しい。2024年7月には城山北東斜面で土砂崩れが発生して3名が死亡し、天守周辺の登城道が一時通行止めとなったが、復旧工事は2026年5月に完了し同年6月から本丸広場と登城道が全面再開された。",
+    "highlights": "複数の櫓を渡櫓でつなぐ連立式天守を採用し、高度な防御機能を備える幕末築城の貴重な現存天守として知られる。",
+    "currentUse": "松山市を代表する観光地として一般公開されており、年間40万人以上が訪れる。",
+    "img": "assets/img/castles/matsuyama_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/松山城_(伊予国)",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.city.matsuyama.ehime.jp/hodo/202407/matsuyamacastle_open.html",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Matsuyama_Castle_(Iyo)",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "bitchu_matsuyama_castle",
+    "name": "備中松山城",
+    "nameEn": "Bitchu Matsuyama Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "岡山県高梁市",
+    "era": "1240年（仁治元年）秋庭三郎重信が築城、現存天守は江戸時代前期に整備",
+    "style": "連郭式山城、現存12天守で唯一の現存する山城",
+    "unesco": "天守・二重櫓・土塀が国の重要文化財、城跡は国の史跡、日本100名城",
+    "history": "鎌倉時代の1240年に秋庭三郎重信が築いたのが始まりとされ、戦国時代には三村元親が統治した後に毛利氏の支配下に入った。江戸時代には池田氏・水谷氏・安藤氏・石川氏・板倉氏が城主を務め、明治時代には無血開城を迎えた。",
+    "highlights": "標高約430メートルの臥牛山山頂付近に立地し、現存12天守の中で最も高所にある城として知られ、雲海に浮かぶ姿から「天空の城」とも呼ばれる。",
+    "currentUse": "高梁市が管理する史跡として一般公開され、有料で天守内部を見学できる。",
+    "img": "assets/img/castles/bitchu_matsuyama_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/備中松山城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bitch%C5%AB_Matsuyama_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "shuri_castle",
+    "name": "首里城",
+    "nameEn": "Shuri Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "沖縄県那覇市",
+    "era": "14世紀末頃創建、15世紀初頭〜中葉に尚巴志が本格整備",
+    "style": "琉球独自のグスク（中国建築の影響を受けた琉球石灰岩積みの城郭）",
+    "unesco": "2000年「琉球王国のグスク及び関連遺産群」としてユネスコ世界文化遺産登録（世界遺産の対象は城跡であり復元建物は対象外）",
+    "history": "琉球王国の王城として尚巴志により整備され、政治・外交・文化の中心地として栄えたが、太平洋戦争末期の沖縄戦で焼失した。1992年に正殿などが再建されたものの、2019年10月31日未明の火災で正殿を含む計6施設が再び焼失し、現在は木造による復元工事が進められている。",
+    "highlights": "漆と桐油を交互に塗った朱色（弁柄色）の外壁と琉球瓦の屋根が特徴で、正殿には清国皇帝から贈られた扁額が飾られていた。",
+    "currentUse": "2026年秋の正殿完成を目指して木造復元工事が進行中で、その後も南殿・北殿・黄金御殿などの復元が順次予定されている。",
+    "img": "assets/img/castles/shuri_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/首里城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Shuri_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hirosaki_castle",
+    "name": "弘前城",
+    "nameEn": "Hirosaki Castle",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "青森県弘前市",
+    "era": "1610〜1611年（慶長15〜16年）2代藩主・津軽信枚が築城",
+    "style": "梯郭式平山城（本丸・二の丸・三の丸・四の丸・北の郭・西の郭の6郭構成）",
+    "unesco": "天守など複数の建造物が国の重要文化財、城跡は国の史跡、日本100名城",
+    "history": "築城直後の1627年に落雷で初代天守を焼失し、約200年を経た1810年に現存する御三階櫓（天守）が築かれた。本丸石垣の劣化に伴い2015年に天守を曳屋で本丸内の仮設置場所へ移動し、2026年には元の位置へ戻す曳屋工事が進められている。",
+    "highlights": "現存12天守の中で最も北に位置する天守であり、園内に約2,600本の桜が植えられた日本屈指の桜の名所としても知られる。",
+    "currentUse": "弘前公園として整備され一般公開されているが、天守を本来の位置へ戻す工事のため一時的に見学が制限される期間がある。",
+    "img": "assets/img/castles/hirosaki_castle.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/弘前城",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://mutsushimpo.com/news/zjq7t9rz/",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hirosaki_Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "goryokaku",
+    "name": "五稜郭",
+    "nameEn": "Goryokaku",
+    "nameLocal": "",
+    "country": "jp",
+    "city": "北海道函館市",
+    "era": "1857年（安政4年）築造開始、1866年（慶応2年）完成",
+    "style": "稜堡式の星形要塞（五角形、水堀を巡らせた洋式城郭）",
+    "unesco": "1952年（昭和27年）国の特別史跡に指定",
+    "history": "江戸幕府が蘭学者・武田斐三郎に設計させた日本初の本格的な洋式城郭で、箱館奉行所の防衛拠点として築かれた。完成からわずか2年後の1868年10月に榎本武揚率いる旧幕府軍が占領して本拠地とし、1869年5月の箱館総攻撃で新政府軍に降伏して戊辰戦争最後の戦いの舞台となった。",
+    "highlights": "五角形の設計により各稜堡から死角なく全方向へ砲撃できる構造が特徴で、日本国内で数少ない星形要塞として知られる。",
+    "currentUse": "1914年から五稜郭公園として一般開放されており、隣接する五稜郭タワーの展望台から星形の全景を見渡せる観光地となっている。",
+    "img": "assets/img/castles/goryokaku.jpg",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/五稜郭",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gory%C5%8Dkaku",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "neuschwanstein_castle",
+    "name": "ノイシュヴァンシュタイン城",
+    "nameEn": "Neuschwanstein Castle",
+    "nameLocal": "Schloss Neuschwanstein",
+    "country": "de",
+    "city": "バイエルン州フュッセン近郊",
+    "era": "19世紀(1869年着工、1886年に王の死後ほぼ竣工)",
+    "style": "ネオ・ロマネスク様式(歴史主義建築)",
+    "unesco": "2025年、「バイエルン王ルートヴィヒ2世の城館群」の一部として世界遺産登録",
+    "history": "バイエルン王ルートヴィヒ2世が公務から退き私的に暮らす場として1869年に建設を開始し、中世ドイツ騎士の理想世界を再現しようとした。作曲家リヒャルト・ワーグナーの楽劇の世界観が城内の装飾に色濃く反映されている。1886年、国王が湖畔で謎の死を遂げた直後に一般公開された。",
+    "highlights": "中世風の外観に反して当時最新の鉄骨構造や温水暖房を備えた建物で、内部には終始ワーグナー作品を題材にした壁画が広がる。ウォルト・ディズニーの城のモデルの一つとされ、世界で最も撮影される城の一つ。",
+    "currentUse": "バイエルン州が管理する博物館として一般公開されており、年間150万人前後が訪れる。",
+    "img": "assets/img/castles/neuschwanstein_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1726",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "windsor_castle",
+    "name": "ウィンザー城",
+    "nameEn": "Windsor Castle",
+    "nameLocal": "Windsor Castle",
+    "country": "gb",
+    "city": "イングランド、バークシャー州ウィンザー",
+    "era": "11世紀(1070年頃着工)以降、歴代君主が増改築",
+    "style": "ノルマン様式を起源とし、ゴシック様式など複数の様式が混在",
+    "unesco": "",
+    "history": "1066年のノルマン征服後、ウィリアム征服王がテムズ川を見下ろす丘に木造の砦(モット・アンド・ベイリー)として築いたのが起源。ヘンリー1世が居住用の館を設け、ヘンリー2世の代に石造りへの改築が進められた。以後、歴代のイングランド・英国君主によって900年以上にわたり増改築が重ねられてきた。",
+    "highlights": "現存する世界最大級の居城であり、築城以来一度も空になったことがない「世界最古の使用中の城」とされる。中世建築の傑作である聖ジョージ礼拝堂を含む。",
+    "currentUse": "現在も英国王室の公式な住居の一つとして使用されつつ、一部が一般公開されている。",
+    "img": "assets/img/castles/windsor_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Windsor_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.rct.uk/visit/windsor-castle/who-built-windsor-castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "edinburgh_castle",
+    "name": "エディンバラ城",
+    "nameEn": "Edinburgh Castle",
+    "nameLocal": "Edinburgh Castle",
+    "country": "gb",
+    "city": "スコットランド、エディンバラ",
+    "era": "12世紀(現存最古の建物は1130年代)以降、17世紀にかけて要塞として整備",
+    "style": "中世スコットランド軍事建築",
+    "unesco": "1995年、「エディンバラ旧市街・新市街」の一部として世界遺産登録",
+    "history": "火山岩の丘キャッスル・ロックには古代から人が住み、11世紀のマルカム3世の時代に王城が置かれるようになった。現存最古の建造物である聖マーガレット礼拝堂は1130年頃の建立とされる。1603年の同君連合以降、王室居城としての役割は薄れ、17世紀以降は軍事要塞・兵器庫として使われた。",
+    "highlights": "スコットランド王室の宝冠・王笏・宝剣からなる「スコットランドの栄誉」や戴冠に用いられた「運命の石」が保管されている。毎年8月開催の「エディンバラ・ミリタリー・タトゥー」の会場としても知られる。",
+    "currentUse": "ヒストリック・エンバイロメント・スコットランドが管理する博物館・観光地として公開されている。",
+    "img": "assets/img/castles/edinburgh_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/edinburgh-castle/history/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "prague_castle",
+    "name": "プラハ城",
+    "nameEn": "Prague Castle",
+    "nameLocal": "Pražský hrad",
+    "country": "cz",
+    "city": "チェコ、プラハ",
+    "era": "9世紀(880年頃創建)、14世紀にゴシック様式で大規模改築",
+    "style": "ロマネスク、ゴシック、ルネサンス、バロックが混在",
+    "unesco": "1992年、「プラハ歴史地区」の一部として世界遺産登録",
+    "history": "プシェミスル家のボジヴォイ公により9世紀後半に築かれたのが起源とされ、以後歴代のボヘミア王・神聖ローマ皇帝の居城となった。14世紀にカレル4世のもとでゴシック様式による大改築が行われ、聖ヴィート大聖堂の建設も進められた。",
+    "highlights": "敷地面積約7万平方メートルに及び、ギネス世界記録にも認定された世界最大級の古城群。聖ヴィート大聖堂、黄金小路、聖ジョージ教会などを含む。",
+    "currentUse": "現在はチェコ共和国大統領の公邸として使用されるとともに、博物館・美術館として一般公開されている。",
+    "img": "assets/img/castles/prague_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Prague_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/place/Prague-Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "chambord_castle",
+    "name": "シャンボール城",
+    "nameEn": "Château de Chambord",
+    "nameLocal": "Château de Chambord",
+    "country": "fr",
+    "city": "フランス、ロワール=エ=シェール県シャンボール",
+    "era": "16世紀(1519年着工、1547年頃までに主要部分が完成)",
+    "style": "フランス・ルネサンス様式",
+    "unesco": "1981年、「シュリー=シュル=ロワールとシャロンヌ間のロワール渓谷」の一部として世界遺産登録",
+    "history": "フランス王フランソワ1世が狩猟用の館として1519年に建設を開始した。建築家ドメニコ・ダ・コルトーナが基本設計を手がけたとされ、レオナルド・ダ・ヴィンチの発想が反映されているとの説もある。1539年には神聖ローマ皇帝カール5世を迎え入れるなど、王権を誇示する舞台としても用いられた。",
+    "highlights": "440室、365の暖炉を備える広大な城館で、上る人と下る人がすれ違わない二重螺旋階段が有名。屋根の上には無数の塔や煙突が林立し、独特の輪郭を作り出している。",
+    "currentUse": "フランス国有財産として一般公開されており、内部は博物館として見学できる。",
+    "img": "assets/img/castles/chambord_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/topic/Chateau-de-Chambord",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "chenonceau_castle",
+    "name": "シュノンソー城",
+    "nameEn": "Château de Chenonceau",
+    "nameLocal": "Château de Chenonceau",
+    "country": "fr",
+    "city": "フランス、アンドル=エ=ロワール県シュノンソー",
+    "era": "16世紀(1513年頃着工、以後歴代所有者が増築)",
+    "style": "フランス・ルネサンス様式",
+    "unesco": "1981年、「シュリー=シュル=ロワールとシャロンヌ間のロワール渓谷」の一部として世界遺産登録",
+    "history": "もとの城館はカトリーヌ・ブリソネ夫人により建設され、後にフランス王アンリ2世が寵姫ディアーヌ・ド・ポワチエに贈った。ディアーヌはシェール川に架かる橋を建築家フィリベール・ドロルムに造らせ、庭園も整備した。アンリ2世の死後、王妃カトリーヌ・ド・メディシスがディアーヌから城を取り上げ、橋の上に2階建てのギャラリーを増築した。",
+    "highlights": "川の上にまたがるように建つ優美な姿から「貴婦人たちの城」の異名を持つ。ディアーヌとカトリーヌ、それぞれが手がけた庭園が両岸に今も残る。",
+    "currentUse": "現在も民間の企業家一族が所有・運営し、博物館として一般公開されている。",
+    "img": "assets/img/castles/chenonceau_castle.jpg",
+    "sources": [
+      {
+        "url": "https://www.worldhistory.org/Chateau_de_Chenonceau/",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.chenonceau.com/en/chateau/the-history-of-the-chateau/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "carcassonne",
+    "name": "カルカソンヌ城塞都市",
+    "nameEn": "Citadel of Carcassonne",
+    "nameLocal": "Cité de Carcassonne",
+    "country": "fr",
+    "city": "フランス、オード県カルカソンヌ",
+    "era": "古代ローマ期に起源、12〜13世紀に現在の姿へ、19世紀にヴィオレ=ル=デュクが修復",
+    "style": "中世城塞建築(ゴシック・ロマネスク)",
+    "unesco": "1997年、「カルカソンヌの歴史的城塞都市」として世界遺産登録",
+    "history": "ローマ時代からの城塞に起源を持ち、中世にトランカヴェル家やフランス王権のもとで二重の城壁を持つ城塞都市として整備された。19世紀に取り壊しの危機に瀕したが、歴史家プロスペル・メリメらの働きかけで保存が決まり、建築家ウジェーヌ・ヴィオレ=ル=デュクの指揮のもと1853年から大規模な修復が行われた。",
+    "highlights": "全長約3キロメートルの二重の城壁と52の塔を持つ、ヨーロッパ最大級の中世城塞都市。とんがり屋根の塔が連なる姿はおとぎ話の舞台のようだと評される。",
+    "currentUse": "城塞内には今も住民が暮らし商店なども営業しており、観光地として一般公開されている。",
+    "img": "assets/img/castles/carcassonne.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/345/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "alhambra",
+    "name": "アルハンブラ宮殿",
+    "nameEn": "Alhambra",
+    "nameLocal": "Alhambra",
+    "country": "es",
+    "city": "スペイン、アンダルシア州グラナダ",
+    "era": "13〜14世紀(ナスル朝時代に現在の姿へ拡張)",
+    "style": "イスラム建築(ナスル朝様式)、一部にルネサンス様式(カルロス5世宮殿)",
+    "unesco": "1984年、「グラナダのアルハンブラ、ヘネラリフェ、アルバイシン地区」として世界遺産登録",
+    "history": "イベリア半島最後のイスラム王朝ナスル朝の初代君主ムハンマド1世が13世紀に築城を開始し、14世紀のユースフ1世、ムハンマド5世の時代に主要な宮殿群が完成した。1492年、レコンキスタによりナスル朝がカスティーリャ王国に降伏し、以後キリスト教君主の居城となった。",
+    "highlights": "「赤い城塞」を意味する名の通り赤褐色の城壁で知られ、繊細な幾何学模様の漆喰装飾や水を用いた庭園「ヘネラリフェ」が有名。後にカルロス5世が増築したルネサンス様式の宮殿も同じ敷地内に残る。",
+    "currentUse": "スペイン政府の管理下で博物館・史跡として一般公開されている。",
+    "img": "assets/img/castles/alhambra.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nasrid_dynasty",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.history.com/articles/alhambra",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "alcazar_of_segovia",
+    "name": "セゴビア城(アルカサル)",
+    "nameEn": "Alcázar of Segovia",
+    "nameLocal": "Alcázar de Segovia",
+    "country": "es",
+    "city": "スペイン、カスティーリャ・イ・レオン州セゴビア",
+    "era": "12〜13世紀に築城、15〜16世紀にゴシック様式へ改築",
+    "style": "ゴシック様式(イスラム建築の要素も一部残る)",
+    "unesco": "1985年、「セゴビア旧市街とその水道橋」の一部として世界遺産登録",
+    "history": "ローマ時代の砦を起源とする説があり、12世紀にはカスティーリャ王家の居城として記録に現れる。13世紀に軍事拠点から宮殿へと性格を変え、1474年にはここでイサベル1世がカスティーリャ女王として戴冠した。後に国立監獄として使われた時期を経て、1762年に王立砲兵学校が置かれたが、1862年の火災で大きな被害を受けた。",
+    "highlights": "船の舳先のような鋭い形状と多数の尖塔が特徴で、ウォルト・ディズニーのシンデレラ城のモデルの一つとされる。",
+    "currentUse": "現在は軍事文書館・博物館として一般公開されている。",
+    "img": "assets/img/castles/alcazar_of_segovia.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Segovia",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.historyhit.com/locations/alcazar-of-segovia/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "bran_castle",
+    "name": "ブラン城",
+    "nameEn": "Bran Castle",
+    "nameLocal": "Castelul Bran",
+    "country": "ro",
+    "city": "ルーマニア、トランシルヴァニア地方ブラン",
+    "era": "14世紀(1377年建設許可、1388年頃完成)",
+    "style": "中世要塞建築(ゴシック様式)",
+    "unesco": "",
+    "history": "1377年、ハンガリー国王ルドヴィク1世がザクセン人商人たちに築城を許可し、オスマン帝国に対する防衛拠点・通行税徴収所として1388年頃に完成した。「串刺し公」の異名で知られるワラキア公ヴラド3世がハンガリー王マーチャーシュ1世に捕らえられ一時この付近に幽閉されたとの記録もあるが、長期滞在を裏付ける確証はない。1920年代にはルーマニア王妃マリアの離宮として改修された。",
+    "highlights": "断崖の上にそびえる姿がブラム・ストーカーの小説『吸血鬼ドラキュラ』の舞台を連想させることから「ドラキュラ城」として知られるが、ストーカー自身は現地を訪れておらず、小説との直接的な関係は伝説の域を出ない。",
+    "currentUse": "現在は博物館として一般公開され、マリア王妃ゆかりの家具や調度品も展示されている。",
+    "img": "assets/img/castles/bran_castle.jpg",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/topic/Bran-Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.historyhit.com/locations/bran-castle/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "peles_castle",
+    "name": "ペレシュ城",
+    "nameEn": "Peleș Castle",
+    "nameLocal": "Castelul Peleș",
+    "country": "ro",
+    "city": "ルーマニア、プラホヴァ県シナイア",
+    "era": "19世紀(1873年着工、1883年完成、後年増築)",
+    "style": "ネオ・ルネサンス様式(ドイツ風木骨造ファサード)",
+    "unesco": "",
+    "history": "ルーマニア王国初代国王カロル1世が夏の離宮兼狩猟用別荘として1873年に建設を開始し、ドイツ人建築家ヨハネス・シュルツらの設計により1883年に完成した。1947年に共産政権が成立し王制が廃止されると国有化され、一時は博物館として、また独裁者チャウシェスクの時代には非公開とされた。1989年の政変後、再び一般公開されるようになった。",
+    "highlights": "ヨーロッパの宮殿として初めて自家発電による電気照明とセントラルヒーティングを備えた、当時最先端の建物としても知られる。",
+    "currentUse": "現在はルーマニア国有の博物館として一般公開されている。",
+    "img": "assets/img/castles/peles_castle.jpg",
+    "sources": [
+      {
+        "url": "https://peles.ro/en/despre/istoricul-castelului-peles/",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.historyhit.com/locations/peles-castle/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hohenzollern_castle",
+    "name": "ホーエンツォレルン城",
+    "nameEn": "Hohenzollern Castle",
+    "nameLocal": "Burg Hohenzollern",
+    "country": "de",
+    "city": "ドイツ、バーデン=ヴュルテンベルク州ヘッヒンゲン近郊",
+    "era": "11世紀に初代築城、1454年に第2代、1846〜1867年に現在の第3代が建設",
+    "style": "イギリス・ゴシック・リヴァイヴァル様式",
+    "unesco": "",
+    "history": "ホーエンツォレルン家(後のプロイセン王家・ドイツ皇帝家)発祥の地とされる山城で、11世紀に最初の城が築かれたが1423年に破壊された。1454年に再建された第2代の城も後に荒廃し、1846年から1867年にかけてプロイセン王フリードリヒ・ヴィルヘルム4世の主導で、建築家フリードリヒ・アウグスト・シュテューラーの設計により現在の第3代の城が「一族の記念碑」として建設された。",
+    "highlights": "プロイセン王冠の一部やフリードリヒ大王ゆかりの品々を所蔵する。フリードリヒ大王とその父フリードリヒ・ヴィルヘルム1世の遺骸も一時この城に安置されていた。",
+    "currentUse": "現在もホーエンツォレルン家の私有財産だが、博物館として一般公開され観光客を受け入れている。",
+    "img": "assets/img/castles/hohenzollern_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hohenzollern_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://burg-hohenzollern.com/en/about-the-castle/castle-history",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "malbork_castle",
+    "name": "マルボルク城",
+    "nameEn": "Malbork Castle",
+    "nameLocal": "Zamek w Malborku",
+    "country": "pl",
+    "city": "ポーランド、ポモージェ県マルボルク",
+    "era": "13〜15世紀(1274年頃着工、1406年頃完成)",
+    "style": "北方ゴシック様式(レンガ造り)",
+    "unesco": "1997年、「マルボルクにあるドイツ騎士修道会の城」として世界遺産登録",
+    "history": "ドイツ騎士修道会がプロイセン地方への十字軍拠点として13世紀後半に建設を開始し、1309年に総長座がヴェネツィアからここへ移されたのを機に大規模に拡張された。1410年のグルンヴァルトの戦いで騎士団はポーランド・リトアニア連合軍に大敗し、1466年以降はポーランド王室の居城となった。",
+    "highlights": "完成当時「世界最大のレンガ造りの城」であり、現在も敷地面積で世界最大級の城とされる。ゴシック様式のレンガ建築として最も完成度が高い例の一つと評価されている。",
+    "currentUse": "現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/malbork_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Malbork_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/847/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "wawel_castle",
+    "name": "ヴァヴェル城",
+    "nameEn": "Wawel Castle",
+    "nameLocal": "Zamek Królewski na Wawelu",
+    "country": "pl",
+    "city": "ポーランド、クラクフ",
+    "era": "11世紀に起源、14世紀にカジミェシュ3世が拡張、16世紀にルネサンス様式へ改築",
+    "style": "ゴシック、ルネサンス、バロックが混在",
+    "unesco": "1978年、「クラクフ歴史地区」の一部として世界遺産登録(ポーランド最初期の世界遺産の一つ)",
+    "history": "ヴィスワ川沿いのヴァヴェル丘に11世紀から城が築かれ、カジミェシュ3世(大王)の命により14世紀に拡張された。11世紀から17世紀にかけてポーランド歴代国王の主要な居城として機能したが、1610年に王宮がワルシャワへ移されると重要性が低下した。",
+    "highlights": "ルネサンス様式の中庭を中心に、中世からバロックまでヨーロッパの主要な建築様式がほぼすべて見られる。隣接するヴァヴェル大聖堂には歴代ポーランド国王の墓所がある。",
+    "currentUse": "第二次世界大戦での被害から復興され、現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/wawel_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wawel_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/place/Wawel-Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "predjama_castle",
+    "name": "プレッドヤマ城",
+    "nameEn": "Predjama Castle",
+    "nameLocal": "Predjamski grad",
+    "country": "si",
+    "city": "スロベニア、インネル・カルニオラ地方プレッドヤマ",
+    "era": "12世紀に起源、1570年頃現在のルネサンス様式へ再建",
+    "style": "ルネサンス様式(洞窟を利用した要塞建築)",
+    "unesco": "",
+    "history": "12世紀に洞窟の入り口を利用した砦として築かれたのが起源とされ、1274年の記録に「ルエッグ」の名で言及されている。15世紀後半には騎士エラズム・ルエゲルがここに立てこもり、神聖ローマ皇帝軍の包囲に長期間耐えたという伝説で知られる。1570年頃、男爵フィリップ・フォン・コーベンツルにより現在のルネサンス様式の姿に再建された。",
+    "highlights": "高さ123メートルの断崖の洞窟にはめ込むように建てられた世界最大の洞窟城で、ギネス世界記録にも認定されている。城の地下には長大な鍾乳洞が広がり、外部へ通じる秘密の通路があったと伝わる。",
+    "currentUse": "現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/predjama_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Predjama_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.ancient-origins.net/ancient-places-europe/predjama-castle-castle-cave-housed-slovenian-robin-hood-009551",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "eilean_donan_castle",
+    "name": "アイリーン・ドナン城",
+    "nameEn": "Eilean Donan Castle",
+    "nameLocal": "Eilean Donnain",
+    "country": "gb",
+    "city": "スコットランド、ハイランド地方（ドーニー近郊）",
+    "era": "13世紀前半(アレクサンダー2世治世)に創建、現在の建物は1912〜1932年の再建",
+    "style": "中世スコットランドの塔屋(タワーハウス)形式を模した20世紀の城郭復元建築",
+    "unesco": "",
+    "history": "13世紀前半、アレクサンダー2世の治世下にヴァイキングの侵入からキンテイル地方を守るための城として築かれ、マケンジー氏族とその同盟であるマクレー氏族の拠点となった。1719年のジャコバイト蜂起の際、スペイン軍が駐屯していたところをイギリス海軍の砲撃を受けて破壊され、以後約200年間廃墟のままだった。1912年から1932年にかけてジョン・マクレー=ギルストラップ大佐によって再建され、現在の姿となった。",
+    "highlights": "3つの湖(ロッホ・ドゥイッヒ、ロッホ・ロング、ロッホ・アルシュ)が交わる小島に建ち、対岸と結ぶ石造りの橋が印象的な景観で知られる。スコットランドで最も撮影される城の一つで、映画「ハイランダー」をはじめ数々の映像作品のロケ地としても有名。",
+    "currentUse": "現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/eilean_donan_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eilean_Donan",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.eileandonancastle.com/about/history/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "warwick_castle",
+    "name": "ウォーリック城",
+    "nameEn": "Warwick Castle",
+    "nameLocal": "Warwick Castle",
+    "country": "gb",
+    "city": "イングランド、ウォリックシャー州ウォリック",
+    "era": "1068年築城、12世紀に石造化、14世紀に大規模増築",
+    "style": "ノルマン様式のモット・アンド・ベイリー城を起源とする中世軍事建築",
+    "unesco": "",
+    "history": "1068年、ウィリアム征服王が木造の城として築いたのが始まりで、12世紀に石造りへ改築された。百年戦争期には町に面した側の防御が強化され、14世紀軍事建築を代表する外観が整った。ボーモント家、ボーシャン家、ネヴィル家、ダドリー家、グレヴィル家といった歴代のウォリック伯爵家の居城となり、薔薇戦争で活躍した「キングメーカー」リチャード・ネヴィルの拠点としても知られる。",
+    "highlights": "14世紀の軍事建築を代表する堂々とした外観を持ち、17世紀以降はグレヴィル家のもとで邸宅としても発展した。1978年に一般公開されるまで400年以上にわたりウォリック伯爵家の居城であり続けた。",
+    "currentUse": "現在はマーリン・エンターテインメンツ社が運営する観光施設として一般公開されている。",
+    "img": "assets/img/castles/warwick_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Warwick_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/place/Warwick-Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "leeds_castle",
+    "name": "リーズ城",
+    "nameEn": "Leeds Castle",
+    "nameLocal": "Leeds Castle",
+    "country": "gb",
+    "city": "イングランド、ケント州メードストーン近郊",
+    "era": "857年頃に最初の砦、1119年に本格築城、13世紀末に王妃の居城として拡張",
+    "style": "ノルマン様式を起源とする、湖に浮かぶ島の上に建つ中世の水城",
+    "unesco": "",
+    "history": "857年にサクソン人領主レディアンが最初の砦を築いたと伝えられ、1119年にノルマン人領主ロバート・ド・クレヴクールが本格的な城を建設した。1278年にエドワード1世妃エレノアが取得して以降、6人の中世王妃の居城となり、なかでもヘンリー8世は最初の妃キャサリン・オブ・アラゴンのために大規模な改築を行った。",
+    "highlights": "リバー・レン川がつくる湖に浮かぶ2つの島の上に建ち、「イングランドで最も美しい城」とも称される。1926年に城を買い取ったレディ・ベイリーが庭園や邸宅を大きく整備し、現在の姿の基礎を築いた。",
+    "currentUse": "現在は保存財団により管理され、庭園や動物園を併設する観光施設として一般公開されている。",
+    "img": "assets/img/castles/leeds_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leeds_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.leeds-castle.com/her-castle/history-of-the-castle/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "cardiff_castle",
+    "name": "カーディフ城",
+    "nameEn": "Cardiff Castle",
+    "nameLocal": "Cardiff Castle / Castell Caerdydd",
+    "country": "gb",
+    "city": "ウェールズ、カーディフ",
+    "era": "3世紀のローマ要塞跡地、11世紀末にノルマン様式で築城、19世紀にゴシック・リバイバル様式へ大改築",
+    "style": "ノルマン様式の城砦にヴィクトリア朝ゴシック・リバイバル様式の邸宅が融合した複合建築",
+    "unesco": "",
+    "history": "3世紀のローマ要塞跡地に、11世紀末にウィリアム征服王またはロバート・フィッツヘイモンによってモット・アンド・ベイリー式の城が築かれた。12世紀に石造りへ改築され、1404年にはオワイン・グリンドゥールの反乱で襲撃を受けるなどウェールズとノルマン人の抗争の舞台となった。19世紀には第3代ビュート侯爵が建築家ウィリアム・バージェスとともに、中世の城をゴシック・リバイバル様式の豪奢な邸宅へと大改築した。",
+    "highlights": "ローマ・中世・ヴィクトリア朝という3つの時代の建築が重なり合う稀有な複合遺跡で、バージェスが手がけた贅を尽くした室内装飾でも知られる。",
+    "currentUse": "現在はカーディフ市が所有し、博物館・観光施設として一般公開されている。",
+    "img": "assets/img/castles/cardiff_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cardiff_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.cardiffcastle.com/history/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "spis_castle",
+    "name": "スピシュ城",
+    "nameEn": "Spiš Castle",
+    "nameLocal": "Spišský hrad",
+    "country": "sk",
+    "city": "スロバキア東部、スピシュスケー・ポドフラディエ",
+    "era": "12世紀初頭(1120年頃の記録が最古)築城、15世紀後半に大規模改築",
+    "style": "ロマネスク様式を起源とし、ゴシック様式・ルネサンス様式の要素が加わった中世城郭",
+    "unesco": "1993年、スピシュスカー・カピトゥラ、スピシュスケー・ポドフラディエ、ジェフラの関連遺跡群とともにユネスコ世界遺産に登録",
+    "history": "12世紀初頭、当時のハンガリー王国北部国境を守る要塞として築かれ、以後長くスピシュ地方の中心的な城として機能した。15世紀後半には所有者となったシュテファン・ザーポリャがゴシック様式の宮殿や騎士の間、聖エリザベト礼拝堂を増築し、貴族の邸宅としての体裁を整えた。1780年の火災で大きく損壊し、その後廃墟となった。",
+    "highlights": "中央ヨーロッパ最大級の城郭遺構の一つで、敷地面積は4ヘクタール以上に及ぶ。1970年代から本格的な修復が進められ、現在の姿がよみがえった。",
+    "currentUse": "現在は博物館として整備され、一般公開されている。",
+    "img": "assets/img/castles/spis_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spi%C5%A1_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/620",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "bojnice_castle",
+    "name": "ボイニツェ城",
+    "nameEn": "Bojnice Castle",
+    "nameLocal": "Bojnický zámok",
+    "country": "sk",
+    "city": "スロバキア中部、ボイニツェ",
+    "era": "12世紀(1113年の文献に初出)築城、13世紀に石造化、19世紀末にロマン主義様式へ大改築",
+    "style": "ゴシック様式・ルネサンス様式を起源とし、19世紀末にフランス・ロワール地方の城を模したロマン主義様式へ改築",
+    "unesco": "",
+    "history": "1113年の文書(ゾボル修道院の証書)に木造の砦として記録が残るのが最古で、13世紀にポズナン家によって石造りの城に改築された。その後トゥルゾー家やパールフィ家など歴代の貴族が所有し、16世紀にはルネサンス様式の宮殿へと改修された。19世紀末、ヤーン・パールフィ伯爵が建築家J.フーベルトに依頼し、フランス・ロワール地方のロマン主義的な城を手本に大規模な改築を行い現在の姿となった。",
+    "highlights": "おとぎ話に出てくるような塔とロマン主義的な外観で知られ、スロバキアで最も人気のある観光地の一つ。ファンタジーやおとぎ話映画の撮影地としても頻繁に利用される。",
+    "currentUse": "現在は博物館として一般公開され、毎年「幽霊と精霊の国際フェスティバル」も開催されている。",
+    "img": "assets/img/castles/bojnice_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bojnice_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://bojnicecastle.sk/en/bojnice-castle/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hunyad_castle",
+    "name": "フニャド城",
+    "nameEn": "Hunyad Castle",
+    "nameLocal": "Castelul Corvinilor / Vajdahunyadvár",
+    "country": "ro",
+    "city": "ルーマニア、トランシルヴァニア地方フネドアラ",
+    "era": "14世紀に原型が築かれ、1446年からフニャディ・ヤーノシュにより大規模拡張",
+    "style": "ゴシック様式とルネサンス様式が混在する中世城郭建築",
+    "unesco": "",
+    "history": "14世紀にヴォイク・コルヴィンが築いた砦を起源とし、1446年にハンガリー摂政フニャディ・ヤーノシュの命により本格的な城として拡張された。息子でハンガリー国王となったマーチャーシュ1世(コルヴィヌス)の代に「コルヴィン城」の名で呼ばれるようになった。ワラキア公ヴラド3世(串刺し公)が1461年から幽閉されていたとも伝えられる。",
+    "highlights": "ヨーロッパでも有数の規模を誇るゴシック・ルネサンス様式の城で、「ルーマニアの七不思議」の一つに数えられる。1854年の落雷による火災で木造部分が焼失し、その後長期間かけて修復された。",
+    "currentUse": "現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/hunyad_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Corvin_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://romaniatourism.com/castles-fortresses-romania-corvin-castle-hunedoara.html",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "kronborg_castle",
+    "name": "クロンボー城",
+    "nameEn": "Kronborg Castle",
+    "nameLocal": "Kronborg Slot",
+    "country": "dk",
+    "city": "デンマーク、エルシノア(ヘルシンオア)",
+    "era": "15世紀初頭に要塞クローゲンとして築城、16世紀後半にフレゼリク2世がルネサンス様式に改築",
+    "style": "ルネサンス様式の城塞",
+    "unesco": "2000年にユネスコ世界遺産に登録",
+    "history": "15世紀初頭、デンマーク王エーリク・アヴ・ポンメルンがオアスン海峡の最狭部に「クローゲン(鉤)」と呼ばれる要塞を築き、海峡を通る船舶から通行税を徴収する拠点とした。16世紀後半、フレゼリク2世がこれを壮麗なルネサンス様式の城へと大改築し、北欧を代表する城の一つとなった。",
+    "highlights": "ウィリアム・シェイクスピアの戯曲「ハムレット」の舞台エルシノア城のモデルとして世界的に知られる。北ヨーロッパのルネサンス建築を代表する城の一つ。",
+    "currentUse": "現在はユネスコ世界遺産として保護され、博物館・観光施設として一般公開されている。",
+    "img": "assets/img/castles/kronborg_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kronborg",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/696/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "akershus_fortress",
+    "name": "アーケシュフース城",
+    "nameEn": "Akershus Fortress",
+    "nameLocal": "Akershus festning",
+    "country": "no",
+    "city": "ノルウェー、オスロ",
+    "era": "1290年代末にホーコン5世が築城、17世紀にクリスチャン4世がルネサンス様式の城塞へ改築",
+    "style": "中世の城塞にルネサンス様式のイタリア式稜堡が加わった要塞建築",
+    "unesco": "",
+    "history": "1290年代末、ノルウェー王ホーコン5世によってオスロを守るために築かれ、1300年頃の記録に初めて登場する。1624年の大火の後、クリスチャン4世の命によりイタリア式稜堡を備えたルネサンス様式の要塞へ改修された。1940年のナチス・ドイツ侵攻時には無血で明け渡され、1945年の解放後には対独協力者ヴィドクン・クヴィスリングらの処刑場としても使われた。",
+    "highlights": "幾度もの包囲戦を耐え抜いた要塞で、現在も王族の霊廟や首相府の一部として機能する現役施設という珍しい特徴を持つ。",
+    "currentUse": "現在も軍施設や首相府の一部として使われる一方、博物館や公園として一般公開されている。",
+    "img": "assets/img/castles/akershus_fortress.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Akershus_Fortress",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.forsvarsbygg.no/en/festningene/akershus-fortress",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "kalmar_castle",
+    "name": "カルマル城",
+    "nameEn": "Kalmar Castle",
+    "nameLocal": "Kalmar slott",
+    "country": "se",
+    "city": "スウェーデン、スモーランド地方カルマル",
+    "era": "12世紀末に見張り塔として建設、13世紀末に城塞化、16世紀にルネサンス様式へ改築",
+    "style": "中世の城塞を起源とし、16世紀にルネサンス様式の宮殿へ改築",
+    "unesco": "",
+    "history": "1180年頃、交易の要衝を守る見張り塔として建てられたのが起源とされ、13世紀末にマグヌス・ラドゥロース王が円塔と城壁を備えた本格的な城塞へと発展させた。1397年にはこの城で「カルマル同盟」が成立し、デンマーク・ノルウェー・スウェーデン(フィンランドを含む)が統合された北欧史上重要な出来事の舞台となった。16世紀にはヴァーサ朝のエーリク14世やヨハン3世のもとでルネサンス様式に改修された。",
+    "highlights": "北欧の歴史を大きく動かした「カルマル同盟」締結の地として知られ、中世の要塞からルネサンス宮殿への変遷を今に伝える貴重な遺構。",
+    "currentUse": "現在は博物館として一般公開されている。",
+    "img": "assets/img/castles/kalmar_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kalmar_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/place/Kalmar-Castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "buda_castle",
+    "name": "ブダ城",
+    "nameEn": "Buda Castle",
+    "nameLocal": "Budai Vár",
+    "country": "hu",
+    "city": "ハンガリー、ブダペスト",
+    "era": "13世紀(1265年頃)に築城、18世紀にバロック様式で再建",
+    "style": "中世ゴシック様式を起源とし、現在の建物は18世紀のバロック様式の宮殿",
+    "unesco": "1987年、ユネスコ世界遺産「ブダペストのドナウ河岸とブダ城地区、アンドラーシ通り」の一部として登録",
+    "history": "13世紀にモンゴル軍の侵攻を受けてベーラ4世がブダの防備を固めるために築城し、1265年頃に完成した。14世紀にはルクセンブルク家のジグモントのもとでゴシック様式の壮麗な宮殿へと発展し、マーチャーシュ1世(コルヴィヌス)の代にはルネサンス様式の宮殿として整えられた。オスマン帝国支配(1541〜1686年)を経て廃墟となり、その後ハプスブルク家により18世紀にバロック様式で再建された。",
+    "highlights": "第二次世界大戦のブダペスト包囲戦で大きな被害を受け、戦後は簡素化されたバロック様式で修復された。現在の宮殿にはハンガリー国立美術館、ブダペスト歴史博物館、国立セーチェーニ図書館が入る。",
+    "currentUse": "現在は美術館・博物館・図書館として利用されている。",
+    "img": "assets/img/castles/buda_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Buda_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/400/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "chateau_de_foix",
+    "name": "フォワ城",
+    "nameEn": "Château de Foix",
+    "nameLocal": "Château de Foix",
+    "country": "fr",
+    "city": "フランス、オクシタニー地域圏アリエージュ県フォワ",
+    "era": "7世紀の砦を起源とし987年から文献に登場、10〜11世紀に現在の3塔構成が整う",
+    "style": "中世の城塞建築(3つの塔を持つ南フランス様式の城)",
+    "unesco": "",
+    "history": "7世紀の古い砦を起源とし、987年の文献に初めて登場する。1002年にはカルカソンヌ伯ロジェ1世の遺言でこの城が末子ベルナールに譲られたことが記録されている。1034年にフォワ伯爵領の首府となり、アルビジョワ十字軍の際にはカタリ派を保護するオクシタニア人抵抗の中心地として重要な役割を果たした。",
+    "highlights": "3つの塔がそびえる象徴的なシルエットで知られ、フォワの町を見下ろす岩山の上に立つ。1930年からはアリエージュ県立博物館として先史時代からガロ・ローマ、中世の考古資料を収蔵・展示している。",
+    "currentUse": "現在はアリエージュ県立博物館として一般公開されている。",
+    "img": "assets/img/castles/chateau_de_foix.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Foix",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.sites-touristiques-ariege.fr/en/un-peu-dhistoire-le-chateau-de-foix-la-force-preservee/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "bodiam_castle",
+    "name": "ボディアム城",
+    "nameEn": "Bodiam Castle",
+    "nameLocal": "Bodiam Castle",
+    "country": "gb",
+    "city": "イングランド、イーストサセックス州ロバーツブリッジ近郊",
+    "era": "1385年築城",
+    "style": "濠に囲まれた四角形プランの中世城郭建築(キープを持たない形式)",
+    "unesco": "",
+    "history": "百年戦争でフランスと戦った経験を持つ騎士エドワード・ダリングリッジが、リチャード2世の許可を得て1385年に築城した。フランス軍の侵攻に備える防衛拠点とされたが、川沿いの人工的な水景に囲まれた立地や意匠から、防御機能とともに権威を示す邸宅としての側面が強かったと考えられている。その後イングランド内戦で被害を受け廃墟となった。",
+    "highlights": "キープを持たず、外周の城壁沿いに諸室を配置し、四隅と正門に塔を備える整った四角形プランが特徴。人工の濠に浮かぶ姿は中世城郭建築の中でも特に絵画的な美しさで知られる。",
+    "currentUse": "現在はナショナル・トラストが管理する観光施設として一般公開されている。",
+    "img": "assets/img/castles/bodiam_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bodiam_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.nationaltrust.org.uk/visit/sussex/bodiam-castle",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hohensalzburg_fortress",
+    "name": "ホーエンザルツブルク城",
+    "nameEn": "Festung Hohensalzburg",
+    "nameLocal": "Festung Hohensalzburg",
+    "country": "at",
+    "city": "オーストリア、ザルツブルク",
+    "era": "1077年築城開始、1500年頃に現在の姿へ拡張",
+    "style": "中世の要塞建築(後期にルネサンス様式の要素も加わる)",
+    "unesco": "1996年、ユネスコ世界遺産「ザルツブルク市街の歴史地区」の一部として登録",
+    "history": "1077年、大司教ゲプハルト・フォン・ヘルフェンシュタインの命により、木柵で囲まれた砦として築城が始まった。歴代の大司教により段階的に拡張・強化され、特に1500年前後の大司教レオンハルト・フォン・コイチャッハの時代に現在の姿の多くが整えられた。1525年のドイツ農民戦争では包囲を受けたが陥落せず、1800年のナポレオン戦争の際には無血でフランス軍に明け渡された。",
+    "highlights": "ヨーロッパ最大級の完存する中世城塞の一つで、全長250メートル、幅150メートルに及ぶ規模を誇る。1892年開業のフェストゥングス鉄道(ケーブルカー)で山上にアクセスでき、ザルツブルクの街並みを一望できる。",
+    "currentUse": "現在はザルツブルク市街を見下ろす観光名所として博物館を併設し、一般公開されている。",
+    "img": "assets/img/castles/hohensalzburg_fortress.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hohensalzburg_Fortress",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/784/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "vianden_castle",
+    "name": "ヴィアンデン城",
+    "nameEn": "Vianden Castle",
+    "nameLocal": "Schloss Vianden / Château de Vianden",
+    "country": "lu",
+    "city": "ルクセンブルク北部、ヴィアンデン",
+    "era": "4世紀のローマ時代の砦を起源とし、11〜14世紀にロマネスク様式・ゴシック様式の城として発展",
+    "style": "ロマネスク様式を基調とし、ゴシック様式の要素も加わった中世城郭建築",
+    "unesco": "",
+    "history": "4世紀のローマ時代の砦や10世紀の砦を起源とし、11世紀から14世紀にかけてロマネスク様式を基調とする城として発展し、末期にはゴシック様式の改修も加えられた。ヴィアンデン家が13世紀末にルクセンブルク伯の家臣となって以降その重要性は薄れ、1417年に同家の血筋が絶えるとオラニエ=ナッサウ家の所領となった。1820年に国王ヴィルヘルム1世が城を売却して以降解体が進み、廃墟となった。",
+    "highlights": "ライン川以西で最大級とされる壮大な規模の要塞跡で、1977年から1990年にかけて大規模な修復事業が行われ、廃墟から現在の姿へとよみがえった。",
+    "currentUse": "現在はルクセンブルク国有の博物館として一般公開されている。",
+    "img": "assets/img/castles/vianden_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vianden_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://castle-vianden.lu/gb/geschichte/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "masada",
+    "name": "マサダ",
+    "nameEn": "Masada",
+    "nameLocal": "מצדה",
+    "country": "il",
+    "city": "死海南西岸（ユダヤ砂漠）",
+    "era": "紀元前1世紀（ヘロデ大王期、前37〜前31年頃に本格建設）",
+    "style": "ヘロデ様式（古代ローマ様式の影響を受けた王宮建築）",
+    "unesco": "世界遺産(2001年登録、「マサダ国立公園」)",
+    "history": "マサダはもともとハスモン朝のアレクサンドロス・ヤンナイオスにより要塞化され、その後ユダヤ王ヘロデ大王が死海を望む岩山の上に離宮兼要塞として大規模に整備した。紀元66年に始まったユダヤ戦争の末期、73年頃にローマ軍がこの地に立てこもった熱心党（シカリ派）を包囲し、包囲用の巨大な土塁（攻城ランプ）を築いて陥落させたと伝えられる。歴史家ヨセフスによれば、陥落直前に立てこもった人々は集団で自決したとされるが、この記述の史実性については研究者の間で議論がある。",
+    "highlights": "岩山の頂上を囲む長さ約1300メートルのケースメイト式城壁や、北面の断崖に三段のテラス状に築かれた「北の宮殿」、大量の雨水を貯えた大規模な貯水槽群など、乾燥地帯における高度な建築・水利技術が今も良好に残る。ローマ軍が築いた包囲壁や攻城用のランプも周囲にほぼ完全な形で現存しており、古代ローマの攻城戦の様子を伝える世界的にも貴重な遺跡とされる。",
+    "currentUse": "現在は国立公園として整備され、ケーブルカーやハイキングコースで頂上まで登れる観光地・遺跡公園として公開されている。",
+    "img": "assets/img/castles/masada.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Masada",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1040/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "elmina_castle",
+    "name": "エルミナ城",
+    "nameEn": "Elmina Castle",
+    "nameLocal": "Castelo de São Jorge da Mina",
+    "country": "gh",
+    "city": "エルミナ（中部州）",
+    "era": "1482年建造（ポルトガル）、1637年よりオランダ統治",
+    "style": "ポルトガル植民地様式の要塞建築",
+    "unesco": "世界遺産(1979年登録、「ボルタ地方からグレーター・アクラ地方にかけての城塞群」の一部)",
+    "history": "エルミナ城は1482年、ポルトガル王ジョアン2世の命によりディオゴ・デ・アザンブージャが率いる遠征隊が建設した、サハラ以南アフリカに現存する最古のヨーロッパ建築物とされる交易拠点である。当初は金の交易拠点として築かれたが、1637年にオランダ西インド会社に奪取されて以降、大西洋奴隷貿易の主要な集積地の一つとなり、西アフリカ各地から連行された人々が城内の地下牢に収容されたのち、船で大西洋を渡って送り出された。オランダは1814年に奴隷貿易を廃止し、その後1872年に城は英国へ譲渡された。",
+    "highlights": "城内には男女別の奴隷収容用の地下牢や「帰らざる門」と呼ばれる搬出口、中庭に面した教会などが残り、大西洋奴隷貿易の歴史を伝える建築的証拠として世界的に重要視されている。1990年代にガーナ政府によって大規模な修復が行われた。",
+    "currentUse": "現在はガーナの国立博物館として一般公開されており、アフリカ系ディアスポラの人々が祖先の歴史をたどる巡礼地としても訪れられている。",
+    "img": "assets/img/castles/elmina_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Elmina_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/34/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "fort_jesus",
+    "name": "フォート・ジーザス",
+    "nameEn": "Fort Jesus",
+    "nameLocal": "Fort Jesus / Ngome ya Yesu",
+    "country": "ke",
+    "city": "モンバサ",
+    "era": "1593〜1596年建造（ポルトガル）",
+    "style": "ルネサンス様式の要塞建築（イタリア軍事建築の系譜）",
+    "unesco": "世界遺産(2011年登録)",
+    "history": "フォート・ジーザスは1593年から1596年にかけて、ポルトガルとスペインの王フェリペ2世の命によりインド洋交易路の防衛拠点として建設され、設計はイタリア人建築家ジョヴァンニ・バッティスタ・カイラーティが担当した。以後、東アフリカ沿岸の覇権をめぐりポルトガルとオマーン・アラブ勢力の間で幾度も争奪戦が起き、特に1696年から1698年にかけてオマーンのサイフ・ビン・スルターンによる約2年に及ぶ包囲戦の末に陥落し、ポルトガルの沿岸支配の終焉を象徴する出来事となった。",
+    "highlights": "上空から見ると人体を模した独特の平面形をしており、四隅に稜堡（バスティオン）を配した16世紀ポルトガル軍事建築の傑作とされる。陥落後にオマーン勢力が城壁の高さを約3メートル継ぎ足すなど、ポルトガルとオマーン双方の建築の痕跡が重なって残っている点も特徴。",
+    "currentUse": "現在は国立博物館としてモンバサを代表する観光名所となっており、保存修復のための研究施設も併設されている。",
+    "img": "assets/img/castles/fort_jesus.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fort_Jesus",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1295/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "krak_des_chevaliers",
+    "name": "クラック・デ・シュヴァリエ",
+    "nameEn": "Krak des Chevaliers",
+    "nameLocal": "قلعة الحصن (Qal'at al-Hisn)",
+    "country": "sy",
+    "city": "ホムス県",
+    "era": "12〜13世紀（十字軍時代）",
+    "style": "十字軍城郭建築（同心円状の二重城壁構造）",
+    "unesco": "世界遺産(2006年登録、「クラック・デ・シュヴァリエとサラーフ・アッディーン城」)",
+    "history": "1142年にトリポリ伯レーモン2世から聖ヨハネ騎士団（ホスピタル騎士団）に譲渡され、同騎士団により1142年から1170年にかけて大規模に改築された。13世紀初頭には二度目の大改築が行われ、内郭と外郭からなる同心円状の要塞として現在の姿が完成した。エジプトのマムルーク朝スルタン、バイバルスによる1271年の攻略以降はイスラム勢力の支配下に置かれた。",
+    "highlights": "考古学者で作家のT・E・ロレンスが「世界で最もよく保存され、最も見事な城」と評したことで知られ、丸い塔と工夫された狭間（矢狭間）を持つ13世紀の防御建築技術の到達点とされる。石灰岩を用いた堅牢な構造で知られる。",
+    "currentUse": "シリア政府の所有下で史跡として保存されているが、2012〜2013年のシリア内戦下で砲撃や空爆による損傷を受けた。2014年に政府軍が奪還して以降、UNESCOの支援のもとで保存・修復活動が続けられている。",
+    "img": "assets/img/castles/krak_des_chevaliers.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Krak_des_Chevaliers",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1229/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "amber_fort",
+    "name": "アンベール城",
+    "nameEn": "Amber Fort",
+    "nameLocal": "आमेर क़िला (Amer Qila)",
+    "country": "in",
+    "city": "アンベール（ジャイプル近郊、ラジャスタン州）",
+    "era": "1592年着工（ラージプート期、その後150年かけて増築）",
+    "style": "ラージプート様式（ムガル様式の影響を受けた建築）",
+    "unesco": "世界遺産(2013年登録、「ラジャスタンの丘陵要塞群」の一部)",
+    "history": "アンベール城は1592年、ラージプートのカチワーハ族の王ラージャ・マーン・シング1世によって建設が始められ、後継のジャイ・シング1世が17世紀前半に増築するなど、1727年にジャイプルへ遷都されるまでの約150年間にわたり歴代の王によって拡張が続けられた。ヒンドゥーとイスラームの建築様式が融合したラージプート建築の代表例とされる。",
+    "highlights": "赤砂岩と大理石を用いた4層の中庭からなる構造を持ち、無数の小さな鏡を壁や天井に埋め込んだ「シーシュ・マハル（鏡の間）」や、水路を用いて室内を涼しく保つ「スク・ニワース」などの精巧な意匠で知られる。城内のシーラー・デーヴィー寺院は、マーン・シング1世が1604年のベンガル遠征の戦勝を機に祀った聖石を祀る。",
+    "currentUse": "現在はジャイプル随一の観光名所として一般公開されており、繁忙期には1日約5000人が訪れる人気の史跡となっている。",
+    "img": "assets/img/castles/amber_fort.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amber_Fort",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/247/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "mehrangarh_fort",
+    "name": "メヘラーンガル城",
+    "nameEn": "Mehrangarh Fort",
+    "nameLocal": "मेहरानगढ़ क़िला (Mehrangarh Qila)",
+    "country": "in",
+    "city": "ジョードプル（ラジャスタン州）",
+    "era": "1459年創建（ラートール朝ラージプート期）、17世紀に主要建築が整備",
+    "style": "ラージプート様式",
+    "unesco": "",
+    "history": "メヘラーンガル城は1459年、ラートール朝のラージプート族の王ラーオ・ジョーダによってジョードプルの町を見下ろす岩山の上に創建された。現存する建物の多くは17世紀、マハーラージャ・ジャスワント・シング（在位1638〜1678年）の治世に整備されたもので、赤砂岩を用いた精緻な彫刻装飾を特徴とする。",
+    "highlights": "周囲約1200エーカーに及ぶ広大な城域を、高さ36メートル・厚さ21メートルにも達する城壁が取り囲み、戦勝を記念して1806年に築かれたジャイ・ポール門をはじめ7つの城門が残る。城内にはモーティー・マハルやプール・マハルなど複数の宮殿があり、駕籠や武具、絵画などの王家の宝物を展示する博物館となっている。",
+    "currentUse": "メヘラーンガル博物館トラストにより運営される博物館・観光地として公開されており、映画のロケ地としても利用されている。",
+    "img": "assets/img/castles/mehrangarh_fort.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mehrangarh_Fort",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/topic/Mehrangarh",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "red_fort",
+    "name": "ラール・キラー(赤い城)",
+    "nameEn": "Red Fort",
+    "nameLocal": "लाल क़िला (Lal Qila)",
+    "country": "in",
+    "city": "デリー",
+    "era": "1639〜1648年建造（ムガル帝国期）",
+    "style": "ムガル建築様式（ペルシア・ティムール様式とインド様式の融合）",
+    "unesco": "世界遺産(2007年登録、「レッド・フォート複合施設」)",
+    "history": "ムガル帝国第5代皇帝シャー・ジャハーンの命により1639年に着工され、1648年に完成した。設計は同帝がタージ・マハルの建設にも起用した建築家ウスタード・アフマド・ラホーリーが担当したとされ、以後約200年にわたりムガル帝国の政治の中心となった。1857年のインド大反乱後は英国の支配下に置かれた。",
+    "highlights": "赤砂岩と白大理石を用いた総延長約2.4キロメートルの城壁で囲まれた敷地内に、大理石の象嵌細工が施された謁見の間「ディーワーネ・ハース」や、皇帝アウラングゼーブが増築した真珠のモスク「モーティー・マスジド」などムガル建築の粋を集めた建物が残る。",
+    "currentUse": "インド独立以降、毎年8月15日の独立記念日にはこの城のラホール門で首相が国旗を掲揚し、国民向けに演説を行う場として使われており、現在は博物館・観光地として公開されている。",
+    "img": "assets/img/castles/red_fort.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_Fort",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/231/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "chittorgarh_fort",
+    "name": "チットールガル城",
+    "nameEn": "Chittorgarh Fort",
+    "nameLocal": "चित्तौड़गढ़ क़िला (Chittaurgarh Qila)",
+    "country": "in",
+    "city": "チットールガル（ラジャスタン州）",
+    "era": "8世紀頃創建、以後歴代のラージプート王朝が改築",
+    "style": "ラージプート様式（丘陵要塞建築）",
+    "unesco": "世界遺産(2013年登録、「ラジャスタンの丘陵要塞群」の一部)",
+    "history": "チットールガル城はモーリ族の王チトラーンガダ・モーリによって築かれたと伝えられ、8世紀前半にグヒラ朝のバッパ・ラーワルがこれを攻略して以降、シソーディヤ家を含む歴代のラージプート王朝の拠点となった。1303年にはデリー・スルターン朝のアラーウッディーン・ハルジーが約8か月に及ぶ包囲の末に攻略し、1535年にはグジャラート王バハードゥル・シャーが、1567〜1568年にはムガル皇帝アクバルが攻囲して陥落させるなど、歴史上たびたび激しい攻城戦の舞台となった。伝承では、陥落の際に女性たちが集団で焼身自決（ジョーハル）を行ったとされるが、史実性については研究者の間で議論がある。",
+    "highlights": "約280ヘクタールにも及ぶ広大な城域内には4つの宮殿、19の大寺院、20の貯水池、4つの記念碑など65の歴史的建造物が残り、なかでも「勝利の塔（ヴィジャイ・スタンバ）」は代表的なランドマークとして知られる。",
+    "currentUse": "現在も城内には約3000人が暮らしており、文化的モニュメントであると同時に人々の生活の場としても機能している。",
+    "img": "assets/img/castles/chittorgarh_fort.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chittorgarh_Fort",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/247/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "lahore_fort",
+    "name": "ラホール城",
+    "nameEn": "Lahore Fort",
+    "nameLocal": "شاہی قلعہ (Shahi Qila)",
+    "country": "pk",
+    "city": "ラホール",
+    "era": "1566年基礎整備（ムガル帝国期）、17世紀に大規模拡張",
+    "style": "ムガル様式（インド・イスラーム様式）",
+    "unesco": "世界遺産(1981年登録、「ラホール城とシャーラマール庭園」)",
+    "history": "現在の姿の基礎は1566年、ムガル帝国第3代皇帝アクバルによって築かれ、以後シャー・ジャハーンやアウラングゼーブら歴代皇帝が17世紀を通じて大規模な増改築を行った。アクバル期にはヒンドゥーとイスラームの意匠を融合させた建築が導入され、シャー・ジャハーン期には白大理石にペルシア風の花模様の象嵌を施した優美な建築が加えられた。",
+    "highlights": "精緻な鏡細工とフレスコ画で飾られた「シーシュ・マハル（鏡の宮殿）」や、1674年にアウラングゼーブが築いた半円形の稜堡を持つ「アーラムギーリー門」、ジャハーンギール期に築かれた全長約440メートルにも及ぶ装飾壁「ピクチャー・ウォール」など、歴代皇帝の建築様式の変遷を一つの城内で見ることができる。",
+    "currentUse": "現在は博物館・史跡として一般公開されており、アガ・カーン文化トラストなどによる保存修復事業が続けられ、2012年にはUNESCOの危機遺産リストから除外された。",
+    "img": "assets/img/castles/lahore_fort.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lahore_Fort",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/171/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "hwaseong_fortress",
+    "name": "華城",
+    "nameEn": "Hwaseong Fortress",
+    "nameLocal": "화성",
+    "country": "kr",
+    "city": "水原市(京畿道)",
+    "era": "1794年〜1796年(朝鮮王朝・正祖時代)",
+    "style": "朝鮮式築城術に実学思想と西洋技術を融合させた城郭建築",
+    "unesco": "1997年、ユネスコ世界遺産に登録",
+    "history": "朝鮮王朝第22代国王・正祖が、非業の死を遂げた父思悼世子(サドセジャ)の墓の移転事業と合わせて1794年から1796年にかけて水原に築いた城郭。実学者チョン・ヤギョン(丁若鏞)が設計を担い、クレーンや滑車などの新技術を導入し、労働者に賃金を支払って建設された点でも画期的だった。",
+    "highlights": "全長5.74kmの城壁に4つの城門や将台、烽燧台など計48の施設が配置され、朝鮮と中国の伝統的築城術に西洋の技術を融合させた実学建築の集大成とされる。城内には朝鮮最大級とされる行宮(仮の王宮)も現存する。",
+    "currentUse": "現在は城壁の散策路や武術演舞、王室行列の再現イベントなどが行われる観光・歴史学習の拠点となっている。",
+    "img": "assets/img/castles/hwaseong_fortress.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hwaseong_Fortress",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/817",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "gyeongbokgung",
+    "name": "景福宮",
+    "nameEn": "Gyeongbokgung Palace",
+    "nameLocal": "경복궁",
+    "country": "kr",
+    "city": "ソウル特別市",
+    "era": "1395年創建、1867年再建(朝鮮王朝)",
+    "style": "儒教思想と風水説に基づく朝鮮王朝の伝統的宮殿建築",
+    "unesco": "",
+    "history": "朝鮮王朝を建国した太祖・李成桂によって1395年に漢陽(現在のソウル)に建てられた正宮。1592年の文禄・慶長の役(壬辰倭乱)で焼失し270年近く放置されたが、1865年に興宣大院君の主導で再建された。日本統治時代には多くの建物が撤去されたが、1990年代以降大規模な復元事業が続けられている。",
+    "highlights": "南北軸に沿って左右対称に建物を配置する伝統的な宮殿設計が特徴で、正殿の勤政殿や池に浮かぶ楼閣・慶会楼が代表的建築。第4代国王・世宗はこの宮殿でハングルを制定したとされる。",
+    "currentUse": "国立古宮博物館や国立民俗博物館を併設し、王宮守門将交代式なども行われる韓国屈指の観光名所となっている。",
+    "img": "assets/img/castles/gyeongbokgung.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gyeongbokgung",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://www.britannica.com/topic/Gyeongbokgung",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "namhansanseong",
+    "name": "南漢山城",
+    "nameEn": "Namhansanseong",
+    "nameLocal": "남한산성",
+    "country": "kr",
+    "city": "広州市(京畿道)",
+    "era": "1624年〜1626年頃(朝鮮王朝・仁祖時代)",
+    "style": "朝鮮・日本(安土桃山)・中国(明清)の築城技術を融合した山城",
+    "unesco": "2014年、ユネスコ世界遺産に登録",
+    "history": "朝鮮王朝第16代国王・仁祖の命により、僧兵らを動員して1620年代に京畿道広州の南漢山に築かれた山城。1636年の丙子の乱(清の侵攻)の際には仁祖がここに籠城したが、最終的に清に降伏したという歴史を持つ。",
+    "highlights": "朝鮮式に加え日本の安土桃山時代や中国明・清の築城技術も取り入れた東アジア屈指の複合的な山城建築で、有事の際は国王と一般住民が共に籠城できるよう設計されている点が特徴。全長約12kmの城壁内に行宮跡や守禦将台などが残る。",
+    "currentUse": "現在は道立公園として整備され、城壁散策や史跡見学ができる観光地となっている。",
+    "img": "assets/img/castles/namhansanseong.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Namhansanseong",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1439/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "pingyao_ancient_city",
+    "name": "平遥古城",
+    "nameEn": "Pingyao Ancient City",
+    "nameLocal": "平遥古城",
+    "country": "cn",
+    "city": "山西省平遥県",
+    "era": "現存の城壁は1370年(明代・洪武3年)築造",
+    "style": "明・清代の伝統的中国式城壁都市",
+    "unesco": "1997年、ユネスコ世界遺産に登録",
+    "history": "現在の城壁は明代の1370年に築かれたもので、それ以前は紀元前9世紀頃の周代の土塁があったとされる。明・清代を通じて商業・金融の中心地として発展し、清朝末期には中国全土の金融の中心地となった。",
+    "highlights": "亀の形を模したとされる城郭都市で、周囲約6.16km・高さ約12mの城壁に6つの城門、4つの角楼、72の望楼、3000以上の胸壁を備え、幅4mの堀が周囲を囲む。万里の長城を除けば中国で最も保存状態の良い城壁都市の一つとされる。",
+    "currentUse": "現在も2万人以上が居住する「生きた」歴史都市として、伝統的な町並みや金融博物館などを目的に多くの観光客が訪れる。",
+    "img": "assets/img/castles/pingyao_ancient_city.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pingyao",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/812",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "a_famosa",
+    "name": "ア・ファモザ要塞",
+    "nameEn": "A Famosa",
+    "nameLocal": "A Famosa",
+    "country": "my",
+    "city": "マラッカ(ムラカ)",
+    "era": "1512年頃築城(ポルトガル植民地時代)",
+    "style": "ポルトガルの植民地軍事建築",
+    "unesco": "2008年、「マラッカ海峡の歴史都市:マラッカとジョージタウン」の構成資産としてユネスコ世界遺産に登録",
+    "history": "ポルトガルの司令官アフォンソ・デ・アルブケルケが1511年にマラッカ王国を征服した後、1512年頃、破壊したモスクや墓の資材を用いて築いた要塞。東西交易の要衝マラッカを守る拠点とされたが、1641年にオランダに奪われ、その後イギリス統治下の1806年に大部分が破壊された。",
+    "highlights": "最盛期には高さ60mの主塔を含む長大な城壁と4つの主要な塔を備えていたが、現存するのは1670年にオランダが改修した正門「サンチャゴ門」とミデルブルフ稜堡の一部のみで、東南アジアに残る最古のヨーロッパ様式建造物の一つとされる。",
+    "currentUse": "マラッカ歴史地区の一部として整備され、現在は史跡公園として一般公開されている。",
+    "img": "assets/img/castles/a_famosa.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Famosa",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1223",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "chapultepec_castle",
+    "name": "チャプルテペック城",
+    "nameEn": "Chapultepec Castle",
+    "nameLocal": "Castillo de Chapultepec",
+    "country": "mx",
+    "city": "メキシコシティ",
+    "era": "1785年着工、1864年完成",
+    "style": "ネオロマネスク・ネオクラシック・ネオゴシック様式",
+    "unesco": "",
+    "history": "メキシコ副王ベルナルド・デ・ガルベスの命により1785年に着工され、幾度かの計画変更を経て1864年に完成した。陸軍士官学校としての利用を経て、1864年〜1867年には皇帝マクシミリアン1世の離宮となり、その後1882年〜1934年には歴代大統領の官邸として使用された。",
+    "highlights": "ノイシュヴァンシュタイン城の設計にも関わった建築家らが改修を手がけた様式融合の宮殿建築で、米墨戦争の際にこの城を死守した士官候補生「ニーニョス・エロエス(少年英雄)」の逸話でも知られる。屋上庭園からはメキシコシティを一望できる。",
+    "currentUse": "1939年から国立歴史博物館として一般公開されている。",
+    "img": "assets/img/castles/chapultepec_castle.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chapultepec_Castle",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Historic_centre_of_Mexico_City_and_Xochimilco",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "san_felipe_de_barajas",
+    "name": "サン・フェリペ・デ・バラハス要塞",
+    "nameEn": "Castillo San Felipe de Barajas",
+    "nameLocal": "Castillo San Felipe de Barajas",
+    "country": "co",
+    "city": "カルタヘナ",
+    "era": "1536年完成、1639〜1657年・1763年に大規模拡張",
+    "style": "スペイン植民地軍事建築(稜堡式要塞)",
+    "unesco": "1984年、「カルタヘナの港・要塞群と記念物群」としてユネスコ世界遺産に登録",
+    "history": "スペイン植民地時代のカルタヘナ防衛のためアフリカ系奴隷の労働により1536年に築かれ、1639年〜1657年、さらに1763年にはアントニオ・デ・アレバロの指揮のもとで大規模に拡張された。1741年の英西戦争(ジェンキンスの耳の戦争)ではエドワード・ヴァーノン提督率いる英国艦隊の攻撃を退けたことで知られる。",
+    "highlights": "サン・ラサロの丘に三角形に築かれた稜堡式要塞で、8つの砲台に計68門の大砲を備え、内部には迷路のような地下トンネル網が張り巡らされている。",
+    "currentUse": "カルタヘナ歴史地区の一部として一般公開されており、文化イベントの会場としても利用されている。",
+    "img": "assets/img/castles/san_felipe_de_barajas.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/285/",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "real_felipe_fortress",
+    "name": "レアル・フェリペ要塞",
+    "nameEn": "Real Felipe Fortress",
+    "nameLocal": "Fortaleza del Real Felipe",
+    "country": "pe",
+    "city": "カヤオ(リマ)",
+    "era": "1747年着工、1774年完成",
+    "style": "スペイン植民地軍事建築(稜堡式要塞)",
+    "unesco": "",
+    "history": "1746年の大地震でカヤオの旧防衛施設が壊滅したことを受け、副王ホセ・アントニオ・マンソ・デ・ベラスコの命により1747年に着工し、フランス人技師ルイ・ゴダンの設計のもと1774年に完成した。海賊や外国艦隊からリマの外港カヤオを守る拠点とされた。",
+    "highlights": "星形の稜堡式要塞で、1819年にはトーマス・コクレン提督の攻撃を退けたが、1826年の第二次カヤオ包囲戦の末にペルー独立軍に明け渡され、南米大陸におけるスペイン支配終焉の地となった。",
+    "currentUse": "現在はペルー陸軍博物館として、軍服や武器などの展示が行われている。",
+    "img": "assets/img/castles/real_felipe_fortress.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Real_Felipe_Fortress",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Historic_Centre_of_Callao",
+        "checked": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "key": "citadelle_laferriere",
+    "name": "シタデル・ラフェリエール",
+    "nameEn": "Citadelle Laferrière",
+    "nameLocal": "Citadelle Henri Christophe",
+    "country": "ht",
+    "city": "ミロ(ハイチ北部)",
+    "era": "1805年着工、1820年完成",
+    "style": "ハイチ独立後の要塞建築(角度を活かした防御設計)",
+    "unesco": "1982年、サン・スーシ宮殿等とともに「国立歴史公園-シタデル、サン・スーシ、ラミエ」としてユネスコ世界遺産に登録",
+    "history": "ハイチ独立の指導者アンリ・クリストフの命により、フランスによる再侵攻に備えて1805年に着工し、1820年に完成した山上要塞。元奴隷ら数万人が動員され、多くの犠牲者を出しながら建設された。",
+    "highlights": "標高約900mの山頂に築かれ、40mの城壁内に約1年分ともいわれる貯水量を持つ貯水槽や365門の大砲を備える。クリストフ自身、1820年の自殺後にこの城内に埋葬された。",
+    "currentUse": "近隣のサン・スーシ宮殿とともにハイチを代表する観光地・国家的シンボルとなっているが、保存整備の課題も抱えている。",
+    "img": "assets/img/castles/citadelle_laferriere.jpg",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
+        "checked": "2026-09-03"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/180/",
+        "checked": "2026-09-03"
+      }
+    ]
+  }
+]
