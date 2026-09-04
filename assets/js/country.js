@@ -77,6 +77,10 @@ async function loadCountry() {
         ${textOrPlaceholder(country.population, "準備中です。")}
       </div>
       <div class="info-card">
+        <h3>${country.government === "君主制" ? "👑" : "🏛"} 政治体制</h3>
+        ${textOrPlaceholder(country.government, "準備中です。")}
+      </div>
+      <div class="info-card">
         <h3>💰 通貨</h3>
         ${textOrPlaceholder(country.currency, "準備中です。")}
       </div>
