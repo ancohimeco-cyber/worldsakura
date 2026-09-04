@@ -95,6 +95,7 @@ function renderDetail(key) {
   root.innerHTML = `
     <section class="country-hero">
       ${castleMedia(c, "animal-photo-big")}
+      ${c.imageCredit ? `<p class="photo-credit">${c.imageCredit}</p>` : ""}
       <h1>${c.name}</h1>
       <div class="name-en">${c.nameEn}${c.nameLocal ? " / " + c.nameLocal : ""}</div>
       <div class="id-badge">${country ? country.name : ""}${c.city ? " ・ " + c.city : ""}</div>

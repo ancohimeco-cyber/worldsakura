@@ -635,6 +635,13 @@ footer {
   color: var(--sakura-deep);
 }
 
+.photo-credit {
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  opacity: 0.75;
+  margin: -8px 0 0;
+}
+
 /* ===== Category grid (homepage entrance cards) ===== */
 .category-grid {
   display: grid;
