@@ -27,7 +27,7 @@ function castleContinent(c) {
 function castleCard(c) {
   const country = castleCountry(c);
   return `
-    <a class="country-card" href="castles.html?key=${c.key}">
+    <a class="country-card" href="${castleUrl(c)}">
       ${castleMedia(c, "animal-photo")}
       <h3>${c.name}</h3>
       <p>${country ? country.name : ""} ・ ${c.era || ""}</p>
@@ -88,7 +88,7 @@ function renderDetail(key) {
   updatePageMeta(
     `${c.name} | 世界の図鑑`,
     (c.history || `${c.name}(${c.nameEn})の歴史・様式・見どころを紹介します。`).slice(0, 140),
-    `castles.html?key=${c.key}`
+    castleUrl(c)
   );
   const country = castleCountry(c);
 
@@ -118,7 +118,7 @@ function renderDetail(key) {
         ? `<section class="section">
             <h2>🌍 この国について</h2>
             <div class="country-grid">
-              <a class="country-card" href="country.html?id=${country.id}">
+              <a class="country-card" href="${countryUrl(country)}">
                 <img class="flag" src="assets/flags/${country.code}.svg" alt="${country.nameEn}の国旗" loading="lazy" />
                 <h3>${country.name}</h3>
                 <p>${country.nameEn}</p>
@@ -136,8 +136,7 @@ async function initCastlesPage() {
   ALL_CASTLES = castles;
   COUNTRY_MAP = new Map(countries.map((c) => [c.code, c]));
 
-  const params = new URLSearchParams(window.location.search);
-  const key = params.get("key");
+  const key = resolveKeyFromPath("castle");
 
   if (key) {
     renderDetail(key);

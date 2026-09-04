@@ -11,7 +11,7 @@ function flagCard(code) {
   const c = COUNTRY_MAP.get(code);
   if (!c) return "";
   return `
-    <a class="country-card" href="country.html?id=${c.id}">
+    <a class="country-card" href="${countryUrl(c)}">
       <img class="flag" src="assets/flags/${code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
       <h3>${c.name}</h3>
       <p>${c.nameEn}</p>

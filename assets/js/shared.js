@@ -27,9 +27,46 @@ function updatePageMeta(title, description, path) {
   });
 }
 
+function slugify(text) {
+  return (text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function countryUrl(c) {
+  return `country-${c.id}-${slugify(c.nameEn)}.html`;
+}
+
+function animalUrl(a) {
+  return `animal-${a.key}.html`;
+}
+
+function peopleUrl(p) {
+  return `people-${p.key}.html`;
+}
+
+function castleUrl(c) {
+  return `castle-${c.key}.html`;
+}
+
+function resolveIdFromPath(prefix) {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("id")) return Number(params.get("id"));
+  const match = window.location.pathname.match(new RegExp(prefix + "-(\\d+)-"));
+  return match ? Number(match[1]) : null;
+}
+
+function resolveKeyFromPath(prefix) {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("key")) return params.get("key");
+  const match = window.location.pathname.match(new RegExp(prefix + "-(.+)\\.html$"));
+  return match ? match[1] : null;
+}
+
 function countryCard(c) {
   return `
-    <a class="country-card" href="country.html?id=${c.id}">
+    <a class="country-card" href="${countryUrl(c)}">
       <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
       <h3>${c.name}</h3>
       <p>${c.nameEn} ・ ${c.capital || "詳細準備中"}</p>

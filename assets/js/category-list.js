@@ -17,7 +17,7 @@ function firstItem(value) {
 
 function categoryCard(country, fields) {
   return `
-    <a class="country-card" href="country.html?id=${country.id}">
+    <a class="country-card" href="${countryUrl(country)}">
       <img class="flag" src="assets/flags/${country.code}.svg" alt="${country.nameEn}の国旗" loading="lazy" />
       <h3>${country.name}</h3>
       <p>${categorySnippet(country, fields)}</p>
@@ -27,7 +27,7 @@ function categoryCard(country, fields) {
 function primaryCard(country, primaryField) {
   const primary = firstItem(country[primaryField]) || "準備中";
   return `
-    <a class="country-card" href="country.html?id=${country.id}">
+    <a class="country-card" href="${countryUrl(country)}">
       <img class="flag" src="assets/flags/${country.code}.svg" alt="${country.nameEn}の国旗" loading="lazy" />
       <h3>${primary}</h3>
       <p>${country.name}(${country.nameEn})</p>

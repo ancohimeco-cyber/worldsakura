@@ -1,6 +1,6 @@
 function capitalCard(c) {
   return `
-    <a class="country-card" href="country.html?id=${c.id}">
+    <a class="country-card" href="${countryUrl(c)}">
       <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
       <h3>${c.capital}</h3>
       <p>${c.name}(${c.nameEn})</p>

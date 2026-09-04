@@ -10,8 +10,7 @@ function textOrPlaceholder(value, placeholder) {
 }
 
 async function loadCountry() {
-  const params = new URLSearchParams(window.location.search);
-  const id = Number(params.get("id"));
+  const id = resolveIdFromPath("country");
   const [countriesRes, animalsRes, motifsRes] = await Promise.all([
     fetch("data/countries.json"),
     fetch("data/animals.json"),
@@ -31,7 +30,7 @@ async function loadCountry() {
   updatePageMeta(
     `${country.name}(${country.nameEn}) | 世界の図鑑`,
     `${country.name}の位置・首都・人口・政治体制・言語・食文化・自然・国旗の由来などを紹介。${country.formation || ""}`.slice(0, 140),
-    `country.html?id=${country.id}`
+    countryUrl(country)
   );
 
   const notice = country.detailReady
@@ -54,7 +53,7 @@ async function loadCountry() {
       : `<ul>${countryAnimals
           .map((a) => {
             const badge = a.isNationalAnimalOf.includes(country.code) ? "(🏅国獣)" : "";
-            return `<li><a href="animals.html?key=${a.key}">${a.name}</a>${badge}</li>`;
+            return `<li><a href="${animalUrl(a)}">${a.name}</a>${badge}</li>`;
           })
           .join("")}</ul>`;
 

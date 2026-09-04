@@ -22,7 +22,7 @@ function fieldsForFilter(country) {
 function animalSearchCard(a) {
   const icon = { "哺乳類": "🐾", "鳥類": "🐦", "爬虫類": "🦎", "両生類": "🐸", "魚類": "🐟", "甲殻類": "🦀", "軟体動物": "🐌" }[a.type] || "🐾";
   return `
-    <a class="country-card" href="animals.html?key=${a.key}">
+    <a class="country-card" href="${animalUrl(a)}">
       <div class="animal-icon">${icon}</div>
       <h3>${a.name}</h3>
       <p>${a.nameEn} ・ ${a.countries.length}か国に生息</p>
@@ -31,7 +31,7 @@ function animalSearchCard(a) {
 
 function peopleSearchCard(p) {
   return `
-    <a class="country-card" href="peoples.html?key=${p.key}">
+    <a class="country-card" href="${peopleUrl(p)}">
       <div class="animal-icon">🧑‍🤝‍🧑</div>
       <h3>${p.name}</h3>
       <p>${p.nameEn} ・ ${(p.region || []).join("・")}</p>
@@ -40,7 +40,7 @@ function peopleSearchCard(p) {
 
 function castleSearchCard(c) {
   return `
-    <a class="country-card" href="castles.html?key=${c.key}">
+    <a class="country-card" href="${castleUrl(c)}">
       <div class="animal-icon">🏰</div>
       <h3>${c.name}</h3>
       <p>${c.nameEn} ・ ${c.era || ""}</p>

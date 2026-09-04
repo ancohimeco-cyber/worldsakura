@@ -28,7 +28,7 @@ function todayCard(c) {
         <h3>${c.name}</h3>
         <div class="today-en">${c.nameEn} ・ 首都: ${c.capital || "準備中"}</div>
         <p class="today-desc">${c.trivia || c.location || "この国の紹介は準備中です。"}</p>
-        <a class="today-btn" href="country.html?id=${c.id}">この国を詳しく見る →</a>
+        <a class="today-btn" href="${countryUrl(c)}">この国を詳しく見る →</a>
       </div>
     </div>`;
 }

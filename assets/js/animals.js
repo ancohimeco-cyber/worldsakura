@@ -57,7 +57,7 @@ function animalCard(a) {
   const shown = a.countries.slice(0, 6).map(isoToFlagEmoji).join(" ");
   const more = a.countries.length > 6 ? ` 他${a.countries.length - 6}` : "";
   return `
-    <a class="country-card animal-card" href="animals.html?key=${a.key}">
+    <a class="country-card animal-card" href="${animalUrl(a)}">
       ${animalMedia(a, "animal-photo")}
       <h3>${a.name}</h3>
       <p>生息: ${shown}${more}</p>
@@ -138,7 +138,7 @@ function renderDetail(key) {
   updatePageMeta(
     `${a.name} | 世界の図鑑`,
     (a.blurb || `${a.name}(${a.nameEn})について紹介します。`).slice(0, 140),
-    `animals.html?key=${a.key}`
+    animalUrl(a)
   );
 
   const countryCards = a.countries
@@ -147,7 +147,7 @@ function renderDetail(key) {
       if (!c) return "";
       const badge = a.isNationalAnimalOf.includes(code) ? "🏅国獣" : c.nameEn;
       return `
-        <a class="country-card" href="country.html?id=${c.id}">
+        <a class="country-card" href="${countryUrl(c)}">
           <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
           <h3>${c.name}</h3>
           <p>${badge}</p>
@@ -186,8 +186,7 @@ async function initAnimalsPage() {
   ALL_ANIMALS = animals;
   COUNTRY_MAP = new Map(countries.map((c) => [c.code, c]));
 
-  const params = new URLSearchParams(window.location.search);
-  const key = params.get("key");
+  const key = resolveKeyFromPath("animal");
 
   if (key) {
     renderDetail(key);

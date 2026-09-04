@@ -24,7 +24,7 @@ function peopleMedia(p, cssClass) {
 function peopleCard(p) {
   const flags = (p.countries || []).slice(0, 6).map(isoToFlagEmoji).join(" ");
   return `
-    <a class="country-card" href="peoples.html?key=${p.key}">
+    <a class="country-card" href="${peopleUrl(p)}">
       ${peopleMedia(p, "animal-photo")}
       <h3>${p.name}</h3>
       <p>${(p.region || []).join("・")} ・ ${flags}</p>
@@ -85,7 +85,7 @@ function renderDetail(key) {
   updatePageMeta(
     `${p.name} | 世界の図鑑`,
     (p.history || `${p.name}(${p.nameEn})の暮らし・言語・文化を紹介します。`).slice(0, 140),
-    `peoples.html?key=${p.key}`
+    peopleUrl(p)
   );
 
   const countryCards = (p.countries || [])
@@ -93,7 +93,7 @@ function renderDetail(key) {
       const c = COUNTRY_MAP.get(code);
       if (!c) return "";
       return `
-        <a class="country-card" href="country.html?id=${c.id}">
+        <a class="country-card" href="${countryUrl(c)}">
           <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
           <h3>${c.name}</h3>
           <p>${c.nameEn}</p>
@@ -139,8 +139,7 @@ async function initPeoplesPage() {
   ALL_PEOPLES = peoples;
   COUNTRY_MAP = new Map(countries.map((c) => [c.code, c]));
 
-  const params = new URLSearchParams(window.location.search);
-  const key = params.get("key");
+  const key = resolveKeyFromPath("people");
 
   if (key) {
     renderDetail(key);

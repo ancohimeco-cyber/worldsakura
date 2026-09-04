@@ -28,12 +28,21 @@ const staticPages = [
   "contact.html",
 ];
 
+function slugify(text) {
+  return (text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 const urls = [];
 staticPages.forEach((p) => urls.push({ loc: base + p, priority: p === "" ? "1.0" : "0.8" }));
-countries.forEach((c) => urls.push({ loc: base + "country.html?id=" + c.id, priority: "0.7" }));
-animals.forEach((a) => urls.push({ loc: base + "animals.html?key=" + a.key, priority: "0.6" }));
-peoples.forEach((p) => urls.push({ loc: base + "peoples.html?key=" + p.key, priority: "0.6" }));
-castles.forEach((c) => urls.push({ loc: base + "castles.html?key=" + c.key, priority: "0.6" }));
+countries.forEach((c) =>
+  urls.push({ loc: base + `country-${c.id}-${slugify(c.nameEn)}.html`, priority: "0.7" })
+);
+animals.forEach((a) => urls.push({ loc: base + `animal-${a.key}.html`, priority: "0.6" }));
+peoples.forEach((p) => urls.push({ loc: base + `people-${p.key}.html`, priority: "0.6" }));
+castles.forEach((c) => urls.push({ loc: base + `castle-${c.key}.html`, priority: "0.6" }));
 
 const xml =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
