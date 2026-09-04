@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Deal_Castle_Front.jpg" alt="ディール城" loading="lazy" />
+      <p class="photo-credit">写真: JimRussell / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>ディール城</h1>
+      <div class="name-en">Deal Castle</div>
+      <div class="id-badge">イギリス ・ イングランド・ケント州ディール</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1539年～1540年築城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>砲台城塞（デバイス・フォート）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>指定史跡</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ディール城は1539年から1540年にかけて、フランスと神聖ローマ帝国からの侵攻に備えるヘンリー8世の「キングズ・デバイス」計画の一環として建設された砲台要塞で、戦略的に重要なダウンズ泊地を防衛した。内外6基ずつの稜堡を備えた濠付きの石造要塞で、66の砲座を有し、隣接するサンドウン城・ウォルマー城と合わせて建設費は総額2万7092ポンドに上った。1648～49年の第二次イングランド内戦では王党派の蜂起によって一時占拠され、議会派が数か月の戦闘の末に奪還した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1904年に軍事的価値を失ったと判断されて一般公開され、第二次世界大戦初期にはドイツ軍の爆撃で城主の居室が破壊され、沿岸砲台の監視所として使われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はイングリッシュ・ヘリテッジが管理し、観光名所として公開されている（2008年の来場者数は25,256人）。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Deal_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Deal_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

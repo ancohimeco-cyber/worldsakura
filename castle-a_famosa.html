@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/a_famosa.jpg" alt="ア・ファモザ要塞" loading="lazy" />
+      
+      <h1>ア・ファモザ要塞</h1>
+      <div class="name-en">A Famosa / A Famosa</div>
+      <div class="id-badge">マレーシア ・ マラッカ(ムラカ)</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1512年頃築城(ポルトガル植民地時代)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ポルトガルの植民地軍事建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>2008年、「マラッカ海峡の歴史都市:マラッカとジョージタウン」の構成資産としてユネスコ世界遺産に登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ポルトガルの司令官アフォンソ・デ・アルブケルケが1511年にマラッカ王国を征服した後、1512年頃、破壊したモスクや墓の資材を用いて築いた要塞。東西交易の要衝マラッカを守る拠点とされたが、1641年にオランダに奪われ、その後イギリス統治下の1806年に大部分が破壊された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>最盛期には高さ60mの主塔を含む長大な城壁と4つの主要な塔を備えていたが、現存するのは1670年にオランダが改修した正門「サンチャゴ門」とミデルブルフ稜堡の一部のみで、東南アジアに残る最古のヨーロッパ様式建造物の一つとされる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>マラッカ歴史地区の一部として整備され、現在は史跡公園として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-102-malaysia.html">
+                <img class="flag" src="assets/flags/my.svg" alt="Malaysiaの国旗" loading="lazy" />
+                <h3>マレーシア</h3>
+                <p>Malaysia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/A_Famosa" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/A_Famosa</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/1223" target="_blank" rel="noopener">https://whc.unesco.org/en/list/1223</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

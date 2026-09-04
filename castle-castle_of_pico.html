@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Castello_dei_Pico_a_Mirandola_-_1.jpg" alt="ピーコ城(ミランドラ城)" loading="lazy" />
+      <p class="photo-credit">写真: Segretariato regionale del Ministero per i beni e le attività culturali per l'Emilia-Romagna / Wikimedia Commons(CC BY 4.0)</p>
+      <h1>ピーコ城(ミランドラ城)</h1>
+      <div class="name-en">Castle of Pico / Castello dei Pico</div>
+      <div class="id-badge">イタリア ・ エミリア=ロマーニャ州モデナ県ミランドラ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>12世紀起源、ピーコ家統治は1311年～1711年</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>難攻不落とされたルネサンス期の城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>イタリア国家文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ピーコ城はイタリア・モデナ県ミランドラの中心部にある城である。ヨーロッパでも難攻不落として名高く、1311年から1711年までの4世紀にわたりこの都市を治めたピーコ・デッラ・ミランドラ家の所有であり、ルネサンス期には重要な美術品も生み出した一族であった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>19世紀に取り壊された旧城壁の跡地に造られた広場コスティトゥエンテと環状大通りに面して建つ。2006年に長年の荒廃を経て修復されたが、2012年の北イタリア地震で大きな被害を受け、再び使用不能となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>地震被害により現在使用できない状態にある。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-82-italy.html">
+                <img class="flag" src="assets/flags/it.svg" alt="Italyの国旗" loading="lazy" />
+                <h3>イタリア</h3>
+                <p>Italy</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Castle_of_the_Pico" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Castle_of_the_Pico</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

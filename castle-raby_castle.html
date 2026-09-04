@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Raby_Castle_-_geograph.org.uk_-_1523038.jpg" alt="ラビー城" loading="lazy" />
+      <p class="photo-credit">写真: malcolm tebbit / Wikimedia Commons(CC BY-SA 2.0)</p>
+      <h1>ラビー城</h1>
+      <div class="name-en">Raby Castle / Raby Castle</div>
+      <div class="id-badge">イギリス ・ ステインドロップ付近（ダラム州）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1367年頃〜1390年建設</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の城塞、後にゴシック様式で改修</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ラビー城はイングランド・ダラム州ステインドロップ近郊、約81ヘクタールの鹿公園の中にある中世の城で、ジョン・ネヴィル（第3代ネヴィル・オブ・レイビー男爵）によって1367年頃から1390年にかけて建設された。エドワード4世とリチャード3世の母セシリー・ネヴィルはこの城で生まれた。1569年、第6代ウェストモーランド伯チャールズ・ネヴィルがメアリー・ステュアート擁立を目指した「北方の反乱」に失敗した後、城は王室の管理下に置かれた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1626年にヘンリー・ヴェイン（父）が王室からラビー城と近隣のバーナード城を購入し、後のダーリントン伯・クリーヴランド公らがゴシック様式の玄関ホールや八角形の応接間を増築した。古典絵画や肖像画を多数所蔵することでも知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在もヴェイン家（バーナード男爵家）の邸宅であり、季節限定で一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Raby_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Raby_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

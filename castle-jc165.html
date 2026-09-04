@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Koriyama_Castle_%28Yamato%29%2C_Otte-mon_and_Otte-Mukai-yagura.jpg" alt="大和郡山城" loading="lazy" />
+      <p class="photo-credit">写真: Saigen Jiro / Wikimedia Commons(CC0)</p>
+      <h1>大和郡山城</h1>
+      <div class="name-en">Yamato-Kōriyama Castle</div>
+      <div class="id-badge">日本 ・ 奈良県大和郡山市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>天正8年(1580)筒井順慶築城、天正13年(1585)豊臣秀長が拡張</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平山城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>続日本100名城(選定No.165)、国の史跡</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>織田信長から大和一国を任された筒井順慶が1580年に築城し、順慶没後は豊臣秀吉の弟・豊臣秀長が入城して城下町とともに大規模に整備した。江戸時代には水野・松平・本多氏を経て柳澤氏が入り、明治維新まで柳澤家の居城となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>石材不足のため寺院の礎石や墓石、地蔵などを転用した「転用石」が石垣に多数見られることで知られ、天守台や桜の名所としても人気。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>郡山城跡公園として整備され、天守台の展望施設や追手門などが復元されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%92%8C%E9%83%A1%E5%B1%B1%E5%9F%8E" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%92%8C%E9%83%A1%E5%B1%B1%E5%9F%8E</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

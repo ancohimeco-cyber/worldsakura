@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Scotland-2016-Aerial-Doune_Castle_%28and_Castle_keeper%27s_cottage%29.jpg" alt="ダウン城" loading="lazy" />
+      <p class="photo-credit">写真: Godot13 / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>ダウン城</h1>
+      <div class="name-en">Doune Castle</div>
+      <div class="id-badge">イギリス ・ スコットランド・スターリング県ダウン村</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>13世紀築城、14世紀後半に再建</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の宮廷式配置の城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>指定史跡</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ダウン城は13世紀に築かれた後、スコットランド独立戦争で被害を受け、14世紀後半にスコットランド王ロバート2世の子でスコットランド摂政を務めたオールバニ公ロバート・スチュアートによって現在の姿に再建された。1425年にオールバニの子が処刑された後は王室の所有となり、王室の狩猟用ロッジや寡婦邸として使われ、16世紀後半にはマリー伯爵家の所有となった。17世紀の三王国戦争やグレンケアンの反乱、後のジャコバイトの反乱でも軍事的に利用された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>城主の格式にふさわしい宮廷式（コートヤード）配置で計画され、玄関口の大きな塔屋（タワーハウス）と厨房・客室棟が大広間で結ばれる構造が特徴。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>1880年代に修復され、現在はヒストリック・エンバイロンメント・スコットランドが管理し公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Doune_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Doune_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

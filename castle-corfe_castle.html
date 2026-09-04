@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Corfe_Castle_57.jpg" alt="コーフ城" loading="lazy" />
+      <p class="photo-credit">写真: Chin tin tin / Wikimedia Commons(CC BY 3.0)</p>
+      <h1>コーフ城</h1>
+      <div class="name-en">Corfe Castle</div>
+      <div class="id-badge">イギリス ・ イングランド・ドーセット州パーベック島コーフ村</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>11世紀（ウィリアム征服王による築城）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の城塞（廃墟）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>グレードI指定建造物</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ウィリアム征服王によって築かれたコーフ城は11世紀に遡り、初期のイングランドの城の中でも一部に石材を用いた最も早い例のひとつである。12～13世紀に大規模な構造改修を経た。1572年にエリザベス1世が売却して王室の手を離れ、1635年にジョン・バンクス卿が購入。イングランド内戦中は夫の留守中に妻レディ・メアリー・バンクスが城の防衛を指揮し、1643年の第一次包囲戦は撃退したが、1645年の二度目の包囲戦の末に陥落し、同年3月に議会派の命令で破壊（スライティング）された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>2018年には約23万7000人が訪れており、グレードI指定建造物かつ指定史跡として保護されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>ナショナル・トラストが所有し、一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Corfe_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Corfe_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

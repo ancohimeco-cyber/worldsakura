@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Qasr_al-Hayr_al-Sharqi%2C_Walls_and_towers%2C_Syria.jpg" alt="カスル・アル＝ヒール・アル＝シャルキ" loading="lazy" />
+      <p class="photo-credit">写真: Vyacheslav Argenberg / Wikimedia Commons(CC BY 4.0)</p>
+      <h1>カスル・アル＝ヒール・アル＝シャルキ</h1>
+      <div class="name-en">Qasr al-Hayr al-Sharqi / قصر الحير الشرقي</div>
+      <div class="id-badge">シリア ・ シリア砂漠地帯</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>729年</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>砂漠の城塞（カスル）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産暫定リスト記載</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ウマイヤ朝のカリフ、ヒシャーム・イブン・アブドゥルマリクによって728年から729年にかけて建設された、シリア砂漠の真ん中に建つ城塞。野生動物が豊富な地域にあり、軍事拠点かつ狩猟のための拠点として使われたとみられる。1年前に築かれた近隣の姉妹城カスル・アル＝ヒール・アル＝ガルビと対をなす、いわゆる「砂漠の城」の一つである。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>対をなす姉妹城カスル・アル＝ヒール・アル＝ガルビとともに、ウマイヤ朝の「砂漠の城」群を代表する遺跡の一つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は遺跡として残り、世界遺産暫定リストに記載されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-168-syria.html">
+                <img class="flag" src="assets/flags/sy.svg" alt="Syriaの国旗" loading="lazy" />
+                <h3>シリア</h3>
+                <p>Syria</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Qasr_al-Hayr_al-Sharqi" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Qasr_al-Hayr_al-Sharqi</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

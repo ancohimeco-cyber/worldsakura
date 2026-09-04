@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Castle_in_Dubno_Ukraine.jpg" alt="デュブノー城" loading="lazy" />
+      <p class="photo-credit">写真: Pavlo Boyko from Kyiv, Ukraine / Wikimedia Commons(CC BY-SA 2.0)</p>
+      <h1>デュブノー城</h1>
+      <div class="name-en">Dubno Castle / Дубенський замок</div>
+      <div class="id-badge">ウクライナ ・ ウクライナ・ヴォルィーニ州ドゥブノ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1492年、コンスタンティン・オストロジスキ公により創建</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>石造城郭、後にイタリア式(トラス・イタリエンヌ)築城術を採用</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>ウクライナの国家的重要建築遺産</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ドゥブノー城は1492年、コンスタンティン・オストロジスキ公によってイクヴァ川を見下ろす岬に築かれた城で、リトアニア支配下の16世紀初頭に石造で再建され、教会や2階建ての宮殿、73門の大砲を備えていた。17世紀初頭には最後の当主ヤヌシュ・オストロジスキ公がイタリア式築城術を導入し、地域屈指の先進的な要塞へと改修した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>フメリニツキーの乱ではポーランドとコサックの激戦地となり、ニコライ・ゴーゴリの小説『隊長ブーリバ』にもその戦いの様子が描かれている。1941年には旧堡塁が転用された牢獄で約550人の政治犯がNKVDにより処刑された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現状の詳細は不明だが、歴史的建築遺産として保存されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-181-ukraine.html">
+                <img class="flag" src="assets/flags/ua.svg" alt="Ukraineの国旗" loading="lazy" />
+                <h3>ウクライナ</h3>
+                <p>Ukraine</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Dubno_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Dubno_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

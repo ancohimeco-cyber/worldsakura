@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,60 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/west_indian_manatee.jpg" alt="マナティー" loading="lazy" />
+      <h1>マナティー</h1>
+      <div class="name-en">West Indian manatee / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>マナティー(アメリカマナティー)は体長2.7~3.5メートル、体重200~600キロに達する大型の水生哺乳類で、流線型の体を持ち後肢を欠くのが特徴である。感覚に優れたひげ(洞毛)を使って濁った水中で採食や移動を行い、60種以上の水生植物を食べる植食性動物である。アメリカ合衆国東部沿岸からカリブ海を経てブラジル北部にかけての温暖な沿岸海域や河川に生息し、西アフリカに分布する近縁種のアフリカマナティーとは別種である。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(5か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-18-belize.html">
+          <img class="flag" src="assets/flags/bz.svg" alt="Belizeの国旗" loading="lazy" />
+          <h3>ベリーズ</h3>
+          <p>Belize</p>
+        </a>
+        <a class="country-card" href="country-48-dominica.html">
+          <img class="flag" src="assets/flags/dm.svg" alt="Dominicaの国旗" loading="lazy" />
+          <h3>ドミニカ国</h3>
+          <p>Dominica</p>
+        </a>
+        <a class="country-card" href="country-73-honduras.html">
+          <img class="flag" src="assets/flags/hn.svg" alt="Hondurasの国旗" loading="lazy" />
+          <h3>ホンジュラス</h3>
+          <p>Honduras</p>
+        </a>
+        <a class="country-card" href="country-83-jamaica.html">
+          <img class="flag" src="assets/flags/jm.svg" alt="Jamaicaの国旗" loading="lazy" />
+          <h3>ジャマイカ</h3>
+          <p>Jamaica</p>
+        </a>
+        <a class="country-card" href="country-144-saint-lucia.html">
+          <img class="flag" src="assets/flags/lc.svg" alt="Saint Luciaの国旗" loading="lazy" />
+          <h3>セントルシア</h3>
+          <p>Saint Lucia</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/West_Indian_manatee" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/West_Indian_manatee</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

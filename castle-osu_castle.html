@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/4/46/Osu_Castle_%28also_known_as_Fort_Christiansborg_or_Christiansborg_Castle%29_in_Accra%2C_Ghana.jpg" alt="オス城" loading="lazy" />
+      <p class="photo-credit">写真: Twi inaccr / Wikimedia Commons(CC0)</p>
+      <h1>オス城</h1>
+      <div class="name-en">Osu Castle / Fort Christiansborg</div>
+      <div class="id-badge">ガーナ ・ アクラ（ガーナ、オス地区）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1660年代建設</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>植民地時代の海岸要塞</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産の一部</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>オス城（クリスチャンスボー要塞、またはクリスチャンスボー城とも呼ばれる）はガーナの首都アクラのオス地区、ギニア湾岸に位置する城である。1660年代にデンマーク＝ノルウェーによって本格的な要塞が建設され、その後デンマーク＝ノルウェー、ポルトガル、アクワム王国、イギリス、独立後のガーナへと所有権が移り変わった。デンマーク＝ノルウェー統治下ではデンマーク領ゴールド・コーストの首府として、奴隷とされた人々の海外への集積・出航拠点としても使われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1902年にはゴールドコーストの政府所在地となったが、現在のガーナでは政府機能はジュビリー・ハウスに移転している。ヨーロッパの西アフリカにおける植民地支配と大西洋奴隷貿易の証言として、1979年にガーナの他の城砦群とともにユネスコ世界遺産に登録された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>歴史的建造物として保存されており、世界遺産の構成資産のひとつとなっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-65-ghana.html">
+                <img class="flag" src="assets/flags/gh.svg" alt="Ghanaの国旗" loading="lazy" />
+                <h3>ガーナ</h3>
+                <p>Ghana</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Osu_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Osu_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

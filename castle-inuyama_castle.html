@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/inuyama_castle.jpg" alt="犬山城" loading="lazy" />
+      
+      <h1>犬山城</h1>
+      <div class="name-en">Inuyama Castle</div>
+      <div class="id-badge">日本 ・ 愛知県犬山市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1537年（天文6年）織田信康が築城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平山城（木曽川南岸、標高約88mの丘上に立地）、別名「白帝城」</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>天守が国宝指定（国宝天守を持つ5城の一つ、1952年指定）、日本100名城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>織田信長の叔父・織田信康が1537年に築いたとされ、江戸時代には徳川家康の付家老・成瀬正成が城主となって以降、成瀬氏が9代にわたり明治まで統治した。2004年に個人所有から公益財団法人犬山城白帝文庫の所有へ移り、「日本で最後まで個人が所有していた城」として知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>外観3重内部4階地下2階の複合式望楼型天守で、年輪年代法調査により主要建材が1585年前後に伐採されたと判明し、現存天守の中で最も古い可能性が指摘されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>観光施設として一般公開されており、近年は年間約69万人が訪れる人気観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/犬山城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/犬山城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Inuyama_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Inuyama_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

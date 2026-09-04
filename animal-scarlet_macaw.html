@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,60 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/scarlet_macaw.jpg" alt="コンゴウインコ" loading="lazy" />
+      <h1>コンゴウインコ</h1>
+      <div class="name-en">Scarlet macaw / 鳥類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>コンゴウインコは体長約84cmに達する大型のインコで、鮮やかな赤色を基調に黄色・緑・青の羽を持つ。メキシコ南東部から中米を経て南米まで、湿潤な低地林や疎林、サバンナに分布する。ホンジュラスでは国鳥に指定されているが、中米では生息地破壊やペット取引により個体数が分断されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(5か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-24-brazil.html">
+          <img class="flag" src="assets/flags/br.svg" alt="Brazilの国旗" loading="lazy" />
+          <h3>ブラジル</h3>
+          <p>Brazil</p>
+        </a>
+        <a class="country-card" href="country-71-guyana.html">
+          <img class="flag" src="assets/flags/gy.svg" alt="Guyanaの国旗" loading="lazy" />
+          <h3>ガイアナ</h3>
+          <p>Guyana</p>
+        </a>
+        <a class="country-card" href="country-73-honduras.html">
+          <img class="flag" src="assets/flags/hn.svg" alt="Hondurasの国旗" loading="lazy" />
+          <h3>ホンジュラス</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-165-suriname.html">
+          <img class="flag" src="assets/flags/sr.svg" alt="Surinameの国旗" loading="lazy" />
+          <h3>スリナム</h3>
+          <p>Suriname</p>
+        </a>
+        <a class="country-card" href="country-189-venezuela.html">
+          <img class="flag" src="assets/flags/ve.svg" alt="Venezuelaの国旗" loading="lazy" />
+          <h3>ベネズエラ</h3>
+          <p>Venezuela</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Scarlet_macaw" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Scarlet_macaw</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

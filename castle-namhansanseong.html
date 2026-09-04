@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/namhansanseong.jpg" alt="南漢山城" loading="lazy" />
+      
+      <h1>南漢山城</h1>
+      <div class="name-en">Namhansanseong / 남한산성</div>
+      <div class="id-badge">韓国 ・ 広州市(京畿道)</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1624年〜1626年頃(朝鮮王朝・仁祖時代)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>朝鮮・日本(安土桃山)・中国(明清)の築城技術を融合した山城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>2014年、ユネスコ世界遺産に登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>朝鮮王朝第16代国王・仁祖の命により、僧兵らを動員して1620年代に京畿道広州の南漢山に築かれた山城。1636年の丙子の乱(清の侵攻)の際には仁祖がここに籠城したが、最終的に清に降伏したという歴史を持つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>朝鮮式に加え日本の安土桃山時代や中国明・清の築城技術も取り入れた東アジア屈指の複合的な山城建築で、有事の際は国王と一般住民が共に籠城できるよう設計されている点が特徴。全長約12kmの城壁内に行宮跡や守禦将台などが残る。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は道立公園として整備され、城壁散策や史跡見学ができる観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-160-south-korea.html">
+                <img class="flag" src="assets/flags/kr.svg" alt="South Koreaの国旗" loading="lazy" />
+                <h3>韓国</h3>
+                <p>South Korea</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Namhansanseong" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Namhansanseong</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/1439/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/1439/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

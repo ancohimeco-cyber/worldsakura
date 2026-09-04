@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,65 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/western_lowland_gorilla.jpg" alt="ゴリラ" loading="lazy" />
+      <h1>ゴリラ</h1>
+      <div class="name-en">Western lowland gorilla / 哺乳類</div>
+      <div class="id-badge">CR・深刻な危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ニシローランドゴリラはゴリラ4亜種の中で最も小型であり、中部アフリカの原生林や湿地林に生息する。生息地の喪失や密猟、感染症により深刻な危機に瀕しており、IUCNでも最も高い脅威区分に分類されている。シルバーバックと呼ばれるオスを中心とした家族群で生活し、種子散布者として生態系に重要な役割を果たす。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(7か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-5-angola.html">
+          <img class="flag" src="assets/flags/ao.svg" alt="Angolaの国旗" loading="lazy" />
+          <h3>アンゴラ</h3>
+          <p>Angola</p>
+        </a>
+        <a class="country-card" href="country-45-democratic-republic-of-the-congo.html">
+          <img class="flag" src="assets/flags/cd.svg" alt="Democratic Republic of the Congoの国旗" loading="lazy" />
+          <h3>コンゴ民主共和国</h3>
+          <p>Democratic Republic of the Congo</p>
+        </a>
+        <a class="country-card" href="country-33-central-african-republic.html">
+          <img class="flag" src="assets/flags/cf.svg" alt="Central African Republicの国旗" loading="lazy" />
+          <h3>中央アフリカ共和国</h3>
+          <p>Central African Republic</p>
+        </a>
+        <a class="country-card" href="country-31-cameroon.html">
+          <img class="flag" src="assets/flags/cm.svg" alt="Cameroonの国旗" loading="lazy" />
+          <h3>カメルーン</h3>
+          <p>Cameroon</p>
+        </a>
+        <a class="country-card" href="country-61-gabon.html">
+          <img class="flag" src="assets/flags/ga.svg" alt="Gabonの国旗" loading="lazy" />
+          <h3>ガボン</h3>
+          <p>Gabon</p>
+        </a>
+        <a class="country-card" href="country-53-equatorial-guinea.html">
+          <img class="flag" src="assets/flags/gq.svg" alt="Equatorial Guineaの国旗" loading="lazy" />
+          <h3>赤道ギニア</h3>
+          <p>Equatorial Guinea</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Western_lowland_gorilla" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Western_lowland_gorilla</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

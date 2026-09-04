@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,55 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/red_deer.jpg" alt="アカシカ" loading="lazy" />
+      <h1>アカシカ</h1>
+      <div class="name-en">Red deer / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アカシカはヨーロッパ、西アジア、北アフリカに広く分布する大型のシカ類で、4室の胃を持つ反芻動物である。オスは毎年生え変わる立派な角を持ち、顕著な性的二型を示す。IUCNでは軽度懸念に分類されており、多くの地域で個体数は安定または回復傾向にある。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(4か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-10-austria.html">
+          <img class="flag" src="assets/flags/at.svg" alt="Austriaの国旗" loading="lazy" />
+          <h3>オーストリア</h3>
+          <p>Austria</p>
+        </a>
+        <a class="country-card" href="country-46-denmark.html">
+          <img class="flag" src="assets/flags/dk.svg" alt="Denmarkの国旗" loading="lazy" />
+          <h3>デンマーク</h3>
+          <p>Denmark</p>
+        </a>
+        <a class="country-card" href="country-97-liechtenstein.html">
+          <img class="flag" src="assets/flags/li.svg" alt="Liechtensteinの国旗" loading="lazy" />
+          <h3>リヒテンシュタイン</h3>
+          <p>Liechtenstein</p>
+        </a>
+        <a class="country-card" href="country-99-luxembourg.html">
+          <img class="flag" src="assets/flags/lu.svg" alt="Luxembourgの国旗" loading="lazy" />
+          <h3>ルクセンブルク</h3>
+          <p>Luxembourg</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Red_deer" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Red_deer</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

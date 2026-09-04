@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,105 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/white_stork.jpg" alt="コウノトリ" loading="lazy" />
+      <h1>コウノトリ</h1>
+      <div class="name-en">White stork / 鳥類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>コウノトリ(シュバシコウ)は全長100~115センチ、翼開長155~215センチに達する大型の鳥で、白い羽毛に黒い風切羽、赤い脚とくちばしを持つのが特徴である。ヨーロッパから北西アフリカ、西アジアにかけての草地や農地、浅い湿地に生息し、冬にはサハラ以南アフリカやインド亜大陸まで長距離を渡る。リトアニア、ベラルーシ、ポーランドでは国鳥に指定されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(14か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-16-belarus.html">
+          <img class="flag" src="assets/flags/by.svg" alt="Belarusの国旗" loading="lazy" />
+          <h3>ベラルーシ</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-44-czechia.html">
+          <img class="flag" src="assets/flags/cz.svg" alt="Czechiaの国旗" loading="lazy" />
+          <h3>チェコ</h3>
+          <p>Czechia</p>
+        </a>
+        <a class="country-card" href="country-64-germany.html">
+          <img class="flag" src="assets/flags/de.svg" alt="Germanyの国旗" loading="lazy" />
+          <h3>ドイツ</h3>
+          <p>Germany</p>
+        </a>
+        <a class="country-card" href="country-46-denmark.html">
+          <img class="flag" src="assets/flags/dk.svg" alt="Denmarkの国旗" loading="lazy" />
+          <h3>デンマーク</h3>
+          <p>Denmark</p>
+        </a>
+        <a class="country-card" href="country-74-hungary.html">
+          <img class="flag" src="assets/flags/hu.svg" alt="Hungaryの国旗" loading="lazy" />
+          <h3>ハンガリー</h3>
+          <p>Hungary</p>
+        </a>
+        <a class="country-card" href="country-98-lithuania.html">
+          <img class="flag" src="assets/flags/lt.svg" alt="Lithuaniaの国旗" loading="lazy" />
+          <h3>リトアニア</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-99-luxembourg.html">
+          <img class="flag" src="assets/flags/lu.svg" alt="Luxembourgの国旗" loading="lazy" />
+          <h3>ルクセンブルク</h3>
+          <p>Luxembourg</p>
+        </a>
+        <a class="country-card" href="country-92-latvia.html">
+          <img class="flag" src="assets/flags/lv.svg" alt="Latviaの国旗" loading="lazy" />
+          <h3>ラトビア</h3>
+          <p>Latvia</p>
+        </a>
+        <a class="country-card" href="country-111-moldova.html">
+          <img class="flag" src="assets/flags/md.svg" alt="Moldovaの国旗" loading="lazy" />
+          <h3>モルドバ</h3>
+          <p>Moldova</p>
+        </a>
+        <a class="country-card" href="country-121-netherlands.html">
+          <img class="flag" src="assets/flags/nl.svg" alt="Netherlandsの国旗" loading="lazy" />
+          <h3>オランダ</h3>
+          <p>Netherlands</p>
+        </a>
+        <a class="country-card" href="country-137-poland.html">
+          <img class="flag" src="assets/flags/pl.svg" alt="Polandの国旗" loading="lazy" />
+          <h3>ポーランド</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-138-portugal.html">
+          <img class="flag" src="assets/flags/pt.svg" alt="Portugalの国旗" loading="lazy" />
+          <h3>ポルトガル</h3>
+          <p>Portugal</p>
+        </a>
+        <a class="country-card" href="country-151-serbia.html">
+          <img class="flag" src="assets/flags/rs.svg" alt="Serbiaの国旗" loading="lazy" />
+          <h3>セルビア</h3>
+          <p>Serbia</p>
+        </a>
+        <a class="country-card" href="country-181-ukraine.html">
+          <img class="flag" src="assets/flags/ua.svg" alt="Ukraineの国旗" loading="lazy" />
+          <h3>ウクライナ</h3>
+          <p>Ukraine</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/White_stork" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/White_stork</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

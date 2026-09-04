@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/amber_fort.jpg" alt="アンベール城" loading="lazy" />
+      
+      <h1>アンベール城</h1>
+      <div class="name-en">Amber Fort / आमेर क़िला (Amer Qila)</div>
+      <div class="id-badge">インド ・ アンベール（ジャイプル近郊、ラジャスタン州）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1592年着工（ラージプート期、その後150年かけて増築）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ラージプート様式（ムガル様式の影響を受けた建築）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(2013年登録、「ラジャスタンの丘陵要塞群」の一部)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>アンベール城は1592年、ラージプートのカチワーハ族の王ラージャ・マーン・シング1世によって建設が始められ、後継のジャイ・シング1世が17世紀前半に増築するなど、1727年にジャイプルへ遷都されるまでの約150年間にわたり歴代の王によって拡張が続けられた。ヒンドゥーとイスラームの建築様式が融合したラージプート建築の代表例とされる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>赤砂岩と大理石を用いた4層の中庭からなる構造を持ち、無数の小さな鏡を壁や天井に埋め込んだ「シーシュ・マハル（鏡の間）」や、水路を用いて室内を涼しく保つ「スク・ニワース」などの精巧な意匠で知られる。城内のシーラー・デーヴィー寺院は、マーン・シング1世が1604年のベンガル遠征の戦勝を機に祀った聖石を祀る。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はジャイプル随一の観光名所として一般公開されており、繁忙期には1日約5000人が訪れる人気の史跡となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-76-india.html">
+                <img class="flag" src="assets/flags/in.svg" alt="Indiaの国旗" loading="lazy" />
+                <h3>インド</h3>
+                <p>India</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Amber_Fort" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Amber_Fort</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/247/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/247/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

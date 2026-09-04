@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,80 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/gray_wolf.jpg" alt="オオカミ" loading="lazy" />
+      <h1>オオカミ</h1>
+      <div class="name-en">Gray wolf / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>オオカミ(ハイイロオオカミ)はイヌ科最大の現生種で、体長は105~160センチに達する。ユーラシア大陸と北アメリカ大陸に広く分布し、主に大型の有蹄類を家族群で協力して狩る一方、人間による迫害で生息域は歴史的な範囲の約3分の2にまで縮小した。群れの規模は北米で平均8頭、ヨーロッパでは平均5.5頭ほどである。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(9か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-22-bosnia-and-herzegovina.html">
+          <img class="flag" src="assets/flags/ba.svg" alt="Bosnia and Herzegovinaの国旗" loading="lazy" />
+          <h3>ボスニア・ヘルツェゴビナ</h3>
+          <p>Bosnia and Herzegovina</p>
+        </a>
+        <a class="country-card" href="country-26-bulgaria.html">
+          <img class="flag" src="assets/flags/bg.svg" alt="Bulgariaの国旗" loading="lazy" />
+          <h3>ブルガリア</h3>
+          <p>Bulgaria</p>
+        </a>
+        <a class="country-card" href="country-44-czechia.html">
+          <img class="flag" src="assets/flags/cz.svg" alt="Czechiaの国旗" loading="lazy" />
+          <h3>チェコ</h3>
+          <p>Czechia</p>
+        </a>
+        <a class="country-card" href="country-55-estonia.html">
+          <img class="flag" src="assets/flags/ee.svg" alt="Estoniaの国旗" loading="lazy" />
+          <h3>エストニア</h3>
+          <p>Estonia</p>
+        </a>
+        <a class="country-card" href="country-59-finland.html">
+          <img class="flag" src="assets/flags/fi.svg" alt="Finlandの国旗" loading="lazy" />
+          <h3>フィンランド</h3>
+          <p>Finland</p>
+        </a>
+        <a class="country-card" href="country-74-hungary.html">
+          <img class="flag" src="assets/flags/hu.svg" alt="Hungaryの国旗" loading="lazy" />
+          <h3>ハンガリー</h3>
+          <p>Hungary</p>
+        </a>
+        <a class="country-card" href="country-114-montenegro.html">
+          <img class="flag" src="assets/flags/me.svg" alt="Montenegroの国旗" loading="lazy" />
+          <h3>モンテネグロ</h3>
+          <p>Montenegro</p>
+        </a>
+        <a class="country-card" href="country-137-poland.html">
+          <img class="flag" src="assets/flags/pl.svg" alt="Polandの国旗" loading="lazy" />
+          <h3>ポーランド</h3>
+          <p>Poland</p>
+        </a>
+        <a class="country-card" href="country-140-romania.html">
+          <img class="flag" src="assets/flags/ro.svg" alt="Romaniaの国旗" loading="lazy" />
+          <h3>ルーマニア</h3>
+          <p>Romania</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Wolf" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Wolf</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

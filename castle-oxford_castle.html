@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/5/56/Oxford-castle.jpg" alt="オックスフォード城" loading="lazy" />
+      <p class="photo-credit">写真: Tejvan Pettinger / Wikimedia Commons(CC BY 2.0)</p>
+      <h1>オックスフォード城</h1>
+      <div class="name-en">Oxford Castle</div>
+      <div class="id-badge">イギリス ・ オックスフォード（イングランド）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>12世紀末～13世紀初頭（石造に改築）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の城（後に刑務所として使用）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>指定史跡（Scheduled Monument）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>オックスフォード中心部西側にある、一部が廃墟となった大規模な中世の城。当初は堀を巡らせた木造のモット・アンド・ベイリー式の城だったが、12世紀末から13世紀初頭にかけて石造に建て替えられ、内乱「アナーキー」でも重要な役割を果たした。14世紀には軍事的価値が薄れ、州の行政拠点や牢獄として使われるようになった。イングランド内戦で城の大半が破壊され、18世紀までに残った建物はオックスフォードの地方刑務所となり、1785年から新たな刑務所施設が建てられ1876年に拡張された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>現存する矩形の「セント・ジョージの塔」は城の他の部分より古く、サクソン時代の街の西門に付随する見張り塔だったと考えられている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>刑務所は1996年に閉鎖され、現在はホテル・観光施設として再開発されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Oxford_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Oxford_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

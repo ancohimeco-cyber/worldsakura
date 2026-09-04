@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,40 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/okapi.jpg" alt="オカピ" loading="lazy" />
+      <h1>オカピ</h1>
+      <div class="name-en">Okapi / 哺乳類</div>
+      <div class="id-badge">EN・危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>体高約1.5mのキリン科動物で、チョコレート色の体毛と脚の白い横縞模様が特徴。コンゴ民主共和国北東部、コンゴ川より北かつ東側の熱帯林に生息域が限られ、標高500〜1500mの林冠下で葉や芽、草、菌類を長い舌で選び取って食べる。単独性で主に昼行性であり、かつて生息していたウガンダではすでに絶滅している。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(1か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-45-democratic-republic-of-the-congo.html">
+          <img class="flag" src="assets/flags/cd.svg" alt="Democratic Republic of the Congoの国旗" loading="lazy" />
+          <h3>コンゴ民主共和国</h3>
+          <p>Democratic Republic of the Congo</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Okapi" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Okapi</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

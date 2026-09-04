@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Spain_Cordoba_quality_image.jpg" alt="キリスト教徒の王たちのアルカサル" loading="lazy" />
+      <p class="photo-credit">写真: Pixels4Free / Wikimedia Commons(CC0)</p>
+      <h1>キリスト教徒の王たちのアルカサル</h1>
+      <div class="name-en">Alcázar de los Reyes Cristianos / Alcázar de los Reyes Cristianos</div>
+      <div class="id-badge">スペイン ・ スペイン・アンダルシア州コルドバ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1328年(アルフォンソ11世の命により建設開始)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>軍事的性格を持つ中世の城塞、内部はムデハル様式の庭園と中庭を持つ</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>コルドバ歴史地区の一部として1994年にユネスコ世界遺産に登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>キリスト教徒の王たちのアルカサルは、コルドバの歴史地区、グアダルキビル川のほとりでメスキータ大聖堂の近くに位置する中世のアルカサル(城塞)であり、イサベル1世とフェルナンド2世の主要な居城の一つであった。1328年にカスティーリャ王アルフォンソ11世の命で、イスラム時代のウマイヤ朝の城塞やローマ総督邸の跡地に建設が開始された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>外観は質素だが内部は華麗で、ムデハル様式の見事な庭園と中庭を持つ。1931年に文化財に指定されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>文化財及び世界遺産の一部として保護され、観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-162-spain.html">
+                <img class="flag" src="assets/flags/es.svg" alt="Spainの国旗" loading="lazy" />
+                <h3>スペイン</h3>
+                <p>Spain</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

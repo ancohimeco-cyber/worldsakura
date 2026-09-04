@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/san_felipe_de_barajas.jpg" alt="サン・フェリペ・デ・バラハス要塞" loading="lazy" />
+      
+      <h1>サン・フェリペ・デ・バラハス要塞</h1>
+      <div class="name-en">Castillo San Felipe de Barajas / Castillo San Felipe de Barajas</div>
+      <div class="id-badge">コロンビア ・ カルタヘナ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1536年完成、1639〜1657年・1763年に大規模拡張</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>スペイン植民地軍事建築(稜堡式要塞)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1984年、「カルタヘナの港・要塞群と記念物群」としてユネスコ世界遺産に登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>スペイン植民地時代のカルタヘナ防衛のためアフリカ系奴隷の労働により1536年に築かれ、1639年〜1657年、さらに1763年にはアントニオ・デ・アレバロの指揮のもとで大規模に拡張された。1741年の英西戦争(ジェンキンスの耳の戦争)ではエドワード・ヴァーノン提督率いる英国艦隊の攻撃を退けたことで知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>サン・ラサロの丘に三角形に築かれた稜堡式要塞で、8つの砲台に計68門の大砲を備え、内部には迷路のような地下トンネル網が張り巡らされている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>カルタヘナ歴史地区の一部として一般公開されており、文化イベントの会場としても利用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-37-colombia.html">
+                <img class="flag" src="assets/flags/co.svg" alt="Colombiaの国旗" loading="lazy" />
+                <h3>コロンビア</h3>
+                <p>Colombia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/285/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/285/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

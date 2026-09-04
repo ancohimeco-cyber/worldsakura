@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Lun%C3%A9ville_-_ch%C3%A2teau_20131007-07.JPG" alt="リュネヴィル城" loading="lazy" />
+      <p class="photo-credit">写真: Pymouss / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>リュネヴィル城</h1>
+      <div class="name-en">Château de Lunéville / Château de Lunéville</div>
+      <div class="id-badge">フランス ・ リュネヴィル（ナンシー近郊、ロレーヌ地方、フランス）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>13世紀起源、1703年～1720年に宮殿として拡張</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>バロック様式の宮殿</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>フランスの歴史的記念物（Monument Historique）指定</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>13世紀からロレーヌ公の館があった地で、単純な狩猟の館だったものをロレーヌ公レオポルド1世が1703年から1720年にかけて宮殿へと拡張した。後にロレーヌ公・ポーランド元国王スタニスワフ1世のお気に入りの居城となり、さらに改良が加えられた。ロレーヌ公国がフランス王家の統治下に入った後は軍の兵舎として使われ、その過程で一部の建物が失われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>地域でも有数の人気観光地であり、庭園や公園も多くの来場者を集めている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>2017年からムルト＝エ＝モゼル県が所有し、人気の観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-60-france.html">
+                <img class="flag" src="assets/flags/fr.svg" alt="Franceの国旗" loading="lazy" />
+                <h3>フランス</h3>
+                <p>France</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Lun%C3%A9ville" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Lun%C3%A9ville</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

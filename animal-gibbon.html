@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/gibbon.jpg" alt="テナガザル" loading="lazy" />
+      <h1>テナガザル</h1>
+      <div class="name-en">Gibbon / 哺乳類</div>
+      <div class="id-badge">EN・危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>テナガザルは優れた腕渡り(ブラキエーション)能力と長期的なつがい関係で知られる小型の類人猿で、特殊な手首の関節により時速55kmもの速さで樹冠を移動できる。遠くまで届く独特な鳴き声でコミュニケーションをとり、東バングラデシュ・北東インドから東南アジア本土を経てインドネシアのスマトラ島・ボルネオ島・ジャワ島まで、熱帯・亜熱帯林に広く分布する(タイやラオスにも複数種が生息する)。生息地の減少により、1種を除くほぼすべての種が絶滅危惧種または近絶滅種に指定されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-91-laos.html">
+          <img class="flag" src="assets/flags/la.svg" alt="Laosの国旗" loading="lazy" />
+          <h3>ラオス</h3>
+          <p>Laos</p>
+        </a>
+        <a class="country-card" href="country-171-thailand.html">
+          <img class="flag" src="assets/flags/th.svg" alt="Thailandの国旗" loading="lazy" />
+          <h3>タイ</h3>
+          <p>Thailand</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Gibbon" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Gibbon</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

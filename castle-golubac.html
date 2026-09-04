@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Golubac_Fortress_%28%D0%B3%D1%80%D0%B0%D0%B4_%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%86%29.jpg" alt="ゴルバク要塞" loading="lazy" />
+      <p class="photo-credit">写真: Petar Milošević / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>ゴルバク要塞</h1>
+      <div class="name-en">Golubac / Голубачки град</div>
+      <div class="id-badge">セルビア ・ ゴルバツ近郊（ドナウ川沿い、セルビア）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>14世紀（1335年）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の要塞都市（塔10基を有する）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>セルビアの特別重要不動産文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ドナウ川南岸、現在のセルビア・ゴルバツの町から下流へ4キロの地点に築かれた中世の要塞都市。中世セルビア国家によって14世紀に建設され、ローマ時代の集落の跡地に段階的に築かれた3つの区画からなる。もとは方形だった塔を含む10基の塔を持ち、火器の普及に伴い多角形に補強された塔もある。中世を通じてオスマン帝国とハンガリー王国の間で特に激しい争奪戦の的となり、トルコ、ブルガリア、ハンガリー、セルビア、オーストリアの間で幾度も支配者が変わったが、1867年にセルビア公ミハイロ・オブレノヴィッチ3世に引き渡された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>近年、要塞内部からセルビア中世のフレスコ画が発見された。この要塞は120回以上の攻撃を退けた実績を持つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>ドナウ川クルーズの見どころとして人気の観光名所となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-151-serbia.html">
+                <img class="flag" src="assets/flags/rs.svg" alt="Serbiaの国旗" loading="lazy" />
+                <h3>セルビア</h3>
+                <p>Serbia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Golubac_Fortress" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Golubac_Fortress</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Gedimino_kalnas_by_Augustas_Didzgalvis.jpg" alt="ヴィリニュス城郭群" loading="lazy" />
+      <p class="photo-credit">写真: BigHead / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>ヴィリニュス城郭群</h1>
+      <div class="name-en">Vilnius Castle Complex / Vilniaus pilių kompleksas</div>
+      <div class="id-badge">リトアニア ・ リトアニア・ヴィリニュス</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>10世紀～18世紀にかけて発展</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>上城・下城・曲がり城からなる城郭複合体</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ヴィリニュス城郭群は、リトアニア・ヴィリニュスのネリス川左岸、ヴィルニャ川との合流点付近にある文化的・歴史的建造物群で、10世紀から18世紀にかけて発展し、リトアニアの主要な防衛施設の一つであった。複合体は上城、下城、曲がり城(クリェイヴォイ・ピリス)の三つの城から構成され、曲がり城は1390年にドイツ騎士団によって焼き払われて以降再建されなかった。1390年以降、ドイツ騎士団による攻撃を幾度も受けたが、複合体全体の陥落には至らず、1655年のヴィリニュスの戦いで初めて完全に占領された。以後、大きな損傷を受けた城郭は重要性を失い、多くの建物が放棄された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>ポーランド・リトアニア分割時にはヴィリニュスがロシア帝国に包囲・併合され、複合体内のいくつかの歴史的建造物が取り壊された。19世紀の要塞建設でさらに多くが損傷した。現存するゲディミナス塔は今もヴィリニュス市および国家の象徴とされ、毎年1月1日にはリトアニアの国旗掲揚祭として塔に三色旗が掲げられる。複合体はリトアニア国立博物館の一部となっている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>リトアニア国立博物館の一部として保存・公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-98-lithuania.html">
+                <img class="flag" src="assets/flags/lt.svg" alt="Lithuaniaの国旗" loading="lazy" />
+                <h3>リトアニア</h3>
+                <p>Lithuania</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Vilnius_Castle_Complex" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Vilnius_Castle_Complex</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,50 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/wild_boar.jpg" alt="イノシシ" loading="lazy" />
+      <h1>イノシシ</h1>
+      <div class="name-en">Wild boar / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>イノシシはユーラシアと北アフリカに広く分布するイノシシ科の動物で、家畜ブタの祖先種としても知られる。針葉樹林から砂漠まで多様な環境に生息し、母系の群れで生活する。レバノンには在来のアナトリア亜種に加え20世紀後半に導入された中央ヨーロッパ亜種の個体群も定着しており、適応力の高さからIUCNでは軽度懸念に分類されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(3か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-17-belgium.html">
+          <img class="flag" src="assets/flags/be.svg" alt="Belgiumの国旗" loading="lazy" />
+          <h3>ベルギー</h3>
+          <p>Belgium</p>
+        </a>
+        <a class="country-card" href="country-93-lebanon.html">
+          <img class="flag" src="assets/flags/lb.svg" alt="Lebanonの国旗" loading="lazy" />
+          <h3>レバノン</h3>
+          <p>Lebanon</p>
+        </a>
+        <a class="country-card" href="country-99-luxembourg.html">
+          <img class="flag" src="assets/flags/lu.svg" alt="Luxembourgの国旗" loading="lazy" />
+          <h3>ルクセンブルク</h3>
+          <p>Luxembourg</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Wild_boar" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Wild_boar</a>(2026-08-31時点) / <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8884024/" target="_blank" rel="noopener">https://pmc.ncbi.nlm.nih.gov/articles/PMC8884024/</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

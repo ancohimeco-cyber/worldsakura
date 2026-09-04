@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/osaka_castle.jpg" alt="大阪城" loading="lazy" />
+      
+      <h1>大阪城</h1>
+      <div class="name-en">Osaka Castle</div>
+      <div class="id-badge">日本 ・ 大阪府大阪市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1583年（天正11年）豊臣秀吉が築城開始、1620年代に徳川秀忠が大規模に再築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>輪郭式平城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>国の特別史跡、建造物13棟が国の重要文化財、天守は登録有形文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>豊臣秀吉が1583年に築城を開始し、豊臣政権の本拠となったが、1614〜1615年の大坂の陣で豊臣氏は滅亡した。その後1620年から1629年にかけて徳川秀忠が石垣・堀を一新する大規模な再築を行ったが、1665年の落雷で徳川期の天守は焼失し、以後長らく天守のない状態が続いた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>本丸東面の石垣は高さ約32メートルと日本最高峰を誇り、江戸時代には三重櫓12基・二重櫓15基を数え日本城郭史上最多の櫓数を持った。現在の天守は1931年に鉄骨鉄筋コンクリート構造で再建されたもの。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>天守は「大阪城天守閣」として博物館になっており、周囲約71万平方メートルは大阪城公園として整備され特別史跡に指定されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/大阪城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/大阪城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Osaka_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Osaka_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,60 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/nubian_ibex.jpg" alt="アイベックス" loading="lazy" />
+      <h1>アイベックス</h1>
+      <div class="name-en">Nubian ibex / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ヌビアアイベックスは北アフリカと中東の山岳砂漠地帯に生息する小型の野生ヤギで、エジプト、ヨルダン、イスラエル、オマーン、スーダンなどに孤立した個体群が分布する。成熟個体数は約4500頭と推定され、狩猟や生息地の喪失、家畜との競合により減少しており、IUCNでは危急種に指定されている。古代美術にも数多く描かれるなど中東地域で文化的に重要な動物である。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(5か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-51-egypt.html">
+          <img class="flag" src="assets/flags/eg.svg" alt="Egyptの国旗" loading="lazy" />
+          <h3>エジプト</h3>
+          <p>Egypt</p>
+        </a>
+        <a class="country-card" href="country-81-israel.html">
+          <img class="flag" src="assets/flags/il.svg" alt="Israelの国旗" loading="lazy" />
+          <h3>イスラエル</h3>
+          <p>Israel</p>
+        </a>
+        <a class="country-card" href="country-85-jordan.html">
+          <img class="flag" src="assets/flags/jo.svg" alt="Jordanの国旗" loading="lazy" />
+          <h3>ヨルダン</h3>
+          <p>Jordan</p>
+        </a>
+        <a class="country-card" href="country-129-oman.html">
+          <img class="flag" src="assets/flags/om.svg" alt="Omanの国旗" loading="lazy" />
+          <h3>オマーン</h3>
+          <p>Oman</p>
+        </a>
+        <a class="country-card" href="country-164-sudan.html">
+          <img class="flag" src="assets/flags/sd.svg" alt="Sudanの国旗" loading="lazy" />
+          <h3>スーダン</h3>
+          <p>Sudan</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Nubian_ibex" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Nubian_ibex</a>(2026-08-31時点) / <a href="https://animaldiversity.org/accounts/Capra_nubiana/" target="_blank" rel="noopener">https://animaldiversity.org/accounts/Capra_nubiana/</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

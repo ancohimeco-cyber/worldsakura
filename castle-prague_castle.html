@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/prague_castle.jpg" alt="プラハ城" loading="lazy" />
+      
+      <h1>プラハ城</h1>
+      <div class="name-en">Prague Castle / Pražský hrad</div>
+      <div class="id-badge">チェコ ・ チェコ、プラハ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>9世紀(880年頃創建)、14世紀にゴシック様式で大規模改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ロマネスク、ゴシック、ルネサンス、バロックが混在</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1992年、「プラハ歴史地区」の一部として世界遺産登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>プシェミスル家のボジヴォイ公により9世紀後半に築かれたのが起源とされ、以後歴代のボヘミア王・神聖ローマ皇帝の居城となった。14世紀にカレル4世のもとでゴシック様式による大改築が行われ、聖ヴィート大聖堂の建設も進められた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>敷地面積約7万平方メートルに及び、ギネス世界記録にも認定された世界最大級の古城群。聖ヴィート大聖堂、黄金小路、聖ジョージ教会などを含む。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はチェコ共和国大統領の公邸として使用されるとともに、博物館・美術館として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-44-czechia.html">
+                <img class="flag" src="assets/flags/cz.svg" alt="Czechiaの国旗" loading="lazy" />
+                <h3>チェコ</h3>
+                <p>Czechia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Prague_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Prague_Castle</a>(2026-09-03時点) / <a href="https://www.britannica.com/place/Prague-Castle" target="_blank" rel="noopener">https://www.britannica.com/place/Prague-Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <div class="animal-photo-big-fallback">🏰</div>
+      
+      <h1>大内氏館・高嶺城</h1>
+      <div class="name-en">Ōuchi Clan Residence and Takamine Castle</div>
+      <div class="id-badge">日本 ・ 山口県山口市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>大内氏館:15世紀半ば（大内教弘）、高嶺城:弘治2年(1556)大内義長築城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平城（居館）＋山城（詰城）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>続日本100名城(選定No.174)、国の史跡</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>大内氏館は室町期に西国有数の勢力を誇った守護大名大内氏の政庁兼居館で、発掘調査により庭園跡も確認されている。1551年の大寧寺の変で大内義隆が自害した後、当主となった大内義長が毛利氏の侵攻に備えて詰城の高嶺城を築いたが、1556年に山口は放棄され大内氏は滅亡に向かった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>大内氏館跡には枯山水庭園の遺構が復元され、高嶺城跡には石垣や井戸の跡が残る。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>大内氏館跡は龍福寺境内・史跡公園として、高嶺城跡は登山可能な史跡として整備されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E6%B0%8F%E9%A4%A8%E3%83%BB%E9%AB%98%E5%B6%BA%E5%9F%8E" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E6%B0%8F%E9%A4%A8%E3%83%BB%E9%AB%98%E5%B6%BA%E5%9F%8E</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

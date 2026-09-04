@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/kalmar_castle.jpg" alt="カルマル城" loading="lazy" />
+      
+      <h1>カルマル城</h1>
+      <div class="name-en">Kalmar Castle / Kalmar slott</div>
+      <div class="id-badge">スウェーデン ・ スウェーデン、スモーランド地方カルマル</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>12世紀末に見張り塔として建設、13世紀末に城塞化、16世紀にルネサンス様式へ改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の城塞を起源とし、16世紀にルネサンス様式の宮殿へ改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>1180年頃、交易の要衝を守る見張り塔として建てられたのが起源とされ、13世紀末にマグヌス・ラドゥロース王が円塔と城壁を備えた本格的な城塞へと発展させた。1397年にはこの城で「カルマル同盟」が成立し、デンマーク・ノルウェー・スウェーデン(フィンランドを含む)が統合された北欧史上重要な出来事の舞台となった。16世紀にはヴァーサ朝のエーリク14世やヨハン3世のもとでルネサンス様式に改修された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>北欧の歴史を大きく動かした「カルマル同盟」締結の地として知られ、中世の要塞からルネサンス宮殿への変遷を今に伝える貴重な遺構。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は博物館として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-166-sweden.html">
+                <img class="flag" src="assets/flags/se.svg" alt="Swedenの国旗" loading="lazy" />
+                <h3>スウェーデン</h3>
+                <p>Sweden</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Kalmar_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Kalmar_Castle</a>(2026-09-03時点) / <a href="https://www.britannica.com/place/Kalmar-Castle" target="_blank" rel="noopener">https://www.britannica.com/place/Kalmar-Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

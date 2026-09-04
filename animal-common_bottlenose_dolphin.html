@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/common_bottlenose_dolphin.jpg" alt="イルカ" loading="lazy" />
+      <h1>イルカ</h1>
+      <div class="name-en">Common bottlenose dolphin / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ハンドウイルカは体長2〜4mほどの中型のクジラ類で、短くはっきりとしたくちばし状の吻と灰色の体色をもつ。知能が高く群れ(ポッド)で暮らし、高度な鳴音やエコーロケーションでコミュニケーションをとることで知られる。極地を除く世界中の温帯・亜熱帯・熱帯の海域に広く分布し、地中海や黒海の個体群も確認されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-47-djibouti.html">
+          <img class="flag" src="assets/flags/dj.svg" alt="Djiboutiの国旗" loading="lazy" />
+          <h3>ジブチ</h3>
+          <p>Djibouti</p>
+        </a>
+        <a class="country-card" href="country-41-croatia.html">
+          <img class="flag" src="assets/flags/hr.svg" alt="Croatiaの国旗" loading="lazy" />
+          <h3>クロアチア</h3>
+          <p>Croatia</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Common_bottlenose_dolphin" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Common_bottlenose_dolphin</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

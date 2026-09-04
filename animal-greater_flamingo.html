@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,90 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/greater_flamingo.jpg" alt="フラミンゴ" loading="lazy" />
+      <h1>フラミンゴ</h1>
+      <div class="name-en">Greater flamingo / 鳥類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>オオフラミンゴはフラミンゴ科の中で最大かつ最も広く分布する種で、体高110~150センチ、体重2~4キロに達し、ピンク色の羽毛と先端が黒い嘴が特徴である。北アフリカから地中海沿岸、中東、中央アジア、インド亜大陸にかけての泥地や浅い沿岸の潟湖に生息し、小型の甲殻類や藻類、昆虫の幼虫、貝類などを水中で濾過して食べる。旧世界(アフリカ・ヨーロッパ・アジア)に分布し、カリブ海に生息する近縁のベニイロフラミンゴとは別種として扱われる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(11か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-11-azerbaijan.html">
+          <img class="flag" src="assets/flags/az.svg" alt="Azerbaijanの国旗" loading="lazy" />
+          <h3>アゼルバイジャン</h3>
+          <p>Azerbaijan</p>
+        </a>
+        <a class="country-card" href="country-13-bahrain.html">
+          <img class="flag" src="assets/flags/bh.svg" alt="Bahrainの国旗" loading="lazy" />
+          <h3>バーレーン</h3>
+          <p>Bahrain</p>
+        </a>
+        <a class="country-card" href="country-43-cyprus.html">
+          <img class="flag" src="assets/flags/cy.svg" alt="Cyprusの国旗" loading="lazy" />
+          <h3>キプロス</h3>
+          <p>Cyprus</p>
+        </a>
+        <a class="country-card" href="country-162-spain.html">
+          <img class="flag" src="assets/flags/es.svg" alt="Spainの国旗" loading="lazy" />
+          <h3>スペイン</h3>
+          <p>Spain</p>
+        </a>
+        <a class="country-card" href="country-60-france.html">
+          <img class="flag" src="assets/flags/fr.svg" alt="Franceの国旗" loading="lazy" />
+          <h3>フランス</h3>
+          <p>France</p>
+        </a>
+        <a class="country-card" href="country-82-italy.html">
+          <img class="flag" src="assets/flags/it.svg" alt="Italyの国旗" loading="lazy" />
+          <h3>イタリア</h3>
+          <p>Italy</p>
+        </a>
+        <a class="country-card" href="country-89-kuwait.html">
+          <img class="flag" src="assets/flags/kw.svg" alt="Kuwaitの国旗" loading="lazy" />
+          <h3>クウェート</h3>
+          <p>Kuwait</p>
+        </a>
+        <a class="country-card" href="country-93-lebanon.html">
+          <img class="flag" src="assets/flags/lb.svg" alt="Lebanonの国旗" loading="lazy" />
+          <h3>レバノン</h3>
+          <p>Lebanon</p>
+        </a>
+        <a class="country-card" href="country-107-mauritania.html">
+          <img class="flag" src="assets/flags/mr.svg" alt="Mauritaniaの国旗" loading="lazy" />
+          <h3>モーリタニア</h3>
+          <p>Mauritania</p>
+        </a>
+        <a class="country-card" href="country-139-qatar.html">
+          <img class="flag" src="assets/flags/qa.svg" alt="Qatarの国旗" loading="lazy" />
+          <h3>カタール</h3>
+          <p>Qatar</p>
+        </a>
+        <a class="country-card" href="country-177-turkiye.html">
+          <img class="flag" src="assets/flags/tr.svg" alt="Turkiyeの国旗" loading="lazy" />
+          <h3>トルコ</h3>
+          <p>Turkiye</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Greater_flamingo" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Greater_flamingo</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

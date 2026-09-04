@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <div class="animal-photo-big-fallback">🏰</div>
+      
+      <h1>大分府内城</h1>
+      <div class="name-en">Oita Funai Castle</div>
+      <div class="id-badge">日本 ・ 大分県大分市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>安土桃山〜江戸時代初期(1597年築城開始)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平城(大分川河口付近に築かれた水城)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>日本100名城(選定No.94)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>豊後を治めていた大友氏の改易後、1597年に入封した福原直高が築城を開始し、続いて城主となった竹中重利が1602年から四層の天守や櫓・門を整備して現在の形の府内城を完成させた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>宗門櫓・人質櫓が現存し、本丸へ渡る廊下橋が復元されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>大分城址公園として整備され、天守台や石垣、堀の一部が残る。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%88%86%E5%BA%9C%E5%86%85%E5%9F%8E" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%88%86%E5%BA%9C%E5%86%85%E5%9F%8E</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

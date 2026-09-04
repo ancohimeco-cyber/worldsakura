@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,40 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/bonobo.jpg" alt="ボノボ" loading="lazy" />
+      <h1>ボノボ</h1>
+      <div class="name-en">Bonobo / 哺乳類</div>
+      <div class="id-badge">EN・危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>コンゴ民主共和国のコンゴ川以南・カサイ川以北の湿潤な熱帯林にのみ生息する大型類人猿で、母系的な群れを形成する。性行動が挨拶や社会的絆の形成、対立の解消といった社会的な役割を果たす点が特徴で、近縁のチンパンジーに比べて攻撃性が低いとされる。主に果実を食べる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(1か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-45-democratic-republic-of-the-congo.html">
+          <img class="flag" src="assets/flags/cd.svg" alt="Democratic Republic of the Congoの国旗" loading="lazy" />
+          <h3>コンゴ民主共和国</h3>
+          <p>Democratic Republic of the Congo</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Bonobo" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Bonobo</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

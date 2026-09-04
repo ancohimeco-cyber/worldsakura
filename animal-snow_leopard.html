@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,75 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/snow_leopard.jpg" alt="ユキヒョウ" loading="lazy" />
+      <h1>ユキヒョウ</h1>
+      <div class="name-en">Snow leopard / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ユキヒョウは白みがかった灰色の体毛に黒い斑点を持ち、背中や脇腹の大きめのロゼット模様と太い尾が特徴の大型ネコ科動物である。標高3000~4500メートルの高山・亜高山帯を中心に中央アジアと南アジアの山岳地帯に生息し、アフガニスタン、ブータン、キルギス、カザフスタン、モンゴル、パキスタン、タジキスタン、ウズベキスタンなどにまたがって分布する。カザフスタンやキルギスでは国章などにも描かれ、中央アジアで文化的に重要な存在とされている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(8か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-1-afghanistan.html">
+          <img class="flag" src="assets/flags/af.svg" alt="Afghanistanの国旗" loading="lazy" />
+          <h3>アフガニスタン</h3>
+          <p>Afghanistan</p>
+        </a>
+        <a class="country-card" href="country-20-bhutan.html">
+          <img class="flag" src="assets/flags/bt.svg" alt="Bhutanの国旗" loading="lazy" />
+          <h3>ブータン</h3>
+          <p>Bhutan</p>
+        </a>
+        <a class="country-card" href="country-90-kyrgyzstan.html">
+          <img class="flag" src="assets/flags/kg.svg" alt="Kyrgyzstanの国旗" loading="lazy" />
+          <h3>キルギス</h3>
+          <p>Kyrgyzstan</p>
+        </a>
+        <a class="country-card" href="country-86-kazakhstan.html">
+          <img class="flag" src="assets/flags/kz.svg" alt="Kazakhstanの国旗" loading="lazy" />
+          <h3>カザフスタン</h3>
+          <p>Kazakhstan</p>
+        </a>
+        <a class="country-card" href="country-113-mongolia.html">
+          <img class="flag" src="assets/flags/mn.svg" alt="Mongoliaの国旗" loading="lazy" />
+          <h3>モンゴル</h3>
+          <p>Mongolia</p>
+        </a>
+        <a class="country-card" href="country-130-pakistan.html">
+          <img class="flag" src="assets/flags/pk.svg" alt="Pakistanの国旗" loading="lazy" />
+          <h3>パキスタン</h3>
+          <p>Pakistan</p>
+        </a>
+        <a class="country-card" href="country-169-tajikistan.html">
+          <img class="flag" src="assets/flags/tj.svg" alt="Tajikistanの国旗" loading="lazy" />
+          <h3>タジキスタン</h3>
+          <p>Tajikistan</p>
+        </a>
+        <a class="country-card" href="country-186-uzbekistan.html">
+          <img class="flag" src="assets/flags/uz.svg" alt="Uzbekistanの国旗" loading="lazy" />
+          <h3>ウズベキスタン</h3>
+          <p>Uzbekistan</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Snow_leopard" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Snow_leopard</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

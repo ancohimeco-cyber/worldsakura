@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,40 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/takahe.jpg" alt="タカヘ" loading="lazy" />
+      <h1>タカヘ</h1>
+      <div class="name-en">Takahē / 鳥類</div>
+      <div class="id-badge">EN・危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>クイナ科最大の種とされる飛べない鳥で、ニュージーランド南島に固有。一度は絶滅したと考えられていたが、フィヨルドランド国立公園のマーチソン山地で再発見され、現在は捕食者のいない島などでも保全個体群が維持されている。高山草原に生息してツソック草を主食とし、一夫一妻で子育てを行う。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(1か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-122-new-zealand.html">
+          <img class="flag" src="assets/flags/nz.svg" alt="New Zealandの国旗" loading="lazy" />
+          <h3>ニュージーランド</h3>
+          <p>New Zealand</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Takah%C4%93" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Takah%C4%93</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

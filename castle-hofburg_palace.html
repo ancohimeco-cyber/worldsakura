@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Wien_-_Neue_Hofburg.JPG" alt="ホーフブルク宮殿" loading="lazy" />
+      <p class="photo-credit">写真: C.Stadler/Bwag / Wikimedia Commons(CC BY-SA 3.0 at)</p>
+      <h1>ホーフブルク宮殿</h1>
+      <div class="name-en">Hofburg Palace / Hofburg</div>
+      <div class="id-badge">オーストリア ・ オーストリア・ウィーン中心部</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>13世紀（1279年に統治拠点として記録開始）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>バロック様式を含む宮殿建築群</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ホーフブルクはハプスブルク家の旧主要宮殿で、13世紀にボヘミア王オタカル2世によって建設され、その後何度も拡張された。シェーンブルン宮殿が夏の離宮であったのに対し、ホーフブルクは冬の居城として使われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>スペイン乗馬学校や宮廷図書館、宝物庫、ブルク劇場など多くの施設を含む複合宮殿で、歴代の著名な建築家が増築に関わった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>1946年以降、オーストリア大統領の公邸兼執務室として使用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-10-austria.html">
+                <img class="flag" src="assets/flags/at.svg" alt="Austriaの国旗" loading="lazy" />
+                <h3>オーストリア</h3>
+                <p>Austria</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Hofburg" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Hofburg</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

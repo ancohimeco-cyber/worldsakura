@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/african_wild_ass.jpg" alt="ソマリノロバ" loading="lazy" />
+      <h1>ソマリノロバ</h1>
+      <div class="name-en">African wild ass / 哺乳類</div>
+      <div class="id-badge">CR・深刻な危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アフリカノロバは体高約1.2m、体重約250kgの小型のウマ科動物で、淡い灰褐色の体に白い腹部と脚、黒い背中線をもち、砂漠の暑さに適応した大きな耳が特徴。エリトリア、エチオピア、ソマリアなど「アフリカの角」地域に残存し、かつてはスーダンやエジプト、リビアまで広く分布していたが、生息地の減少や狩猟により野生個体は約570頭にまで激減した。声が大きく3km先まで届くこともあり、家畜ロバの祖先種と考えられている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-54-eritrea.html">
+          <img class="flag" src="assets/flags/er.svg" alt="Eritreaの国旗" loading="lazy" />
+          <h3>エリトリア</h3>
+          <p>Eritrea</p>
+        </a>
+        <a class="country-card" href="country-158-somalia.html">
+          <img class="flag" src="assets/flags/so.svg" alt="Somaliaの国旗" loading="lazy" />
+          <h3>ソマリア</h3>
+          <p>Somalia</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/African_wild_ass" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/African_wild_ass</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

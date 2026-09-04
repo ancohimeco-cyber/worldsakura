@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/hohenzollern_castle.jpg" alt="ホーエンツォレルン城" loading="lazy" />
+      
+      <h1>ホーエンツォレルン城</h1>
+      <div class="name-en">Hohenzollern Castle / Burg Hohenzollern</div>
+      <div class="id-badge">ドイツ ・ ドイツ、バーデン=ヴュルテンベルク州ヘッヒンゲン近郊</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>11世紀に初代築城、1454年に第2代、1846〜1867年に現在の第3代が建設</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>イギリス・ゴシック・リヴァイヴァル様式</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ホーエンツォレルン家(後のプロイセン王家・ドイツ皇帝家)発祥の地とされる山城で、11世紀に最初の城が築かれたが1423年に破壊された。1454年に再建された第2代の城も後に荒廃し、1846年から1867年にかけてプロイセン王フリードリヒ・ヴィルヘルム4世の主導で、建築家フリードリヒ・アウグスト・シュテューラーの設計により現在の第3代の城が「一族の記念碑」として建設された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>プロイセン王冠の一部やフリードリヒ大王ゆかりの品々を所蔵する。フリードリヒ大王とその父フリードリヒ・ヴィルヘルム1世の遺骸も一時この城に安置されていた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在もホーエンツォレルン家の私有財産だが、博物館として一般公開され観光客を受け入れている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-64-germany.html">
+                <img class="flag" src="assets/flags/de.svg" alt="Germanyの国旗" loading="lazy" />
+                <h3>ドイツ</h3>
+                <p>Germany</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Hohenzollern_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Hohenzollern_Castle</a>(2026-09-03時点) / <a href="https://burg-hohenzollern.com/en/about-the-castle/castle-history" target="_blank" rel="noopener">https://burg-hohenzollern.com/en/about-the-castle/castle-history</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

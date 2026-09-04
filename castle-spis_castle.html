@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/spis_castle.jpg" alt="スピシュ城" loading="lazy" />
+      
+      <h1>スピシュ城</h1>
+      <div class="name-en">Spiš Castle / Spišský hrad</div>
+      <div class="id-badge">スロバキア ・ スロバキア東部、スピシュスケー・ポドフラディエ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>12世紀初頭(1120年頃の記録が最古)築城、15世紀後半に大規模改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ロマネスク様式を起源とし、ゴシック様式・ルネサンス様式の要素が加わった中世城郭</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1993年、スピシュスカー・カピトゥラ、スピシュスケー・ポドフラディエ、ジェフラの関連遺跡群とともにユネスコ世界遺産に登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>12世紀初頭、当時のハンガリー王国北部国境を守る要塞として築かれ、以後長くスピシュ地方の中心的な城として機能した。15世紀後半には所有者となったシュテファン・ザーポリャがゴシック様式の宮殿や騎士の間、聖エリザベト礼拝堂を増築し、貴族の邸宅としての体裁を整えた。1780年の火災で大きく損壊し、その後廃墟となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>中央ヨーロッパ最大級の城郭遺構の一つで、敷地面積は4ヘクタール以上に及ぶ。1970年代から本格的な修復が進められ、現在の姿がよみがえった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は博物館として整備され、一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-155-slovakia.html">
+                <img class="flag" src="assets/flags/sk.svg" alt="Slovakiaの国旗" loading="lazy" />
+                <h3>スロバキア</h3>
+                <p>Slovakia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Spi%C5%A1_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Spi%C5%A1_Castle</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/620" target="_blank" rel="noopener">https://whc.unesco.org/en/list/620</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

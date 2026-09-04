@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,80 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/arabian_oryx.jpg" alt="アラビアオリックス" loading="lazy" />
+      <h1>アラビアオリックス</h1>
+      <div class="name-en">Arabian oryx / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アラビアオリックスは肩にこぶ状の隆起と、まっすぐ長い角、房のある尾を持つ中型のアンテロープで、オリックス属の中では最も小さい。アラビア半島の砂漠やステップ地帯に生息するが、1970年代初頭に野生では一度絶滅し、動物園での繁殖と1980年以降の再導入によって野生復帰を果たした。ヨルダン、オマーン、アラブ首長国連邦、バーレーン、カタールでは国獣に指定されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(9か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-182-united-arab-emirates.html">
+          <img class="flag" src="assets/flags/ae.svg" alt="United Arab Emiratesの国旗" loading="lazy" />
+          <h3>アラブ首長国連邦</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-13-bahrain.html">
+          <img class="flag" src="assets/flags/bh.svg" alt="Bahrainの国旗" loading="lazy" />
+          <h3>バーレーン</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-85-jordan.html">
+          <img class="flag" src="assets/flags/jo.svg" alt="Jordanの国旗" loading="lazy" />
+          <h3>ヨルダン</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-89-kuwait.html">
+          <img class="flag" src="assets/flags/kw.svg" alt="Kuwaitの国旗" loading="lazy" />
+          <h3>クウェート</h3>
+          <p>Kuwait</p>
+        </a>
+        <a class="country-card" href="country-129-oman.html">
+          <img class="flag" src="assets/flags/om.svg" alt="Omanの国旗" loading="lazy" />
+          <h3>オマーン</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-139-qatar.html">
+          <img class="flag" src="assets/flags/qa.svg" alt="Qatarの国旗" loading="lazy" />
+          <h3>カタール</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-149-saudi-arabia.html">
+          <img class="flag" src="assets/flags/sa.svg" alt="Saudi Arabiaの国旗" loading="lazy" />
+          <h3>サウジアラビア</h3>
+          <p>Saudi Arabia</p>
+        </a>
+        <a class="country-card" href="country-168-syria.html">
+          <img class="flag" src="assets/flags/sy.svg" alt="Syriaの国旗" loading="lazy" />
+          <h3>シリア</h3>
+          <p>Syria</p>
+        </a>
+        <a class="country-card" href="country-191-yemen.html">
+          <img class="flag" src="assets/flags/ye.svg" alt="Yemenの国旗" loading="lazy" />
+          <h3>イエメン</h3>
+          <p>Yemen</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Arabian_oryx" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Arabian_oryx</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

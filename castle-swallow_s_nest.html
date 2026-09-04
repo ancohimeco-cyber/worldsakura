@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Swallow%27s_Nest_%28Crimea%29_2007.JPG" alt="ツバメの巣（ヤルタ）" loading="lazy" />
+      <p class="photo-credit">写真: Dima Sergiyenko; Please attribute this image as the work of "DiscoverWithDima." / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>ツバメの巣（ヤルタ）</h1>
+      <div class="name-en">Swallow's Nest / Ласточкино гнездо</div>
+      <div class="id-badge">ロシア ・ ガスプラ（ヤルタとアルプカの間、クリミア半島）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1911年～1912年</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ネオゴシック様式の装飾的な城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>ロシア連邦文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ロシア人建築家レオニード・シェルウッドによるネオゴシック様式の設計で、ドイツ系ロシア貴族パーヴェル・レオナルドヴィチ・フォン・シュタインゲリのために1911年から1912年にかけて建てられた、高さ40メートルの断崖「アウロラ岬」の上に建つ装飾的な城。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>黒海に面したアイ＝トドル岬を望み、近くには古代ローマの砦カラックスの遺構がある。クリミア屈指の観光名所として、この地域を象徴する存在になっている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>クリミア有数の観光名所として親しまれている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-141-russia.html">
+                <img class="flag" src="assets/flags/ru.svg" alt="Russiaの国旗" loading="lazy" />
+                <h3>ロシア</h3>
+                <p>Russia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Swallow%27s_Nest" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Swallow%27s_Nest</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/fort_jesus.jpg" alt="フォート・ジーザス" loading="lazy" />
+      
+      <h1>フォート・ジーザス</h1>
+      <div class="name-en">Fort Jesus / Fort Jesus / Ngome ya Yesu</div>
+      <div class="id-badge">ケニア ・ モンバサ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1593〜1596年建造（ポルトガル）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ルネサンス様式の要塞建築（イタリア軍事建築の系譜）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(2011年登録)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>フォート・ジーザスは1593年から1596年にかけて、ポルトガルとスペインの王フェリペ2世の命によりインド洋交易路の防衛拠点として建設され、設計はイタリア人建築家ジョヴァンニ・バッティスタ・カイラーティが担当した。以後、東アフリカ沿岸の覇権をめぐりポルトガルとオマーン・アラブ勢力の間で幾度も争奪戦が起き、特に1696年から1698年にかけてオマーンのサイフ・ビン・スルターンによる約2年に及ぶ包囲戦の末に陥落し、ポルトガルの沿岸支配の終焉を象徴する出来事となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>上空から見ると人体を模した独特の平面形をしており、四隅に稜堡（バスティオン）を配した16世紀ポルトガル軍事建築の傑作とされる。陥落後にオマーン勢力が城壁の高さを約3メートル継ぎ足すなど、ポルトガルとオマーン双方の建築の痕跡が重なって残っている点も特徴。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は国立博物館としてモンバサを代表する観光名所となっており、保存修復のための研究施設も併設されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-87-kenya.html">
+                <img class="flag" src="assets/flags/ke.svg" alt="Kenyaの国旗" loading="lazy" />
+                <h3>ケニア</h3>
+                <p>Kenya</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Fort_Jesus" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Fort_Jesus</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/1295/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/1295/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

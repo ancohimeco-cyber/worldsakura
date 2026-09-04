@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/african_buffalo.jpg" alt="アフリカスイギュウ" loading="lazy" />
+      <h1>アフリカスイギュウ</h1>
+      <div class="name-en">African buffalo / 哺乳類</div>
+      <div class="id-badge">NT・準絶滅危惧</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アフリカスイギュウは左右の角の基部が融合して額を覆う「ボス」と呼ばれる盾状構造をもつ頑丈なウシ科動物で、サバンナや湿地、氾濫原に生息し水場を必要とする。気性が荒く狩猟者から恐れられ「黒い死神」の異名をもつ。セネガル南東部から西・中央アフリカを経て南部アフリカまで分断的に分布し、ルワンダのヴィルンガ山地には亜種マウンテンバッファローが、エスワティニなど南部アフリカにはケープバッファローの個体群が生息する。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-142-rwanda.html">
+          <img class="flag" src="assets/flags/rw.svg" alt="Rwandaの国旗" loading="lazy" />
+          <h3>ルワンダ</h3>
+          <p>Rwanda</p>
+        </a>
+        <a class="country-card" href="country-56-eswatini.html">
+          <img class="flag" src="assets/flags/sz.svg" alt="Eswatiniの国旗" loading="lazy" />
+          <h3>エスワティニ</h3>
+          <p>Eswatini</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/African_buffalo" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/African_buffalo</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

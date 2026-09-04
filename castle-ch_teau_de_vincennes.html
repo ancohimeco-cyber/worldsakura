@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Ch%C3%A2teau_de_Vincennes_Paris_FRA_002.jpg" alt="ヴァンセンヌ城" loading="lazy" />
+      <p class="photo-credit">写真: ignis / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>ヴァンセンヌ城</h1>
+      <div class="name-en">Château de Vincennes / Château de Vincennes</div>
+      <div class="id-badge">フランス ・ フランス・パリ東郊ヴァンセンヌ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1361年-1369年に主要部分を建設</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>要塞兼王宮、ヨーロッパ最高層の天守(ドンジョン)を持つ</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>礼拝堂が1853年、天守が1913年に歴史的記念物に指定</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ヴァンセンヌ城は、パリ東端のヴァンセンヌの森に隣接するかつての要塞兼王宮で、1361年から1369年にかけて主要部分が建設され、14世紀から16世紀にかけてシテ宮に次いでフランス歴代国王が好んだ居城であった。ヨーロッパで最も高い天守として知られる主塔と、1379年に着工し1552年に完成したフランボワイヤン・ゴシック様式の傑作サント=シャペル・ド・ヴァンセンヌで特に知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>その防御性から王家の避難所、監獄、軍司令部としても利用された。礼拝堂は1853年、天守は1913年に歴史的記念物として登録された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は建物の大部分が一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-60-france.html">
+                <img class="flag" src="assets/flags/fr.svg" alt="Franceの国旗" loading="lazy" />
+                <h3>フランス</h3>
+                <p>France</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

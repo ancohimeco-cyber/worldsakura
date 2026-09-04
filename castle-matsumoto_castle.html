@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/matsumoto_castle.jpg" alt="松本城" loading="lazy" />
+      
+      <h1>松本城</h1>
+      <div class="name-en">Matsumoto Castle</div>
+      <div class="id-badge">日本 ・ 長野県松本市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1504年に深志城として築城、安土桃山〜江戸初期に石川数正・康長父子が天守など城郭を整備</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平城（梯郭式に輪郭式を加えた縄張）、現存12天守で唯一の平城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>天守（大天守・乾小天守・渡櫓・辰巳附櫓・月見櫓の5棟）が1952年に国宝指定、日本100名城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>信濃守護家小笠原氏が林城の支城として深志城を築いたのが始まりで、武田氏の支配などを経て小笠原貞慶が奪還し松本城と改称した。江戸時代には松本藩の藩庁として機能し、明治時代の解体の危機を乗り越えて1950年代に大規模修理が行われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>黒漆塗りの下見板張りの外壁から「烏城」とも呼ばれ、層塔型と望楼型の過渡期的な構造を示す貴重な現存天守として知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>松本城公園として市民や観光客に公開され、四季を通じてさまざまなイベントが開催されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/松本城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/松本城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Matsumoto_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Matsumoto_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

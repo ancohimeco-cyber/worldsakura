@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Rakvere%2C_L%C3%A4%C3%A4ne-Viru_County%2C_Estonia_-_panoramio_%282%29.jpg" alt="ラクヴェレ城" loading="lazy" />
+      <p class="photo-credit">写真: Ben Bender / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>ラクヴェレ城</h1>
+      <div class="name-en">Rakvere Castle / Rakvere ordulinnus / Wesenberg</div>
+      <div class="id-badge">エストニア ・ エストニア・ラクヴェレ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>13世紀半ば（石造要塞の建設）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>石造要塞（現在は体験型テーマパーク）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>建築文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ラクヴェレ城は、古代エストニア人の木造丘城「タルヴァンペ」の跡地に築かれた城である。1219年にデンマークのヴァルデマー2世率いる十字軍が丘城を攻略し、リヴォニア分割後デンマーク王領となった13世紀半ばに石造の要塞「ヴェーゼンベルク」が建設された。その後1347年にリヴォニア騎士団領となり、以後イヴァン雷帝やピョートル大帝による包囲、ドイツ騎士団・スウェーデン・ポーランドの間での所有者交代を経て、17世紀に放棄された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>エストニア、タリン、ナルヴァと並ぶ王領三城のひとつとして防衛体制の要であった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は16世紀の生活を再現した体験型テーマパークとして一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-55-estonia.html">
+                <img class="flag" src="assets/flags/ee.svg" alt="Estoniaの国旗" loading="lazy" />
+                <h3>エストニア</h3>
+                <p>Estonia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Rakvere_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Rakvere_Castle</a>(2026-09-04時点) / <a href="https://visitestonia.com/en/rakvere-order-castle" target="_blank" rel="noopener">https://visitestonia.com/en/rakvere-order-castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

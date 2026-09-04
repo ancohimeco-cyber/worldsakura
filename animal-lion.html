@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,75 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/lion.jpg" alt="ライオン" loading="lazy" />
+      <h1>ライオン</h1>
+      <div class="name-en">Lion / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ライオンはサハラ以南アフリカとインド北西部(グジャラート州ギル国立公園)にのみ生息する大型のネコ科動物で、雄は頭部から肩、胸にかけて伸びるたてがみを持つのが特徴である。プライドと呼ばれる、血縁の雌とその子、少数の雄からなる社会集団を形成し、1日の約20時間を休息に費やし、主に明け方に狩りを行う。ケニアでは国獣に指定され、国章にも2頭のライオンが描かれている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(8か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-19-benin.html">
+          <img class="flag" src="assets/flags/bj.svg" alt="Beninの国旗" loading="lazy" />
+          <h3>ベナン</h3>
+          <p>Benin</p>
+        </a>
+        <a class="country-card" href="country-23-botswana.html">
+          <img class="flag" src="assets/flags/bw.svg" alt="Botswanaの国旗" loading="lazy" />
+          <h3>ボツワナ</h3>
+          <p>Botswana</p>
+        </a>
+        <a class="country-card" href="country-87-kenya.html">
+          <img class="flag" src="assets/flags/ke.svg" alt="Kenyaの国旗" loading="lazy" />
+          <h3>ケニア</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-150-senegal.html">
+          <img class="flag" src="assets/flags/sn.svg" alt="Senegalの国旗" loading="lazy" />
+          <h3>セネガル</h3>
+          <p>Senegal</p>
+        </a>
+        <a class="country-card" href="country-170-tanzania.html">
+          <img class="flag" src="assets/flags/tz.svg" alt="Tanzaniaの国旗" loading="lazy" />
+          <h3>タンザニア</h3>
+          <p>Tanzania</p>
+        </a>
+        <a class="country-card" href="country-159-south-africa.html">
+          <img class="flag" src="assets/flags/za.svg" alt="South Africaの国旗" loading="lazy" />
+          <h3>南アフリカ</h3>
+          <p>South Africa</p>
+        </a>
+        <a class="country-card" href="country-192-zambia.html">
+          <img class="flag" src="assets/flags/zm.svg" alt="Zambiaの国旗" loading="lazy" />
+          <h3>ザンビア</h3>
+          <p>Zambia</p>
+        </a>
+        <a class="country-card" href="country-193-zimbabwe.html">
+          <img class="flag" src="assets/flags/zw.svg" alt="Zimbabweの国旗" loading="lazy" />
+          <h3>ジンバブエ</h3>
+          <p>Zimbabwe</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Lion" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Lion</a>(2026-08-31時点) / <a href="https://en.wikipedia.org/wiki/Coat_of_arms_of_Kenya" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Coat_of_arms_of_Kenya</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

@@ -2,6 +2,10 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.join(__dirname, "..");
+const { renderCountryBody } = require(path.join(root, "assets/js/templates/country-template.js"));
+const { renderAnimalBody } = require(path.join(root, "assets/js/templates/animal-template.js"));
+const { renderPeopleBody } = require(path.join(root, "assets/js/templates/people-template.js"));
+const { renderCastleBody } = require(path.join(root, "assets/js/templates/castle-template.js"));
 
 function slugify(text) {
   return (text || "")
@@ -10,10 +14,10 @@ function slugify(text) {
     .replace(/^-+|-+$/g, "");
 }
 
-function injectHead(templateHtml, { title, description, canonicalPath, ogImage, breadcrumb }) {
+function injectHead(templateHtml, { title, description, canonicalPath, ogImage, breadcrumb, extraJsonLd }) {
   const canonicalUrl = "https://worldsakura.com/" + canonicalPath;
   const esc = (s) => String(s).replace(/"/g, "&quot;");
-  const jsonLd = JSON.stringify({
+  const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: breadcrumb.map((b, i) => ({
@@ -22,7 +26,11 @@ function injectHead(templateHtml, { title, description, canonicalPath, ogImage, 
       name: b.name,
       item: "https://worldsakura.com/" + b.path,
     })),
-  });
+  };
+
+  const jsonLdScripts = [breadcrumbLd, ...(extraJsonLd ? [extraJsonLd] : [])]
+    .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
+    .join("\n  ");
 
   const metaBlock = `<title>${title}</title>
   <meta name="description" content="${esc(description)}" />
@@ -37,9 +45,27 @@ function injectHead(templateHtml, { title, description, canonicalPath, ogImage, 
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${ogImage}" />
-  <script type="application/ld+json">${jsonLd}</script>`;
+  ${jsonLdScripts}`;
 
   return templateHtml.replace(/<title>[\s\S]*?<\/title>[\s\S]*?(?=\s*<link rel="icon")/, metaBlock + "\n  ");
+}
+
+function injectSingleRoot(templateHtml, rootId, bodyHtml) {
+  const re = new RegExp(`(<main id="${rootId}"[^>]*>)([\\s\\S]*?)(</main>)`);
+  if (!re.test(templateHtml)) {
+    throw new Error(`could not find <main id="${rootId}"> in template`);
+  }
+  return templateHtml.replace(re, `$1\n${bodyHtml}\n    $3`);
+}
+
+function injectDetailWithListHide(templateHtml, detailId, listSectionId, bodyHtml) {
+  const listRe = new RegExp(`(<section class="section page-title-section" id="${listSectionId}")(>)`);
+  const detailRe = new RegExp(`<div id="${detailId}" hidden></div>`);
+  if (!listRe.test(templateHtml)) throw new Error(`could not find list section #${listSectionId}`);
+  if (!detailRe.test(templateHtml)) throw new Error(`could not find detail div #${detailId}`);
+  let out = templateHtml.replace(listRe, `$1 hidden$2`);
+  out = out.replace(detailRe, `<div id="${detailId}">\n${bodyHtml}\n    </div>`);
+  return out;
 }
 
 function truncate(s, n) {
@@ -53,14 +79,22 @@ let totalWritten = 0;
 {
   const template = fs.readFileSync(path.join(root, "country.html"), "utf8");
   const countries = require(path.join(root, "data/countries.json"));
+  const animals = require(path.join(root, "data/animals.json"));
+  const motifs = require(path.join(root, "data/flag_motifs.json"));
+
   for (const c of countries) {
     const fileName = `country-${c.id}-${slugify(c.nameEn)}.html`;
     const title = `${c.name}(${c.nameEn}) | 世界の図鑑`;
-    const description = truncate(
-      `${c.name}の位置・首都・人口・政治体制・言語・食文化・自然・国旗の由来などを紹介。${c.formation || ""}`,
-      140
-    );
-    const html = injectHead(template, {
+    // Lead with something country-specific (formation story) rather than a boilerplate
+    // opener repeated identically on all 193 pages — same instinct as varied thumbnails.
+    const leadIn = c.formation ? c.formation : `${c.name}の位置・首都・人口・文化などを紹介する国別ページです。`;
+    const description = truncate(`${leadIn} 首都・政治体制・言語・食文化・国旗の由来なども掲載。`, 150);
+
+    const motif = motifs.find((m) => m.countries.includes(c.code));
+    const countryAnimals = animals.filter((a) => a.countries.includes(c.code));
+    const body = renderCountryBody(c, countryAnimals, motif);
+
+    let html = injectHead(template, {
       title,
       description,
       canonicalPath: fileName,
@@ -70,7 +104,15 @@ let totalWritten = 0;
         { name: "193か国", path: "countries.html" },
         { name: c.name, path: fileName },
       ],
+      extraJsonLd: {
+        "@context": "https://schema.org",
+        "@type": "Country",
+        name: c.name,
+        alternateName: c.nameEn,
+        url: `https://worldsakura.com/${fileName}`,
+      },
     });
+    html = injectSingleRoot(html, "country-root", body);
     fs.writeFileSync(path.join(root, fileName), html);
     totalWritten++;
   }
@@ -81,11 +123,16 @@ let totalWritten = 0;
 {
   const template = fs.readFileSync(path.join(root, "animals.html"), "utf8");
   const animals = require(path.join(root, "data/animals.json"));
+  const countries = require(path.join(root, "data/countries.json"));
+  const countryMap = new Map(countries.map((c) => [c.code, c]));
+
   for (const a of animals) {
     const fileName = `animal-${a.key}.html`;
     const title = `${a.name} | 世界の図鑑`;
     const description = truncate(a.blurb || `${a.name}(${a.nameEn})について紹介します。`, 140);
-    const html = injectHead(template, {
+    const body = renderAnimalBody(a, countryMap);
+
+    let html = injectHead(template, {
       title,
       description,
       canonicalPath: fileName,
@@ -96,6 +143,7 @@ let totalWritten = 0;
         { name: a.name, path: fileName },
       ],
     });
+    html = injectDetailWithListHide(html, "animal-detail", "animal-list-section", body);
     fs.writeFileSync(path.join(root, fileName), html);
     totalWritten++;
   }
@@ -106,11 +154,16 @@ let totalWritten = 0;
 {
   const template = fs.readFileSync(path.join(root, "peoples.html"), "utf8");
   const peoples = require(path.join(root, "data/peoples.json"));
+  const countries = require(path.join(root, "data/countries.json"));
+  const countryMap = new Map(countries.map((c) => [c.code, c]));
+
   for (const p of peoples) {
     const fileName = `people-${p.key}.html`;
     const title = `${p.name} | 世界の図鑑`;
     const description = truncate(p.history || `${p.name}(${p.nameEn})の暮らし・言語・文化を紹介します。`, 140);
-    const html = injectHead(template, {
+    const body = renderPeopleBody(p, countryMap);
+
+    let html = injectHead(template, {
       title,
       description,
       canonicalPath: fileName,
@@ -121,6 +174,7 @@ let totalWritten = 0;
         { name: p.name, path: fileName },
       ],
     });
+    html = injectDetailWithListHide(html, "peoples-detail", "peoples-list-section", body);
     fs.writeFileSync(path.join(root, fileName), html);
     totalWritten++;
   }
@@ -131,11 +185,16 @@ let totalWritten = 0;
 {
   const template = fs.readFileSync(path.join(root, "castles.html"), "utf8");
   const castles = require(path.join(root, "data/castles.json"));
+  const countries = require(path.join(root, "data/countries.json"));
+  const countryMap = new Map(countries.map((c) => [c.code, c]));
+
   for (const c of castles) {
     const fileName = `castle-${c.key}.html`;
     const title = `${c.name} | 世界の図鑑`;
     const description = truncate(c.history || `${c.name}(${c.nameEn})の歴史・様式・見どころを紹介します。`, 140);
-    const html = injectHead(template, {
+    const body = renderCastleBody(c, countryMap);
+
+    let html = injectHead(template, {
       title,
       description,
       canonicalPath: fileName,
@@ -150,6 +209,7 @@ let totalWritten = 0;
         { name: c.name, path: fileName },
       ],
     });
+    html = injectDetailWithListHide(html, "castles-detail", "castles-list-section", body);
     fs.writeFileSync(path.join(root, fileName), html);
     totalWritten++;
   }

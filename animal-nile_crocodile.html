@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,55 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/nile_crocodile.jpg" alt="ナイルワニ" loading="lazy" />
+      <h1>ナイルワニ</h1>
+      <div class="name-en">Nile crocodile / 爬虫類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ナイルワニはアフリカ最大の捕食性爬虫類で、通常体長3.5〜5m、体重225〜750kgに達し、サハラ以南アフリカの26カ国の淡水域に生息する。魚類や爬虫類、鳥類、哺乳類を機会的に捕食する強力な捕食者であり、全体の個体群は安定していることからIUCNでは軽度懸念に分類されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(4か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-28-burundi.html">
+          <img class="flag" src="assets/flags/bi.svg" alt="Burundiの国旗" loading="lazy" />
+          <h3>ブルンジ</h3>
+          <p>Burundi</p>
+        </a>
+        <a class="country-card" href="country-51-egypt.html">
+          <img class="flag" src="assets/flags/eg.svg" alt="Egyptの国旗" loading="lazy" />
+          <h3>エジプト</h3>
+          <p>Egypt</p>
+        </a>
+        <a class="country-card" href="country-164-sudan.html">
+          <img class="flag" src="assets/flags/sd.svg" alt="Sudanの国旗" loading="lazy" />
+          <h3>スーダン</h3>
+          <p>Sudan</p>
+        </a>
+        <a class="country-card" href="country-161-south-sudan.html">
+          <img class="flag" src="assets/flags/ss.svg" alt="South Sudanの国旗" loading="lazy" />
+          <h3>南スーダン</h3>
+          <p>South Sudan</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Nile_crocodile" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Nile_crocodile</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

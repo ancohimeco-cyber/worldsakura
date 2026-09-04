@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Palacio_de_Olite.JPG" alt="オリテ王宮" loading="lazy" />
+      <p class="photo-credit">写真: Jorab / Wikimedia Commons(CC BY 3.0)</p>
+      <h1>オリテ王宮</h1>
+      <div class="name-en">Royal Palace of Olite / Palacio de los Reyes de Navarra de Olite</div>
+      <div class="id-badge">スペイン ・ スペイン・ナバラ州オリテ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>13世紀（1201年頃）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>城塞宮殿</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>文化財（ビエン・デ・インテレス・クルトゥラル）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>オリテ王宮はナバラ王国の宮廷の所在地のひとつで、シャルル3世（高潔王）の治世からカスティーリャに征服される1512年まで用いられた。1813年のナポレオン戦争時、フランス軍による占拠を防ぐためエスポス・イ・ミナ将軍が起こした火災で教会部分を除き大きな被害を受けたが、1937年から30年をかけて元の姿に復元された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>当時の記録には「これほど美しい城や宮殿を持つ王はいない」と称えられたほどの豪華さで知られていたが、内部装飾や庭園の一部は失われたままである。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>復元後は観光名所として一般公開されていると考えられる。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-162-spain.html">
+                <img class="flag" src="assets/flags/es.svg" alt="Spainの国旗" loading="lazy" />
+                <h3>スペイン</h3>
+                <p>Spain</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Palace_of_the_Kings_of_Navarre_of_Olite" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Palace_of_the_Kings_of_Navarre_of_Olite</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

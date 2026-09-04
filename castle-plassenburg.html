@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Plassenburg%2C_Nordansicht_-_Panorama.jpg" alt="プラッセンブルク城" loading="lazy" />
+      <p class="photo-credit">写真: DYVER / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>プラッセンブルク城</h1>
+      <div class="name-en">Plassenburg / Plassenburg</div>
+      <div class="id-badge">ドイツ ・ ドイツ、バイエルン州クルムバッハ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1135年に初めて記録、1554年に破壊後16世紀後半に再建</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>要塞と宮殿を兼ねた城郭建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>バイエルン州の建築文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>プラッセンブルク城はドイツ・バイエルン州クルムバッハ市にある城で、1135年に初めて記録された。プラッセンベルク家はアンデクス伯（後のアンデクス＝メラーニエン公）の家臣であり、プラッセンブルクを居城とした。1340年からはホーエンツォレルン家が1604年までフランケン領をこの城から統治し、要塞かつ居城として使われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1554年の第二次辺境伯戦争末期に破壊されたが、建築家カスパー・フィッシャーにより堅固な要塞兼巨大な宮殿として再建された。1792年にはプロイセン王に売却され、1806年にはナポレオンの弟ジェローム・ボナパルト指揮下のバイエルン・フランス連合軍に包囲された。19世紀以降は刑務所や軍病院として使われ、第二次世界大戦中は組織トートの訓練・保養施設となった。プロイセンの軍事関連遺物と肖像画の重要なコレクションを収蔵する。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在は博物館・文化イベント会場として利用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-64-germany.html">
+                <img class="flag" src="assets/flags/de.svg" alt="Germanyの国旗" loading="lazy" />
+                <h3>ドイツ</h3>
+                <p>Germany</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Plassenburg" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Plassenburg</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

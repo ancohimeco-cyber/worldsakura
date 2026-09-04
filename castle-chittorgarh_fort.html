@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/chittorgarh_fort.jpg" alt="チットールガル城" loading="lazy" />
+      
+      <h1>チットールガル城</h1>
+      <div class="name-en">Chittorgarh Fort / चित्तौड़गढ़ क़िला (Chittaurgarh Qila)</div>
+      <div class="id-badge">インド ・ チットールガル（ラジャスタン州）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>8世紀頃創建、以後歴代のラージプート王朝が改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ラージプート様式（丘陵要塞建築）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(2013年登録、「ラジャスタンの丘陵要塞群」の一部)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>チットールガル城はモーリ族の王チトラーンガダ・モーリによって築かれたと伝えられ、8世紀前半にグヒラ朝のバッパ・ラーワルがこれを攻略して以降、シソーディヤ家を含む歴代のラージプート王朝の拠点となった。1303年にはデリー・スルターン朝のアラーウッディーン・ハルジーが約8か月に及ぶ包囲の末に攻略し、1535年にはグジャラート王バハードゥル・シャーが、1567〜1568年にはムガル皇帝アクバルが攻囲して陥落させるなど、歴史上たびたび激しい攻城戦の舞台となった。伝承では、陥落の際に女性たちが集団で焼身自決（ジョーハル）を行ったとされるが、史実性については研究者の間で議論がある。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>約280ヘクタールにも及ぶ広大な城域内には4つの宮殿、19の大寺院、20の貯水池、4つの記念碑など65の歴史的建造物が残り、なかでも「勝利の塔（ヴィジャイ・スタンバ）」は代表的なランドマークとして知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在も城内には約3000人が暮らしており、文化的モニュメントであると同時に人々の生活の場としても機能している。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-76-india.html">
+                <img class="flag" src="assets/flags/in.svg" alt="Indiaの国旗" loading="lazy" />
+                <h3>インド</h3>
+                <p>India</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Chittorgarh_Fort" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Chittorgarh_Fort</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/247/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/247/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

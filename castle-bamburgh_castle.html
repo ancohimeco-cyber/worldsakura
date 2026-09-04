@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Bamburgh_2006_closeup.jpg" alt="バンバラ城" loading="lazy" />
+      <p class="photo-credit">写真: Michael Hanselmann - Quaoar10 / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>バンバラ城</h1>
+      <div class="name-en">Bamburgh Castle / Bamburgh Castle</div>
+      <div class="id-badge">イギリス ・ バンバラ（ノーサンバーランド）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>5世紀起源、ノルマン時代に石造化</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ケルト・アングロサクソン起源、ノルマン様式で再建された城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>バンバラ城はイングランド北東岸、ノーサンバーランド州バンバラ村にある城で、もとはケルト・ブリトン人の砦「ディン・グアリエ」があった場所とされ、420年頃から547年頃までベルニシア王国の首都であった可能性がある。547年にはベルニシア王アイダに攻略され、その後ブリトン人とアングロサクソン人の間で3度支配が入れ替わった末、590年にアングロサクソンの支配下に入った。後にノルマン人が現在の城の中核をなす新たな城を築いた。1095年の反乱を支援したことにより、城はイングランド君主の所有物となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>17世紀には財政難で荒廃したが、18〜19世紀にかけて複数の所有者によって修復され、最終的にヴィクトリア朝の実業家ウィリアム・アームストロングによって修復が完了した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在も一般公開されており、第3代アームストロング男爵の子であるフランシス・ワトソン＝アームストロングが所有している。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Bamburgh_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Bamburgh_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

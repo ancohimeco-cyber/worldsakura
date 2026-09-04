@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Dublin_castle.JPG" alt="ダブリン城" loading="lazy" />
+      <p class="photo-credit">写真: Wikimedia Commons(Public domain)</p>
+      <h1>ダブリン城</h1>
+      <div class="name-en">Dublin Castle / Caisleán Bhaile Átha Cliath</div>
+      <div class="id-badge">アイルランド ・ ダブリン（アイルランド）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1204年頃建設（ジョン王の時代）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>モット・アンド・ベイリー城として始まり、後にジョージ王朝様式の宮殿として再建</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ダブリン城はダブリン中心部、デイム・ストリート沿いに位置する政府施設・会議場・観光地を兼ねる複合施設である。もともとダブリン中心部の最高地点に築かれたモット・アンド・ベイリー城に始まり、17世紀後半以降にジョージ王朝様式の宮殿として大幅に再建された。現在の建物の多くは18世紀のものだが、アイルランド卿の初代であったジョン王の時代から城が存在してきた。イングランド、後にイギリスによるアイルランド統治の拠点として、アイルランド卿領（1171〜1541年）、アイルランド王国（1541〜1800年）、グレートブリテン及びアイルランド連合王国（1801〜1922年）にわたって使用された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1921年12月の英愛条約締結後、1922年にマイケル・コリンズ率いる新臨時政府へ正式に引き渡された。城の名は、これを名付けたダブリンの黒い淀み（ダブ・リン）に由来し、この淀みは現在も複合施設の地下を流れるポドル川の下流部にあたる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はアイルランド大統領の就任式や国賓歓迎行事などに使用される政府施設・観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-80-ireland.html">
+                <img class="flag" src="assets/flags/ie.svg" alt="Irelandの国旗" loading="lazy" />
+                <h3>アイルランド</h3>
+                <p>Ireland</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Dublin_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Dublin_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

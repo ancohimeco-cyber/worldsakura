@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/neuschwanstein_castle.jpg" alt="ノイシュヴァンシュタイン城" loading="lazy" />
+      
+      <h1>ノイシュヴァンシュタイン城</h1>
+      <div class="name-en">Neuschwanstein Castle / Schloss Neuschwanstein</div>
+      <div class="id-badge">ドイツ ・ バイエルン州フュッセン近郊</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>19世紀(1869年着工、1886年に王の死後ほぼ竣工)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ネオ・ロマネスク様式(歴史主義建築)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>2025年、「バイエルン王ルートヴィヒ2世の城館群」の一部として世界遺産登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>バイエルン王ルートヴィヒ2世が公務から退き私的に暮らす場として1869年に建設を開始し、中世ドイツ騎士の理想世界を再現しようとした。作曲家リヒャルト・ワーグナーの楽劇の世界観が城内の装飾に色濃く反映されている。1886年、国王が湖畔で謎の死を遂げた直後に一般公開された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>中世風の外観に反して当時最新の鉄骨構造や温水暖房を備えた建物で、内部には終始ワーグナー作品を題材にした壁画が広がる。ウォルト・ディズニーの城のモデルの一つとされ、世界で最も撮影される城の一つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>バイエルン州が管理する博物館として一般公開されており、年間150万人前後が訪れる。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-64-germany.html">
+                <img class="flag" src="assets/flags/de.svg" alt="Germanyの国旗" loading="lazy" />
+                <h3>ドイツ</h3>
+                <p>Germany</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Neuschwanstein_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Neuschwanstein_Castle</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/1726" target="_blank" rel="noopener">https://whc.unesco.org/en/list/1726</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

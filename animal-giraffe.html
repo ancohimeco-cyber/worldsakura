@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,50 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/giraffe.jpg" alt="キリン" loading="lazy" />
+      <h1>キリン</h1>
+      <div class="name-en">Giraffe / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>キリン(Giraffa camelopardalis)は現生の陸上動物で最も背が高い種で、長い首と脚、網目状の斑紋を特徴とする。チャドから南アフリカ、ニジェールからソマリアにかけてのアフリカのサバンナに広く分布し、ケニアやエスワティニでも生息が確認されている。IUCNのレッドリストでは「危急(Vulnerable)」に指定されており、生息地の減少により個体数が減少している。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(3か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-87-kenya.html">
+          <img class="flag" src="assets/flags/ke.svg" alt="Kenyaの国旗" loading="lazy" />
+          <h3>ケニア</h3>
+          <p>Kenya</p>
+        </a>
+        <a class="country-card" href="country-56-eswatini.html">
+          <img class="flag" src="assets/flags/sz.svg" alt="Eswatiniの国旗" loading="lazy" />
+          <h3>エスワティニ</h3>
+          <p>Eswatini</p>
+        </a>
+        <a class="country-card" href="country-34-chad.html">
+          <img class="flag" src="assets/flags/td.svg" alt="Chadの国旗" loading="lazy" />
+          <h3>チャド</h3>
+          <p>Chad</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Giraffe</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

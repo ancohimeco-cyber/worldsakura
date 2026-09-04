@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/matsue_castle.jpg" alt="松江城" loading="lazy" />
+      
+      <h1>松江城</h1>
+      <div class="name-en">Matsue Castle</div>
+      <div class="id-badge">日本 ・ 島根県松江市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1607年（慶長12年）築城開始、1611年完成</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>輪郭連郭複合式平山城（宍道湖畔の亀田山に立地、日本三大湖城の一つ）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>天守が2015年7月に国宝指定（国宝天守を持つ5城の一つ、山陰地方唯一の現存天守）、日本100名城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>関ヶ原の戦いで戦功のあった堀尾忠氏が軍学者・小瀬甫庵に設計させて築城したが、1633年に堀尾氏は改易となり、以後京極氏、松平氏が統治した。1871年の廃藩置県で廃城となったが、1873年に天守が地元有志により買い戻されて保存され、1927年に松江市へ寄付された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>階数をまたぐ通し柱を多用した独特の耐震構造を持つ複合式望楼型の天守で、現存天守の中でも最大級となる約2メートルの鯱を戴く。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>松江城山公園として一般公開されており、日本さくら名所100選にも選ばれている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/松江城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/松江城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Matsue_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Matsue_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

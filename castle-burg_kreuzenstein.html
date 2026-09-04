@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Leobendorf_-_Burg_Kreuzenstein_%282%29.JPG" alt="クロイツェンシュタイン城" loading="lazy" />
+      <p class="photo-credit">写真: C.Stadler/Bwag / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>クロイツェンシュタイン城</h1>
+      <div class="name-en">Burg Kreuzenstein / Burg Kreuzenstein</div>
+      <div class="id-badge">オーストリア ・ オーストリア、ニーダーエスターライヒ州レオベンドルフ近郊</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>19世紀（中世城郭跡地に再建）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>19世紀のネオ・ゴシック様式（ヨーロッパ各地の中世建築部材を集めて再現した城）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>オーストリアの文化財指定建造物</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>クロイツェンシュタイン城は、標高265メートルに位置するオーストリア・ニーダーエスターライヒ州レオベンドルフ近郊の城である。荒廃し三十年戦争中に取り壊された中世の城の跡地に建設された。ヴィルツェク家の家族霊廟として計画され、19世紀にネポムク・ヴィルツェク伯爵がシレジアの炭鉱事業で得た資金により再建した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>ヨーロッパ各地から一族が購入した中世建造物の部材を組み合わせて、本物らしく見える城として建設された点が特徴で、「ネオ」であり「オリジナル」の中世建築でもあると評される。1972年のマリオ・バーヴァ監督『バロン・ブラッド』など映画のロケ地としても使用されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>観光地・映画撮影地として利用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-10-austria.html">
+                <img class="flag" src="assets/flags/at.svg" alt="Austriaの国旗" loading="lazy" />
+                <h3>オーストリア</h3>
+                <p>Austria</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Burg_Kreuzenstein" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Burg_Kreuzenstein</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

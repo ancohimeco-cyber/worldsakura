@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,70 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/resplendent_quetzal.jpg" alt="ケツァール" loading="lazy" />
+      <h1>ケツァール</h1>
+      <div class="name-en">Resplendent quetzal / 鳥類</div>
+      <div class="id-badge">NT・準絶滅危惧</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ケツァールはメキシコ南部からパナマにかけての山地雲霧林に生息する鳥で、オスは光沢のある緑色の羽と赤い下面が特徴的である。主に果実を食べ、種子散布者として雲霧林生態系に重要な役割を果たす。グアテマラでは国の動物とされ、国旗や紋章に描かれるほか、同国通貨ケツァルの名前の由来にもなっている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(7か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-39-costa-rica.html">
+          <img class="flag" src="assets/flags/cr.svg" alt="Costa Ricaの国旗" loading="lazy" />
+          <h3>コスタリカ</h3>
+          <p>Costa Rica</p>
+        </a>
+        <a class="country-card" href="country-68-guatemala.html">
+          <img class="flag" src="assets/flags/gt.svg" alt="Guatemalaの国旗" loading="lazy" />
+          <h3>グアテマラ</h3>
+          <p>🏅国獣</p>
+        </a>
+        <a class="country-card" href="country-73-honduras.html">
+          <img class="flag" src="assets/flags/hn.svg" alt="Hondurasの国旗" loading="lazy" />
+          <h3>ホンジュラス</h3>
+          <p>Honduras</p>
+        </a>
+        <a class="country-card" href="country-109-mexico.html">
+          <img class="flag" src="assets/flags/mx.svg" alt="Mexicoの国旗" loading="lazy" />
+          <h3>メキシコ</h3>
+          <p>Mexico</p>
+        </a>
+        <a class="country-card" href="country-123-nicaragua.html">
+          <img class="flag" src="assets/flags/ni.svg" alt="Nicaraguaの国旗" loading="lazy" />
+          <h3>ニカラグア</h3>
+          <p>Nicaragua</p>
+        </a>
+        <a class="country-card" href="country-132-panama.html">
+          <img class="flag" src="assets/flags/pa.svg" alt="Panamaの国旗" loading="lazy" />
+          <h3>パナマ</h3>
+          <p>Panama</p>
+        </a>
+        <a class="country-card" href="country-52-el-salvador.html">
+          <img class="flag" src="assets/flags/sv.svg" alt="El Salvadorの国旗" loading="lazy" />
+          <h3>エルサルバドル</h3>
+          <p>El Salvador</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Resplendent_quetzal" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Resplendent_quetzal</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

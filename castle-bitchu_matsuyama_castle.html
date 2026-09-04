@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/bitchu_matsuyama_castle.jpg" alt="備中松山城" loading="lazy" />
+      
+      <h1>備中松山城</h1>
+      <div class="name-en">Bitchu Matsuyama Castle</div>
+      <div class="id-badge">日本 ・ 岡山県高梁市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1240年（仁治元年）秋庭三郎重信が築城、現存天守は江戸時代前期に整備</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>連郭式山城、現存12天守で唯一の現存する山城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>天守・二重櫓・土塀が国の重要文化財、城跡は国の史跡、日本100名城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>鎌倉時代の1240年に秋庭三郎重信が築いたのが始まりとされ、戦国時代には三村元親が統治した後に毛利氏の支配下に入った。江戸時代には池田氏・水谷氏・安藤氏・石川氏・板倉氏が城主を務め、明治時代には無血開城を迎えた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>標高約430メートルの臥牛山山頂付近に立地し、現存12天守の中で最も高所にある城として知られ、雲海に浮かぶ姿から「天空の城」とも呼ばれる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>高梁市が管理する史跡として一般公開され、有料で天守内部を見学できる。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/備中松山城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/備中松山城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Bitch%C5%AB_Matsuyama_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Bitch%C5%AB_Matsuyama_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

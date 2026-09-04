@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/elmina_castle.jpg" alt="エルミナ城" loading="lazy" />
+      
+      <h1>エルミナ城</h1>
+      <div class="name-en">Elmina Castle / Castelo de São Jorge da Mina</div>
+      <div class="id-badge">ガーナ ・ エルミナ（中部州）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1482年建造（ポルトガル）、1637年よりオランダ統治</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ポルトガル植民地様式の要塞建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(1979年登録、「ボルタ地方からグレーター・アクラ地方にかけての城塞群」の一部)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>エルミナ城は1482年、ポルトガル王ジョアン2世の命によりディオゴ・デ・アザンブージャが率いる遠征隊が建設した、サハラ以南アフリカに現存する最古のヨーロッパ建築物とされる交易拠点である。当初は金の交易拠点として築かれたが、1637年にオランダ西インド会社に奪取されて以降、大西洋奴隷貿易の主要な集積地の一つとなり、西アフリカ各地から連行された人々が城内の地下牢に収容されたのち、船で大西洋を渡って送り出された。オランダは1814年に奴隷貿易を廃止し、その後1872年に城は英国へ譲渡された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>城内には男女別の奴隷収容用の地下牢や「帰らざる門」と呼ばれる搬出口、中庭に面した教会などが残り、大西洋奴隷貿易の歴史を伝える建築的証拠として世界的に重要視されている。1990年代にガーナ政府によって大規模な修復が行われた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はガーナの国立博物館として一般公開されており、アフリカ系ディアスポラの人々が祖先の歴史をたどる巡礼地としても訪れられている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-65-ghana.html">
+                <img class="flag" src="assets/flags/gh.svg" alt="Ghanaの国旗" loading="lazy" />
+                <h3>ガーナ</h3>
+                <p>Ghana</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Elmina_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Elmina_Castle</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/34/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/34/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

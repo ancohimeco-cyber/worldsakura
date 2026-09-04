@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/goryokaku.jpg" alt="五稜郭" loading="lazy" />
+      
+      <h1>五稜郭</h1>
+      <div class="name-en">Goryokaku</div>
+      <div class="id-badge">日本 ・ 北海道函館市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1857年（安政4年）築造開始、1866年（慶応2年）完成</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>稜堡式の星形要塞（五角形、水堀を巡らせた洋式城郭）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1952年（昭和27年）国の特別史跡に指定</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>江戸幕府が蘭学者・武田斐三郎に設計させた日本初の本格的な洋式城郭で、箱館奉行所の防衛拠点として築かれた。完成からわずか2年後の1868年10月に榎本武揚率いる旧幕府軍が占領して本拠地とし、1869年5月の箱館総攻撃で新政府軍に降伏して戊辰戦争最後の戦いの舞台となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>五角形の設計により各稜堡から死角なく全方向へ砲撃できる構造が特徴で、日本国内で数少ない星形要塞として知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>1914年から五稜郭公園として一般開放されており、隣接する五稜郭タワーの展望台から星形の全景を見渡せる観光地となっている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/五稜郭" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/五稜郭</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Gory%C5%8Dkaku" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Gory%C5%8Dkaku</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/cardiff_castle.jpg" alt="カーディフ城" loading="lazy" />
+      
+      <h1>カーディフ城</h1>
+      <div class="name-en">Cardiff Castle / Cardiff Castle / Castell Caerdydd</div>
+      <div class="id-badge">イギリス ・ ウェールズ、カーディフ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>3世紀のローマ要塞跡地、11世紀末にノルマン様式で築城、19世紀にゴシック・リバイバル様式へ大改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ノルマン様式の城砦にヴィクトリア朝ゴシック・リバイバル様式の邸宅が融合した複合建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>3世紀のローマ要塞跡地に、11世紀末にウィリアム征服王またはロバート・フィッツヘイモンによってモット・アンド・ベイリー式の城が築かれた。12世紀に石造りへ改築され、1404年にはオワイン・グリンドゥールの反乱で襲撃を受けるなどウェールズとノルマン人の抗争の舞台となった。19世紀には第3代ビュート侯爵が建築家ウィリアム・バージェスとともに、中世の城をゴシック・リバイバル様式の豪奢な邸宅へと大改築した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>ローマ・中世・ヴィクトリア朝という3つの時代の建築が重なり合う稀有な複合遺跡で、バージェスが手がけた贅を尽くした室内装飾でも知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はカーディフ市が所有し、博物館・観光施設として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Cardiff_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Cardiff_Castle</a>(2026-09-03時点) / <a href="https://www.cardiffcastle.com/history/" target="_blank" rel="noopener">https://www.cardiffcastle.com/history/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

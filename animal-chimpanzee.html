@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,75 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/chimpanzee.jpg" alt="チンパンジー" loading="lazy" />
+      <h1>チンパンジー</h1>
+      <div class="name-en">Chimpanzee / 哺乳類</div>
+      <div class="id-badge">EN・危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>チンパンジーは全身が粗い黒色の体毛で覆われた中型の大型類人猿で、顔や指先、足の裏、手のひらのみ体毛がない。野生では最大200頭ほどの共同体を形成しつつ日々は少人数の群れで行動し、道具の使用や毛づくろい・採食技術の地域的な伝承など高い知能を示す。赤道アフリカの熱帯雨林や山地林、湿地林、サバンナ、乾燥林に生息し、ウガンダ、タンザニア、カメルーン、ギニアなどに個体群が分布する。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(8か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-40-cote-d-ivoire.html">
+          <img class="flag" src="assets/flags/ci.svg" alt="Cote d'Ivoireの国旗" loading="lazy" />
+          <h3>コートジボワール</h3>
+          <p>Cote d'Ivoire</p>
+        </a>
+        <a class="country-card" href="country-31-cameroon.html">
+          <img class="flag" src="assets/flags/cm.svg" alt="Cameroonの国旗" loading="lazy" />
+          <h3>カメルーン</h3>
+          <p>Cameroon</p>
+        </a>
+        <a class="country-card" href="country-62-gambia.html">
+          <img class="flag" src="assets/flags/gm.svg" alt="Gambiaの国旗" loading="lazy" />
+          <h3>ガンビア</h3>
+          <p>Gambia</p>
+        </a>
+        <a class="country-card" href="country-69-guinea.html">
+          <img class="flag" src="assets/flags/gn.svg" alt="Guineaの国旗" loading="lazy" />
+          <h3>ギニア</h3>
+          <p>Guinea</p>
+        </a>
+        <a class="country-card" href="country-95-liberia.html">
+          <img class="flag" src="assets/flags/lr.svg" alt="Liberiaの国旗" loading="lazy" />
+          <h3>リベリア</h3>
+          <p>Liberia</p>
+        </a>
+        <a class="country-card" href="country-153-sierra-leone.html">
+          <img class="flag" src="assets/flags/sl.svg" alt="Sierra Leoneの国旗" loading="lazy" />
+          <h3>シエラレオネ</h3>
+          <p>Sierra Leone</p>
+        </a>
+        <a class="country-card" href="country-150-senegal.html">
+          <img class="flag" src="assets/flags/sn.svg" alt="Senegalの国旗" loading="lazy" />
+          <h3>セネガル</h3>
+          <p>Senegal</p>
+        </a>
+        <a class="country-card" href="country-180-uganda.html">
+          <img class="flag" src="assets/flags/ug.svg" alt="Ugandaの国旗" loading="lazy" />
+          <h3>ウガンダ</h3>
+          <p>Uganda</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Chimpanzee" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Chimpanzee</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

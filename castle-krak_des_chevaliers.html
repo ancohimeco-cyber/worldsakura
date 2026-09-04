@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/krak_des_chevaliers.jpg" alt="クラック・デ・シュヴァリエ" loading="lazy" />
+      
+      <h1>クラック・デ・シュヴァリエ</h1>
+      <div class="name-en">Krak des Chevaliers / قلعة الحصن (Qal'at al-Hisn)</div>
+      <div class="id-badge">シリア ・ ホムス県</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>12〜13世紀（十字軍時代）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>十字軍城郭建築（同心円状の二重城壁構造）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(2006年登録、「クラック・デ・シュヴァリエとサラーフ・アッディーン城」)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>1142年にトリポリ伯レーモン2世から聖ヨハネ騎士団（ホスピタル騎士団）に譲渡され、同騎士団により1142年から1170年にかけて大規模に改築された。13世紀初頭には二度目の大改築が行われ、内郭と外郭からなる同心円状の要塞として現在の姿が完成した。エジプトのマムルーク朝スルタン、バイバルスによる1271年の攻略以降はイスラム勢力の支配下に置かれた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>考古学者で作家のT・E・ロレンスが「世界で最もよく保存され、最も見事な城」と評したことで知られ、丸い塔と工夫された狭間（矢狭間）を持つ13世紀の防御建築技術の到達点とされる。石灰岩を用いた堅牢な構造で知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>シリア政府の所有下で史跡として保存されているが、2012〜2013年のシリア内戦下で砲撃や空爆による損傷を受けた。2014年に政府軍が奪還して以降、UNESCOの支援のもとで保存・修復活動が続けられている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-168-syria.html">
+                <img class="flag" src="assets/flags/sy.svg" alt="Syriaの国旗" loading="lazy" />
+                <h3>シリア</h3>
+                <p>Syria</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Krak_des_Chevaliers" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Krak_des_Chevaliers</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/1229/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/1229/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

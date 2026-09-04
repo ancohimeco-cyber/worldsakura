@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/cichlid.jpg" alt="シクリッド" loading="lazy" />
+      <h1>シクリッド</h1>
+      <div class="name-en">Cichlid / 魚類</div>
+      <div class="id-badge">種により異なる</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>シクリッド(カワスズメ科、Cichlidae)は少なくとも1760種、推定2000〜3000種を擁する多様な淡水魚のグループで、アフリカ大陸(マダガスカルを含む)、南米、中東、インド亜大陸に広く分布する。ブルンジが面するタンガニーカ湖やマラウイが面するマラウイ湖は、爆発的な種分化により固有種が集中することで知られるシクリッドの宝庫である。2010年時点でIUCNは184種を危急、52種を危機、106種を深刻な危機に分類しており、種によって保全状況は大きく異なる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-28-burundi.html">
+          <img class="flag" src="assets/flags/bi.svg" alt="Burundiの国旗" loading="lazy" />
+          <h3>ブルンジ</h3>
+          <p>Burundi</p>
+        </a>
+        <a class="country-card" href="country-101-malawi.html">
+          <img class="flag" src="assets/flags/mw.svg" alt="Malawiの国旗" loading="lazy" />
+          <h3>マラウイ</h3>
+          <p>Malawi</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Cichlid" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Cichlid</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

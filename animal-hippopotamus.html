@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,100 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/hippopotamus.jpg" alt="カバ" loading="lazy" />
+      <h1>カバ</h1>
+      <div class="name-en">Hippopotamus / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>カバは陸生哺乳類としてゾウや一部のサイに次ぐ大きさを誇る半水生動物で、樽型の体と短い脚、厚さ約6センチの分厚い皮膚を持つ。ガンビアからウガンダ、タンザニア、ケニア、エチオピア、ソマリア、スーダンを経て南アフリカに至るサハラ以南アフリカの河川や湖、マングローブ林に生息する。草食性で日中は水中で過ごし、夕方に陸へ上がって草を食べる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(13か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-27-burkina-faso.html">
+          <img class="flag" src="assets/flags/bf.svg" alt="Burkina Fasoの国旗" loading="lazy" />
+          <h3>ブルキナファソ</h3>
+          <p>Burkina Faso</p>
+        </a>
+        <a class="country-card" href="country-28-burundi.html">
+          <img class="flag" src="assets/flags/bi.svg" alt="Burundiの国旗" loading="lazy" />
+          <h3>ブルンジ</h3>
+          <p>Burundi</p>
+        </a>
+        <a class="country-card" href="country-23-botswana.html">
+          <img class="flag" src="assets/flags/bw.svg" alt="Botswanaの国旗" loading="lazy" />
+          <h3>ボツワナ</h3>
+          <p>Botswana</p>
+        </a>
+        <a class="country-card" href="country-65-ghana.html">
+          <img class="flag" src="assets/flags/gh.svg" alt="Ghanaの国旗" loading="lazy" />
+          <h3>ガーナ</h3>
+          <p>Ghana</p>
+        </a>
+        <a class="country-card" href="country-62-gambia.html">
+          <img class="flag" src="assets/flags/gm.svg" alt="Gambiaの国旗" loading="lazy" />
+          <h3>ガンビア</h3>
+          <p>Gambia</p>
+        </a>
+        <a class="country-card" href="country-69-guinea.html">
+          <img class="flag" src="assets/flags/gn.svg" alt="Guineaの国旗" loading="lazy" />
+          <h3>ギニア</h3>
+          <p>Guinea</p>
+        </a>
+        <a class="country-card" href="country-70-guinea-bissau.html">
+          <img class="flag" src="assets/flags/gw.svg" alt="Guinea-Bissauの国旗" loading="lazy" />
+          <h3>ギニアビサウ</h3>
+          <p>Guinea-Bissau</p>
+        </a>
+        <a class="country-card" href="country-104-mali.html">
+          <img class="flag" src="assets/flags/ml.svg" alt="Maliの国旗" loading="lazy" />
+          <h3>マリ</h3>
+          <p>Mali</p>
+        </a>
+        <a class="country-card" href="country-101-malawi.html">
+          <img class="flag" src="assets/flags/mw.svg" alt="Malawiの国旗" loading="lazy" />
+          <h3>マラウイ</h3>
+          <p>Malawi</p>
+        </a>
+        <a class="country-card" href="country-116-mozambique.html">
+          <img class="flag" src="assets/flags/mz.svg" alt="Mozambiqueの国旗" loading="lazy" />
+          <h3>モザンビーク</h3>
+          <p>Mozambique</p>
+        </a>
+        <a class="country-card" href="country-125-nigeria.html">
+          <img class="flag" src="assets/flags/ng.svg" alt="Nigeriaの国旗" loading="lazy" />
+          <h3>ナイジェリア</h3>
+          <p>Nigeria</p>
+        </a>
+        <a class="country-card" href="country-173-togo.html">
+          <img class="flag" src="assets/flags/tg.svg" alt="Togoの国旗" loading="lazy" />
+          <h3>トーゴ</h3>
+          <p>Togo</p>
+        </a>
+        <a class="country-card" href="country-192-zambia.html">
+          <img class="flag" src="assets/flags/zm.svg" alt="Zambiaの国旗" loading="lazy" />
+          <h3>ザンビア</h3>
+          <p>Zambia</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Hippopotamus" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Hippopotamus</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

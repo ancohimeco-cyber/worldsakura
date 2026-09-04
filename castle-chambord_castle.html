@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/chambord_castle.jpg" alt="シャンボール城" loading="lazy" />
+      
+      <h1>シャンボール城</h1>
+      <div class="name-en">Château de Chambord / Château de Chambord</div>
+      <div class="id-badge">フランス ・ フランス、ロワール=エ=シェール県シャンボール</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>16世紀(1519年着工、1547年頃までに主要部分が完成)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>フランス・ルネサンス様式</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1981年、「シュリー=シュル=ロワールとシャロンヌ間のロワール渓谷」の一部として世界遺産登録</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>フランス王フランソワ1世が狩猟用の館として1519年に建設を開始した。建築家ドメニコ・ダ・コルトーナが基本設計を手がけたとされ、レオナルド・ダ・ヴィンチの発想が反映されているとの説もある。1539年には神聖ローマ皇帝カール5世を迎え入れるなど、王権を誇示する舞台としても用いられた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>440室、365の暖炉を備える広大な城館で、上る人と下る人がすれ違わない二重螺旋階段が有名。屋根の上には無数の塔や煙突が林立し、独特の輪郭を作り出している。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>フランス国有財産として一般公開されており、内部は博物館として見学できる。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-60-france.html">
+                <img class="flag" src="assets/flags/fr.svg" alt="Franceの国旗" loading="lazy" />
+                <h3>フランス</h3>
+                <p>France</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord</a>(2026-09-03時点) / <a href="https://www.britannica.com/topic/Chateau-de-Chambord" target="_blank" rel="noopener">https://www.britannica.com/topic/Chateau-de-Chambord</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

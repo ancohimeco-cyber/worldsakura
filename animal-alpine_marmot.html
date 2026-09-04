@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,60 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/alpine_marmot.jpg" alt="マーモット" loading="lazy" />
+      <h1>マーモット</h1>
+      <div class="name-en">Alpine marmot / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アルプスマーモットはリス科に属する大型の地上性げっ歯類で、頭胴長43~73センチ、体重1.9~8キロ、金色がかった茶色や赤みを帯びた灰色の毛皮を持つ。標高800~3200メートルの高山草原に生息し、アルプス山脈やカルパチア山脈にまたがってフランス、イタリア、スイス、ドイツ、スロベニア、オーストリアなどに分布するほか、1948年にはピレネー山脈にも導入され定着した。冬季は心拍数を1分間5回にまで下げて年間最大9か月にも及ぶ冬眠を行うなど、寒冷な高山環境への高度な適応を示す。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(5か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-4-andorra.html">
+          <img class="flag" src="assets/flags/ad.svg" alt="Andorraの国旗" loading="lazy" />
+          <h3>アンドラ</h3>
+          <p>Andorra</p>
+        </a>
+        <a class="country-card" href="country-10-austria.html">
+          <img class="flag" src="assets/flags/at.svg" alt="Austriaの国旗" loading="lazy" />
+          <h3>オーストリア</h3>
+          <p>Austria</p>
+        </a>
+        <a class="country-card" href="country-167-switzerland.html">
+          <img class="flag" src="assets/flags/ch.svg" alt="Switzerlandの国旗" loading="lazy" />
+          <h3>スイス</h3>
+          <p>Switzerland</p>
+        </a>
+        <a class="country-card" href="country-82-italy.html">
+          <img class="flag" src="assets/flags/it.svg" alt="Italyの国旗" loading="lazy" />
+          <h3>イタリア</h3>
+          <p>Italy</p>
+        </a>
+        <a class="country-card" href="country-97-liechtenstein.html">
+          <img class="flag" src="assets/flags/li.svg" alt="Liechtensteinの国旗" loading="lazy" />
+          <h3>リヒテンシュタイン</h3>
+          <p>Liechtenstein</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Alpine_marmot" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Alpine_marmot</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

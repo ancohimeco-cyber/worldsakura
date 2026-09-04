@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Pevensey_castle-09.jpg" alt="ペヴェンジー城" loading="lazy" />
+      <p class="photo-credit">写真: Piotr Zarobkiewicz / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>ペヴェンジー城</h1>
+      <div class="name-en">Pevensey Castle / Pevensey Castle</div>
+      <div class="id-badge">イギリス ・ ペヴェンジー（イースト・サセックス）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>紀元290年頃（ローマ要塞）、1066年に城として再利用</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ローマ時代のサクソン・ショア要塞を利用した中世城塞</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ペヴェンジー城はイングランド・イースト・サセックス州ペヴェンジーにある中世の城であり、ローマ時代のサクソン・ショア要塞「アンデリトゥム」を起源とする。紀元290年頃に建設され、艦隊の基地であったとされる。ローマ撤退後は廃墟となっていたが、1066年にノルマン人が再占領し、戦略的な要衝として石造のキープと防御施設が築かれた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>第二次世界大戦中の1940年から1945年にかけて、国防市民軍や英・カナダ軍、米陸軍航空隊によって再び駐屯地として使用され、ローマ・中世の城壁に機関銃座が設けられた跡が今も見られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>国定史跡としてイングリッシュ・ヘリテージが管理し、一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Pevensey_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Pevensey_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

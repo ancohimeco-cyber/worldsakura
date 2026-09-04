@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Strecno1.jpg" alt="ストレチノ城" loading="lazy" />
+      <p class="photo-credit">写真: Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>ストレチノ城</h1>
+      <div class="name-en">Strečno Castle / Strečniansky hrad</div>
+      <div class="id-badge">スロバキア ・ スロバキア北部、ジリナ東方約12kmのストレチノ村</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>14世紀初頭（1316年に文献初出）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>不規則な平面を持つ中世城郭遺跡（修復済み）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>スロバキアの文化財</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ストレチノ城は、スロバキア北部、ジリナの東約12kmに位置する、不規則な平面を持つ中世城の修復された廃墟である。国際道路E50とストレチノ村を見下ろす標高103メートルの石灰岩の断崖上に建つ。この石造城についての最初の文献記録は1316年のものである。近隣のスタルフラド（旧城）とともに、上部ヴァーフ地方を代表する景観となっている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>修復後は、ポヴァジェ地方博物館（ジリナ）の地域展示施設として利用されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はスロバキア共和国の国家文化財に指定され、博物館の展示施設として公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-155-slovakia.html">
+                <img class="flag" src="assets/flags/sk.svg" alt="Slovakiaの国旗" loading="lazy" />
+                <h3>スロバキア</h3>
+                <p>Slovakia</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Stre%C4%8Dno_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Stre%C4%8Dno_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

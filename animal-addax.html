@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,50 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/addax.jpg" alt="アダックス" loading="lazy" />
+      <h1>アダックス</h1>
+      <div class="name-en">Addax / 哺乳類</div>
+      <div class="id-badge">CR・深刻な危機</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>アダックスはサハラ砂漠に生息するらせん状の角を持つウシ科動物で、かつては北アフリカ全域に広く分布していたが、乱獲と生息地破壊により野生個体数は激減した。現在、自立的に存続している野生個体群はニジェールのテルミット山塊保護区にほぼ限られ、野生下の総個体数は500頭未満と推定される。アルジェリアとリビアでは既に野生では絶滅している。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(3か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-3-algeria.html">
+          <img class="flag" src="assets/flags/dz.svg" alt="Algeriaの国旗" loading="lazy" />
+          <h3>アルジェリア</h3>
+          <p>Algeria</p>
+        </a>
+        <a class="country-card" href="country-96-libya.html">
+          <img class="flag" src="assets/flags/ly.svg" alt="Libyaの国旗" loading="lazy" />
+          <h3>リビア</h3>
+          <p>Libya</p>
+        </a>
+        <a class="country-card" href="country-124-niger.html">
+          <img class="flag" src="assets/flags/ne.svg" alt="Nigerの国旗" loading="lazy" />
+          <h3>ニジェール</h3>
+          <p>Niger</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Addax" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Addax</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

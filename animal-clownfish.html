@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,65 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/clownfish.jpg" alt="クマノミ" loading="lazy" />
+      <h1>クマノミ</h1>
+      <div class="name-en">Clownfish / 魚類</div>
+      <div class="id-badge">軽度懸念(種による違いあり)</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>クマノミはスズメダイ科クマノミ亜科に属する魚の総称で、赤・オレンジ・黄・褐色などの体色に白い縦縞が入るのが特徴である。刺胞を持つイソギンチャクと共生し、身を守ってもらう代わりに掃除や外敵からの防御を行う相利共生の関係で知られる。紅海からフランス領ポリネシア、日本からオーストラリアまでのインド太平洋の暖かい熱帯海域のサンゴ礁に生息し、宿主となるイソギンチャクの分布に生息域が制限される。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(6か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-110-micronesia.html">
+          <img class="flag" src="assets/flags/fm.svg" alt="Micronesiaの国旗" loading="lazy" />
+          <h3>ミクロネシア連邦</h3>
+          <p>Micronesia</p>
+        </a>
+        <a class="country-card" href="country-88-kiribati.html">
+          <img class="flag" src="assets/flags/ki.svg" alt="Kiribatiの国旗" loading="lazy" />
+          <h3>キリバス</h3>
+          <p>Kiribati</p>
+        </a>
+        <a class="country-card" href="country-106-marshall-islands.html">
+          <img class="flag" src="assets/flags/mh.svg" alt="Marshall Islandsの国旗" loading="lazy" />
+          <h3>マーシャル諸島</h3>
+          <p>Marshall Islands</p>
+        </a>
+        <a class="country-card" href="country-119-nauru.html">
+          <img class="flag" src="assets/flags/nr.svg" alt="Nauruの国旗" loading="lazy" />
+          <h3>ナウル</h3>
+          <p>Nauru</p>
+        </a>
+        <a class="country-card" href="country-179-tuvalu.html">
+          <img class="flag" src="assets/flags/tv.svg" alt="Tuvaluの国旗" loading="lazy" />
+          <h3>ツバル</h3>
+          <p>Tuvalu</p>
+        </a>
+        <a class="country-card" href="country-146-samoa.html">
+          <img class="flag" src="assets/flags/ws.svg" alt="Samoaの国旗" loading="lazy" />
+          <h3>サモア</h3>
+          <p>Samoa</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Clownfish" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Clownfish</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

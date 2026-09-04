@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dolwyddelan_Castle%2C_Conwy%2C_Wales.jpg" alt="ドルウイゼラン城" loading="lazy" />
+      <p class="photo-credit">写真: Jeff Buck / Wikimedia Commons(CC BY-SA 2.0)</p>
+      <h1>ドルウイゼラン城</h1>
+      <div class="name-en">Dolwyddelan Castle / Castell Dolwyddelan</div>
+      <div class="id-badge">イギリス ・ ウェールズ・コンウィ州ドルウイゼラン西方</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1210年～1240年頃築城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の塔状城（タワーハウス形式）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>ウェールズの国定史跡</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ドルウイゼラン城はグウィネズ王国の統治者リウェリン・アプ・イオルワースにより1210年から1240年の間に、王国内の東西を結ぶ交通路を守るために築かれたとされ、それ以前にあった小規模な塔「トメン・カステル」に代わるものであった。1283年にイングランド王エドワード1世に攻略されて再要塞化されたが、その後軍事的重要性は低下した。1488年にエイフィオニズ地方の一族出身マレドッド・アプ・イエヴァンが借地権を購入して修復したが、19世紀半ばには廃墟化していた。1848年から1850年にかけて天守が修復・再建され、1930年に国家の管理下に置かれた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>1997年にグレードI指定建造物に指定され、指定史跡でもある。天守を東に、塔を西に配し、壁で結んでほぼ円形の囲郭を形成する構造が特徴。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はウェールズ政府の歴史環境部門であるカドウが管理し、一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Dolwyddelan_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Dolwyddelan_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

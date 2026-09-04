@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/himeji_castle.jpg" alt="姫路城" loading="lazy" />
+      
+      <h1>姫路城</h1>
+      <div class="name-en">Himeji Castle</div>
+      <div class="id-badge">日本 ・ 兵庫県姫路市</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1346年築城との説があり、現在の姿は1601年から1609年にかけて池田輝政が築造</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>平山城（渦郭式縄張）、白漆喰総塗籠の大壁造</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>1993年12月、日本初のユネスコ世界文化遺産に登録。大天守・小天守など8棟が国宝、74棟が国の重要文化財、日本100名城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>1346年に赤松貞範が築いたとされ、戦国時代末期には黒田氏による拡張を経て、豊臣秀吉が1580年に本格的な城郭へ改修した。関ヶ原の戦いの戦功で入城した池田輝政が1601年から8年をかけて現在の規模に拡張し、以後江戸時代を通じて西国の外様大名を監視する要となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>白漆喰で塗り固められた優美な外観から「白鷺城」とも呼ばれ、997か所もの狭間を備えるなど高度な防御機能を持つ。第二次世界大戦の空襲を免れ、築城当時の姿をほぼそのまま残す日本最大級の現存木造城郭として知られる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>姫路公園として一般公開され、多くの観光客が訪れるほか時代劇のロケ地としても利用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/姫路城" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/姫路城</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Himeji_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Himeji_Castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

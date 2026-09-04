@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,50 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/leopard.jpg" alt="ヒョウ" loading="lazy" />
+      <h1>ヒョウ</h1>
+      <div class="name-en">Leopard / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ヒョウ(Panthera pardus)は淡黄色から濃い金色の体毛に薔薇状の斑紋を持つネコ科の肉食獣で、サバンナから熱帯雨林まで幅広い環境に適応する。中央アフリカ共和国のほか、独自の亜種スリランカヒョウが生息するスリランカ、ペルシャヒョウの個体群が確認されるトルクメニスタンなど、アフリカから中央・南アジアにかけて分布域は広い。IUCNにより「危急(Vulnerable)」に分類され、生息地の分断と個体数の減少が進んでいる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(3か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-33-central-african-republic.html">
+          <img class="flag" src="assets/flags/cf.svg" alt="Central African Republicの国旗" loading="lazy" />
+          <h3>中央アフリカ共和国</h3>
+          <p>Central African Republic</p>
+        </a>
+        <a class="country-card" href="country-163-sri-lanka.html">
+          <img class="flag" src="assets/flags/lk.svg" alt="Sri Lankaの国旗" loading="lazy" />
+          <h3>スリランカ</h3>
+          <p>Sri Lanka</p>
+        </a>
+        <a class="country-card" href="country-178-turkmenistan.html">
+          <img class="flag" src="assets/flags/tm.svg" alt="Turkmenistanの国旗" loading="lazy" />
+          <h3>トルクメニスタン</h3>
+          <p>Turkmenistan</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Leopard" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Leopard</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/red_fort.jpg" alt="ラール・キラー(赤い城)" loading="lazy" />
+      
+      <h1>ラール・キラー(赤い城)</h1>
+      <div class="name-en">Red Fort / लाल क़िला (Lal Qila)</div>
+      <div class="id-badge">インド ・ デリー</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1639〜1648年建造（ムガル帝国期）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ムガル建築様式（ペルシア・ティムール様式とインド様式の融合）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産(2007年登録、「レッド・フォート複合施設」)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ムガル帝国第5代皇帝シャー・ジャハーンの命により1639年に着工され、1648年に完成した。設計は同帝がタージ・マハルの建設にも起用した建築家ウスタード・アフマド・ラホーリーが担当したとされ、以後約200年にわたりムガル帝国の政治の中心となった。1857年のインド大反乱後は英国の支配下に置かれた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>赤砂岩と白大理石を用いた総延長約2.4キロメートルの城壁で囲まれた敷地内に、大理石の象嵌細工が施された謁見の間「ディーワーネ・ハース」や、皇帝アウラングゼーブが増築した真珠のモスク「モーティー・マスジド」などムガル建築の粋を集めた建物が残る。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>インド独立以降、毎年8月15日の独立記念日にはこの城のラホール門で首相が国旗を掲揚し、国民向けに演説を行う場として使われており、現在は博物館・観光地として公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-76-india.html">
+                <img class="flag" src="assets/flags/in.svg" alt="Indiaの国旗" loading="lazy" />
+                <h3>インド</h3>
+                <p>India</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Red_Fort</a>(2026-09-03時点) / <a href="https://whc.unesco.org/en/list/231/" target="_blank" rel="noopener">https://whc.unesco.org/en/list/231/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

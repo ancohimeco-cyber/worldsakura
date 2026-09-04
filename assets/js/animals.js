@@ -130,55 +130,15 @@ function renderDetail(key) {
   if (!root) return;
   root.hidden = false;
 
-  if (!a) {
-    root.innerHTML = `<p class="empty-state">動物データが見つかりませんでした。</p><a class="back-link" href="animals.html">← 一覧に戻る</a>`;
-    return;
+  if (a) {
+    updatePageMeta(
+      `${a.name} | 世界の図鑑`,
+      (a.blurb || `${a.name}(${a.nameEn})について紹介します。`).slice(0, 140),
+      animalUrl(a)
+    );
   }
 
-  updatePageMeta(
-    `${a.name} | 世界の図鑑`,
-    (a.blurb || `${a.name}(${a.nameEn})について紹介します。`).slice(0, 140),
-    animalUrl(a)
-  );
-
-  const countryCards = a.countries
-    .map((code) => {
-      const c = COUNTRY_MAP.get(code);
-      if (!c) return "";
-      const badge = a.isNationalAnimalOf.includes(code) ? "🏅国獣" : c.nameEn;
-      return `
-        <a class="country-card" href="${countryUrl(c)}">
-          <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
-          <h3>${c.name}</h3>
-          <p>${badge}</p>
-        </a>`;
-    })
-    .join("");
-
-  const sourcesHtml = (a.sources || [])
-    .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${s.url}</a>(${s.checked}時点)`)
-    .join(" / ");
-
-  root.innerHTML = `
-    <section class="country-hero">
-      ${animalMedia(a, "animal-photo-big")}
-      <h1>${a.name}</h1>
-      <div class="name-en">${a.nameEn} / ${a.type}</div>
-      <div class="id-badge">${IUCN_LABELS[a.iucn] || a.iucn}</div>
-    </section>
-    <a class="back-link" href="animals.html">← 一覧に戻る</a>
-    <div class="info-grid">
-      <div class="info-card">
-        <h3>📖 説明</h3>
-        <p>${a.blurb}</p>
-      </div>
-    </div>
-    <section class="section">
-      <h2>🌍 生息国(${a.countries.length}か国)</h2>
-      <div class="country-grid">${countryCards}</div>
-    </section>
-    <p class="source-note">出典: ${sourcesHtml}</p>
-  `;
+  root.innerHTML = renderAnimalBody(a, COUNTRY_MAP);
 }
 
 async function initAnimalsPage() {

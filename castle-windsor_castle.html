@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/windsor_castle.jpg" alt="ウィンザー城" loading="lazy" />
+      
+      <h1>ウィンザー城</h1>
+      <div class="name-en">Windsor Castle / Windsor Castle</div>
+      <div class="id-badge">イギリス ・ イングランド、バークシャー州ウィンザー</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>11世紀(1070年頃着工)以降、歴代君主が増改築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ノルマン様式を起源とし、ゴシック様式など複数の様式が混在</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>1066年のノルマン征服後、ウィリアム征服王がテムズ川を見下ろす丘に木造の砦(モット・アンド・ベイリー)として築いたのが起源。ヘンリー1世が居住用の館を設け、ヘンリー2世の代に石造りへの改築が進められた。以後、歴代のイングランド・英国君主によって900年以上にわたり増改築が重ねられてきた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>現存する世界最大級の居城であり、築城以来一度も空になったことがない「世界最古の使用中の城」とされる。中世建築の傑作である聖ジョージ礼拝堂を含む。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在も英国王室の公式な住居の一つとして使用されつつ、一部が一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Windsor_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Windsor_Castle</a>(2026-09-03時点) / <a href="https://www.rct.uk/visit/windsor-castle/who-built-windsor-castle" target="_blank" rel="noopener">https://www.rct.uk/visit/windsor-castle/who-built-windsor-castle</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

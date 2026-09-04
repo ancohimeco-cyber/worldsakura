@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG" alt="ケープ・コースト城" loading="lazy" />
+      <p class="photo-credit">写真: Rjruiziii / Wikimedia Commons(CC BY-SA 3.0)</p>
+      <h1>ケープ・コースト城</h1>
+      <div class="name-en">Cape Coast Castle / Carolusborg</div>
+      <div class="id-badge">ガーナ ・ ガーナ中央州ケープ・コースト</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1555年にポルトガルの交易拠点として設立、1653年に木造要塞として再建</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>「奴隷城」と呼ばれるヨーロッパ列強の商業要塞</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>ユネスコ世界遺産の一部</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>ケープ・コースト城は、西アフリカのゴールド・コースト（現ガーナ）にヨーロッパの商人たちが築いた約40の「奴隷城」のひとつで、もとは1555年に設立されたポルトガルの交易拠点「カボ・コルソ」であった。1653年にスウェーデン・アフリカ会社によって木造の要塞として再建され、当初はチャールズ10世グスタフにちなみ「カロルスボリ」と名付けられ、木材と金の交易拠点として建設された。18世紀にはその地下牢が大西洋奴隷貿易に利用され、エルミナ城やクリスチャンボー要塞などガーナの他の奴隷城と同様、奴隷とされたアフリカ人がアメリカ大陸へ送られる前に収容される最後の拠点「帰らざる門」となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>金と奴隷の大西洋交易の証となる遺構として、ガーナ国内の他の砦・城とともにユネスコ世界遺産に登録されている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現状の詳細は不明だが、歴史遺産として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-65-ghana.html">
+                <img class="flag" src="assets/flags/gh.svg" alt="Ghanaの国旗" loading="lazy" />
+                <h3>ガーナ</h3>
+                <p>Ghana</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Cape_Coast_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Cape_Coast_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

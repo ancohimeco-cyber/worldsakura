@@ -61,14 +61,6 @@ function setupRegionTabs() {
   });
 }
 
-function fieldBlock(icon, label, value) {
-  return `
-    <div class="info-card">
-      <h3>${icon} ${label}</h3>
-      <p>${value || "準備中です。"}</p>
-    </div>`;
-}
-
 function renderDetail(key) {
   const p = ALL_PEOPLES.find((x) => x.key === key);
   const root = document.getElementById("peoples-detail");
@@ -77,61 +69,15 @@ function renderDetail(key) {
   if (!root) return;
   root.hidden = false;
 
-  if (!p) {
-    root.innerHTML = `<p class="empty-state">データが見つかりませんでした。</p><a class="back-link" href="peoples.html">← 一覧に戻る</a>`;
-    return;
+  if (p) {
+    updatePageMeta(
+      `${p.name} | 世界の図鑑`,
+      (p.history || `${p.name}(${p.nameEn})の暮らし・言語・文化を紹介します。`).slice(0, 140),
+      peopleUrl(p)
+    );
   }
 
-  updatePageMeta(
-    `${p.name} | 世界の図鑑`,
-    (p.history || `${p.name}(${p.nameEn})の暮らし・言語・文化を紹介します。`).slice(0, 140),
-    peopleUrl(p)
-  );
-
-  const countryCards = (p.countries || [])
-    .map((code) => {
-      const c = COUNTRY_MAP.get(code);
-      if (!c) return "";
-      return `
-        <a class="country-card" href="${countryUrl(c)}">
-          <img class="flag" src="assets/flags/${c.code}.svg" alt="${c.nameEn}の国旗" loading="lazy" />
-          <h3>${c.name}</h3>
-          <p>${c.nameEn}</p>
-        </a>`;
-    })
-    .join("");
-
-  const sourcesHtml = (p.sources || [])
-    .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${s.url}</a>(${s.checked}時点)`)
-    .join(" / ");
-
-  root.innerHTML = `
-    <section class="country-hero">
-      ${peopleMedia(p, "animal-photo-big")}
-      <h1>${p.name}</h1>
-      <div class="name-en">${p.nameEn}${p.nameLocal ? " / " + p.nameLocal : ""}</div>
-      <div class="id-badge">${(p.region || []).join("・")}</div>
-    </section>
-    <a class="back-link" href="peoples.html">← 一覧に戻る</a>
-    <div class="info-grid">
-      ${fieldBlock("🗣", "使用言語", (p.languages || []).join("、"))}
-      ${fieldBlock("👥", "人口の目安", p.population)}
-      ${fieldBlock("👘", "伝統衣装", p.clothing)}
-      ${fieldBlock("🏠", "住居", p.housing)}
-      ${fieldBlock("🍲", "食文化", p.food)}
-      ${fieldBlock("🎵", "音楽・踊り", p.music)}
-      ${fieldBlock("🎉", "行事・祭り", p.festivals)}
-      ${fieldBlock("🙏", "信仰・価値観", p.beliefs)}
-      ${fieldBlock("📜", "歴史", p.history)}
-      ${fieldBlock("🏙 ", "現代の暮らし", p.modernLife)}
-      ${fieldBlock("🇯🇵", "日本との関係", p.japanConnection)}
-    </div>
-    <section class="section">
-      <h2>🌍 関連する国</h2>
-      <div class="country-grid">${countryCards}</div>
-    </section>
-    <p class="source-note">出典: ${sourcesHtml}</p>
-  `;
+  root.innerHTML = renderPeopleBody(p, COUNTRY_MAP);
 }
 
 async function initPeoplesPage() {

@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/vianden_castle.jpg" alt="ヴィアンデン城" loading="lazy" />
+      
+      <h1>ヴィアンデン城</h1>
+      <div class="name-en">Vianden Castle / Schloss Vianden / Château de Vianden</div>
+      <div class="id-badge">ルクセンブルク ・ ルクセンブルク北部、ヴィアンデン</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>4世紀のローマ時代の砦を起源とし、11〜14世紀にロマネスク様式・ゴシック様式の城として発展</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ロマネスク様式を基調とし、ゴシック様式の要素も加わった中世城郭建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>4世紀のローマ時代の砦や10世紀の砦を起源とし、11世紀から14世紀にかけてロマネスク様式を基調とする城として発展し、末期にはゴシック様式の改修も加えられた。ヴィアンデン家が13世紀末にルクセンブルク伯の家臣となって以降その重要性は薄れ、1417年に同家の血筋が絶えるとオラニエ=ナッサウ家の所領となった。1820年に国王ヴィルヘルム1世が城を売却して以降解体が進み、廃墟となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>ライン川以西で最大級とされる壮大な規模の要塞跡で、1977年から1990年にかけて大規模な修復事業が行われ、廃墟から現在の姿へとよみがえった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はルクセンブルク国有の博物館として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-99-luxembourg.html">
+                <img class="flag" src="assets/flags/lu.svg" alt="Luxembourgの国旗" loading="lazy" />
+                <h3>ルクセンブルク</h3>
+                <p>Luxembourg</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Vianden_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Vianden_Castle</a>(2026-09-03時点) / <a href="https://castle-vianden.lu/gb/geschichte/" target="_blank" rel="noopener">https://castle-vianden.lu/gb/geschichte/</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

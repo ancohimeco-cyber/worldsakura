@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/7/72/Castillo_de_Slane_05.jpg" alt="スレイン城" loading="lazy" />
+      <p class="photo-credit">写真: Sitomon / Wikimedia Commons(CC BY-SA 2.0)</p>
+      <h1>スレイン城</h1>
+      <div class="name-en">Slane Castle / Cáisleán Bhaile Shláine</div>
+      <div class="id-badge">アイルランド ・ スレイン（ミース州、ボイン渓谷）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>18世紀後半建設</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>城館建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>スレイン城はアイルランド・ミース州ボイン渓谷のスレイン村にあり、1703年にヘンリー・コニンガム准将が購入した土地に18世紀後半に建てられて以来、コニンガム家の邸宅として受け継がれている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>周囲の庭園は自然の円形劇場のような地形をなしており、大規模な野外音楽イベント「スレイン・コンサート」の会場として知られ、2004年には地元紙がマドンナも注目する国際的な会場と評した。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在も邸宅として使用される一方、大規模野外コンサート会場としても利用されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-80-ireland.html">
+                <img class="flag" src="assets/flags/ie.svg" alt="Irelandの国旗" loading="lazy" />
+                <h3>アイルランド</h3>
+                <p>Ireland</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Slane_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Slane_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

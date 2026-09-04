@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="peoples-list-section">
+    <section class="section page-title-section" id="peoples-list-section" hidden>
       <h2>🧑‍🤝‍🧑 世界の民族・人びと</h2>
       <p class="section-intro">People of the World。国境を越えて暮らす人びとを、地域ごとに紹介します。伝統だけでなく、今の暮らしも一緒に。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,91 @@
       <div id="peoples-list"></div>
     </section>
 
-    <div id="peoples-detail" hidden></div>
+    <div id="peoples-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/peoples/amhara.jpg" alt="アムハラ" loading="lazy" />
+      <h1>アムハラ</h1>
+      <div class="name-en">Amhara / አማራ</div>
+      <div class="id-badge">アフリカ</div>
+    </section>
+    <a class="back-link" href="peoples.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>🗣 使用言語</h3>
+      <p>アムハラ語</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>👥 人口の目安</h3>
+      <p>約2,000万人(エチオピア)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>👘 伝統衣装</h3>
+      <p>女性は白い綿の伝統衣装「ケミス」を着用し、祭礼では色鮮やかな刺繍の縁取りが施された装いをまとう。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏠 住居</h3>
+      <p>高原地帯では石や土壁の円形・方形家屋に住む伝統があり、地域によって藁葺きや金属屋根が用いられる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🍲 食文化</h3>
+      <p>テフ粉を発酵させて焼いた薄焼きパン「インジェラ」に、肉や豆の煮込み「ワット」を添えて食べるのが基本で、正教徒の断食期間には野菜料理が中心となる。コーヒーセレモニーも重要な社交の習慣である。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎵 音楽・踊り</h3>
+      <p>一弦楽器マセンコや竪琴クラール、笛ワシントを用いた音楽があり、肩を細かく震わせる伝統舞踊「エスキスタ」が広く親しまれている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎉 行事・祭り</h3>
+      <p>エチオピア正教の暦に基づく復活祭やティムカット(公現祭)などの宗教行事が盛大に祝われる。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🙏 信仰・価値観</h3>
+      <p>多くがエチオピア正教会のキリスト教を信仰し、断食や祝祭日を重んじる信仰生活を送っている。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>13世紀に成立したソロモン朝の中心的な担い手とされ、9世紀頃までに独自の民族としての形成が進んだと考えられている。長くエチオピア帝国の統治層を担った歴史を持つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏙  現代の暮らし</h3>
+      <p>都市化が進む一方、北米などへの移民コミュニティも拡大しており、農業を中心とした生活を続ける人々も多い。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🇯🇵 日本との関係</h3>
+      <p>エチオピア産コーヒーは「モカ」として日本でも古くから親しまれており、日本に輸入される「モカ」の大半はエチオピア産とされる。</p>
+    </div>
+    </div>
+    <section class="section">
+      <h2>🌍 関連する国</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-57-ethiopia.html">
+          <img class="flag" src="assets/flags/et.svg" alt="Ethiopiaの国旗" loading="lazy" />
+          <h3>エチオピア</h3>
+          <p>Ethiopia</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Amhara_people" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Amhara_people</a>(2026-09-01時点) / <a href="https://suzukicoffee.co.jp/6516/" target="_blank" rel="noopener">https://suzukicoffee.co.jp/6516/</a>(2026-09-01時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/people-template.js"></script>
   <script src="assets/js/peoples.js"></script>
 </body>
 </html>

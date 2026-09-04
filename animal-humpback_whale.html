@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,45 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/humpback_whale.jpg" alt="ザトウクジラ" loading="lazy" />
+      <h1>ザトウクジラ</h1>
+      <div class="name-en">Humpback whale / 哺乳類</div>
+      <div class="id-badge">LC・軽度懸念</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ザトウクジラは体長14〜17mに達する大型のヒゲクジラで、長い胸びれと頭部のこぶ状突起が特徴。ブリーチングなど派手な水面行動で知られ、極域の索餌海域と赤道付近の繁殖海域の間を年間最大8,000kmも回遊する。ドミニカ共和国のシルバーバンクや南太平洋のトンガ・バヴァウ諸島周辺は、世界的に知られるザトウクジラの繁殖・子育て海域となっている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(2か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-49-dominican-republic.html">
+          <img class="flag" src="assets/flags/do.svg" alt="Dominican Republicの国旗" loading="lazy" />
+          <h3>ドミニカ共和国</h3>
+          <p>Dominican Republic</p>
+        </a>
+        <a class="country-card" href="country-174-tonga.html">
+          <img class="flag" src="assets/flags/to.svg" alt="Tongaの国旗" loading="lazy" />
+          <h3>トンガ</h3>
+          <p>Tonga</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Humpback_whale" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Humpback_whale</a>(2026-08-31時点) / <a href="https://dan.org/alert-diver/article/humpback-whales-tonga-and-the-silver-bank/" target="_blank" rel="noopener">https://dan.org/alert-diver/article/humpback-whales-tonga-and-the-silver-bank/</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

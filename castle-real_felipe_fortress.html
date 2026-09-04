@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/castles/real_felipe_fortress.jpg" alt="レアル・フェリペ要塞" loading="lazy" />
+      
+      <h1>レアル・フェリペ要塞</h1>
+      <div class="name-en">Real Felipe Fortress / Fortaleza del Real Felipe</div>
+      <div class="id-badge">ペルー ・ カヤオ(リマ)</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>1747年着工、1774年完成</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>スペイン植民地軍事建築(稜堡式要塞)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>準備中です。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>1746年の大地震でカヤオの旧防衛施設が壊滅したことを受け、副王ホセ・アントニオ・マンソ・デ・ベラスコの命により1747年に着工し、フランス人技師ルイ・ゴダンの設計のもと1774年に完成した。海賊や外国艦隊からリマの外港カヤオを守る拠点とされた。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>星形の稜堡式要塞で、1819年にはトーマス・コクレン提督の攻撃を退けたが、1826年の第二次カヤオ包囲戦の末にペルー独立軍に明け渡され、南米大陸におけるスペイン支配終焉の地となった。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はペルー陸軍博物館として、軍服や武器などの展示が行われている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-135-peru.html">
+                <img class="flag" src="assets/flags/pe.svg" alt="Peruの国旗" loading="lazy" />
+                <h3>ペルー</h3>
+                <p>Peru</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Real_Felipe_Fortress" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Real_Felipe_Fortress</a>(2026-09-03時点) / <a href="https://en.wikipedia.org/wiki/Historic_Centre_of_Callao" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Historic_Centre_of_Callao</a>(2026-09-03時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

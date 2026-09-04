@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Patio_de_las_doncellas.jpg" alt="セビリア王宮（レアレス・アルカサル）" loading="lazy" />
+      <p class="photo-credit">写真: Cat from Sevilla, Spain / Wikimedia Commons(CC BY 2.0)</p>
+      <h1>セビリア王宮（レアレス・アルカサル）</h1>
+      <div class="name-en">Reales Alcázares / Real Alcázar de Sevilla</div>
+      <div class="id-badge">スペイン ・ セビリア（スペイン）</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>10世紀起源、1360年代にムデハル様式の宮殿を増築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>ムデハル様式を中心にゴシック・ルネサンス様式が混在する宮殿建築</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>世界遺産（セビリア大聖堂・インディアス総合古文書館とともに登録）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>セビリア・アルカサルは、正式名称を「セビリア王宮」といい、スペイン・セビリアにある歴史的な王宮で、現在もスペイン王室の公式の邸宅のひとつである。10世紀にウマイヤ朝によって築かれたイスラム時代の城塞に始まり、11世紀のアッバード朝、12〜13世紀のムワッヒド朝の時代に大規模な宮殿群へと発展した。1248年にカスティーリャがセビリアを征服した後は段階的に改築が進み、その中でも1360年代にペドロ1世が建てた華麗なムデハル様式の宮殿がとりわけ重要である。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>イベリア半島におけるムデハル様式の代表例であり、ゴシック様式やルネサンス様式の要素も併せ持つ。上層階は現在も王室がセビリア訪問時に使用しており、国家遺産管理機構（パトリモニオ・ナシオナル）が運営する。1987年、隣接するセビリア大聖堂・インディアス総合古文書館とともにユネスコ世界遺産に登録された。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>王室の公式住居の一部として使用されつつ、博物館として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-162-spain.html">
+                <img class="flag" src="assets/flags/es.svg" alt="Spainの国旗" loading="lazy" />
+                <h3>スペイン</h3>
+                <p>Spain</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

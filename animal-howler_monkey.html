@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,50 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/howler_monkey.jpg" alt="ホエザル" loading="lazy" />
+      <h1>ホエザル</h1>
+      <div class="name-en">Howler monkey / 哺乳類</div>
+      <div class="id-badge">種により異なる</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>ホエザル属(Alouatta)は新大陸で最も広く分布する霊長類の一つで、密林の奥深くまで届く大きな鳴き声で知られる。コスタリカ、グアテマラ、エルサルバドルを含む中央アメリカから南アメリカの森林に生息し、木の葉や果実を主に食べる樹上性の動物である。属内には15種が含まれ、IUCNの保全状況は種によって大きく異なる。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(3か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-39-costa-rica.html">
+          <img class="flag" src="assets/flags/cr.svg" alt="Costa Ricaの国旗" loading="lazy" />
+          <h3>コスタリカ</h3>
+          <p>Costa Rica</p>
+        </a>
+        <a class="country-card" href="country-68-guatemala.html">
+          <img class="flag" src="assets/flags/gt.svg" alt="Guatemalaの国旗" loading="lazy" />
+          <h3>グアテマラ</h3>
+          <p>Guatemala</p>
+        </a>
+        <a class="country-card" href="country-52-el-salvador.html">
+          <img class="flag" src="assets/flags/sv.svg" alt="El Salvadorの国旗" loading="lazy" />
+          <h3>エルサルバドル</h3>
+          <p>El Salvador</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Howler_monkey" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Howler_monkey</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

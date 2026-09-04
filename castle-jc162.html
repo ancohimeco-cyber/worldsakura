@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <div class="animal-photo-big-fallback">🏰</div>
+      
+      <h1>出石城・有子山城</h1>
+      <div class="name-en">Izushi Castle and Ariko-yama Castle</div>
+      <div class="id-badge">日本 ・ 兵庫県豊岡市出石町</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>有子山城：天正2年（1574年）／出石城：慶長9年（1604年）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>有子山城は山城、出石城は平山城</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>続日本100名城(選定No.162)。国指定史跡（「山名氏城跡」として有子山城跡・此隅山城跡）</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>戦国大名・山名祐豊が本拠の此隅山城を追われた後、標高321メートルの有子山山頂に築いた詰城が有子山城。1580年に羽柴秀長らの攻撃で落城し山名氏は滅亡した。江戸時代初期の1604年、小出吉英が山麓に平山城の出石城を築いて居城とした。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>出石城跡には辰鼓楼が建ち、周辺は「出石そば」で知られる城下町として観光地化している。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>出石城跡は史跡公園、有子山城跡は登山道が整備され見学できる。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-84-japan.html">
+                <img class="flag" src="assets/flags/jp.svg" alt="Japanの国旗" loading="lazy" />
+                <h3>日本</h3>
+                <p>Japan</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://ja.wikipedia.org/wiki/%E5%87%BA%E7%9F%B3%E5%9F%8E%E3%83%BB%E6%9C%89%E5%AD%90%E5%B1%B1%E5%9F%8E" target="_blank" rel="noopener">https://ja.wikipedia.org/wiki/%E5%87%BA%E7%9F%B3%E5%9F%8E%E3%83%BB%E6%9C%89%E5%AD%90%E5%B1%B1%E5%9F%8E</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>

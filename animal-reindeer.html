@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="animal-list-section">
+    <section class="section page-title-section" id="animal-list-section" hidden>
       <h2>🐾 世界の生きもの</h2>
       <p class="section-intro">動物ごとに、生息する国々をめぐります。</p>
       <div class="filter-tabs" id="type-tabs"></div>
@@ -63,13 +63,55 @@
       <div id="animal-list"></div>
     </section>
 
-    <div id="animal-detail" hidden></div>
+    <div id="animal-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="assets/img/animals/reindeer.jpg" alt="トナカイ" loading="lazy" />
+      <h1>トナカイ</h1>
+      <div class="name-en">Reindeer / 哺乳類</div>
+      <div class="id-badge">VU・危急</div>
+    </section>
+    <a class="back-link" href="animals.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>📖 説明</h3>
+        <p>トナカイはヨーロッパ・シベリア・北米の北極圏および亜北極圏に広く分布する環極性のシカ科動物で、メスも角を持つ点でシカ科の中でも珍しい特徴を持つ。フィンランド、ノルウェー、スウェーデン、ロシアなどで野生・半家畜群が管理されており、北方民族の生活を古くから支えてきた。生息数の減少によりIUCNでは危急種に分類されている。</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2>🌍 生息国(4か国)</h2>
+      <div class="country-grid">
+        <a class="country-card" href="country-59-finland.html">
+          <img class="flag" src="assets/flags/fi.svg" alt="Finlandの国旗" loading="lazy" />
+          <h3>フィンランド</h3>
+          <p>Finland</p>
+        </a>
+        <a class="country-card" href="country-128-norway.html">
+          <img class="flag" src="assets/flags/no.svg" alt="Norwayの国旗" loading="lazy" />
+          <h3>ノルウェー</h3>
+          <p>Norway</p>
+        </a>
+        <a class="country-card" href="country-141-russia.html">
+          <img class="flag" src="assets/flags/ru.svg" alt="Russiaの国旗" loading="lazy" />
+          <h3>ロシア</h3>
+          <p>Russia</p>
+        </a>
+        <a class="country-card" href="country-166-sweden.html">
+          <img class="flag" src="assets/flags/se.svg" alt="Swedenの国旗" loading="lazy" />
+          <h3>スウェーデン</h3>
+          <p>Sweden</p>
+        </a></div>
+    </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Reindeer" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Reindeer</a>(2026-08-31時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/animal-template.js"></script>
   <script src="assets/js/animals.js"></script>
 </body>
 </html>

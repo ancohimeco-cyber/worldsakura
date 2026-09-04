@@ -54,7 +54,7 @@
   </header>
 
   <main>
-    <section class="section page-title-section" id="castles-list-section">
+    <section class="section page-title-section" id="castles-list-section" hidden>
       <h2>🏰 世界のお城</h2>
       <p class="section-intro">Castles of the World。日本の名城からヨーロッパの古城まで、世界各地のお城を歴史・様式・見どころから紹介します。</p>
       <div class="filter-tabs" id="region-tabs"></div>
@@ -62,13 +62,68 @@
       <div id="castles-list"></div>
     </section>
 
-    <div id="castles-detail" hidden></div>
+    <div id="castles-detail">
+
+    <section class="country-hero">
+      <img class="animal-photo-big" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Craigmillar_Castle_1.jpg" alt="クレイグミラー城" loading="lazy" />
+      <p class="photo-credit">写真: Gunther Tschuch / Wikimedia Commons(CC BY-SA 4.0)</p>
+      <h1>クレイグミラー城</h1>
+      <div class="name-en">Craigmillar Castle</div>
+      <div class="id-badge">イギリス ・ スコットランド・エディンバラ</div>
+    </section>
+    <a class="back-link" href="castles.html">← 一覧に戻る</a>
+    <div class="info-grid">
+      
+    <div class="info-card">
+      <h3>📅 建設時期</h3>
+      <p>14世紀末頃(15-16世紀に拡張)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏯 様式</h3>
+      <p>中世の廃城(タワーハウスと中庭壁)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🏆 世界遺産など</h3>
+      <p>指定史跡(スコットランド)</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>📜 歴史</h3>
+      <p>クレイグミラー城はエディンバラ中心部から南東4.8kmに位置する中世の廃城で、地元領主プレストン家が14世紀末に建設を開始し、15-16世紀にかけて増築が続いた。1660年にジョン・ギルモア卿に売却されて改修されたが、18世紀にギルモア家が近くのインチ・ハウスへ移ると廃墟化が進んだ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>✨ 見どころ</h3>
+      <p>メアリー・スチュアート女王が出産後の療養のため1566年に滞在し、夫ダーンリー卿殺害の密約とされる「クレイグミラー盟約」が結ばれた場所として知られる。中央のタワーハウスを15世紀の中庭壁が囲む、スコットランドでも保存状態の良い中世城郭の一つ。</p>
+    </div>
+      
+    <div class="info-card">
+      <h3>🎫 現在の姿</h3>
+      <p>現在はヒストリック・エンバイロンメント・スコットランドの管理下で指定史跡として一般公開されている。</p>
+    </div>
+    </div>
+    <section class="section">
+            <h2>🌍 この国について</h2>
+            <div class="country-grid">
+              <a class="country-card" href="country-183-united-kingdom.html">
+                <img class="flag" src="assets/flags/gb.svg" alt="United Kingdomの国旗" loading="lazy" />
+                <h3>イギリス</h3>
+                <p>United Kingdom</p>
+              </a>
+            </div>
+          </section>
+    <p class="source-note">出典: <a href="https://en.wikipedia.org/wiki/Craigmillar_Castle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Craigmillar_Castle</a>(2026-09-04時点)</p>
+  
+    </div>
   </main>
 
   <footer>&copy; 2026 世界の図鑑 WORLD SAKURA<div class="footer-note">掲載している画像の多くは、制作者が生成AI(Generative AI)を用いて独自に作成したものです。</div>
     <div class="footer-links"><a href="about.html">このサイトについて</a> / <a href="privacy.html">プライバシーポリシー</a> / <a href="contact.html">お問い合わせ</a></div></footer>
 
   <script src="assets/js/shared.js"></script>
+  <script src="assets/js/templates/castle-template.js"></script>
   <script src="assets/js/castles.js"></script>
 </body>
 </html>
