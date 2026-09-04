@@ -28,7 +28,11 @@ async function loadCountry() {
     return;
   }
 
-  document.title = `${country.name}(${country.nameEn}) | 世界の図鑑`;
+  updatePageMeta(
+    `${country.name}(${country.nameEn}) | 世界の図鑑`,
+    `${country.name}の位置・首都・人口・政治体制・言語・食文化・自然・国旗の由来などを紹介。${country.formation || ""}`.slice(0, 140),
+    `country.html?id=${country.id}`
+  );
 
   const notice = country.detailReady
     ? ""

@@ -82,7 +82,11 @@ function renderDetail(key) {
     return;
   }
 
-  document.title = `${p.name} | 世界の図鑑`;
+  updatePageMeta(
+    `${p.name} | 世界の図鑑`,
+    (p.history || `${p.name}(${p.nameEn})の暮らし・言語・文化を紹介します。`).slice(0, 140),
+    `peoples.html?key=${p.key}`
+  );
 
   const countryCards = (p.countries || [])
     .map((code) => {

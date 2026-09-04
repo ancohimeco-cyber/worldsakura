@@ -3,6 +3,30 @@ async function fetchCountries() {
   return res.json();
 }
 
+function updatePageMeta(title, description, path) {
+  document.title = title;
+  const descTag = document.querySelector('meta[name="description"]');
+  if (descTag) descTag.setAttribute("content", description);
+  const canonicalUrl = "https://worldsakura.com/" + path;
+  let canonicalTag = document.querySelector('link[rel="canonical"]');
+  if (!canonicalTag) {
+    canonicalTag = document.createElement("link");
+    canonicalTag.setAttribute("rel", "canonical");
+    document.head.appendChild(canonicalTag);
+  }
+  canonicalTag.setAttribute("href", canonicalUrl);
+  [
+    ["property", "og:title", title],
+    ["property", "og:description", description],
+    ["property", "og:url", canonicalUrl],
+    ["name", "twitter:title", title],
+    ["name", "twitter:description", description],
+  ].forEach(([attr, key, value]) => {
+    const tag = document.querySelector(`meta[${attr}="${key}"]`);
+    if (tag) tag.setAttribute("content", value);
+  });
+}
+
 function countryCard(c) {
   return `
     <a class="country-card" href="country.html?id=${c.id}">

@@ -135,7 +135,11 @@ function renderDetail(key) {
     return;
   }
 
-  document.title = `${a.name} | 世界の図鑑`;
+  updatePageMeta(
+    `${a.name} | 世界の図鑑`,
+    (a.blurb || `${a.name}(${a.nameEn})について紹介します。`).slice(0, 140),
+    `animals.html?key=${a.key}`
+  );
 
   const countryCards = a.countries
     .map((code) => {

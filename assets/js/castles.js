@@ -85,7 +85,11 @@ function renderDetail(key) {
     return;
   }
 
-  document.title = `${c.name} | 世界の図鑑`;
+  updatePageMeta(
+    `${c.name} | 世界の図鑑`,
+    (c.history || `${c.name}(${c.nameEn})の歴史・様式・見どころを紹介します。`).slice(0, 140),
+    `castles.html?key=${c.key}`
+  );
   const country = castleCountry(c);
 
   const sourcesHtml = (c.sources || [])
