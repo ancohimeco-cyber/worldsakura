@@ -23,6 +23,9 @@ const staticPages = [
   "castles.html",
   "search.html",
   "sns.html",
+  "about.html",
+  "privacy.html",
+  "contact.html",
 ];
 
 const urls = [];
