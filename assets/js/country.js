@@ -85,6 +85,22 @@ async function loadCountry() {
         ${textOrPlaceholder(country.currency, "準備中です。")}
       </div>
       <div class="info-card">
+        <h3>🏗 建国年</h3>
+        ${textOrPlaceholder(country.founded, "準備中です。")}
+      </div>
+      <div class="info-card">
+        <h3>📖 成り立ち</h3>
+        ${textOrPlaceholder(country.formation, "準備中です。")}
+      </div>
+      ${
+        country.government === "君主制"
+          ? `<div class="info-card">
+              <h3>👑 王の決め方</h3>
+              ${textOrPlaceholder(country.succession, "準備中です。")}
+            </div>`
+          : ""
+      }
+      <div class="info-card">
         <h3>🗣 言語</h3>
         ${listOrPlaceholder(country.languages, "準備中です。")}
       </div>
