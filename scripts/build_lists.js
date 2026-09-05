@@ -329,4 +329,43 @@ function buildCategoryListInner(config) {
   write("foodjapan.html", html);
 }
 
+// ---- spotjapan.html: genre 1 (定番観光名所・寺社仏閣) as the default static view ----
+{
+  const spots = require(path.join(root, "data/japan_spot100.json"));
+  const genreClass = {
+    "定番観光名所・寺社仏閣": "g1",
+    "自然・絶景スポット": "g2",
+    "テーマパーク・エンタメ施設": "g3",
+    "体験・癒し施設": "g4",
+    "ショッピング・街歩きエリア": "g5",
+  };
+  const firstGenre = "定番観光名所・寺社仏閣";
+  const items = spots.filter((d) => d.genre === firstGenre).sort((a, b) => a.rank - b.rank);
+
+  const spotCard = (item) => {
+    const cls = genreClass[item.genre];
+    const sourcesHtml = (item.sources || [])
+      .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">出典</a>`)
+      .join(" ");
+    return `
+    <div class="spot-rank ${cls}">
+      <div class="spot-plate">${item.rank}</div>
+      <div class="spot-body">
+        <h3>${item.name}</h3>
+        <div class="spot-en">${item.nameEn} ・ ${item.location || ""}</div>
+        <p class="spot-desc">${item.description}</p>
+        <div class="spot-evidence">
+          <span class="spot-evidence-label">根拠:</span>${item.evidence}
+          <div class="spot-src">${sourcesHtml}</div>
+        </div>
+      </div>
+    </div>`;
+  };
+  const inner = `<div class="dish-list">${items.map(spotCard).join("")}</div>`;
+
+  let html = fs.readFileSync(path.join(root, "spotjapan.html"), "utf8");
+  html = replaceContainer(html, "spotjapan-list", inner);
+  write("spotjapan.html", html);
+}
+
 console.log("list pages updated:", filesWritten);
