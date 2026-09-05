@@ -1,0 +1,1834 @@
+[
+ {
+  "rank": 1,
+  "name": "寿司",
+  "nameEn": "Sushi",
+  "description": "酢飯と新鮮な魚介を組み合わせた日本料理の代表格。カウンターで職人が握る様子自体がエンターテインメントとして評価され、自国では手に入らない鮮度のネタや多様なネタの種類、回転寿司の手軽さと高級店の本格体験の両方が楽しめる点が支持されている。",
+  "evidence": "農林中央金庫が2023年に実施した訪日外国人1,200人対象の調査で「好きな日本料理メニュー」1位、かつ「食べたことがある日本食」でも68.3%と最多。観光庁の2025年公表調査でも満足度上位の常連。",
+  "sources": [
+   {
+    "url": "https://www.nippon.com/en/japan-data/h01675/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.kobayashi-foods.co.jp/washoku-no-umami/foreigners-japanese-food",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-1"
+ },
+ {
+  "rank": 2,
+  "name": "ラーメン",
+  "nameEn": "Ramen",
+  "description": "醤油・味噌・塩・豚骨など地域ごとに異なるスープと麺を楽しめる料理。「自国では同じ味を再現できない」と感じる訪日客が多く、専門店に並んででも食べたい体験型グルメとしてSNSでも定着している。",
+  "evidence": "観光庁が2025年3月に公表した調査で、訪日外国人の食体験満足度ランキングにおいてラーメンが寿司を上回り上位（記事によれば全体の18.9%が「もっとも満足した料理」に選出）と報じられた。",
+  "sources": [
+   {
+    "url": "https://japantoday.com/category/features/food/sushi-passed-up-by-ramen-in-survey-of-foreign-tourists%E2%80%99-favorite-thing-to-eat-in-japan-but-why",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-2"
+ },
+ {
+  "rank": 3,
+  "name": "焼肉・和牛ステーキ",
+  "nameEn": "Yakiniku / Wagyu Steak",
+  "description": "自分でロースターにのせて焼く体験型の食事と、海外の牛肉とは食感・脂の質が異なる和牛の霜降り肉が大きな魅力。高級店での和牛ステーキはSNS映えする「日本旅行の贅沢体験」として位置づけられている。",
+  "evidence": "観光庁2025年3月公表調査で「肉料理（主に和牛）」が満足度カテゴリで32.3%と全ジャンル中トップと報じられた。別の1,200人調査でも「食べたことがある」46.9%で3位。",
+  "sources": [
+   {
+    "url": "https://japantoday.com/category/features/food/sushi-passed-up-by-ramen-in-survey-of-foreign-tourists%E2%80%99-favorite-thing-to-eat-in-japan-but-why",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.nippon.com/en/japan-data/h01675/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-3"
+ },
+ {
+  "rank": 4,
+  "name": "天ぷら",
+  "nameEn": "Tempura",
+  "description": "エビや野菜を軽い衣でカラッと揚げた料理。油物なのに重すぎない繊細さと、目の前で揚げてくれるカウンター店の職人技が評価されており、天丼など丼物としても親しまれている。",
+  "evidence": "1,200人対象調査で「食べたことがある日本食」の47.2%を占め2位。複数の外国人向けグルメ紹介記事でも定番TOP5に含まれる。",
+  "sources": [
+   {
+    "url": "https://www.nippon.com/en/japan-data/h01675/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://chefkuru.jp/media/useful/learn-food/2765/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-4"
+ },
+ {
+  "rank": 5,
+  "name": "すき焼き",
+  "nameEn": "Sukiyaki",
+  "description": "甘辛い割り下で煮込んだ和牛と、生卵につけて食べる独特のスタイルが「驚きの体験」として好評。生卵を料理に使う文化自体が海外にあまりないため、話題性・体験性の両面で人気が高い。",
+  "evidence": "1,200人調査で「食べて一番美味しかった日本食」の8.0%を占め全体3位。外国人インタビュー記事でも複数人が「生卵をソースに使う驚き」を高く評価。",
+  "sources": [
+   {
+    "url": "https://www.nippon.com/en/japan-data/h01675/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.sekawata.com/japanesefood/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-5"
+ },
+ {
+  "rank": 6,
+  "name": "うなぎ（うな重）",
+  "nameEn": "Unagi (Grilled Eel over Rice)",
+  "description": "香ばしいタレで炭火焼きにした鰻を白飯にのせた料理。海外では鰻を日常的に食べる文化が薄く、ふっくらとした食感と甘辛いタレの組み合わせが新鮮な驚きとして受け止められている。",
+  "evidence": "1,200人調査で「食べて一番美味しかった日本食」の7.4%で全体4位。中国からの訪日客に限っては寿司より鰻の評価が高いという結果も出ている。",
+  "sources": [
+   {
+    "url": "https://www.nippon.com/en/japan-data/h01675/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-6"
+ },
+ {
+  "rank": 7,
+  "name": "とんかつ・カツ丼",
+  "nameEn": "Tonkatsu / Katsudon",
+  "description": "分厚い豚肉を揚げたとんかつと、それを卵でとじて丼にしたカツ丼。「外はサクサク、中はジューシー」という食感のコントラストが分かりやすく好まれ、カツ丼は甘辛い出汁と卵の組み合わせが評価されている。",
+  "evidence": "複数の外国人向け和食ランキング記事でTOP10常連。外国人インタビュー記事ではカツ丼が「好きな日本料理」2位に挙げられている。",
+  "sources": [
+   {
+    "url": "https://chefkuru.jp/media/useful/learn-food/2765/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.sekawata.com/japanesefood/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-7"
+ },
+ {
+  "rank": 8,
+  "name": "しゃぶしゃぶ",
+  "nameEn": "Shabu-shabu",
+  "description": "薄切り肉を出汁でさっとくぐらせて食べる鍋料理。欧米では「肉を薄くスライスして食べる」発想自体が珍しく、野菜も一緒に摂れるヘルシーさと、旨味のある出汁の味わいが評価されている。食べ放題スタイルでも人気が高い。",
+  "evidence": "複数の飲食業界向け記事・ブログが「しゃぶしゃぶが外国人に人気な理由」を特集しており、外国人向け食べ放題業態の客の多くを訪日客が占めるとの報道もある。ただし単一の大規模統計ではなく、複数の個別記事・業界報道に基づく評価。",
+  "sources": [
+   {
+    "url": "https://www.hyotanya.co.jp/blog/yomimono/the_reason_why_shabu-shabu_is_so_popular/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-8"
+ },
+ {
+  "rank": 9,
+  "name": "うどん",
+  "nameEn": "Udon",
+  "description": "太くもちもちとした食感の麺料理。辛いものが苦手な人でも食べやすい優しい味わいと、讃岐うどんのようなご当地バリエーションの豊富さが受け入れられている。",
+  "evidence": "1,200人調査や複数の和食ランキング記事で継続的にTOP10に入る定番メニュー。大阪でのインバウンド調査でも上位に登場。",
+  "sources": [
+   {
+    "url": "https://chefkuru.jp/media/useful/learn-food/2765/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-9"
+ },
+ {
+  "rank": 10,
+  "name": "そば",
+  "nameEn": "Soba",
+  "description": "そば粉から作る細麺で、冷たいざるそばから温かいかけそばまで食べ方の幅が広い。うどんに比べて「ヘルシー」というイメージが健康志向の外国人に支持されており、蕎麦打ち体験と組み合わせた観光コンテンツも増えている。",
+  "evidence": "複数の外国人向け日本食紹介記事でうどんと並ぶ定番として繰り返し紹介されており、健康志向の観光客に好まれるとの記述が共通して見られる。単独の大規模統計は確認できず、記事間の一致による評価。",
+  "sources": [
+   {
+    "url": "https://foodmedia.tenpos.com/newstrend/34592/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-10"
+ },
+ {
+  "rank": 11,
+  "name": "海鮮丼",
+  "nameEn": "Kaisendon (Seafood Rice Bowl)",
+  "description": "新鮮な刺身を丼飯にのせた料理。築地場外市場や豊洲市場、大阪の黒門市場周辺では、訪日客向けに1杯5,000～15,000円もする豪華な「インバウン丼」が次々登場し、ニュースやSNSで話題になるほどの需要がある。",
+  "evidence": "FNN、PR Timesなど複数の報道機関が2024～2025年にかけて、訪日客をターゲットにした高額海鮮丼「インバウン丼」の流行を報じている。",
+  "sources": [
+   {
+    "url": "https://prtimes.jp/main/html/rd/p/000000003.000172229.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-11"
+ },
+ {
+  "rank": 12,
+  "name": "天丼",
+  "nameEn": "Tendon (Tempura Rice Bowl)",
+  "description": "天ぷらをのせて甘辛いタレをかけた丼物。天ぷら単品よりも手軽に一食で満足できる構成が評価されており、外国人インタビューでは「アート作品のよう」と見た目の美しさが語られることも多い。",
+  "evidence": "外国人インタビュー記事で「好きな日本料理」の上位に天丼（天ぷら丼）が挙げられているが、これは個別インタビューに基づく評価であり大規模統計の裏付けは確認できていない。",
+  "sources": [
+   {
+    "url": "https://www.sekawata.com/japanesefood/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-12"
+ },
+ {
+  "rank": 13,
+  "name": "おでん",
+  "nameEn": "Oden",
+  "description": "大根・玉子・練り物などを出汁でじっくり煮込んだ鍋料理。だし文化への理解が進むにつれ「体が温まる」「ヘルシー」といった評価が広がっており、大根や玉子など味の染みた具材が特に支持されている。",
+  "evidence": "紀文食品が2019年に実施した、日本在住3年以上の外国籍250人を対象とした調査で約80%が「好き」「どちらかといえば好き」と回答し、母国の家族に勧めたいという回答も約80%に達した。",
+  "sources": [
+   {
+    "url": "https://prtimes.jp/main/html/rd/p/000000026.000011335.html",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://dime.jp/genre/840657/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-13"
+ },
+ {
+  "rank": 14,
+  "name": "ひつまぶし",
+  "nameEn": "Hitsumabushi",
+  "description": "名古屋名物の鰻丼で、そのまま・薬味を加えて・出汁をかけてお茶漬け風にと、1つの料理を3通りの味で楽しめるのが最大の特徴。この「味変」の仕組み自体が文化体験として外国人に強く訴求し、SNSでの拡散も後押ししている。",
+  "evidence": "専門店運営会社のサイトによれば、名古屋を訪れる外国人の一定割合が体験したい料理として挙げているとされるが、これは店舗側の紹介記事によるもので、公的な第三者調査の裏付けまでは確認できていない。",
+  "sources": [
+   {
+    "url": "https://hitsumabushi.hsfi.jp/nagoyas-hitsumabushi-the-three-stage-dining-experience-captivating-foreign-tourists/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-14"
+ },
+ {
+  "rank": 15,
+  "name": "もつ鍋",
+  "nameEn": "Motsunabe (Beef/Pork Offal Hot Pot)",
+  "description": "博多名物の、牛や豚のもつとキャベツ・ニラを味噌や醤油ベースのスープで煮込む鍋料理。「もつ（内臓）を食べる」という発想自体が海外では珍しく、しっかりした出汁の旨味と、シェアして食べる鍋のスタイルが好まれている。",
+  "evidence": "訪日ラボなど観光業界メディアの博多・天神エリア「外国人に人気の飲食店」ランキングにもつ鍋専門店が複数入っており、地域の観光協会もインバウンド向け協力店として案内している。単一の大規模な嗜好調査ではなく、地域ランキングと店舗レビューに基づく評価。",
+  "sources": [
+   {
+    "url": "https://honichi.com/news/2025/04/10/202504_inboundranking_hakata/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-15"
+ },
+ {
+  "rank": 16,
+  "name": "ちゃんこ鍋",
+  "nameEn": "Chankonabe (Sumo Wrestler Hot Pot)",
+  "description": "力士が食べる鍋料理として知られ、両国エリアでは相撲観戦や相撲部屋見学とセットで楽しむ訪日客が増えている。「相撲文化を味で体験できる」という物語性が、単なる鍋料理以上の付加価値を生んでいる。",
+  "evidence": "日本経済新聞が2026年4月、大相撲観戦チケットの入手難を背景に相撲体験施設が満員となり、外国人観光客がちゃんこ鍋などを体験する動きを報じている。",
+  "sources": [
+   {
+    "url": "https://www.nikkei.com/article/DGXZQODH138JK0T10C26A4000000/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-16"
+ },
+ {
+  "rank": 17,
+  "name": "懐石料理",
+  "nameEn": "Kaiseki (Traditional Multi-Course Cuisine)",
+  "description": "季節の食材を少量ずつ美しく盛り付けて提供する日本料理の最高峰とされるコース料理。特に富裕層や本格的な日本文化体験を求める訪日客から、器や盛り付けの芸術性、旬を大事にする考え方が高く評価されている。",
+  "evidence": "外国人向け日本食ガイド記事や、世界の富裕層向け高級レストランを扱う記事で「本格的な文化体験を求める外国人に人気」と紹介されているが、これは複数の一般紹介記事・業界解説による評価で、公的統計での順位付けは確認できていない。",
+  "sources": [
+   {
+    "url": "https://paquetpoche-ws.com/blogs/news/japanese-food-guide-for-foreigners-popular-restaurants-must-try-dishes",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-17"
+ },
+ {
+  "rank": 18,
+  "name": "牡蠣料理",
+  "nameEn": "Oyster Dishes",
+  "description": "広島など産地で提供される生牡蠣・焼き牡蠣・牡蠣フライなど。濃厚な旨味と「海のミルク」と称される独特の食感が評価され、産地の牡蠣小屋を訪れること自体が観光体験として組み込まれている。",
+  "evidence": "広島の観光メディアや旅行系サイトが、外国人に人気の広島観光として牡蠣グルメを繰り返し取り上げているが、寿司やラーメンのような全国規模の嗜好調査での順位付けは確認できておらず、産地観光コンテンツとしての人気に基づく評価。",
+  "sources": [
+   {
+    "url": "https://guidablejobs.jp/contents/how-to-recruit/7882/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-18"
+ },
+ {
+  "rank": 19,
+  "name": "ふぐ料理",
+  "nameEn": "Fugu (Pufferfish Cuisine)",
+  "description": "刺身や鍋で提供される高級食材のふぐ。「毒があるのに免許を持つ職人が安全にさばく」というストーリー自体が強い興味を引き、下関や萩などではふぐの調理体験プログラムも訪日客向けに用意されている。",
+  "evidence": "テレビ局のニュース特集や観光協会の体験プログラム紹介など複数の記事で「世界から注目される」「一目惚れした」といった外国人の反応が報じられているが、これは個別の取材・体験プログラムの紹介であり、大規模な嗜好調査での順位付けではない。",
+  "sources": [
+   {
+    "url": "https://www.ktv.jp/news/feature/241120-fugu/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-19"
+ },
+ {
+  "rank": 20,
+  "name": "刺身（盛り合わせ）",
+  "nameEn": "Sashimi (Assorted Raw Fish)",
+  "description": "寿司とは別に、刺身単品や盛り合わせとして提供される生魚料理。加熱しない魚介をそのまま味わう文化は海外では一般的でなく、新鮮な魚の食感と味の違いを純粋に楽しめる点が寿司とは別に評価されている。",
+  "evidence": "外国人向け和食紹介サイトで、しゃぶしゃぶ・うなぎと並ぶ「王道」カテゴリーの一つとして刺身・海鮮丼が挙げられているが、寿司と区別した独立の統計は少なく、複数の紹介記事における位置づけに基づく評価。",
+  "sources": [
+   {
+    "url": "https://www.numa-tan.com/foreigners-popular-japanese-food/3684/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "ちゃんとした食事・名物料理",
+  "genreIcon": "🍣",
+  "genreIndex": 1,
+  "key": "g1-20"
+ },
+ {
+  "rank": 1,
+  "name": "たこ焼き",
+  "nameEn": "Takoyaki (octopus balls)",
+  "description": "小麦粉の生地にタコを入れて丸く焼き上げる大阪発祥の粉もの料理。目の前の鉄板でくるくると回しながら焼き上げる調理過程そのものがエンターテインメント性を持ち、屋台や専門店で気軽に熱々を食べられる手軽さが外国人観光客に強く支持されている。",
+  "evidence": "旅行ガイドサイトjapan-guide.comが調理過程の見世物的な魅力と観光客向けスポット（ユニバーサル・シティウォーク大阪のたこ焼きパーク、お台場のたこ焼きミュージアム）の存在を紹介しており、英語版Wikipediaも台湾など海外での人気拡大に言及している。",
+  "sources": [
+   {
+    "url": "https://www.japan-guide.com/e//e2316.html",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Takoyaki",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-1"
+ },
+ {
+  "rank": 2,
+  "name": "お好み焼き",
+  "nameEn": "Okonomiyaki (savory pancake)",
+  "description": "キャベツや肉、魚介などを混ぜて鉄板で焼く「お好み焼き＝好きなものを焼く」という自由度の高さが特徴。広島には人口あたりの店舗数が日本一多く、お好み焼きをテーマにした「お好み村」が家族連れの人気食テーマパーク1位に選ばれた実績があり、地域性を体験したい観光客の関心を集めている。",
+  "evidence": "英語版Wikipediaが広島の店舗密度と「お好み村」の人気投票1位という具体的データを記載しており、日本の観光・インバウンド専門メディアも地方ご当地グルメへの外国人の関心の高まりを報じている。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Okonomiyaki",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://yamatogokoro.jp/report/5137/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-2"
+ },
+ {
+  "rank": 3,
+  "name": "二郎系ラーメン（ラーメン二郎）",
+  "nameEn": "Ramen Jiro (Jiro-style ramen)",
+  "description": "極太麺・大量の背脂・山盛りの豚肉とモヤシが特徴の、通常のラーメンとは一線を画す超ボリューム系ラーメン。小サイズでも一般的なラーメンの2倍以上のカロリーがあり、その過激さと「ジロリアン」と呼ばれる熱狂的ファン文化がSNSや動画で拡散され、話題性を求める外国人ラーメンファンの間で「食べてみたい店」として知られるようになっている。",
+  "evidence": "英語版Wikipediaが「ジロリアン」という信奉的ファン層の存在、店舗を写真から判定するAIがGoogleやThe Verge等海外メディアに取り上げられたことなど、国際的な話題化を具体的に記録している。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ramen_Jiro",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-3"
+ },
+ {
+  "rank": 4,
+  "name": "博多とんこつラーメン",
+  "nameEn": "Hakata tonkotsu ramen",
+  "description": "福岡・久留米発祥の白濁豚骨スープが特徴のラーメンで、屋台（屋台文化）と一体になって発展した点が他地域のラーメンと異なる。福岡市中州・天神エリアの屋台街は現代の屋台文化の中心地として知られ、ラーメンや餃子を提供する屋台での飲食は日本らしい体験として観光客の興味を引く要素になっている。",
+  "evidence": "英語版Wikipediaのtonkotsu ramenおよびyatai（屋台）の項目が、久留米発祥の歴史と福岡の屋台文化の現況を具体的に記述している一方、外国人観光客の直接的な言及は限定的で、屋台体験の人気は間接的根拠にとどまる。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Tonkotsu_ramen",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Yatai_(food_cart)",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-4"
+ },
+ {
+  "rank": 5,
+  "name": "唐揚げ",
+  "nameEn": "Karaage (Japanese fried chicken)",
+  "description": "醤油ベースの下味をつけた鶏肉を揚げた家庭料理・居酒屋料理の定番で、コンビニのホットスナックとしても常に人気がある。著名な海外シェフ、アンソニー・ボーディンが来日時に必ずローソンで唐揚げを買っていたと語られるなど、気取らない庶民の味として外国人からも評価されている。",
+  "evidence": "英語版Wikipediaがアンソニー・ボーディンの唐揚げ愛好エピソードを具体的に記載しており、コンビニ唐揚げが海外の著名人にも支持されていたことを示す事例として引用できる。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Karaage",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-5"
+ },
+ {
+  "rank": 6,
+  "name": "餃子",
+  "nameEn": "Japanese-style gyoza",
+  "description": "中国の餃子から独自に発展した日本の焼き餃子（羽根つき）は、にんにくを効かせた濃い味付けと薄い皮のパリッとした食感が特徴。安価で店ごとの個性が出やすく、宇都宮や浜松のような「餃子の街」がご当地グルメとして観光資源化されている。",
+  "evidence": "英語版Wikipediaが日本式餃子の味付け・皮の違いを明記し、欧州でも人気が拡大しレストランがメイン料理として提供し始めていると記述しているが、日本国内の外国人観光客の具体的反応についての直接情報は限定的。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Jiaozi",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-6"
+ },
+ {
+  "rank": 7,
+  "name": "牛丼",
+  "nameEn": "Gyudon (beef bowl)",
+  "description": "薄切り牛肉と玉ねぎを甘辛いタレで煮て白飯にのせた丼物。吉野家・すき家・松屋の三大チェーンが24時間営業・低価格・注文から数分で提供という利便性を実現しており、限られた滞在時間の中で手早く「日本の食」を体験したい旅行者に向いている。",
+  "evidence": "英語版Wikipediaが三大チェーンの規模・24時間営業体制・つゆだく等のカスタム注文文化を具体的に記述しているが、外国人観光客の利用実態そのものへの直接言及は無く、利便性からの推測にとどまる。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Gy%C5%ABdon",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-7"
+ },
+ {
+  "rank": 8,
+  "name": "串カツ（大阪・新世界）",
+  "nameEn": "Kushikatsu (deep-fried skewers, Osaka)",
+  "description": "肉や野菜を串に刺して衣をつけて揚げる大阪・新世界発祥の庶民派グルメ。1929年創業の老舗が広めた「ソースの二度づけ禁止」という独特のマナーがユニークな体験として語られやすく、店によっては英語など外国語での注意書きも用意され、観光客の来店を前提とした対応が進んでいる。",
+  "evidence": "英語版Wikipediaが二度づけ禁止ルールについて「外国人旅行者にマナーを説明するための多言語表示を置く店がある」と明記しており、外国人客の来店を前提とした運用が実際に行われていることの根拠になる。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Kushikatsu",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-8"
+ },
+ {
+  "rank": 9,
+  "name": "焼き鳥",
+  "nameEn": "Yakitori (grilled chicken skewers)",
+  "description": "鶏肉の様々な部位を串に刺して炭火で焼き、塩やタレで味付けする居酒屋の定番料理。部位ごとに異なる食感・味を少量ずつ試せる点が、居酒屋文化そのものを体験したい外国人観光客にとって「日本の夜の食文化」への入り口として親しまれている。",
+  "evidence": "英語版Wikipediaは焼き鳥が全国の居酒屋メニューに定着していることを記述しているが、外国人観光客の具体的な人気に関する直接的な記述はなく、居酒屋文化の一般的な観光価値からの推測が中心。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Yakitori",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-9"
+ },
+ {
+  "rank": 10,
+  "name": "手羽先（名古屋）",
+  "nameEn": "Tebasaki (Nagoya-style fried chicken wings)",
+  "description": "甘辛いタレとゴマを絡めた鶏手羽先の唐揚げで、名古屋めし（名古屋名物料理群）の代表格のひとつ。名古屋コーチンなど鶏肉文化に根ざした地域性が強く、名古屋観光の際に「ここでしか食べられないもの」として紹介されることが多い。",
+  "evidence": "英語版Wikipediaの名古屋料理の項目で手羽先が鶏肉系の代表料理として分類されているが、発祥店（風来坊・山ちゃんなど）や外国人観光客の反応についての直接的な言及は見つからず、地域名物としての位置づけが根拠の中心。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Tebasaki",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-10"
+ },
+ {
+  "rank": 11,
+  "name": "味噌カツ（名古屋）",
+  "nameEn": "Miso katsu (Nagoya-style pork cutlet with miso sauce)",
+  "description": "揚げたてのとんかつに八丁味噌ベースの濃厚な赤味噌ダレをかけた名古屋名物。一般的なとんかつのイメージを覆す甘辛い味噌ダレの組み合わせが「意外性のあるご当地グルメ」として、名古屋を訪れる観光客の話題になりやすい。",
+  "evidence": "英語版Wikipedia（tonkatsu項目）が「名古屋とその周辺では八丁味噌ベースのソースをかけた味噌カツが名物」と明記しているが、外国人観光客の反応そのものへの言及はなく、名物料理としての客観的位置づけが根拠。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Tonkatsu",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-11"
+ },
+ {
+  "rank": 12,
+  "name": "明太子料理",
+  "nameEn": "Mentaiko dishes (spicy pollock roe)",
+  "description": "博多（福岡）名物の辛子明太子を使った料理群。明太子パスタやおにぎり、明太子丼など和洋問わず応用範囲が広く、雑誌の「日本一のご飯のお供」に選ばれるほど国内での評価も高い。空港や主要駅の土産物店でも扱われ、旅行者が持ち帰りやすい商品として流通している。",
+  "evidence": "英語版Wikipediaが「週刊文春」による国内No.1おかずへの選出、明太子パスタの一般化、空港や主要駅での取り扱いを具体的に記述しており、旅行者との接点があることを裏付けている。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Mentaiko",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-12"
+ },
+ {
+  "rank": 13,
+  "name": "もんじゃ焼き",
+  "nameEn": "Monjayaki",
+  "description": "お好み焼きよりも生地が緩く、鉄板の上でヘラを使って少しずつ食べる東京・月島発祥の粉もの料理。自分で作りながら食べるライブ感のある食べ方自体が体験型のアトラクションとなっており、月島の「もんじゃストリート」は専門店が密集する観光スポットになっている。",
+  "evidence": "英語版Wikipediaが月島がもんじゃ焼き発祥の地として専門店が集中していることを記述しているが、記事自体がスタブ（簡易項目）で外国人観光客への直接言及はなく、根拠としてはやや弱い。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Monjayaki",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-13"
+ },
+ {
+  "rank": 14,
+  "name": "北海道スープカレー（札幌）",
+  "nameEn": "Hokkaido soup curry (Sapporo)",
+  "description": "サラサラのスパイススープに大ぶりの野菜や骨付き肉を入れた札幌発祥のカレー。一般的な日本式カレーとは見た目も食感も大きく異なり、「カレーライスとは別物」という意外性が、札幌・北海道を訪れる観光客にとって食べておきたいご当地グルメとして紹介されやすい。",
+  "evidence": "英語版Wikipediaの札幌の項目がスープカレーを同市を代表するご当地グルメのひとつとして明記しているが、外国人観光客の反応そのものについての一次情報は確認できていない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sapporo",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-14"
+ },
+ {
+  "rank": 15,
+  "name": "ジンギスカン（北海道）",
+  "nameEn": "Jingisukan (Genghis Khan grilled mutton, Hokkaido)",
+  "description": "中央が盛り上がった専用の鉄鍋でラム・マトンを野菜と一緒に焼く北海道の郷土料理。羊肉を主役にした焼肉スタイルは他地域では珍しく、北海道旅行の目玉グルメのひとつとして滝川市など複数の自治体が名物として打ち出している。",
+  "evidence": "英語版Wikipediaの札幌の項目および滝川市関連の記述がジンギスカンを地域の看板グルメとして扱っていることを確認できるが、外国人観光客特有の評価についての直接情報は限られる。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sapporo",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-15"
+ },
+ {
+  "rank": 16,
+  "name": "沖縄そば",
+  "nameEn": "Okinawa soba",
+  "description": "そばと名乗るが原材料はそば粉を使わず小麦粉100%の麺で、豚骨とかつおの合わせ出汁に三枚肉やソーキ（豚のあばら肉）をのせるのが定番。本州のそばとの違いそのものが会話のネタになりやすく、沖縄独自の食文化として観光客の関心の対象になっている。",
+  "evidence": "英語版Wikipediaが本州のそばとの原材料・食感の違い、戦後の歴史的経緯を明確に記述しているが、外国人観光客に関する直接的な言及はなく、独自性の高さからの推測が中心。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Okinawa_soba",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-16"
+ },
+ {
+  "rank": 17,
+  "name": "讃岐うどん（香川）",
+  "nameEn": "Sanuki udon (Kagawa)",
+  "description": "強いコシともちもちした食感が特徴の香川県のうどん。香川県民の90.5%が週1回以上うどんを食べるというほど生活に根付いており、県は2011年に「うどん県」を掲げた観光キャンペーンを展開するなど、うどん目当ての観光客誘致を明確に打ち出している。",
+  "evidence": "英語版Wikipediaが「うどんが来県の主な理由・魅力になっている」という調査結果と「うどん県」キャンペーンの開始を具体的に記述しており、地域ブランド調査で全国350の地域産品中1位になったことも根拠として明記されている。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sanuki_udon",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-17"
+ },
+ {
+  "rank": 18,
+  "name": "カツ丼",
+  "nameEn": "Katsudon (fried pork cutlet rice bowl)",
+  "description": "とんかつを卵でとじて丼飯にのせた料理で、「勝つ」に通じる語呂合わせから受験や試合前の「験担ぎ（げんかつぎ）」の縁起物として食べられる文化的背景を持つ。単なる丼物以上に、日本人の験担ぎ文化を知る入り口としてストーリー性のある食べ物として紹介できる。",
+  "evidence": "英語版Wikipediaが受験生が試験前夜にカツ丼を食べる慣習や、刑事ドラマで自白の場面に使われる定番演出について具体的に記述しているが、外国人観光客の消費実態についての直接情報はない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Katsudon",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-18"
+ },
+ {
+  "rank": 19,
+  "name": "カレーライス（日本式カレー）",
+  "nameEn": "Japanese curry rice",
+  "description": "とろみのあるルウを使い、じゃがいも・にんじん・玉ねぎと肉を煮込んで白飯にかける日本独自のカレー。インド式カレーとは味も見た目も大きく異なり、インバウンド関連の記事でも「日本ならではのアレンジ料理」として、そば・お好み焼き・たこ焼きと並んで外国人に人気のカジュアル和食として紹介されている。",
+  "evidence": "日本のインバウンド専門メディア（やまとごころ.jp）が、外国人観光客がラーメンと並んでご当地グルメ・カジュアル和食に強い興味を示している傾向を報じており、カレーライスもその文脈で言及される定番メニューのひとつ。",
+  "sources": [
+   {
+    "url": "https://yamatogokoro.jp/report/5137/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-19"
+ },
+ {
+  "rank": 20,
+  "name": "味噌カレー牛乳ラーメン（青森）",
+  "nameEn": "Miso curry milk ramen (Aomori)",
+  "description": "味噌ラーメンにカレー粉と牛乳を加えるという青森県発祥の異色のご当地ラーメン。組み合わせの意外性が強く、日本のインバウンド記事では実際にインド出身の旅行者が食べて「美味しかった」と驚いた事例が紹介されており、話のネタになる一杯として地方グルメ巡りの対象になっている。",
+  "evidence": "日本のインバウンド専門メディア（やまとごころ.jp）が、インド出身者がこのラーメンを食べて驚きながらも高く評価したという具体的なエピソードを記載している。",
+  "sources": [
+   {
+    "url": "https://yamatogokoro.jp/report/5137/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "B級グルメ・ご当地グルメ",
+  "genreIcon": "🍢",
+  "genreIndex": 2,
+  "key": "g2-20"
+ },
+ {
+  "rank": 1,
+  "name": "抹茶スイーツ（抹茶パフェ・抹茶ソフトクリーム等）",
+  "nameEn": "Matcha sweets (matcha parfait, matcha soft serve, etc.)",
+  "description": "宇治抹茶などを使ったパフェ、ソフトクリーム、ラテなどの総称。鮮やかな緑色と「スーパーフード」的な健康イメージ、そして海外にはない濃厚な苦味と甘みのバランスが外国人観光客を強く惹きつけている。人気の高まりにより抹茶の原料自体が品薄になるほどの「インバウンド抹茶ブーム」が起きている。",
+  "evidence": "TBSニュースなどの報道でインバウンド需要と海外輸出増加による抹茶の品薄が報じられ、浅草などの高濃度抹茶専門店に外国人観光客が行列する様子も複数のメディアで確認できる。",
+  "sources": [
+   {
+    "url": "https://www.itoen.jp/matchalove/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://urbanlifemetro.jp/food/21590/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-1"
+ },
+ {
+  "rank": 2,
+  "name": "かき氷（高級・専門店系）",
+  "nameEn": "Kakigori (Japanese shaved ice, especially premium artisan shops)",
+  "description": "天然氷を使い、フルーツソースやシロップを何層にも重ねた高級かき氷。台湾や韓国の氷菓と差別化された「純氷のなめらかさ」と造形美、猛暑から逃れられる涼を兼ね備えた体験価値が評価されている。1杯2000〜3000円台でも外国人観光客が行列を作る現象が起きている。",
+  "evidence": "Yahoo!ニュース エキスパートの記事が、TikTokの「KAKIGORI」タグ経由で海外グルメメディアに拡散し、インバウンド客が高額なかき氷に並ぶ理由を分析している。",
+  "sources": [
+   {
+    "url": "https://news.yahoo.co.jp/expert/articles/a21240a2b3f6614dcb9a3876e9904da3fc59b505",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-2"
+ },
+ {
+  "rank": 3,
+  "name": "東京ばな奈",
+  "nameEn": "Tokyo Banana (banana-cream sponge cake, Tokyo's signature souvenir)",
+  "description": "バナナカスタードをふわふわのスポンジで包んだ東京土産の定番。日本人にとっての「東京みやげ」が外国人にとっては「日本みやげ」全般として機能しており、個包装で配りやすく日持ちもする点が支持されている。",
+  "evidence": "製造元グレープストーンの担当者への取材で、東京駅旗艦店の来店者比率が日本人7：外国人3であることが確認されている。",
+  "sources": [
+   {
+    "url": "https://getnews.jp/archives/3657711",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-3"
+ },
+ {
+  "rank": 4,
+  "name": "日本限定キットカット（抹茶味など）",
+  "nameEn": "Japan-exclusive Kit Kat flavors (matcha, strawberry, regional flavors)",
+  "description": "宇治抹茶やご当地限定フレーバーなど、日本でしか買えない希少性が「価値の高さ」を生み、個包装で軽く配りやすい点も土産として最適とされる。渋谷のキットキャットショコラトリーでは自分好みのバーを作れる体験も外国人に人気。",
+  "evidence": "訪日外国人向けメディアtsunaguJapanの特集記事が、限定フレーバーの希少性と地域性が外国人に評価される理由を具体的に解説している。",
+  "sources": [
+   {
+    "url": "https://www.tsunagujapan.com/japan-only-kit-kat-flavor-guide-from-regional-to-limited/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.tsunagujapan.com/kitkat-chocolatory-shibuya/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-4"
+ },
+ {
+  "rank": 5,
+  "name": "いちご大福・大福",
+  "nameEn": "Ichigo daifuku (strawberry mochi) and daifuku generally",
+  "description": "求肥（ぎゅうひ）に餡と丸ごとの苺を包んだ和菓子で、断面の鮮やかさがSNS映えする。もちもちとした独特の食感が海外の菓子にはなく、専門店「ストロベリーマニア」など見た目重視の店舗がSNSでバズっている。",
+  "evidence": "SNSトレンド専門店を紹介する記事や、外国人が初めていちご大福を食べる様子を撮ったTikTok動画が複数確認できる。",
+  "sources": [
+   {
+    "url": "https://maidonanews.jp/article/12319790",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://oribakoya.jp/olicablog/article?id=1963",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-5"
+ },
+ {
+  "rank": 6,
+  "name": "わらび餅",
+  "nameEn": "Warabimochi (bracken-starch jelly, kinako-dusted mochi-like sweet)",
+  "description": "ぷるぷる、もちもちとした独特の食感と透明感のある見た目が特徴の夏の涼菓。日本の菓子輸出額が2024年に過去最大となる中、アニメ・漫画で見た菓子を実際に食べたいという海外ファンの関心の高まりが後押しし、専門店に外国人が殺到する現象が報じられている。",
+  "evidence": "経済産業省系機関JETROのレポートが、わらび餅専門店の海外市場開拓の動きと人気の背景を具体的に説明している。",
+  "sources": [
+   {
+    "url": "https://www.jetro.go.jp/biz/areareports/2025/d9b2f17fd0d668ef.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-6"
+ },
+ {
+  "rank": 7,
+  "name": "日本のスフレ／バスク風チーズケーキ（JCC）",
+  "nameEn": "Japanese soufflé / Basque-style cheesecake (\"JCC\": Japanese Cotton Cheesecake)",
+  "description": "卵白をしっかり泡立てて焼き上げる「綿のようにふわふわ」な食感が特徴で、海外には存在しなかったタイプのチーズケーキとして「JCC」の名で世界的なブームを生んだ。Uncle Tetsu（アンクルテツ）やりくろーおじさんの店など海外進出したチェーンが行列を作っている。",
+  "evidence": "楽天レシピニュースの記事が、海外で「JCC」として大人気になっている経緯とその独特な食感の理由を解説している。",
+  "sources": [
+   {
+    "url": "https://recipe.rakuten.co.jp/news/article/1176/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-7"
+ },
+ {
+  "rank": 8,
+  "name": "純喫茶の昭和レトロプリン",
+  "nameEn": "Retro \"junkissa\" café pudding (Shōwa-era style caramel pudding)",
+  "description": "昔ながらの喫茶店で提供される、缶から取り出す固めのカスタードプリン。店主の職人技的な提供パフォーマンスがTikTokやFacebookで拡散され、コロナ規制解除後に訪日観光客が殺到する現象が起きた。「なめらかな食感と絶妙な甘さ」が高く評価されている。",
+  "evidence": "アラブニュース・ジャパンが東京・虎ノ門の老舗喫茶店「ヘッケルン」の事例を取材し、SNS拡散から外国人客殺到に至った経緯を詳しく報じている。",
+  "sources": [
+   {
+    "url": "https://www.arabnews.jp/article/arts-culture/article_88722/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-8"
+ },
+ {
+  "rank": 9,
+  "name": "たい焼き",
+  "nameEn": "Taiyaki (fish-shaped waffle cake filled with red bean paste, custard, etc.)",
+  "description": "鯛の形をした皮の中に餡やカスタードなどを詰めた温かい菓子で、日本アニメに登場することから海外ファンが「本物を食べてみたい」と関心を持つケースが多い。浅草の老舗「浪花家総本店」「鳴門鯛焼本舗」などには外国人観光客の行列ができている。",
+  "evidence": "浅草の鯛焼き専門店に外国人観光客が行列する様子を伝える旅行ブログや、アニメの影響でたい焼き需要が高まったことを報じる業界メディア記事が確認できる。",
+  "sources": [
+   {
+    "url": "https://bus.airtrip.jp/blog/27820",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://honichi.com/news/2016/11/11/animegahayarebataiyak/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-9"
+ },
+ {
+  "rank": 10,
+  "name": "原宿クレープ",
+  "nameEn": "Harajuku crepe (Takeshita Street soft crepe with cream, fruit, and toppings)",
+  "description": "生クリームやフルーツ、チョコなどをたっぷり巻いた竹下通り名物のクレープ。「原宿といえばクレープ」というイメージが定着しており、味そのものよりも見た目のインパクトとSNS映えを求めて外国人観光客が買い求める傾向が指摘されている。",
+  "evidence": "産経新聞が「味より映え？原宿・竹下通りの名物『クレープ』と『綿あめ』」という見出しで特集し、Yahoo!知恵袋にも「原宿といえばクレープ、なぜ？」という質問が投稿されるなど、その定番イメージが定着していることがうかがえる。",
+  "sources": [
+   {
+    "url": "https://www.sankei.com/article/20250928-VXJWITGRMBP5FAOG3NMA2OIK2I/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10154528195",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-10"
+ },
+ {
+  "rank": 11,
+  "name": "いちご飴（フルーツ飴・タンフル）",
+  "nameEn": "Candied strawberry skewers (Japanese take on Korean tanghulu-style candied fruit)",
+  "description": "苺やぶどうを飴でコーティングした食べ歩きスイーツ。パリッとした飴の食感とツヤのある見た目がSNS映えし、浅草・仲見世周辺の専門店ではTikTokやInstagramで見て来店する外国人観光客の食べ歩きシーンが数多く投稿されている。",
+  "evidence": "浅草のいちご飴を紹介するTikTok動画やInstagramリールが多数投稿されており、韓国発祥のタンフル文化と結びつけて紹介するトラベルメディア記事もある。",
+  "sources": [
+   {
+    "url": "https://rurubu.jp/andmore/article/22883",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-11"
+ },
+ {
+  "rank": 12,
+  "name": "上生菓子・練り切り（和菓子全般）",
+  "nameEn": "Jo-namagashi / nerikiri (artisanal seasonal wagashi)",
+  "description": "季節の花や自然をかたどった芸術的な見た目の生菓子。抹茶と組み合わせて味わう茶道文化とセットで紹介されることが多く、「食べるのがもったいない」ほどの美しさと、和の文化を一口で体験できる点が外国人に評価されている。",
+  "evidence": "訪日外国人向けメディアtsunaguJapanが、和菓子職人への取材を通じて上生菓子の芸術性と季節感が外国人に響く理由を紹介しており、訪日客の菓子購入率・購入額に関する調査データを紹介する記事もある。",
+  "sources": [
+   {
+    "url": "https://www.tsunagujapan.com/jo-namagashi-edible-works-of-art/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://oribakoya.jp/olicablog/article?id=1963",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-12"
+ },
+ {
+  "rank": 13,
+  "name": "どら焼き",
+  "nameEn": "Dorayaki (red bean paste sandwiched between two pancake-like patties)",
+  "description": "ふわふわのカステラ生地で餡を挟んだ菓子で、生クリームや抹茶餡を使った現代風アレンジも豊富。個包装で持ち運びやすく親しみやすい甘さが、多都市を巡る観光客に土産として選ばれやすい理由とされる。",
+  "evidence": "外国人観光客の菓子購入動向を扱う記事で、どら焼きが個包装の利便性と親しみやすい味から人気カテゴリーの一つとして具体的に挙げられている。",
+  "sources": [
+   {
+    "url": "https://oribakoya.jp/olicablog/article?id=1963",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.japan-guide.com/e/e2312.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-13"
+ },
+ {
+  "rank": 14,
+  "name": "八ツ橋（生八ツ橋）",
+  "nameEn": "Yatsuhashi (cinnamon-flavored rice-flour confection, Kyoto's signature souvenir)",
+  "description": "ニッキ（シナモン）風味の生地に餡を包んだ京都土産の定番。京都観光とセットで語られる知名度の高さから、外国人観光客にも「京都に来た証」として選ばれやすい菓子とされる。",
+  "evidence": "インバウンド消費動向を扱う業界メディアhonichiが八ツ橋を食品カテゴリーの人気土産として個別に集計・分析しており、Yahoo!知恵袋にも「八ツ橋は外国人にも喜ばれるか」という質問が投稿されている。",
+  "sources": [
+   {
+    "url": "https://honichi.com/goods/categories/food/143/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-14"
+ },
+ {
+  "rank": 15,
+  "name": "ポッキー",
+  "nameEn": "Pocky (chocolate-coated biscuit sticks)",
+  "description": "細長いビスケット菓子にチョコレートをコーティングした世界的にも認知度の高いお菓子。海外にも輸出されているが、日本限定フレーバー（抹茶味など）はチョコの厚みや品質の高さから改めて外国人観光客に評価されている。",
+  "evidence": "外国人に実際に日本の菓子について聞き取り調査したブログ記事で、ポッキーがチョコの厚みと日本限定味を理由に人気商品として挙げられている。",
+  "sources": [
+   {
+    "url": "https://www.sekawata.com/japanesesnacks/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-15"
+ },
+ {
+  "rank": 16,
+  "name": "みたらし団子",
+  "nameEn": "Mitarashi dango (skewered rice dumplings glazed with sweet soy sauce)",
+  "description": "串に刺した米粉の団子に甘辛い醤油だれを絡めた和菓子。もちもちした食感と醤油ベースの甘辛い味は海外の菓子にはない組み合わせで、神社仏閣の参道の食べ歩き文化とセットで紹介されることが多い。",
+  "evidence": "訪日客向け観光ガイドサイトjapan-guide.comが基本的な和菓子として団子を紹介しているが、団子単体での外国人人気に特化した大規模な調査記事は今回の調査では見つからず、他の和菓子に比べると証拠はやや限定的。",
+  "sources": [
+   {
+    "url": "https://www.japan-guide.com/e/e2312.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-16"
+ },
+ {
+  "rank": 17,
+  "name": "カステラ（長崎カステラ）",
+  "nameEn": "Castella (Nagasaki-style sponge cake, of Portuguese origin)",
+  "description": "南蛮貿易時代にポルトガルから伝わり、日本で独自に発展した卵風味豊かなスポンジケーキ。上品な甘さときめ細かい生地が土産として定着しており、長崎の老舗「福砂屋」は数少ない他都市に支店を持つブランドとして観光客にも購入されている。",
+  "evidence": "tsunaguJapanの記事が、福砂屋が「観光客に人気の土産選択肢」であると明記している。",
+  "sources": [
+   {
+    "url": "https://www.tsunagujapan.com/japan-castella-top-3/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-17"
+ },
+ {
+  "rank": 18,
+  "name": "もなか",
+  "nameEn": "Monaka (thin wafer shell filled with red bean paste or ice cream)",
+  "description": "パリパリの最中種（もなかだね）に餡やアイスクリームを挟んだ和菓子。食べる直前に自分で餡を挟むタイプは、独特の食感の変化を楽しめる体験型の菓子として紹介されることがある。",
+  "evidence": "japan-guide.comなど訪日外国人向け観光ガイドで基本的な和菓子として紹介されているが、もなか単体で外国人に特化した人気調査やSNSでのバイラルな話題は今回の調査では確認できず、証拠は他の項目に比べて弱い。",
+  "sources": [
+   {
+    "url": "https://www.japan-guide.com/e/e2312.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-18"
+ },
+ {
+  "rank": 19,
+  "name": "羊羹",
+  "nameEn": "Yokan (firm sweet bean jelly made with agar)",
+  "description": "小豆餡と寒天を練り固めた、しっとり濃厚な和菓子。生クリームを使った洋菓子と違い振動で形が崩れにくく、日持ちもするため、複数都市を回る旅行者への土産として実用的とされる。",
+  "evidence": "外国人観光客の菓子購入における「持ち運びやすさ」の重要性を指摘する記事はあるが、羊羹単体を名指しして外国人人気を論じた記事は今回の調査では見つからず、証拠は限定的。",
+  "sources": [
+   {
+    "url": "https://oribakoya.jp/olicablog/article?id=1963",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.japan-guide.com/e/e2312.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-19"
+ },
+ {
+  "rank": 20,
+  "name": "あんみつ",
+  "nameEn": "Anmitsu (agar cubes, red bean paste, fruit, and syrup dessert)",
+  "description": "寒天、餡、フルーツ、白玉などを黒蜜で味わう伝統的な甘味処のデザート。抹茶白玉を添えたメニューなど、抹茶ブームに乗せた現代的なアレンジで紹介されることが増えている。",
+  "evidence": "インバウンドで行列ができる抹茶専門店「祇園辻利」の新メニューにあんみつが加わっていることが確認できるが、あんみつ単体を対象にした外国人人気調査は今回の調査では見つからず、証拠は間接的。",
+  "sources": [
+   {
+    "url": "https://urbanlifemetro.jp/food/21590/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.japan-guide.com/e/e2312.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "スイーツ・和菓子",
+  "genreIcon": "🍡",
+  "genreIndex": 3,
+  "key": "g3-20"
+ },
+ {
+  "rank": 1,
+  "name": "たまごサンド（コク旨たまごサンドなど）",
+  "nameEn": "Tamago Sando (Japanese Egg Salad Sandwich)",
+  "description": "ふわふわの食パンに、卵をなめらかなサラダ状に仕上げたたまごサンド。東京オリンピック以降SNSで拡散し、欧米・韓国などの訪日客から「パンの柔らかさと卵の優しい甘さが本国のサンドイッチと全く違う」と評価されている。テレビの検証企画やセブン-イレブンの実売データでも訪日客に人気の商品として繰り返し1位級に挙げられている。",
+  "evidence": "日経クロストレンド、Impress Watch、テレビ番組の検証企画（datazoo.jp）など複数メディアが実売データとともに人気を報じている。",
+  "sources": [
+   {
+    "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01676/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.watch.impress.co.jp/docs/news/2011260.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-1"
+ },
+ {
+  "rank": 2,
+  "name": "ツナマヨネーズおにぎり",
+  "nameEn": "Tuna Mayonnaise Onigiri",
+  "description": "手巻きタイプのツナマヨネーズおにぎりは、2024年11月のセブン-イレブン実売データで訪日外国人全体の購入額1位（138円）を記録した、実際に最も売れている商品。フィルムを剥がして海苔を巻く「開封の儀式」自体が新鮮な体験として楽しまれている点も特徴。",
+  "evidence": "okke.appが報じたセブン-イレブンの2024年11月の実売データ、およびlivejapan.comの外国人インタビュー記事で1位商品として明記されている。",
+  "sources": [
+   {
+    "url": "https://okke.app/post/seven_11",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://livejapan.com/ja/article-a0002963/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-2"
+ },
+ {
+  "rank": 3,
+  "name": "ジャージー牛乳プリン（オハヨー乳業）",
+  "nameEn": "Ohayo Jersey Milk Pudding",
+  "description": "なめらかな牛乳プリンで、訪日外国人向けバーコードスキャンアプリ「Payke」の実測データを集計した訪日ラボのランキングにおいて、セブン-イレブン・ローソン・ファミリーマートの3チェーンいずれでも上位に入る定番商品。特別な話題性より、日常的な購入率の高さで支持されている点が特徴。",
+  "evidence": "訪日ラボ（honichi.com）がPaykeの実スキャンデータを基に集計した3チェーン共通のインバウンド人気商品ランキング。",
+  "sources": [
+   {
+    "url": "https://honichi.com/goods/store_categories/convenience_store/1428/ranking/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://honichi.com/goods/store_categories/convenience_store/1422/ranking/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-3"
+ },
+ {
+  "rank": 4,
+  "name": "フルーツサンド",
+  "nameEn": "Fruit Sando (Fruit Sandwich)",
+  "description": "生クリームと旬のフルーツを食パンで挟んだ、海外にはほぼ存在しない独自のサンドイッチ。2023年のWBC取材で来日した米メディア記者がいちごのフルーツサンドに感動しSNSで紹介したほか、BBCがTikTokで欧州人観光客がセブン-イレブンでこれを探し回る様子を報じたことで国際的に知られるようになった。英国のマークス&スペンサーが模した商品を発売した際は発売2日で自社サンドイッチ売上1位になるほど反響を呼んだ。",
+  "evidence": "米MLB.com記者の実体験を伝えるdiamond.jp記事、BBC/TikTokでの報道を伝えるhint-pot.jp記事、英国M&Sでの商品化事例。",
+  "sources": [
+   {
+    "url": "https://diamond.jp/articles/-/321598",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://hint-pot.jp/archives/267633",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-4"
+ },
+ {
+  "rank": 5,
+  "name": "ファミチキ（ファミリーマートのフライドチキン）",
+  "nameEn": "Famichiki (FamilyMart Fried Chicken)",
+  "description": "骨なしでジューシーなフライドチキン。2024年後半以降「寿司やラーメンよりハマる」「KFCを超える」といった声とともにSNSで急速に話題化した。パンケーキに挟んで食べるアレンジレシピもSNSで拡散するなど、単なる商品を超えた食べ方のトレンドを生んでいる。",
+  "evidence": "FNNのニュース記事、X（旧Twitter）でのトレンド化、Hint-Potでの欧州人観光客インタビューなど複数のメディア・SNSで報告されている。",
+  "sources": [
+   {
+    "url": "https://www.fnn.jp/articles/-/865668",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://hint-pot.jp/archives/205169",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-5"
+ },
+ {
+  "rank": 6,
+  "name": "からあげクン（ローソン）",
+  "nameEn": "Karaage Kun (Lawson Fried Chicken Nuggets)",
+  "description": "1986年発売、累計販売数41億食を超えるローソンの看板フライドチキン。北海道チーズ味などの限定フレーバーを含め、日本在住の韓国出身者へのインタビューで「必ず買う」定番品として名前が挙がるなど、外国人からの支持も確認されている。",
+  "evidence": "外国人へのインタビュー記事（tripeditor.com）、観光メディアfun-japan.jpの紹介記事。",
+  "sources": [
+   {
+    "url": "https://tripeditor.com/428071",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.fun-japan.jp/jp/articles/13458",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-6"
+ },
+ {
+  "rank": 7,
+  "name": "コンビニおでん",
+  "nameEn": "Convenience Store Oden (Register-Counter Hot Pot)",
+  "description": "レジ横の鍋で温められた大根・卵・練り物などの具を自分で選んで買えるおでん。クセの少ない出汁の味付けと、卵など外国人にもなじみのある具材の柔らかさが「食べやすい」と評価されており、セブン-イレブンの商品データでも韓国・シンガポールなど複数国籍の訪日客に人気の品目として挙がっている。",
+  "evidence": "外国人向け特集記事（tripeditor.com）、セブン-イレブンの人気商品データを紹介したmynavi newsの記事。",
+  "sources": [
+   {
+    "url": "https://tripeditor.com/391743",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://news.mynavi.jp/article/20250124-3112677/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-7"
+ },
+ {
+  "rank": 8,
+  "name": "肉まん",
+  "nameEn": "Nikuman (Steamed Pork Bun)",
+  "description": "ふかふかの生地で豚肉あんを包んだ蒸しまん。「カナダには絶対にない」と感動した観光客のエピソードを取り上げた特集記事があるなど、寒い時期にレジ横で温かいまま手軽に買える点が新鮮な驚きとして紹介されている。",
+  "evidence": "現代ビジネス（gendai.media）の特集記事、在留外国人20人へのアンケートを行ったmynavi newsの記事。",
+  "sources": [
+   {
+    "url": "https://gendai.media/articles/-/141790",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://news.mynavi.jp/article/20161230-a089/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-8"
+ },
+ {
+  "rank": 9,
+  "name": "BRULEE（ブリュレ）焼きアイス",
+  "nameEn": "Ohayo BRULEE Torched Caramel Ice Cream",
+  "description": "オハヨー乳業が独自製法でアイスの表面を焼き上げ、パリパリのキャラメリゼ食感に仕上げた商品。台湾・韓国・香港のインフルエンサーがSNSで紹介したことをきっかけに訪日外国人からの評価が高まり、実際にインバウンド需要の大きい店舗では一般店舗より高い売上を記録し、2024年には韓国での販売開始という海外初展開にもつながった。",
+  "evidence": "製造元オハヨー乳業自身のプレスリリース、テレビ東京系ビジネス番組（テレ東BIZ）、PR TIMESでの発表。",
+  "sources": [
+   {
+    "url": "https://www.ohayo-milk.co.jp/info/2024032201.html",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://txbiz.tv-tokyo.co.jp/readings/2137",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-9"
+ },
+ {
+  "rank": 10,
+  "name": "セブンプレミアム チョコっとグミ シャインマスカット味",
+  "nameEn": "Shine Muscat Grape Gummy Candy (Chocolate-Coated)",
+  "description": "シャインマスカット果汁のグミをチョコレートでコーティングしたお菓子。中国・韓国・台湾からの観光客に特に人気で、セブン-イレブンが免税対象額（5000円超）に達するようこのグミを100個単位でまとめ買いする客が現れるほどの需要が報じられた。",
+  "evidence": "日経クロストレンドのケーススタディ記事、TBS NEWS DIGのインバウンド戦略報道、mynavi newsの人気商品ランキング記事。",
+  "sources": [
+   {
+    "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01676/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://newsdig.tbs.co.jp/articles/-/1892736",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-10"
+ },
+ {
+  "rank": 11,
+  "name": "もち食感ロール／プレミアムロールケーキ（ローソン）",
+  "nameEn": "Lawson Mochi-Textured / Premium Roll Cake",
+  "description": "ふんわり生地に生クリームをたっぷり巻いたローソンのロールケーキシリーズ。北海道産生クリームを使った「もち食感ロール」は、もちもちとした独特の食感と個包装でシェアしやすい点が近年外国人旅行者から支持されていると観光メディアで紹介されている。",
+  "evidence": "観光メディアfun-japan.jpの特集記事。",
+  "sources": [
+   {
+    "url": "https://www.fun-japan.jp/jp/articles/13458",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-11"
+ },
+ {
+  "rank": 12,
+  "name": "ファミマ・ザ・メロンパン",
+  "nameEn": "FamilyMart THE Melon Pan",
+  "description": "フランス産発酵バターと北イタリア発祥のパネトーネ種を使い、ふんわりとした食感に仕上げたファミリーマートのメロンパン。テレビ番組が実施した「外国人が日本で感動したコンビニグルメ」検証企画のランキングで上位に挙げられた。",
+  "evidence": "テレビ番組の検証企画内容をまとめたnote系メディア記事。",
+  "sources": [
+   {
+    "url": "https://datazoo.jp/n/%E6%A4%9C%E8%A8%BC+%E5%A4%96%E5%9B%BD%E4%BA%BA%E3%81%8C%E6%97%A5%E6%9C%AC%E3%81%A7%E6%84%9F%E5%8B%95%E3%81%97%E3%81%9F%EF%BC%81+%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%82%B0%E3%83%AB%E3%83%A1%E4%BA%BA%E6%B0%97%E3%83%88%E3%83%83%E3%83%9710%E3%81%AF%E4%BD%95%EF%BC%9F/25252617",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-12"
+ },
+ {
+  "rank": 13,
+  "name": "コンビニ弁当",
+  "nameEn": "Convenience Store Bento Box",
+  "description": "からあげ弁当をはじめとする各種弁当は、在留外国人へのアンケートで「レストラン並みの味」「品揃えの豊富さと日替わりの工夫に驚いた」と評価され、回答者20人中8人が好きな商品として挙げるほどの支持を集めた。",
+  "evidence": "mynavi newsが実施した在留外国人20人へのアンケート記事。",
+  "sources": [
+   {
+    "url": "https://news.mynavi.jp/article/20161230-a089/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-13"
+ },
+ {
+  "rank": 14,
+  "name": "日本限定フレーバーのカップヌードル",
+  "nameEn": "Japan-Exclusive Cup Noodle Flavors",
+  "description": "シーフードヌードルのほか豚骨味や地域限定フレーバーなど、日本でしか手に入らない味の展開が土産・軽食として観光客に選ばれている。訪日ラボのPayke実測データに基づくランキングでもセブン-イレブンの人気商品としてカップヌードルが上位に入っている。",
+  "evidence": "訪日ラボ（honichi.com）のPaykeスキャンデータに基づく商品ランキング。",
+  "sources": [
+   {
+    "url": "https://honichi.com/goods/companies/13/13/ranking/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-14"
+ },
+ {
+  "rank": 15,
+  "name": "ファミチキ×パンケーキのアレンジレシピ",
+  "nameEn": "Famichiki Sandwiched in Sweet Pancakes (Viral Mashup)",
+  "description": "セブンプレミアムのメープルパンケーキにファミチキを挟んで食べる「甘じょっぱい」組み合わせが、特にアメリカ人観光客の間でSNS上のアレンジレシピとして拡散した。フライドチキンをパンで挟む食べ方はアメリカ人に特に好まれる傾向があるとImpress Watchも指摘している。",
+  "evidence": "FNNの特集記事、Impress Watchのセブン-イレブン戦略記事。",
+  "sources": [
+   {
+    "url": "https://www.fnn.jp/articles/-/865668",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://www.watch.impress.co.jp/docs/news/2011260.html",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-15"
+ },
+ {
+  "rank": 16,
+  "name": "セブン-イレブンのフローズンスムージー",
+  "nameEn": "Seven-Eleven Self-Serve Frozen Yogurt Smoothie",
+  "description": "店頭の専用マシンで自分でボタンを押して作るベリー系のフローズンヨーグルトスムージー。中国・シンガポール・タイからの観光客に人気で、「自分で作る」体験自体が新鮮に受け止められている。",
+  "evidence": "セブン-イレブンの人気商品ランキングを紹介したmynavi news記事、体験を解説するwebcil.jpの記事。",
+  "sources": [
+   {
+    "url": "https://news.mynavi.jp/article/20250124-3112677/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://webcil.jp/archives/2037",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-16"
+ },
+ {
+  "rank": 17,
+  "name": "コンビニコーヒー",
+  "nameEn": "Convenience Store Fresh-Brewed Coffee",
+  "description": "1杯100円前後で楽しめる挽き立てのレギュラーコーヒー。安くて美味しいことから、通勤前の一杯として日常的に購入する外国人観光客が多いと紹介されている。",
+  "evidence": "外国人の購買行動をまとめたlivejapan.comのレポート記事。",
+  "sources": [
+   {
+    "url": "https://livejapan.com/ja/article-a0002963/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-17"
+ },
+ {
+  "rank": 18,
+  "name": "串団子",
+  "nameEn": "Skewered Sweet Soy-Glazed Dango",
+  "description": "醤油だれの効いたコンビニの串団子は、韓国からの観光客に好まれる商品としてセブン-イレブンの人気商品リストに入っている。他の主要商品ほどの話題性はないが、実売データに基づく定番人気商品の一つ。",
+  "evidence": "セブン-イレブンの人気商品ランキングを紹介したmynavi news記事。",
+  "sources": [
+   {
+    "url": "https://news.mynavi.jp/article/20250124-3112677/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-18"
+ },
+ {
+  "rank": 19,
+  "name": "ファミリーマート スパイシーチキン",
+  "nameEn": "FamilyMart Spicy Chicken (Hot Snack)",
+  "description": "ファミチキとは別展開のホットスナックで、複数の外国人インタビュー記事において「特に美味しい」と名指しで挙げられている商品。冬場のおでんや中華まんと並び、レジ横ホットスナックコーナーの代表格として紹介されている。",
+  "evidence": "外国人インタビューを行ったlivejapan.comの記事。",
+  "sources": [
+   {
+    "url": "https://livejapan.com/ja/article-a0002963/",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-19"
+ },
+ {
+  "rank": 20,
+  "name": "焼き芋",
+  "nameEn": "Yaki-imo (Roasted Sweet Potato)",
+  "description": "秋冬にコンビニ店頭で売られる石焼き芋。近年は季節限定の「焼き芋ラテ」なども登場し、外国人観光客が選ぶコンビニ商品ランキングで季節限定商品が1位に挙げられた例もある。ただし他の項目と比べると、大手メディアによる実売データや大規模な報道はまだ少なく、現時点ではエビデンスが相対的に弱い。",
+  "evidence": "ブログメディア（szu-tokyo.jp）やnote記事での言及は確認できたが、実売データを伴う大手メディア報道は確認できなかった。",
+  "sources": [
+   {
+    "url": "https://szu-tokyo.jp/2026/02/23/top-5-japanese-convenience-store-items-loved-by-foreigners/",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://note.com/areaia/n/n9e48cdf12c83",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "コンビニ・スーパーグルメ",
+  "genreIcon": "🏪",
+  "genreIndex": 4,
+  "key": "g4-20"
+ },
+ {
+  "rank": 1,
+  "name": "ジャパニーズウイスキー",
+  "nameEn": "Japanese Whisky",
+  "description": "山崎・白州・余市などの蒸溜所が生み出すウイスキーで、世界的な品評会「World Whiskies Awards」では2007年の初回から2025年まで毎年何らかの部門で世界最高賞を獲得し続けている。ブラインドテイスティングでスコッチの名門を上回る評価を得たこともあり、酒類輸出額でも日本酒を上回る首位品目になっている。蒸溜所見学施設が整備され、職人技への関心と結びついた観光対象にもなっている。",
+  "evidence": "Wikipediaの解説記事に基づく、国際的な受賞歴・輸出額の推移・蒸溜所見学施設の整備状況の記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Japanese_whisky",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-1"
+ },
+ {
+  "rank": 2,
+  "name": "日本酒",
+  "nameEn": "Sake (Nihonshu)",
+  "description": "米と水と麹だけで造られる日本の伝統酒で、輸出額は2022年時点で2009年の6倍以上に伸びており、酒類輸出でウイスキーに次ぐ規模を持つ。蔵元見学や試飲文化が広がり、海外にも醸造拠点ができるほど「世界の飲み物」としての広がりを見せている。若者や女性など新しい飲み手層への訴求を掲げる日本クラフトサケ協会のような動きもあり、外国人にも間口を広げる方向性がある。",
+  "evidence": "Wikipediaの解説記事にある輸出額の推移データと、海外醸造拠点・クラフトサケ団体の設立に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sake",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-2"
+ },
+ {
+  "rank": 3,
+  "name": "抹茶ラテ・抹茶ドリンク",
+  "nameEn": "Matcha Latte / Matcha Drinks",
+  "description": "鮮やかな緑色がSNS映えすることから、InstagramやTikTokを通じて欧米で爆発的に人気が広がった飲み物。スターバックスなどの大手チェーンがメニュー化したことも普及を後押しし、オーストラリアでは消費量が前年比133%増になったという報告もある。人気の高まりにより2024年後半には大手メーカーが販売制限をかけ、2025年の収穫量が前年比2割減になるなど、供給が追いつかない「抹茶ショック」が起きるほどの需要になっている。",
+  "evidence": "Wikipediaの解説記事にある海外消費量の急増データと、供給不足・販売制限に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Matcha",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-3"
+ },
+ {
+  "rank": 4,
+  "name": "ハイボール",
+  "nameEn": "Highball (Whisky Soda)",
+  "description": "日本では「ハイボール」と言えばウイスキーの炭酸割りを指すのが一般的で、2000年代後半にサントリーが「食事に合う手軽な一杯」として再ブランディングし、国内のウイスキー需要を復活させた立役者とされる。居酒屋の定番メニューとして角瓶ハイボールなどが定着しており、外国人観光客が居酒屋文化を体験する入り口的な一杯になっている。",
+  "evidence": "Wikipediaの解説記事にあるサントリーによるハイボール販促の歴史的経緯の記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Highball",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Suntory",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-4"
+ },
+ {
+  "rank": 5,
+  "name": "梅酒",
+  "nameEn": "Umeshu (Plum Wine)",
+  "description": "青梅を焼酎と砂糖に漬け込んで作る甘酸っぱいリキュールで、アルコール度数10〜15%程度と比較的飲みやすく、日本酒やウイスキーが苦手な人でも入りやすい酒として知られる。大手メーカーのチョーヤは1959年の製造開始以来、世界各国へ輸出を拡大しており、海外の日本食レストランでもロック・ソーダ割り・カクテルなど多様な提供のされ方をしている。",
+  "evidence": "Wikipediaの解説記事にあるチョーヤの海外輸出展開とレストランでの提供形態に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Umeshu",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-5"
+ },
+ {
+  "rank": 6,
+  "name": "焼酎",
+  "nameEn": "Shochu",
+  "description": "米・麦・芋・そばなど多様な原料から作られる蒸留酒で、日本酒とは製法が根本的に異なる。ロサンゼルス・サンフランシスコ・バンクーバー・トロント・ニューヨークといった国際都市を中心に関心が高まりつつあり、米国市場だけで100種類以上の銘柄が流通するまでになっている。ただし海外での入手性はまだ日本人街のある都市に限られるなど、認知度は発展途上の段階にある。",
+  "evidence": "Wikipediaの解説記事にある北米主要都市での需要拡大と流通銘柄数の記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dch%C5%AB",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-6"
+ },
+ {
+  "rank": 7,
+  "name": "ラムネ",
+  "nameEn": "Ramune",
+  "description": "1884年に神戸でスコットランド人薬剤師が炭酸レモネードとして売り出したのが始まりで、ビー玉で栓をする「コッド・ネック・ボトル」の独特な構造が最大の特徴。この珍しい開け方自体が体験として面白がられ、夏祭りの定番飲料として日本の季節文化と結びついていることから、外国人にとって「見た目も楽しめる飲み物」として写真映えする土産・体験になっている。",
+  "evidence": "Wikipediaの解説記事にあるコッド・ネック・ボトルの構造説明と、夏の風物詩としての位置づけの記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ramune",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-7"
+ },
+ {
+  "rank": 8,
+  "name": "カルピス",
+  "nameEn": "Calpis (Calpico)",
+  "description": "1919年に発売された乳酸菌飲料で、ヨーグルトのような優しい酸味が特徴。海外では「カルピコ(Calpico)」という名称で展開されており、これは英語圏での語感の問題を避けるための措置で、それだけ国際市場を意識したブランド展開がされてきた飲み物と言える。かき氷やカクテルの材料としても使われ、日本独自の発酵飲料文化を体験できる一品として知られる。",
+  "evidence": "Wikipediaの解説記事にある北米での「カルピコ」ブランド展開に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Calpis",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-8"
+ },
+ {
+  "rank": 9,
+  "name": "クラフトビール",
+  "nameEn": "Japanese Craft Beer",
+  "description": "1994年の酒税法改正で製造免許の最低生産量要件が緩和されたことをきっかけに全国で小規模醸造所が急増し、地域色豊かなエール・IPA・スタウトなどが造られるようになった。東京や大阪ではクラフトビール専門のバーやパブが定着し、地元産と輸入ビールを並べて提供する店が観光客の立ち寄りスポットにもなっている。",
+  "evidence": "Wikipediaの解説記事にある1994年の規制緩和と都市部でのクラフトビールバーの普及に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Beer_in_Japan",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-9"
+ },
+ {
+  "rank": 10,
+  "name": "酎ハイ・レモンサワー",
+  "nameEn": "Chuhai / Lemon Sour",
+  "description": "「焼酎ハイボール」の略で、焼酎を炭酸水で割りレモンなどのフレーバーを加えた居酒屋の定番ドリンク。缶入り酎ハイはコンビニや自販機でも手軽に買え、アルコール度数を10%未満に抑えた飲みやすい設計になっている。米国でも宝酒造がJPOPブランドで販売するなど輸出が始まっており、2018年にはコカ・コーラ社も「檸檬堂」で酎ハイ市場に参入するなど注目度が上がっている。",
+  "evidence": "Wikipediaの解説記事にある米国市場への進出企業とコカ・コーラの参入に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ch%C5%ABhai",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-10"
+ },
+ {
+  "rank": 11,
+  "name": "缶コーヒー・自販機文化",
+  "nameEn": "Canned Coffee & Vending Machine Culture",
+  "description": "日本は1台あたり人口23人という世界屈指の密度で自動販売機が設置されており、その台数は550万台を超える。1973年にポッカコーヒーが世界初の温冷両対応自販機を投入して以降、缶コーヒーは季節を問わず街中で手に入る飲み物として定着した。温かい飲み物と冷たい飲み物が同じ機械から選べるという体験自体が海外にはあまりない仕組みで、外国人にとって驚きを伴う日本らしい光景になっている。",
+  "evidence": "Wikipediaの解説記事にある自販機の設置密度・台数データと缶コーヒー自販機の歴史的経緯の記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Vending_machines_in_Japan",
+    "checked": "2026-09-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Canned_coffee",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-11"
+ },
+ {
+  "rank": 12,
+  "name": "甘酒",
+  "nameEn": "Amazake",
+  "description": "米麹を使って作る、アルコールをほとんど含まない甘い発酵飲料で、古くから正月に神社仏閣で振る舞われてきた伝統的な一杯。「飲む点滴」とも呼ばれるほど栄養価が意識されており、近年は欧米の自然食品店でも通年販売されるようになっている。酒が苦手な外国人観光客でも安心して試せる発酵飲料として位置づけられる。",
+  "evidence": "Wikipediaの解説記事にある米国・欧州の自然食品店での通年販売に関する記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Amazake",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-12"
+ },
+ {
+  "rank": 13,
+  "name": "ペットボトル緑茶",
+  "nameEn": "Bottled Green Tea",
+  "description": "コンビニやスーパーで手軽に買える無糖のペットボトル緑茶は、日本の日常に溶け込んだ飲料文化の象徴のひとつ。コカ・コーラ社の「綾鷹」のように、急須で淹れたような味を再現した商品が主に日本国内向けに展開されており、外国人観光客にとっては「無糖のお茶がどこでも自販機やコンビニで買える」こと自体が新鮮な体験になっている。",
+  "evidence": "Wikipediaの緑茶に関する解説記事にある「綾鷹」など日本国内向けボトル商品の記述で、外国人観光客特有の反応についての直接的な資料は確認できていない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Green_tea",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-13"
+ },
+ {
+  "rank": 14,
+  "name": "酒蔵見学・日本酒ツーリズム",
+  "nameEn": "Sake Brewery Tours",
+  "description": "日本酒の蔵元は軒先に杉玉を吊るす伝統を持ち、見学や試飲を受け入れる蔵が全国各地にある。2022年設立の日本クラフトサケ協会は、これまで日本酒になじみが薄かった若者や女性、ひいては海外の新しい飲み手層への訴求を掲げており、蔵見学自体が観光コンテンツとして意識され始めている。ただし外国人観光客向けの受け入れ実績を具体的な数値で示す一次資料までは確認できていない。",
+  "evidence": "Wikipediaの解説記事にある日本クラフトサケ協会の設立目的と新規顧客層への訴求方針の記述。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sake",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-14"
+ },
+ {
+  "rank": 15,
+  "name": "日本ワイン（甲州ワインなど）",
+  "nameEn": "Japanese Wine (Koshu)",
+  "description": "山梨県を中心に栽培される「甲州」種は柑橘や桃を思わせる穏やかな香りが特徴の白ワイン用ぶどうで、シルクロード経由で伝来したとされる歴史を持つ。1995年に田崎真也氏が日本人初の世界最優秀ソムリエに輝いたことで国内のワイン文化への注目度は上がったが、2017年時点で輸出量はわずか58キロリットルと、国際的にはまだニッチな存在にとどまっている。",
+  "evidence": "Wikipediaの解説記事にある甲州種の特徴・輸出量データ・田崎氏の受賞歴の記述で、輸出量は限定的であることが明記されている。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Japanese_wine",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-15"
+ },
+ {
+  "rank": 16,
+  "name": "ジャパニーズジン",
+  "nameEn": "Japanese Craft Gin",
+  "description": "サントリーの「ROKU」に代表される、柚子や山椒、桜など和のボタニカルを使ったジャパニーズジンは、ウイスキーで培った蒸溜技術を応用した新しいジャンルとして近年注目されている。サントリー自体がヤマザキ・白州・チタなど国際的評価の高い蒸溜所を持つブランドであることから、その延長線上の商品として海外バイヤーからの関心が高まっているとされる。ただし今回参照した一次資料では個別銘柄の国際的評価に関する具体的な記述までは確認できなかった。",
+  "evidence": "Wikipediaのサントリー解説記事にある同社の蒸溜技術・ブランド展開の記述に基づく間接的な裏付けで、ジン単体の人気を直接示す統計は未確認。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Suntory",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-16"
+ },
+ {
+  "rank": 17,
+  "name": "ご当地ソーダ・メロンソーダ",
+  "nameEn": "Regional Soda / Melon Soda",
+  "description": "鮮やかな緑色のメロンソーダは喫茶店のクリームソーダの主役として親しまれてきた飲み物で、地域ごとに個性のあるご当地サイダーも各地の土産物店で見かける。見た目のインパクトと日本の喫茶店文化を象徴する組み合わせとして写真映えする一杯だが、外国人観光客特有の人気を裏付ける統計的な一次資料までは確認できておらず、旅行ブログ的な言及にとどまる情報が中心。",
+  "evidence": "Wikipediaのクリームソーダに関する記述に基づくが、外国人観光客の人気を直接裏付ける統計資料は確認できていない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Melon_soda",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-17"
+ },
+ {
+  "rank": 18,
+  "name": "ほうじ茶",
+  "nameEn": "Hojicha",
+  "description": "茶葉を強火で焙煎して作るお茶で、渋みが少なくカフェインも抑えられていることから子どもや年配者にも好まれ、夕食後に飲まれることが多い。香ばしい香りと赤みがかった色合いが特徴で、近年は抹茶に続く「もう一つの日本茶」として海外のカフェメニューにも登場し始めているとされるが、参照した一次資料では主に国内の伝統的な飲用習慣が中心に記述されており、海外での人気拡大を直接裏付けるデータまでは確認できていない。",
+  "evidence": "Wikipediaの解説記事にある焙煎方法・カフェイン含有量・国内での飲用習慣の記述で、海外人気については明確な裏付けが取れていない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/H%C5%8Djicha",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-18"
+ },
+ {
+  "rank": 19,
+  "name": "スパークリング日本酒",
+  "nameEn": "Sparkling Sake",
+  "description": "獺祭などの銘柄が手がける発泡性の日本酒で、シャンパンのような見た目とフルーティーで飲みやすい味わいから、日本酒に初めて触れる人への入門酒として位置づけられることが多い。日本クラフトサケ協会が掲げる「若者や女性、これまで日本酒になじみのなかった層への訴求」という方針とも重なる商品カテゴリーで、外国人向けの土産や贈答用としても選ばれやすい形状・パッケージになっている。",
+  "evidence": "Wikipediaの日本酒解説記事にあるクラフトサケ協会の新規顧客層への訴求方針からの間接的な裏付けで、スパークリング日本酒単体の人気を示す一次資料は今回確認できていない。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sake",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-19"
+ },
+ {
+  "rank": 20,
+  "name": "コンビニ限定・季節限定ドリンク",
+  "nameEn": "Convenience Store Exclusive / Seasonal Flavor Drinks",
+  "description": "セブン-イレブンやローソンなどのコンビニでは、季節ごとに入れ替わる限定フレーバーの飲料が次々と発売され、日本のコンビニ文化そのものが海外から注目される要素になっている。24時間いつでも新しい味に出会えるという体験自体が旅行者にとって珍しく、SNSでの「コンビニ飯・コンビニ飲料レビュー」的なコンテンツの人気とも結びついているが、今回参照したWikipediaのコンビニ解説記事では飲料の限定商戦や外国人人気に関する具体的な記述は確認できず、根拠は間接的・一般的な知見にとどまる。",
+  "evidence": "Wikipediaのコンビニ解説記事を参照したが飲料の限定商戦に関する直接的な記述はなく、根拠は一般的な知見レベルにとどまる（要追加調査）。",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Konbini",
+    "checked": "2026-09-05"
+   }
+  ],
+  "genre": "飲み物・お酒",
+  "genreIcon": "🍶",
+  "genreIndex": 5,
+  "key": "g5-20"
+ }
+]

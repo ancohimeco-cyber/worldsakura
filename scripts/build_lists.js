@@ -27,10 +27,37 @@ function castleUrl(c) {
   return `castle-${c.key}.html`;
 }
 
+// Finds <div id="ID" ...> ... its matching </div> ... (correctly handling nested <div>s
+// from a previous build) and replaces the whole span with a freshly rebuilt container.
+// Regex alone can't do this reliably once the container holds nested divs, so we
+// locate the opening tag, then walk forward counting div depth to find the true close.
 function replaceContainer(html, id, innerHtml) {
-  const re = new RegExp(`(<div id="${id}")([^>]*)(></div>)`);
-  if (!re.test(html)) throw new Error(`container #${id} not found`);
-  return html.replace(re, `$1$2>${innerHtml}</div>`);
+  const openTagRe = new RegExp(`<div id="${id}"[^>]*>`);
+  const openMatch = openTagRe.exec(html);
+  if (!openMatch) throw new Error(`container #${id} not found`);
+
+  const openTag = openMatch[0];
+  const contentStart = openMatch.index + openTag.length;
+
+  let depth = 1;
+  let i = contentStart;
+  const tagRe = /<div\b[^>]*>|<\/div>/g;
+  tagRe.lastIndex = contentStart;
+  let m;
+  while ((m = tagRe.exec(html))) {
+    if (m[0] === "</div>") {
+      depth--;
+      if (depth === 0) {
+        i = m.index;
+        break;
+      }
+    } else {
+      depth++;
+    }
+  }
+  if (depth !== 0) throw new Error(`unbalanced <div> while locating #${id}'s closing tag`);
+
+  return html.slice(0, contentStart) + innerHtml + html.slice(i);
 }
 
 let filesWritten = 0;
@@ -267,6 +294,39 @@ function buildCategoryListInner(config) {
   let html = fs.readFileSync(path.join(root, "castles.html"), "utf8");
   html = replaceContainer(html, "castles-list", inner);
   write("castles.html", html);
+}
+
+// ---- foodjapan.html: genre 1 (ちゃんとした食事・名物料理) as the default static view ----
+{
+  const dishes = require(path.join(root, "data/japan_food100.json"));
+  const genreClass = { "ちゃんとした食事・名物料理": "g1", "B級グルメ・ご当地グルメ": "g2", "スイーツ・和菓子": "g3", "コンビニ・スーパーグルメ": "g4", "飲み物・お酒": "g5" };
+  const firstGenre = "ちゃんとした食事・名物料理";
+  const items = dishes.filter((d) => d.genre === firstGenre).sort((a, b) => a.rank - b.rank);
+
+  const dishCard = (item) => {
+    const cls = genreClass[item.genre];
+    const sourcesHtml = (item.sources || [])
+      .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">出典</a>`)
+      .join(" ");
+    return `
+    <div class="dish-rank ${cls}">
+      <div class="dish-plate">${item.rank}</div>
+      <div class="dish-body">
+        <h3>${item.name}</h3>
+        <div class="dish-en">${item.nameEn}</div>
+        <p class="dish-desc">${item.description}</p>
+        <div class="dish-evidence">
+          <span class="dish-evidence-label">根拠:</span>${item.evidence}
+          <div class="dish-src">${sourcesHtml}</div>
+        </div>
+      </div>
+    </div>`;
+  };
+  const inner = `<div class="dish-list">${items.map(dishCard).join("")}</div>`;
+
+  let html = fs.readFileSync(path.join(root, "foodjapan.html"), "utf8");
+  html = replaceContainer(html, "foodjapan-list", inner);
+  write("foodjapan.html", html);
 }
 
 console.log("list pages updated:", filesWritten);

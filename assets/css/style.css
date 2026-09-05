@@ -1014,3 +1014,91 @@ footer {
   color: var(--ink-soft);
   margin-bottom: 20px;
 }
+
+/* ===== 日本グルメ100 (ランキング) ===== */
+.dish-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dish-rank {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 16px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.dish-plate {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #14202f;
+  align-self: start;
+}
+
+.dish-rank.g1 .dish-plate { background: #e6bf6b; }
+.dish-rank.g2 .dish-plate { background: #e8875a; }
+.dish-rank.g3 .dish-plate { background: var(--sakura-pink); }
+.dish-rank.g4 .dish-plate { background: #5fdcb8; }
+.dish-rank.g5 .dish-plate { background: var(--sakura-deep); color: #fff; }
+
+.dish-rank.g1 .dish-evidence { border-left-color: #e6bf6b; }
+.dish-rank.g2 .dish-evidence { border-left-color: #e8875a; }
+.dish-rank.g3 .dish-evidence { border-left-color: var(--sakura-pink); }
+.dish-rank.g4 .dish-evidence { border-left-color: #5fdcb8; }
+.dish-rank.g5 .dish-evidence { border-left-color: var(--sakura-deep); }
+
+.dish-body h3 {
+  margin: 0 0 2px;
+  font-size: 1.1rem;
+}
+
+.dish-en {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.dish-desc {
+  line-height: 1.8;
+  margin: 0 0 10px;
+}
+
+.dish-evidence {
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid var(--sakura-deep);
+  padding: 8px 12px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.dish-evidence-label {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.dish-src {
+  margin-top: 6px;
+  font-size: 0.74rem;
+}
+
+.dish-src a {
+  color: var(--ink-soft);
+}
+
+@media (max-width: 480px) {
+  .dish-rank { grid-template-columns: 38px 1fr; gap: 10px; padding: 14px; }
+  .dish-plate { width: 34px; height: 34px; font-size: 0.9rem; }
+}
