@@ -1,0 +1,909 @@
+[
+ {
+  "rank": 1,
+  "name": "白い恋人",
+  "nameEn": "Shiroi Koibito",
+  "description": "北海道銘菓の代表格。ホワイトチョコをラング・ド・シャで挟んだ定番クッキーで、パッケージの雪の結晶デザインも人気の理由のひとつ。",
+  "evidence": "2025年1月放送・訪日外国人2,115人対象の調査で「訪日外国人が選ぶお土産ランキング」1位に選出。",
+  "sources": [{"url": "https://miloku.co.jp/2025/08/31/15-2/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-1"
+ },
+ {
+  "rank": 2,
+  "name": "ロイズ ポテトチップチョコレート",
+  "nameEn": "Royce' Potato Chip Chocolate",
+  "description": "北海道発。薄切りポテトチップスにミルクチョコレートをコーティングした、しょっぱさと甘さのギャップが魅力の菓子。",
+  "evidence": "同調査(2,115人対象)で2位。",
+  "sources": [{"url": "https://miloku.co.jp/2025/08/31/15-2/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-2"
+ },
+ {
+  "rank": 3,
+  "name": "東京ばな奈",
+  "nameEn": "Tokyo Banana",
+  "description": "バナナ風味のカステラ生地でクリームを包んだ東京土産の定番。空港・駅の限定パッケージも豊富。",
+  "evidence": "同調査で3位。東京土産として長年不動の人気を維持。",
+  "sources": [{"url": "https://miloku.co.jp/2025/08/31/15-2/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-3"
+ },
+ {
+  "rank": 4,
+  "name": "一蘭 とんこつラーメン(土産用カップ)",
+  "nameEn": "Ichiran Tonkotsu Ramen (takeaway pack)",
+  "description": "博多の人気ラーメン店が販売する持ち帰り用カップ麺。現地の味をそのまま自国で再現できる点が評価されている。",
+  "evidence": "同調査で4位にランクイン。",
+  "sources": [{"url": "https://miloku.co.jp/2025/08/31/15-2/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-4"
+ },
+ {
+  "rank": 5,
+  "name": "御芋タルト",
+  "nameEn": "Beni-imo Tart",
+  "description": "沖縄の紅芋を使ったタルト菓子。優しい甘さと鮮やかな紫色が南国土産らしいと支持されている。",
+  "evidence": "同調査で5位。",
+  "sources": [{"url": "https://miloku.co.jp/2025/08/31/15-2/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-5"
+ },
+ {
+  "rank": 6,
+  "name": "コロロ",
+  "nameEn": "Kororo Gummy",
+  "description": "UHA味覚糖のグミ。果汁100%で本物の果物を食べているような食感が特徴。見た目の可愛さもSNSで話題。",
+  "evidence": "ドン・キホーテ「ドンキヒット商品大賞2025」で外国人観光客に人気の商品として紹介。",
+  "sources": [{"url": "https://toyokeizai.net/articles/-/920102", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-6"
+ },
+ {
+  "rank": 7,
+  "name": "キットカット ご当地・限定フレーバー",
+  "nameEn": "KitKat Regional Flavors",
+  "description": "抹茶・わさび・日本酒・ほうじ茶など地域限定フレーバーが豊富で、日本でしか手に入らない味を集める楽しみがある。",
+  "evidence": "ドンキヒット商品大賞や複数の訪日みやげ記事で「日本限定フレーバー」の定番として繰り返し紹介。",
+  "sources": [
+   {"url": "https://toyokeizai.net/articles/-/920102", "checked": "2026-09-05"},
+   {"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}
+  ],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-7"
+ },
+ {
+  "rank": 8,
+  "name": "焼き帆立貝(ドンキ珍味)",
+  "nameEn": "Grilled Dried Scallop Snack",
+  "description": "肉厚な帆立を焼き上げた珍味おつまみ。磯の香りと香ばしさが評判で、ドン・キホーテの定番人気商品になっている。",
+  "evidence": "東洋経済オンラインが「ドン・キホーテ銀座本館では棚に補充してもすぐになくなる」人気商品として報道。",
+  "sources": [{"url": "https://toyokeizai.net/articles/-/920102", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-8"
+ },
+ {
+  "rank": 9,
+  "name": "とらや 小形羊羹",
+  "nameEn": "Toraya Koigata Yokan",
+  "description": "室町時代創業の老舗和菓子店による一口サイズの羊羹。個包装で日持ちがよく、和菓子入門としても選ばれやすい。",
+  "evidence": "訪日外国人向けお土産紹介記事でお酒・和菓子カテゴリの定番として繰り返し紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-9"
+ },
+ {
+  "rank": 10,
+  "name": "手鞠ずし(和菓子)",
+  "nameEn": "Temarizushi Wagashi",
+  "description": "寿司の形を模した和菓子。見た目の楽しさとコンセプトの完成度が評価され、賞を受賞した実績がある。",
+  "evidence": "JNTO(日本政府観光局)主催「Japan Souvenir Grand-Prix」でグランプリを受賞。",
+  "sources": [{"url": "https://japan-magazine.jnto.go.jp/en/1708_souvenir.html", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-10"
+ },
+ {
+  "rank": 11,
+  "name": "生八ツ橋",
+  "nameEn": "Nama Yatsuhashi",
+  "description": "京都名物のニッキ風味の和菓子。もちもちとした皮であんこを包んだタイプが定番で、京都土産の代名詞。",
+  "evidence": "京都土産の定番として複数の訪日みやげ紹介記事で継続的に取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-11"
+ },
+ {
+  "rank": 12,
+  "name": "じゃがポックル",
+  "nameEn": "Jaga Pokkuru",
+  "description": "カルビー製、北海道限定のスティック状ポテトスナック。揚げたてのようなサクサク感が特徴で北海道空港の定番土産。",
+  "evidence": "お土産紹介記事のお菓子ランキングで北海道限定スナックの定番として紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-12"
+ },
+ {
+  "rank": 13,
+  "name": "かきたねキッチン",
+  "nameEn": "Kakitane Kitchen",
+  "description": "柿の種とナッツ、ドライフルーツなどを組み合わせたアレンジ米菓ブランド。パッケージのおしゃれさも支持されている。",
+  "evidence": "訪日外国人向けお土産紹介記事のお菓子ランキングで紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-13"
+ },
+ {
+  "rank": 14,
+  "name": "ガトーフェスタ ハラダ ラスク",
+  "nameEn": "Gateau Festa Harada Rusk",
+  "description": "群馬発のフランスパンラスク専門店。サクサクとバターの香りが評判で、贈答用にも選ばれる定番菓子。",
+  "evidence": "訪日外国人向けお土産紹介記事のお菓子ランキングで紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-14"
+ },
+ {
+  "rank": 15,
+  "name": "東京カンパネラ",
+  "nameEn": "Tokyo Campanella",
+  "description": "サツマイモを使った東京駅発のスイートポテト系スイーツ。しっとりした食感と上品な甘さが特徴。",
+  "evidence": "訪日外国人向けお土産紹介記事のお菓子ランキングで紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-15"
+ },
+ {
+  "rank": 16,
+  "name": "和三盆",
+  "nameEn": "Wasanbon",
+  "description": "香川・徳島特産の高級砂糖を使った落雁菓子。口の中でほろりと溶ける上品な甘さが和菓子ファンに人気。",
+  "evidence": "お土産紹介記事の和菓子ジャンルで定番として紹介。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-16"
+ },
+ {
+  "rank": 17,
+  "name": "きんつば",
+  "nameEn": "Kintsuba",
+  "description": "小豆餡を薄い小麦粉の皮で四角く包んで焼いた和菓子。あんこの風味をそのまま楽しめると評価されている。",
+  "evidence": "お土産紹介記事の和菓子ジャンルで定番として紹介。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-17"
+ },
+ {
+  "rank": 18,
+  "name": "鳩サブレー",
+  "nameEn": "Hato Sable",
+  "description": "鎌倉・豊島屋の看板商品。鳩の形をしたバター風味のサブレで、100年以上愛されるロングセラー。",
+  "evidence": "鎌倉土産の定番として観光ガイド・お土産紹介記事で繰り返し紹介。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-18"
+ },
+ {
+  "rank": 19,
+  "name": "雷おこし",
+  "nameEn": "Kaminari Okoshi",
+  "description": "浅草名物のおこし菓子。米粒を固めて作る素朴な甘さが特徴で、雷門にちなんだパッケージも土産らしいと人気。",
+  "evidence": "浅草観光の定番土産として観光ガイド記事で紹介。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-19"
+ },
+ {
+  "rank": 20,
+  "name": "ポッキー 期間限定フレーバー",
+  "nameEn": "Pocky Limited Flavors",
+  "description": "世界的に知られるスティック菓子だが、日本限定の抹茶・いちご・地域限定フレーバーを集める楽しみがある。",
+  "evidence": "お土産紹介記事のお菓子ジャンルで日本の定番菓子として紹介。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "お菓子・スイーツ", "genreIcon": "🍬", "genreIndex": 1, "key": "g1-20"
+ },
+
+ {
+  "rank": 1,
+  "name": "サロンパス",
+  "nameEn": "Salonpas",
+  "description": "久光製薬の鎮痛消炎貼付剤。肩こり・筋肉痛に効くとして、荷物の軽い日用品土産の定番になっている。",
+  "evidence": "訪日ラボのドラッグストア別インバウンド人気商品ランキングで常連商品として掲載。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-1"
+ },
+ {
+  "rank": 2,
+  "name": "龍角散のど飴",
+  "nameEn": "Ryukakusan Throat Lozenges",
+  "description": "生薬配合の代表的なのど薬ブランド。のど飴・粉薬ともに人気があり、喉のケアに関心のある旅行者に選ばれている。",
+  "evidence": "マネーポストWEBが報じた「訪日中国人が買い求める神薬」の一つとして紹介。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-2"
+ },
+ {
+  "rank": 3,
+  "name": "熱さまシート",
+  "nameEn": "Netsusama Sheet (Cooling Gel Sheet)",
+  "description": "小林製薬の冷却ジェルシート。発熱時に貼るだけで使える手軽さから、常備薬感覚で買われている。",
+  "evidence": "マネーポストWEBの「12の神薬」の一つとして紹介。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-3"
+ },
+ {
+  "rank": 4,
+  "name": "イブ(頭痛薬)",
+  "nameEn": "Eve (Pain Reliever)",
+  "description": "エスエス製薬の解熱鎮痛薬。効き目の速さで評判が高く、旅行中の常備薬として購入されることが多い。",
+  "evidence": "マネーポストWEBの「12の神薬」の一つとして紹介。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-4"
+ },
+ {
+  "rank": 5,
+  "name": "サンテボーティエ(目薬)",
+  "nameEn": "Sante Beauteye Eye Drops",
+  "description": "参天製薬の目薬シリーズ。パッケージデザインの可愛さと清涼感の強さで、女性観光客に選ばれやすい。",
+  "evidence": "TRiP EDiTORの「日本のドラッグストア大好き外国人が即買いするもの」記事で紹介。",
+  "sources": [{"url": "https://tripeditor.com/372124", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-5"
+ },
+ {
+  "rank": 6,
+  "name": "めぐりズム 蒸気でホットアイマスク",
+  "nameEn": "Megurhythm Steam Eye Mask",
+  "description": "花王のホットアイマスク。装着するだけでじんわり温まり、目の疲れを癒すリラックスグッズとして人気。",
+  "evidence": "訪日ラボのドラッグストア別インバウンド人気商品ランキングで常連商品として掲載。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-6"
+ },
+ {
+  "rank": 7,
+  "name": "ホッカイロ",
+  "nameEn": "Hokkairo (Disposable Body Warmer)",
+  "description": "貼るだけ・振るだけで発熱する使い捨てカイロ。日本の冬の知恵として、寒い季節の定番土産になっている。",
+  "evidence": "冬の定番土産として訪日ラボや複数のインバウンド商品紹介記事で取り上げられている。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-7"
+ },
+ {
+  "rank": 8,
+  "name": "液体絆創膏",
+  "nameEn": "Liquid Bandage",
+  "description": "傷口に塗って乾かすだけで保護膜になる絆創膏の代替品。防水性が高く小さな切り傷のケアに便利と評価されている。",
+  "evidence": "中国人観光客が買い求める「神薬」リストで頻出するアイテムとして紹介。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-8"
+ },
+ {
+  "rank": 9,
+  "name": "のどぬ〜るスプレー",
+  "nameEn": "Nodonuru Throat Spray",
+  "description": "小林製薬ののどスプレー。喉の痛みや違和感に直接効かせられる手軽さで支持されている。",
+  "evidence": "ドラッグストアのインバウンド人気商品として紹介記事で取り上げられている。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-9"
+ },
+ {
+  "rank": 10,
+  "name": "ビオレ シートマスク・洗顔シート",
+  "nameEn": "Biore Cleansing Sheets",
+  "description": "花王のスキンケアブランド。持ち運びやすいシートタイプが人気で、コスメ・スキンケア購入の代表格。",
+  "evidence": "観光庁インバウンド消費動向調査で「化粧品・香水」は買い物代の主要カテゴリの一つとされている。",
+  "sources": [{"url": "https://www.mlit.go.jp/kankocho/content/001884192.pdf", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-10"
+ },
+ {
+  "rank": 11,
+  "name": "日焼け止め(UVスプレー)",
+  "nameEn": "UV Spray Sunscreen",
+  "description": "スプレータイプの日焼け止め。塗り直しがしやすく、日本製の使用感の軽さが評価されている。",
+  "evidence": "化粧品カテゴリの代表アイテムとして各種インバウンド商品紹介記事で取り上げられている。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-11"
+ },
+ {
+  "rank": 12,
+  "name": "アンメルツ等の湿布薬",
+  "nameEn": "Anmeltz Pain Relief Patch",
+  "description": "塗るタイプ・貼るタイプの鎮痛消炎剤。旅行中の筋肉疲労ケアとして荷物にかさばらない点が支持されている。",
+  "evidence": "ドラッグストアのインバウンド人気商品ランキングで湿布・塗り薬カテゴリの定番として紹介。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-12"
+ },
+ {
+  "rank": 13,
+  "name": "貝印 爪切り",
+  "nameEn": "Kai Nail Clippers",
+  "description": "刃物メーカー貝印の爪切り。切れ味の良さと安全性が評価され、繰り返し買いたくなる日用品として人気。",
+  "evidence": "日本製の切れ味が評価され、お土産紹介記事の日用品カテゴリで繰り返し紹介されている。",
+  "sources": [{"url": "https://tripeditor.com/372124", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-13"
+ },
+ {
+  "rank": 14,
+  "name": "マキロン(消毒薬)",
+  "nameEn": "Makiron Antiseptic",
+  "description": "第一三共ヘルスケアの傷口消毒液の定番ブランド。刺激の少なさが特徴で、家庭の常備薬として知られる。",
+  "evidence": "中国人観光客が買い求める「神薬」リストで頻出するアイテムとして紹介。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-14"
+ },
+ {
+  "rank": 15,
+  "name": "プチプラコスメ(ちふれ・キャンメイクなど)",
+  "nameEn": "Affordable Japanese Cosmetics",
+  "description": "手頃な価格ながら発色や質感が評価される国産プチプラコスメブランド群。まとめ買いされやすい。",
+  "evidence": "観光庁調査で化粧品・香水は買い物代の主要カテゴリとされ、価格帯を問わず購入率が高いと報告されている。",
+  "sources": [{"url": "https://www.mlit.go.jp/kankocho/content/001884192.pdf", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-15"
+ },
+ {
+  "rank": 16,
+  "name": "高機能美容液(アイムピンチなど)",
+  "nameEn": "High-end Japanese Serums",
+  "description": "美容液・エッセンス系の高価格帯コスメ。品質の高さから、まとめ買い・箱買いされることも多いカテゴリ。",
+  "evidence": "高価格帯コスメが訪日客の買い物代の中で目立つカテゴリであると各種インバウンド記事で紹介されている。",
+  "sources": [{"url": "https://www.mlit.go.jp/kankocho/content/001884192.pdf", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-16"
+ },
+ {
+  "rank": 17,
+  "name": "龍角散ダイレクト(スティックタイプ)",
+  "nameEn": "Ryukakusan Direct Stick",
+  "description": "水なしでそのまま服用できる粉末タイプののど薬。携帯しやすく旅行中でも使いやすいと評価されている。",
+  "evidence": "龍角散シリーズが訪日外国人に人気の日本の医薬品として複数のドラッグストア紹介記事で取り上げられている。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-17"
+ },
+ {
+  "rank": 18,
+  "name": "デザイン不織布マスク",
+  "nameEn": "Patterned Non-woven Masks",
+  "description": "柄や機能性にこだわった不織布マスク。コロナ禍以降、日本らしい日用品土産として定着した。",
+  "evidence": "コロナ以降に定番化した日用品土産として複数のお土産紹介記事で言及されている。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-18"
+ },
+ {
+  "rank": 19,
+  "name": "命の母・漢方胃腸薬",
+  "nameEn": "Kampo Herbal Medicine",
+  "description": "生薬・漢方をベースにした婦人薬や胃腸薬。西洋薬にない成分構成が珍しがられ、購入されるカテゴリ。",
+  "evidence": "中国人観光客が買い求める「神薬」リストで漢方系医薬品が繰り返し紹介されている。",
+  "sources": [{"url": "https://www.moneypost.jp/988067", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-19"
+ },
+ {
+  "rank": 20,
+  "name": "パブロンなどの風邪薬",
+  "nameEn": "Pabron Cold Medicine",
+  "description": "大正製薬の総合感冒薬シリーズ。効果の高さで知られ、旅行前後の体調管理用に購入されることが多い。",
+  "evidence": "訪日ラボのドラッグストア別インバウンド人気商品ランキングで医薬品カテゴリの定番として掲載。",
+  "sources": [{"url": "https://honichi.com/goods/store_categories/drug_store/", "checked": "2026-09-05"}],
+  "genre": "ドラッグストア・日用品", "genreIcon": "💊", "genreIndex": 2, "key": "g2-20"
+ },
+
+ {
+  "rank": 1,
+  "name": "南部鉄器(鉄瓶・急須)",
+  "nameEn": "Nanbu Ironware",
+  "description": "岩手・盛岡発祥の鋳物工芸品。使うほどに味が出る鉄瓶は、長く使える本格土産として人気が高まっている。",
+  "evidence": "経済産業大臣指定の伝統的工芸品。政府広報「Highlighting Japan」で海外への広がりが特集されている。",
+  "sources": [{"url": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202402/202402_02_jp.html", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-1"
+ },
+ {
+  "rank": 2,
+  "name": "だしパック",
+  "nameEn": "Dashi Stock Packs",
+  "description": "鰹節や昆布の旨味を手軽に取れる出汁パック。日本の家庭料理を自国で再現できる土産として注目が高まっている。",
+  "evidence": "2026年の土産トレンドとして「日本文化を持ち帰って体験し続けられる品」の代表例に挙げられている。",
+  "sources": [{"url": "https://original-goods.com/user_data/column/theme/inbound/popularity_ranking", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-2"
+ },
+ {
+  "rank": 3,
+  "name": "箸・箸置きセット",
+  "nameEn": "Chopstick & Rest Set",
+  "description": "木製・漆塗りなど素材やデザインが豊富な箸セット。日常的に使い続けられる実用土産として選ばれている。",
+  "evidence": "2026年の土産トレンド記事で「実用性と日本文化を兼ね備えた土産」として紹介されている。",
+  "sources": [{"url": "https://original-goods.com/user_data/column/theme/inbound/popularity_ranking", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-3"
+ },
+ {
+  "rank": 4,
+  "name": "風呂敷",
+  "nameEn": "Furoshiki Wrapping Cloth",
+  "description": "一枚の布で様々な形に包める伝統的な布。バッグ代わりやインテリアにも使える汎用性が支持されている。",
+  "evidence": "和雑貨カテゴリの定番として複数のお土産紹介記事で繰り返し取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-4"
+ },
+ {
+  "rank": 5,
+  "name": "手ぬぐい",
+  "nameEn": "Tenugui Cloth",
+  "description": "染めの図柄が豊富な日本手ぬぐい。タオル代わりからインテリア用途まで幅広く使える軽量な布土産。",
+  "evidence": "和雑貨カテゴリの定番として複数のお土産紹介記事で繰り返し取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-5"
+ },
+ {
+  "rank": 6,
+  "name": "扇子・うちわ",
+  "nameEn": "Folding Fan / Uchiwa",
+  "description": "和柄をあしらった扇子やうちわ。日本らしさの象徴として知られるが、実際の人気ランキングでは上位に入りにくいという指摘もある。",
+  "evidence": "Japan Today記事は、外国人が選ぶ土産トップ10に扇子が入らなかったと報じており、イメージほど実売は強くない可能性がある。",
+  "sources": [{"url": "https://japantoday.com/category/features/lifestyle/top-10-souvenirs-from-japan-as-chosen-by-foreign-visitors-and-not-a-folding-fan-in-sight", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-6"
+ },
+ {
+  "rank": 7,
+  "name": "招き猫",
+  "nameEn": "Maneki-neko (Beckoning Cat)",
+  "description": "商売繁盛・招福の縁起物として知られる置物。サイズやデザイン展開が豊富で、価格帯を選びやすい定番土産。",
+  "evidence": "縁起物カテゴリの定番として複数のお土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-7"
+ },
+ {
+  "rank": 8,
+  "name": "御朱印帳",
+  "nameEn": "Goshuincho (Shrine/Temple Stamp Book)",
+  "description": "神社仏閣の参拝記念スタンプ帳。表紙のデザインが多彩で、御朱印集め自体を旅の目的にする外国人も増えている。",
+  "evidence": "御朱印集めブームの広がりとともに、外国人向け観光ブログでも紹介される機会が増えている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-8"
+ },
+ {
+  "rank": 9,
+  "name": "有田焼・美濃焼などの陶磁器",
+  "nameEn": "Arita-yaki / Mino-yaki Pottery",
+  "description": "産地ごとに異なる色柄・質感を持つ日本の伝統陶磁器。湯呑みや皿など実用品として選ばれやすい。",
+  "evidence": "伝統工芸品カテゴリの定番として、お土産紹介記事で繰り返し紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-9"
+ },
+ {
+  "rank": 10,
+  "name": "輪島塗・会津塗などの漆器",
+  "nameEn": "Wajima-nuri / Aizu-nuri Lacquerware",
+  "description": "何層にも漆を塗り重ねて仕上げる伝統工芸品。艶やかな質感と耐久性から、高価格帯の贈答土産として選ばれる。",
+  "evidence": "伝統工芸品カテゴリの定番として、お土産紹介記事で繰り返し紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-10"
+ },
+ {
+  "rank": 11,
+  "name": "折り紙セット",
+  "nameEn": "Origami Paper Set",
+  "description": "色柄豊富な折り紙用紙のセット。安価で軽く、日本文化の体験を持ち帰れる手軽な土産として人気。",
+  "evidence": "手軽な日本文化体験土産として複数の観光ブログで紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-11"
+ },
+ {
+  "rank": 12,
+  "name": "だるま",
+  "nameEn": "Daruma Doll",
+  "description": "目を描き入れて願掛けをする縁起物の置物。真っ赤な見た目のインパクトから、日本らしい土産として人気。",
+  "evidence": "縁起物カテゴリの定番として複数のお土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-12"
+ },
+ {
+  "rank": 13,
+  "name": "こけし",
+  "nameEn": "Kokeshi Doll",
+  "description": "東北地方に伝わる木製人形。シンプルな造形と手描きの表情が素朴な魅力として評価されている。",
+  "evidence": "東北の伝統工芸品として複数のお土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-13"
+ },
+ {
+  "rank": 14,
+  "name": "浴衣・甚平",
+  "nameEn": "Yukata / Jinbei",
+  "description": "夏祭りなどで着る簡易和装。着物より手頃な価格で購入・着用しやすく、記念撮影用にも人気が高い。",
+  "evidence": "日本文化に関するグッズの定番として、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-14"
+ },
+ {
+  "rank": 15,
+  "name": "浮世絵グッズ(クリアファイル・ポストカード)",
+  "nameEn": "Ukiyo-e Goods",
+  "description": "葛飾北斎や歌川広重などの浮世絵をあしらった雑貨。世界的に知名度の高い浮世絵は軽い紙モノ土産と相性がよい。",
+  "evidence": "日本文化に関するグッズの定番として、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-15"
+ },
+ {
+  "rank": 16,
+  "name": "マスキングテープ",
+  "nameEn": "Washi Masking Tape",
+  "description": "和紙素材の装飾用テープ。日本発の文房具として世界的な人気があり、柄の種類の多さも魅力。",
+  "evidence": "和雑貨カテゴリの定番として、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-16"
+ },
+ {
+  "rank": 17,
+  "name": "わっぱ弁当箱",
+  "nameEn": "Wappa Bento Box",
+  "description": "杉や檜を薄く曲げて作る曲げわっぱの弁当箱。木の香りと通気性の良さから、実用的な工芸品として支持されている。",
+  "evidence": "和雑貨カテゴリの定番として、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-17"
+ },
+ {
+  "rank": 18,
+  "name": "花札・将棋・囲碁",
+  "nameEn": "Hanafuda / Shogi / Go",
+  "description": "日本の伝統的なカード・盤上ゲーム。ルールを知らなくても道具自体の美しさで飾り土産としても選ばれる。",
+  "evidence": "「珍しい」土産カテゴリとして、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-18"
+ },
+ {
+  "rank": 19,
+  "name": "フリクションボールペン/ジェットストリーム",
+  "nameEn": "FriXion / Jetstream Pens",
+  "description": "消せるボールペン(フリクション)や滑らかな書き心地のジェットストリームなど、日本製文房具の完成度の高さが評価されている。",
+  "evidence": "「珍しい」土産カテゴリの一つとして、お土産紹介記事で日本の文房具が取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-19"
+ },
+ {
+  "rank": 20,
+  "name": "富士山グラス",
+  "nameEn": "Mt. Fuji Glassware",
+  "description": "グラスの底に富士山の形が浮かぶ切子細工のグラス。飲み物を注ぐと富士山が見える仕掛けが人気の理由。",
+  "evidence": "雑貨カテゴリの人気アイテムとして、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "伝統工芸・和雑貨", "genreIcon": "🎎", "genreIndex": 3, "key": "g3-20"
+ },
+
+ {
+  "rank": 1,
+  "name": "ポケモンセンター限定グッズ",
+  "nameEn": "Pokémon Center Exclusive Goods",
+  "description": "ポケモン公式グッズの旗艦店。日本限定デザインのぬいぐるみや文房具などが豊富で、店舗自体が観光名所になっている。",
+  "evidence": "多くの外国人旅行者にとって日本旅行の必須訪問先の一つとして紹介されている。",
+  "sources": [{"url": "https://www.gtn.co.jp/magazine/ja/article88/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-1"
+ },
+ {
+  "rank": 2,
+  "name": "ガチャガチャ(カプセルトイ)",
+  "nameEn": "Gachapon Capsule Toys",
+  "description": "コインを入れて回すカプセル玩具。何が出るか分からない楽しさと、海外にはない独自性の高い商品展開が人気の理由。",
+  "evidence": "海外では手に入らないユニークな商品性から、大人でも楽しめる土産として訪日外国人に支持されていると紹介されている。",
+  "sources": [{"url": "https://www.badge-man.net/bmwp/column/gacha-grobal-col/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-2"
+ },
+ {
+  "rank": 3,
+  "name": "一番くじ",
+  "nameEn": "Ichiban Kuji Lottery",
+  "description": "コンビニやアニメショップで販売される、必ず何かしらの景品が当たるくじ引き。限定フィギュアが手に入る点が魅力。",
+  "evidence": "アニメショップ・コンビニでの訪日客の購入行動として複数の紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-3"
+ },
+ {
+  "rank": 4,
+  "name": "ジブリグッズ(どんぐり共和国など)",
+  "nameEn": "Studio Ghibli Goods",
+  "description": "トトロやカオナシなど、世界的に知られるジブリキャラクターのグッズ。専門店「どんぐり共和国」も人気の立ち寄り先。",
+  "evidence": "海外での高いジブリ人気を背景に、定番の日本土産として紹介記事で繰り返し取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-4"
+ },
+ {
+  "rank": 5,
+  "name": "Nintendo TOKYO限定商品",
+  "nameEn": "Nintendo TOKYO Exclusive Goods",
+  "description": "任天堂の直営ストア限定グッズ。マリオやゼルダなど世界的に有名なゲームキャラクターの公式商品が並ぶ。",
+  "evidence": "任天堂ファンの聖地として、複数の観光メディアで訪日客に人気のスポットとして紹介されている。",
+  "sources": [{"url": "https://www.gtn.co.jp/magazine/ja/article88/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-5"
+ },
+ {
+  "rank": 6,
+  "name": "サンリオキャラクターグッズ",
+  "nameEn": "Sanrio Character Goods",
+  "description": "ハローキティやマイメロディなど、世界的に知名度の高いキャラクターグッズ。文房具から日用品まで展開が幅広い。",
+  "evidence": "海外でも高い知名度を持つキャラクターとして、定番の日本土産として紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-6"
+ },
+ {
+  "rank": 7,
+  "name": "鬼滅の刃・ONE PIECE・ドラゴンボール関連グッズ",
+  "nameEn": "Popular Manga/Anime Merchandise",
+  "description": "世界的なヒット作のキャラクターグッズ。フィギュアからアパレルまで幅広く展開され、コレクター需要も高い。",
+  "evidence": "世界的なアニメ人気を背景に、定番の日本土産として紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-7"
+ },
+ {
+  "rank": 8,
+  "name": "缶バッジ・アクリルスタンド",
+  "nameEn": "Can Badges / Acrylic Stands",
+  "description": "推しキャラクターを持ち歩ける小型グッズ。価格が手頃で集めやすく、アニメショップの定番商品になっている。",
+  "evidence": "訪日オタク観光を扱う記事でアニメショップの定番購入品として紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-8"
+ },
+ {
+  "rank": 9,
+  "name": "ポケモンカードなどトレーディングカード",
+  "nameEn": "Pokémon Trading Card Game",
+  "description": "世界的なトレーディングカードブームの中心にあるポケモンカード。日本限定パックがコレクター人気を集めている。",
+  "evidence": "海外でも人気の高いキャラクターとして、外国人が選ぶポケモンキャラクターランキング記事も存在するほどの人気ぶりが報じられている。",
+  "sources": [{"url": "https://news.livedoor.com/article/detail/11074428/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-9"
+ },
+ {
+  "rank": 10,
+  "name": "駿河屋・まんだらけの中古グッズ",
+  "nameEn": "Suruga-ya / Mandarake Used Goods",
+  "description": "中古のフィギュア・トレカ・グッズを扱う専門店。掘り出し物探しの楽しさから、サブカル観光の目的地になっている。",
+  "evidence": "サブカルチャー観光地の一つとして、訪日オタク観光まとめ記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-10"
+ },
+ {
+  "rank": 11,
+  "name": "東京キャラクターストリート限定商品",
+  "nameEn": "Tokyo Character Street Goods",
+  "description": "東京駅構内に集まる複数のキャラクターショップ群。効率よく色々なキャラクターグッズを回れる利便性が支持されている。",
+  "evidence": "東京駅の観光スポットとして、複数の観光ガイド記事で紹介されている。",
+  "sources": [{"url": "https://www.gtn.co.jp/magazine/ja/article88/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-11"
+ },
+ {
+  "rank": 12,
+  "name": "ガシャポンのデパート限定商品",
+  "nameEn": "Gashapon Department Store Exclusives",
+  "description": "数百台のガチャガチャが並ぶ専門店限定の商品ライン。品揃えの多さ自体がエンターテインメントになっている。",
+  "evidence": "ガチャガチャ人気の高まりと関連して、専門店の存在自体が観光資源として紹介されている。",
+  "sources": [{"url": "https://www.badge-man.net/bmwp/column/gacha-grobal-col/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-12"
+ },
+ {
+  "rank": 13,
+  "name": "コスプレ衣装・小物",
+  "nameEn": "Cosplay Costumes & Accessories",
+  "description": "ハロウィンや趣味用のコスプレ衣装・小物。日本ならではの品揃えの豊富さが評価されている。",
+  "evidence": "ドン・キホーテが「ユニークなコスチュームグッズ」を豊富に扱う店として紹介されている。",
+  "sources": [{"url": "https://toyokeizai.net/articles/-/920102", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-13"
+ },
+ {
+  "rank": 14,
+  "name": "ピカチュウ目覚まし時計など生活雑貨コラボ",
+  "nameEn": "Pikachu Alarm Clock & Lifestyle Collabs",
+  "description": "人気キャラクターと日用品を組み合わせたコラボ商品。実用性とファングッズの両方を兼ね備えている点が支持されている。",
+  "evidence": "雑貨カテゴリのキャラクターコラボ商品として、お土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-14"
+ },
+ {
+  "rank": 15,
+  "name": "新海誠作品など聖地巡礼コラボ商品",
+  "nameEn": "Anime Pilgrimage Collab Goods",
+  "description": "アニメの舞台となった実在の場所を巡る「聖地巡礼」ブームに合わせたコラボグッズ。地域限定であることが多い。",
+  "evidence": "聖地巡礼ブームの広がりと合わせて、地域限定コラボ商品が複数の観光記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-15"
+ },
+ {
+  "rank": 16,
+  "name": "昭和レトロ玩具・ブリキ玩具",
+  "nameEn": "Showa-era Retro Tin Toys",
+  "description": "昭和時代に作られたブリキ製の玩具。レトロな絵柄と質感が近年再評価され、コレクター需要が高まっている。",
+  "evidence": "昭和レトロ人気の高まりとともに、土産としても再評価されていると紹介記事で言及されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-16"
+ },
+ {
+  "rank": 17,
+  "name": "プリクラ写真グッズ",
+  "nameEn": "Purikura Photo Sticker Booths",
+  "description": "日本独自に発展した写真シール機。加工の凝り具合や店舗数の多さが、体験型土産として珍しがられている。",
+  "evidence": "日本独自の写真文化体験として、複数の観光メディアで紹介されている。",
+  "sources": [{"url": "https://www.gtn.co.jp/magazine/ja/article88/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-17"
+ },
+ {
+  "rank": 18,
+  "name": "御朱印風スタンプ帳(聖地巡礼用)",
+  "nameEn": "Anime Pilgrimage Stamp Book",
+  "description": "聖地巡礼スポットを回って集める記念スタンプ帳。神社仏閣の御朱印文化をアニメファン向けに応用した企画。",
+  "evidence": "聖地巡礼ブームの一環として、地域振興の取り組みが複数の記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-18"
+ },
+ {
+  "rank": 19,
+  "name": "VTuberグッズ",
+  "nameEn": "VTuber Merchandise",
+  "description": "バーチャルライバーの公式グッズ。世界的なファンダムの広がりとともに、近年注目されるようになった新しい土産カテゴリ。",
+  "evidence": "世界的なVTuber人気の高まりを背景に、近年のポップカルチャー土産として注目されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-19"
+ },
+ {
+  "rank": 20,
+  "name": "食品サンプルキット",
+  "nameEn": "Fake Food Sample Making Kit",
+  "description": "飲食店の店頭に並ぶリアルな食品サンプルを手作りできる体験キット。日本独自の職人技を体験できると人気。",
+  "evidence": "日本ならではの体験型土産として、お土産紹介記事の雑貨カテゴリで紹介されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "アニメ・キャラクター・ポップカルチャー", "genreIcon": "🎮", "genreIndex": 4, "key": "g4-20"
+ },
+
+ {
+  "rank": 1,
+  "name": "抹茶(粉末)",
+  "nameEn": "Matcha Powder",
+  "description": "茶葉を丸ごと挽いた粉末緑茶。飲用だけでなく製菓材料としても使え、健康志向の高まりとともに人気が続いている。",
+  "evidence": "観光庁インバウンド消費動向調査で飲食料品は買い物代の主要カテゴリの一つとされている。",
+  "sources": [{"url": "https://www.mlit.go.jp/kankocho/content/001884192.pdf", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-1"
+ },
+ {
+  "rank": 2,
+  "name": "日本酒",
+  "nameEn": "Sake (Japanese Rice Wine)",
+  "description": "獺祭など海外でも評価の高い銘柄が増え、免税店でも定番の酒類土産になっている。",
+  "evidence": "お土産紹介記事のお酒カテゴリで、日本酒の詰め合わせが定番として紹介されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-2"
+ },
+ {
+  "rank": 3,
+  "name": "ジャパニーズウイスキー(山崎・響・竹鶴など)",
+  "nameEn": "Japanese Whisky",
+  "description": "国際的な品評会での受賞歴を背景に評価が高まったウイスキー。免税店では品薄・購入制限がかかることもある。",
+  "evidence": "国際的な評価向上を背景に、高価格帯の土産として複数の免税店ランキング記事で紹介されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-3"
+ },
+ {
+  "rank": 4,
+  "name": "醤油(高級醸造)",
+  "nameEn": "Premium Brewed Soy Sauce",
+  "description": "木桶で長期熟成させた高級醤油。日本の家庭の味を再現できる調味料として、料理好きの旅行者に選ばれている。",
+  "evidence": "調味料カテゴリの定番土産として複数のお土産紹介記事で取り上げられている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-4"
+ },
+ {
+  "rank": 5,
+  "name": "だし(顆粒だし・鰹節)",
+  "nameEn": "Instant Dashi Stock",
+  "description": "和食の味の基本となる出汁の素。顆粒タイプなら手軽に本格的な和食の味を再現できると評価されている。",
+  "evidence": "2026年の土産トレンドとして「日本文化を持ち帰って体験し続けられる品」の代表例に挙げられている。",
+  "sources": [{"url": "https://original-goods.com/user_data/column/theme/inbound/popularity_ranking", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-5"
+ },
+ {
+  "rank": 6,
+  "name": "わさび(生わさび・わさび漬け)",
+  "nameEn": "Wasabi",
+  "description": "刺身や寿司に欠かせない日本独自の薬味。生わさびやわさび漬けなど、加工形態のバリエーションも豊富。",
+  "evidence": "日本ならではの薬味として、複数のお土産紹介記事で定番の食品土産として紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-6"
+ },
+ {
+  "rank": 7,
+  "name": "七味唐辛子",
+  "nameEn": "Shichimi Togarashi",
+  "description": "唐辛子に山椒や陳皮などを配合した香辛料。うどんや丼物にかけるだけで日本の味を再現できると人気。",
+  "evidence": "調味料カテゴリの定番土産として、複数のお土産紹介記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-7"
+ },
+ {
+  "rank": 8,
+  "name": "カレールー(日本式カレー)",
+  "nameEn": "Japanese Curry Roux",
+  "description": "欧風カレーとは異なる、とろみと甘辛さが特徴の日本式カレーの素。家庭で「日本の味」を再現できると人気。",
+  "evidence": "家庭で作れる日本の味として、お土産紹介記事の食品カテゴリで紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-8"
+ },
+ {
+  "rank": 9,
+  "name": "ふりかけ",
+  "nameEn": "Furikake Rice Seasoning",
+  "description": "ご飯にかけるだけの乾燥調味料。軽量で日持ちがよく、味の種類も豊富なため気軽に買える食品土産の定番。",
+  "evidence": "軽量で日持ちする定番土産として、複数のお土産紹介記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-9"
+ },
+ {
+  "rank": 10,
+  "name": "緑茶(煎茶・玄米茶)",
+  "nameEn": "Japanese Green Tea",
+  "description": "抹茶以外にも煎茶や玄米茶など種類が豊富な日本茶。ティーバッグタイプなら手軽に持ち帰りやすい。",
+  "evidence": "観光庁調査で飲食料品は買い物代の主要カテゴリとされ、お茶類も定番の購入品として紹介されている。",
+  "sources": [{"url": "https://www.mlit.go.jp/kankocho/content/001884192.pdf", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-10"
+ },
+ {
+  "rank": 11,
+  "name": "梅干し",
+  "nameEn": "Umeboshi (Pickled Plum)",
+  "description": "強い酸味と塩気が特徴の日本の伝統食品。おにぎりの具材としてだけでなく、健康食品としても関心を集めている。",
+  "evidence": "日本の伝統食品として、お土産紹介記事の食品カテゴリで定番として紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-11"
+ },
+ {
+  "rank": 12,
+  "name": "味噌",
+  "nameEn": "Miso Paste",
+  "description": "発酵食品の代表格。地域によって色や風味が異なり、味噌汁だけでなく調味料としての使い道も紹介されている。",
+  "evidence": "調味料カテゴリの定番土産として、複数のお土産紹介記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-12"
+ },
+ {
+  "rank": 13,
+  "name": "柚子胡椒",
+  "nameEn": "Yuzu Kosho",
+  "description": "柚子の皮と唐辛子を発酵させた薬味調味料。爽やかな香りとピリ辛さが近年注目され、人気が高まっている。",
+  "evidence": "近年人気が高まっている調味料として、お土産紹介記事で言及されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-13"
+ },
+ {
+  "rank": 14,
+  "name": "蕎麦・乾麺",
+  "nameEn": "Soba Noodles",
+  "description": "そば粉を使った日本の伝統麺。乾麺タイプなら常温保存・持ち帰りがしやすく、健康志向の旅行者にも選ばれている。",
+  "evidence": "保存が効く食品土産として、複数の観光ガイド記事で紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-14"
+ },
+ {
+  "rank": 15,
+  "name": "和牛ジャーキー",
+  "nameEn": "Wagyu Beef Jerky",
+  "description": "和牛を使った加工肉のジャーキー。生肉と違い持ち帰りやすく、和牛の旨味を手軽に楽しめる土産として近年登場した。",
+  "evidence": "持ち帰りやすい和牛加工品として、近年のお土産紹介記事で言及されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-15"
+ },
+ {
+  "rank": 16,
+  "name": "缶ハイボール",
+  "nameEn": "Canned Highball",
+  "description": "ウイスキーソーダを缶で手軽に楽しめる商品。空港の売店でも買いやすく、すぐに飲みたい層に選ばれている。",
+  "evidence": "空港売店で購入されやすい飲料系土産として、お土産紹介記事のお酒カテゴリで紹介されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-16"
+ },
+ {
+  "rank": 17,
+  "name": "クラフトジン(和素材使用)",
+  "nameEn": "Japanese Craft Gin",
+  "description": "柚子や山椒など和素材をボタニカルに使ったクラフトジン。世界的なジンブームを背景に高価格帯の土産として注目されている。",
+  "evidence": "近年のジンブームを背景に、高価格帯の土産としてお酒紹介記事で言及されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-17"
+ },
+ {
+  "rank": 18,
+  "name": "梅酒",
+  "nameEn": "Umeshu (Plum Wine)",
+  "description": "梅の甘酸っぱさを活かした果実酒。アルコール度数が比較的低く、お酒に強くない人にも飲みやすいと選ばれている。",
+  "evidence": "お土産紹介記事のお酒カテゴリで定番として紹介されている。",
+  "sources": [{"url": "https://www.kuchanmama.com/souvenir-japan/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-18"
+ },
+ {
+  "rank": 19,
+  "name": "のり(海苔)",
+  "nameEn": "Nori Seaweed",
+  "description": "おにぎりや巻き寿司に欠かせない乾燥海苔。軽量で日持ちがよく、日本食材の代表格として選ばれやすい。",
+  "evidence": "日本食材の代表として、お土産紹介記事の食品カテゴリで定番として紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-19"
+ },
+ {
+  "rank": 20,
+  "name": "お茶漬けセット",
+  "nameEn": "Ochazuke (Tea over Rice) Set",
+  "description": "ご飯にお湯や出汁をかけるだけで作れる日本の軽食セット。手軽さと日本の食文化らしさを兼ね備えた土産として紹介されている。",
+  "evidence": "手軽な日本の家庭料理として、お土産紹介記事の食品カテゴリで紹介されている。",
+  "sources": [{"url": "https://www.cd-expert.com/apps/note/omiyage/genre/", "checked": "2026-09-05"}],
+  "genre": "食品・調味料・お酒", "genreIcon": "🍶", "genreIndex": 5, "key": "g5-20"
+ }
+]
