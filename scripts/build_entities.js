@@ -58,6 +58,38 @@ function injectSingleRoot(templateHtml, rootId, bodyHtml) {
   return templateHtml.replace(re, `$1\n${bodyHtml}\n    $3`);
 }
 
+// animals.html/peoples.html/castles.html are BOTH the live list page (maintained by
+// build_lists.js, which fills their #<x>-list div with hundreds of real links) AND the
+// template this script reads to build each entity's detail page. Before treating one as
+// a template we must reset its list container back to empty, or every generated detail
+// page would silently carry a full hidden copy of the entire list.
+function stripContainer(html, id) {
+  const openTagRe = new RegExp(`<div id="${id}"[^>]*>`);
+  const openMatch = openTagRe.exec(html);
+  if (!openMatch) throw new Error(`container #${id} not found`);
+  const openTag = openMatch[0];
+  const contentStart = openMatch.index + openTag.length;
+
+  let depth = 1;
+  let closeIndex = -1;
+  const tagRe = /<div\b[^>]*>|<\/div>/g;
+  tagRe.lastIndex = contentStart;
+  let m;
+  while ((m = tagRe.exec(html))) {
+    if (m[0] === "</div>") {
+      depth--;
+      if (depth === 0) {
+        closeIndex = m.index;
+        break;
+      }
+    } else {
+      depth++;
+    }
+  }
+  if (closeIndex === -1) throw new Error(`unbalanced <div> while locating #${id}'s closing tag`);
+  return html.slice(0, contentStart) + html.slice(closeIndex);
+}
+
 function injectDetailWithListHide(templateHtml, detailId, listSectionId, bodyHtml) {
   const listRe = new RegExp(`(<section class="section page-title-section" id="${listSectionId}")(>)`);
   const detailRe = new RegExp(`<div id="${detailId}" hidden></div>`);
@@ -121,7 +153,7 @@ let totalWritten = 0;
 
 // ---- Animals ----
 {
-  const template = fs.readFileSync(path.join(root, "animals.html"), "utf8");
+  const template = stripContainer(fs.readFileSync(path.join(root, "animals.html"), "utf8"), "animal-list");
   const animals = require(path.join(root, "data/animals.json"));
   const countries = require(path.join(root, "data/countries.json"));
   const countryMap = new Map(countries.map((c) => [c.code, c]));
@@ -152,7 +184,7 @@ let totalWritten = 0;
 
 // ---- Peoples ----
 {
-  const template = fs.readFileSync(path.join(root, "peoples.html"), "utf8");
+  const template = stripContainer(fs.readFileSync(path.join(root, "peoples.html"), "utf8"), "peoples-list");
   const peoples = require(path.join(root, "data/peoples.json"));
   const countries = require(path.join(root, "data/countries.json"));
   const countryMap = new Map(countries.map((c) => [c.code, c]));
@@ -183,7 +215,7 @@ let totalWritten = 0;
 
 // ---- Castles ----
 {
-  const template = fs.readFileSync(path.join(root, "castles.html"), "utf8");
+  const template = stripContainer(fs.readFileSync(path.join(root, "castles.html"), "utf8"), "castles-list");
   const castles = require(path.join(root, "data/castles.json"));
   const countries = require(path.join(root, "data/countries.json"));
   const countryMap = new Map(countries.map((c) => [c.code, c]));
