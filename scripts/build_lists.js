@@ -368,4 +368,43 @@ function buildCategoryListInner(config) {
   write("spotjapan.html", html);
 }
 
+// ---- matsurijapan.html: genre 1 (三大祭・都市部の大規模祭り) as the default static view ----
+{
+  const matsuriData = require(path.join(root, "data/japan_matsuri100.json"));
+  const genreClass = {
+    "三大祭・都市部の大規模祭り": "g1",
+    "花火大会": "g2",
+    "雪・氷の祭り": "g3",
+    "奇祭・伝統儀式的な祭り": "g4",
+    "季節の祭り・イルミネーション": "g5",
+  };
+  const firstGenre = "三大祭・都市部の大規模祭り";
+  const items = matsuriData.filter((d) => d.genre === firstGenre).sort((a, b) => a.rank - b.rank);
+
+  const matsuriCard = (item) => {
+    const cls = genreClass[item.genre];
+    const sourcesHtml = (item.sources || [])
+      .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">出典</a>`)
+      .join(" ");
+    return `
+    <div class="spot-rank ${cls}">
+      <div class="spot-plate">${item.rank}</div>
+      <div class="spot-body">
+        <h3>${item.name}</h3>
+        <div class="spot-en">${item.nameEn} ・ ${item.location || ""} ・ ${item.season || ""}</div>
+        <p class="spot-desc">${item.description}</p>
+        <div class="spot-evidence">
+          <span class="spot-evidence-label">根拠:</span>${item.evidence}
+          <div class="spot-src">${sourcesHtml}</div>
+        </div>
+      </div>
+    </div>`;
+  };
+  const inner = `<div class="dish-list">${items.map(matsuriCard).join("")}</div>`;
+
+  let html = fs.readFileSync(path.join(root, "matsurijapan.html"), "utf8");
+  html = replaceContainer(html, "matsurijapan-list", inner);
+  write("matsurijapan.html", html);
+}
+
 console.log("list pages updated:", filesWritten);

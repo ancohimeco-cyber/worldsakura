@@ -28,6 +28,7 @@ const staticPages = [
   "contact.html",
   "foodjapan.html",
   "spotjapan.html",
+  "matsurijapan.html",
   "souvenirs100.html",
 ];
 
