@@ -1098,6 +1098,28 @@ footer {
   color: var(--ink-soft);
 }
 
+.affiliate-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: #bf0000;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.affiliate-btn:hover {
+  background: #950000;
+}
+
+.ad-disclosure {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: -4px 0 12px;
+}
+
 @media (max-width: 480px) {
   .dish-rank { grid-template-columns: 38px 1fr; gap: 10px; padding: 14px; }
   .dish-plate { width: 34px; height: 34px; font-size: 0.9rem; }

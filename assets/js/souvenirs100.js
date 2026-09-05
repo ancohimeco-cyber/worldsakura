@@ -18,6 +18,9 @@ function souvenirCard(item, cls) {
   const sourcesHtml = (item.sources || [])
     .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">出典</a>`)
     .join(" ");
+  const affiliateHtml = item.affiliateUrl
+    ? `<a class="affiliate-btn" href="${item.affiliateUrl}" target="_blank" rel="nofollow sponsored noopener">楽天市場で見る ▸</a>`
+    : "";
   return `
     <div class="dish-rank ${cls}">
       <div class="dish-plate">${item.rank}</div>
@@ -29,6 +32,7 @@ function souvenirCard(item, cls) {
           <span class="dish-evidence-label">根拠:</span>${item.evidence}
           <div class="dish-src">${sourcesHtml}</div>
         </div>
+        ${affiliateHtml}
       </div>
     </div>`;
 }
@@ -59,10 +63,21 @@ function renderSouvenirList() {
   container.innerHTML = `<div class="dish-list">${items.map((item) => souvenirCard(item, g.cls)).join("")}</div>`;
 }
 
+function renderAffiliateDisclosure() {
+  const el = document.getElementById("souvenirs100-disclosure");
+  if (!el) return;
+  const hasAffiliateLinks = ALL_SOUVENIRS.some((d) => d.affiliateUrl);
+  el.hidden = !hasAffiliateLinks;
+  if (hasAffiliateLinks) {
+    el.textContent = "本ページの「楽天市場で見る」リンクはアフィリエイト広告(PR)を含みます。";
+  }
+}
+
 async function initSouvenirsPage() {
   ALL_SOUVENIRS = await fetchSouvenirs();
   renderSouvenirTabs();
   renderSouvenirList();
+  renderAffiliateDisclosure();
 }
 
 document.addEventListener("DOMContentLoaded", initSouvenirsPage);
