@@ -407,4 +407,44 @@ function buildCategoryListInner(config) {
   write("matsurijapan.html", html);
 }
 
+// ---- events.html: month 1 (1月) as the default static view ----
+{
+  const monthlyEvents = require(path.join(root, "data/monthly_events.json"));
+  const REGION_LABEL = { japan: "🇯🇵 日本の行事", world: "🌍 世界の行事" };
+  const REGION_CLASS = { japan: "g1", world: "g2" };
+
+  const monthlyCard = (item) => {
+    const cls = REGION_CLASS[item.region] || "g1";
+    const flag = item.region === "world" ? "🌍" : "🇯🇵";
+    const sourcesHtml = (item.sources || [])
+      .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">出典</a>`)
+      .join(" ");
+    return `
+    <div class="spot-rank ${cls}">
+      <div class="spot-plate">${flag}</div>
+      <div class="spot-body">
+        <h3>${item.name}</h3>
+        <div class="spot-en">${item.nameEn || ""} ・ ${item.dateInfo || ""}</div>
+        <p class="spot-desc">${item.description}</p>
+        <div class="spot-src">${sourcesHtml}</div>
+      </div>
+    </div>`;
+  };
+
+  const janItems = monthlyEvents.filter((e) => e.month === 1);
+  const inner = ["japan", "world"]
+    .map((region) => {
+      const regionItems = janItems.filter((e) => e.region === region);
+      if (!regionItems.length) return "";
+      return `
+        <div class="letter-group-title">${REGION_LABEL[region]}</div>
+        <div class="dish-list">${regionItems.map(monthlyCard).join("")}</div>`;
+    })
+    .join("");
+
+  let html = fs.readFileSync(path.join(root, "events.html"), "utf8");
+  html = replaceContainer(html, "events-monthly-list", inner);
+  write("events.html", html);
+}
+
 console.log("list pages updated:", filesWritten);
