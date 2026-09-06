@@ -1,1 +1,1752 @@
-[]
+[
+  {
+    "key": "shogatsu",
+    "month": 1,
+    "name": "お正月・三が日",
+    "nameEn": "Japanese New Year",
+    "region": "japan",
+    "dateInfo": "1月1日〜3日",
+    "description": "1年の始まりを祝う日本最大の年中行事。初詣やおせち料理、年賀状のやり取り、お年玉などの風習がある。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/正月"
+      }
+    ]
+  },
+  {
+    "key": "hatsumode",
+    "month": 1,
+    "name": "初詣",
+    "nameEn": "Hatsumode (First Shrine Visit)",
+    "region": "japan",
+    "dateInfo": "1月1日〜3日を中心に1月中",
+    "description": "年が明けて初めて神社や寺院に参拝し、一年の無事と平安を祈願する日本の伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/初詣"
+      }
+    ]
+  },
+  {
+    "key": "jinjitsu_nanakusa",
+    "month": 1,
+    "name": "人日の節句・七草粥",
+    "nameEn": "Jinjitsu (Seven Herbs Festival)",
+    "region": "japan",
+    "dateInfo": "1月7日",
+    "description": "五節句の一つで、7種類の野菜を入れた七草粥を食べて無病息災を願う日本の伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月7日"
+      }
+    ]
+  },
+  {
+    "key": "seijin_no_hi",
+    "month": 1,
+    "name": "成人の日",
+    "nameEn": "Coming of Age Day",
+    "region": "japan",
+    "dateInfo": "1月第2月曜日",
+    "description": "新成人を祝い励ます国民の祝日。1999年までは1月15日固定だったが、2000年から第2月曜日に変更された。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/成人の日"
+      }
+    ]
+  },
+  {
+    "key": "kagamibiraki",
+    "month": 1,
+    "name": "鏡開き",
+    "nameEn": "Kagami Biraki",
+    "region": "japan",
+    "dateInfo": "1月11日(関東中心。京都など1月4日の地域も)",
+    "description": "正月に年神様へ供えた鏡餅を下げ、雑煮や汁粉にして食べる行事。武家社会の「刃柄」の風習に由来する。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/鏡開き"
+      }
+    ]
+  },
+  {
+    "key": "sagicho_dondoyaki",
+    "month": 1,
+    "name": "左義長・どんど焼き",
+    "nameEn": "Sagicho (New Year Bonfire)",
+    "region": "japan",
+    "dateInfo": "1月14日〜15日頃",
+    "description": "正月飾りや書き初めを燃やし、その煙で無病息災や豊作を願う日本各地の小正月行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月14日"
+      }
+    ]
+  },
+  {
+    "key": "koshogatsu",
+    "month": 1,
+    "name": "小正月",
+    "nameEn": "Koshogatsu (Little New Year)",
+    "region": "japan",
+    "dateInfo": "1月15日",
+    "description": "1月1日の大正月に対し、1月15日を中心に豊作祈願や厄払いを行う日本の年中行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月15日"
+      }
+    ]
+  },
+  {
+    "key": "hatsuka_shogatsu",
+    "month": 1,
+    "name": "二十日正月",
+    "nameEn": "Hatsuka Shogatsu",
+    "region": "japan",
+    "dateInfo": "1月20日",
+    "description": "正月行事を締めくくる日とされ、正月に使った魚の骨まで食べ尽くすなど正月納めの風習が残る地域がある。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月20日"
+      }
+    ]
+  },
+  {
+    "key": "new_years_day_world",
+    "month": 1,
+    "name": "元日(世界)",
+    "nameEn": "New Year's Day",
+    "region": "world",
+    "dateInfo": "1月1日",
+    "description": "グレゴリオ暦を使用する世界各国で祝われる、1年の始まりを祝う祝日。花火や新年の抱負を語る習慣がある。",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
+      }
+    ]
+  },
+  {
+    "key": "epiphany",
+    "month": 1,
+    "name": "公現祭(エピファニー)",
+    "nameEn": "Epiphany",
+    "region": "world",
+    "dateInfo": "1月6日",
+    "description": "東方の三博士が幼子イエスを訪れ贈り物をした出来事を記念する、キリスト教西方教会の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/公現祭"
+      }
+    ]
+  },
+  {
+    "key": "australia_day",
+    "month": 1,
+    "name": "オーストラリアの日",
+    "nameEn": "Australia Day",
+    "region": "world",
+    "dateInfo": "1月26日",
+    "description": "1788年、英国からの最初の植民船団がシドニー近郊のポート・ジャクソン湾に上陸したことを記念するオーストラリアの国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月26日"
+      }
+    ]
+  },
+  {
+    "key": "india_republic_day",
+    "month": 1,
+    "name": "インド共和国記念日",
+    "nameEn": "Republic Day (India)",
+    "region": "world",
+    "dateInfo": "1月26日",
+    "description": "1950年にインド憲法が施行されたことを記念する、インドの主要な国民の祝日。首都では大規模な軍事パレードが行われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/1月26日"
+      }
+    ]
+  },
+  {
+    "key": "setsubun",
+    "month": 2,
+    "name": "節分",
+    "nameEn": "Setsubun",
+    "region": "japan",
+    "dateInfo": "2月3日頃(立春の前日)",
+    "description": "季節の変わり目に豆をまいて邪気を払う日本の伝統行事。恵方巻を食べる風習も近年定着している。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/節分"
+      }
+    ]
+  },
+  {
+    "key": "risshun",
+    "month": 2,
+    "name": "立春",
+    "nameEn": "Risshun (Start of Spring)",
+    "region": "japan",
+    "dateInfo": "2月4日頃(年により変動)",
+    "description": "二十四節気の一つで、暦の上で春が始まるとされる日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/立春"
+      }
+    ]
+  },
+  {
+    "key": "hatsuuma",
+    "month": 2,
+    "name": "初午",
+    "nameEn": "Hatsu-uma",
+    "region": "japan",
+    "dateInfo": "2月最初の午の日",
+    "description": "稲荷神を祀り、五穀豊穣や商売繁盛を願う日本の伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/初午"
+      }
+    ]
+  },
+  {
+    "key": "kenkoku_kinenbi",
+    "month": 2,
+    "name": "建国記念の日",
+    "nameEn": "National Foundation Day",
+    "region": "japan",
+    "dateInfo": "2月11日",
+    "description": "神武天皇の即位を伝える建国神話にちなむ日本の国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/建国記念の日"
+      }
+    ]
+  },
+  {
+    "key": "neko_no_hi",
+    "month": 2,
+    "name": "猫の日",
+    "nameEn": "Cat Day",
+    "region": "japan",
+    "dateInfo": "2月22日",
+    "description": "「222」がネコの鳴き声「ニャンニャンニャン」に通じることから1987年に制定された記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/猫の日"
+      }
+    ]
+  },
+  {
+    "key": "tennou_tanjoubi",
+    "month": 2,
+    "name": "天皇誕生日",
+    "nameEn": "The Emperor's Birthday",
+    "region": "japan",
+    "dateInfo": "2月23日",
+    "description": "今上天皇の誕生を祝う日本の国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/天皇誕生日"
+      }
+    ]
+  },
+  {
+    "key": "valentines_day",
+    "month": 2,
+    "name": "バレンタインデー",
+    "nameEn": "Valentine's Day",
+    "region": "world",
+    "dateInfo": "2月14日",
+    "description": "元はキリスト教の聖人にちなむ祝日だったが、現在は世界的に愛を伝え合う日として広く定着している。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/バレンタインデー"
+      }
+    ]
+  },
+  {
+    "key": "groundhog_day",
+    "month": 2,
+    "name": "グラウンドホッグデー",
+    "nameEn": "Groundhog Day",
+    "region": "world",
+    "dateInfo": "2月2日",
+    "description": "冬眠から目覚めたグラウンドホッグの行動で、その後の天候を占う米国・カナダの伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/グラウンドホッグデー"
+      }
+    ]
+  },
+  {
+    "key": "presidents_day",
+    "month": 2,
+    "name": "Presidents' Day",
+    "nameEn": "Presidents' Day",
+    "region": "world",
+    "dateInfo": "2月第3月曜日",
+    "description": "アメリカの歴代大統領、特にワシントンとリンカーンの功績を称える連邦祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/大統領の日"
+      }
+    ]
+  },
+  {
+    "key": "international_mother_language_day",
+    "month": 2,
+    "name": "国際母語デー",
+    "nameEn": "International Mother Language Day",
+    "region": "world",
+    "dateInfo": "2月21日",
+    "description": "言語と文化の多様性を守るためにユネスコが1999年に制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国際母語デー"
+      }
+    ]
+  },
+  {
+    "key": "hinamatsuri",
+    "month": 3,
+    "name": "ひな祭り",
+    "nameEn": "Hinamatsuri",
+    "region": "japan",
+    "dateInfo": "3月3日",
+    "description": "女児の健やかな成長を願い雛人形を飾る日本の伝統行事。上巳の節句とも呼ばれる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/雛祭り"
+      }
+    ]
+  },
+  {
+    "key": "white_day",
+    "month": 3,
+    "name": "ホワイトデー",
+    "nameEn": "White Day",
+    "region": "japan",
+    "dateInfo": "3月14日",
+    "description": "バレンタインデーに贈り物をもらったお返しをする、日本発祥とされる習慣。台湾や韓国にも広がっている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ホワイトデー"
+      }
+    ]
+  },
+  {
+    "key": "shunbun_no_hi",
+    "month": 3,
+    "name": "春分の日",
+    "nameEn": "Vernal Equinox Day",
+    "region": "japan",
+    "dateInfo": "3月20日頃(年により変動)",
+    "description": "昼と夜の長さがほぼ等しくなる日で、自然をたたえ生物をいつくしむことを趣旨とする日本の国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/春分の日"
+      }
+    ]
+  },
+  {
+    "key": "graduation_season",
+    "month": 3,
+    "name": "卒業式シーズン",
+    "nameEn": "Graduation Season",
+    "region": "japan",
+    "dateInfo": "3月上旬〜下旬",
+    "description": "日本の多くの学校で学年末を迎え、卒業式が集中して行われる時期。桜の開花時期とも重なる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/卒業式"
+      }
+    ]
+  },
+  {
+    "key": "keichitsu",
+    "month": 3,
+    "name": "啓蟄",
+    "nameEn": "Keichitsu (Awakening of Insects)",
+    "region": "japan",
+    "dateInfo": "3月5日頃",
+    "description": "二十四節気のひとつで、冬ごもりしていた虫が地上に出てくる頃とされる時期。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/啓蟄"
+      }
+    ]
+  },
+  {
+    "key": "sakura_no_hi",
+    "month": 3,
+    "name": "さくらの日",
+    "nameEn": "Cherry Blossom Day",
+    "region": "japan",
+    "dateInfo": "3月27日",
+    "description": "「3×9=27」の語呂合わせと桜が咲き始める時期にちなみ、日本さくらの会が1992年に制定した記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/3月27日"
+      }
+    ]
+  },
+  {
+    "key": "international_womens_day",
+    "month": 3,
+    "name": "国際女性デー",
+    "nameEn": "International Women's Day",
+    "region": "world",
+    "dateInfo": "3月8日",
+    "description": "1904年のニューヨークでの女性労働者によるデモをきっかけとする、女性の権利向上を訴える国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国際女性デー"
+      }
+    ]
+  },
+  {
+    "key": "st_patricks_day",
+    "month": 3,
+    "name": "セント・パトリックス・デー",
+    "nameEn": "St. Patrick's Day",
+    "region": "world",
+    "dateInfo": "3月17日",
+    "description": "5世紀にアイルランドへキリスト教を伝えた聖パトリックを記念し、緑を身につけて祝う世界的な祭り。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/聖パトリックの祝日"
+      }
+    ]
+  },
+  {
+    "key": "world_water_day",
+    "month": 3,
+    "name": "世界水の日",
+    "nameEn": "World Water Day",
+    "region": "world",
+    "dateInfo": "3月22日",
+    "description": "1992年の国連総会で制定された、水資源の大切さを考える国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界水の日"
+      }
+    ]
+  },
+  {
+    "key": "nowruz",
+    "month": 3,
+    "name": "ノウルーズ",
+    "nameEn": "Nowruz",
+    "region": "world",
+    "dateInfo": "3月20日頃(春分の日)",
+    "description": "イランや中央アジア諸国などで祝われる、春分を起点とする新年の行事。ユネスコ無形文化遺産にも登録されている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ノウルーズ"
+      }
+    ]
+  },
+  {
+    "key": "nyugakushiki",
+    "month": 4,
+    "name": "入学式・新年度シーズン",
+    "nameEn": "New School Year / New Fiscal Year",
+    "region": "japan",
+    "dateInfo": "4月上旬",
+    "description": "日本では学校と多くの企業の年度がこの時期に始まり、入学式や入社式が各地で行われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/4月1日"
+      }
+    ]
+  },
+  {
+    "key": "hanami",
+    "month": 4,
+    "name": "お花見",
+    "nameEn": "Hanami (Cherry Blossom Viewing)",
+    "region": "japan",
+    "dateInfo": "3月下旬〜4月上旬",
+    "description": "桜の花を眺めながら春の訪れを祝う、奈良〜平安時代に起源を持つ日本の風習。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/花見"
+      }
+    ]
+  },
+  {
+    "key": "showa_no_hi",
+    "month": 4,
+    "name": "昭和の日",
+    "nameEn": "Showa Day",
+    "region": "japan",
+    "dateInfo": "4月29日",
+    "description": "昭和天皇の誕生日に由来する国民の祝日で、ゴールデンウィークの始まりを告げる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/4月29日"
+      }
+    ]
+  },
+  {
+    "key": "golden_week",
+    "month": 4,
+    "name": "ゴールデンウィーク",
+    "nameEn": "Golden Week",
+    "region": "japan",
+    "dateInfo": "4月29日〜5月5日ごろ",
+    "description": "複数の祝日が続く日本最大級の連休シーズンで、1950年代に映画業界の宣伝用語として広まった。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ゴールデンウィーク"
+      }
+    ]
+  },
+  {
+    "key": "hanamatsuri",
+    "month": 4,
+    "name": "花まつり(灌仏会)",
+    "nameEn": "Hana Matsuri (Buddha's Birthday)",
+    "region": "japan",
+    "dateInfo": "4月8日",
+    "description": "釈迦の誕生を祝う仏教行事で、日本では新暦のこの日に祝われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/4月8日"
+      }
+    ]
+  },
+  {
+    "key": "shiohigari",
+    "month": 4,
+    "name": "潮干狩りシーズン",
+    "nameEn": "Shellfish Gathering Season",
+    "region": "japan",
+    "dateInfo": "4月〜5月(大潮の時期)",
+    "description": "干潮時に遠浅の浜でアサリなどの貝を採る、春の行楽として親しまれる日本の風習。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/潮干狩り"
+      }
+    ]
+  },
+  {
+    "key": "april_fools",
+    "month": 4,
+    "name": "エイプリルフール",
+    "nameEn": "April Fools' Day",
+    "region": "world",
+    "dateInfo": "4月1日",
+    "description": "軽いうそやいたずらが許されるとされる、世界中で親しまれている風習。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/4月1日"
+      }
+    ]
+  },
+  {
+    "key": "easter",
+    "month": 4,
+    "name": "イースター(復活祭)",
+    "nameEn": "Easter",
+    "region": "world",
+    "dateInfo": "移動祝日、3月下旬〜4月にかけて多い",
+    "description": "キリストの復活を祝うキリスト教最大の祭りで、春分後の最初の満月の次の日曜日に祝われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/イースター"
+      }
+    ]
+  },
+  {
+    "key": "earth_day",
+    "month": 4,
+    "name": "アースデー(地球の日)",
+    "nameEn": "Earth Day",
+    "region": "world",
+    "dateInfo": "4月22日",
+    "description": "1970年にアメリカで始まった、環境問題への関心を高めるための世界的な記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/アースデー"
+      }
+    ]
+  },
+  {
+    "key": "songkran",
+    "month": 4,
+    "name": "ソンクラーン(タイ正月)",
+    "nameEn": "Songkran",
+    "region": "world",
+    "dateInfo": "4月13日〜15日",
+    "description": "水を掛け合う祭りとして知られる、タイの旧暦の正月行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ソンクラーン"
+      }
+    ]
+  },
+  {
+    "key": "golden-week",
+    "month": 5,
+    "name": "ゴールデンウィーク",
+    "nameEn": "Golden Week",
+    "region": "japan",
+    "dateInfo": "4月末〜5月上旬",
+    "description": "祝日が集中し大型連休となる、日本独自の呼び名の期間。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ゴールデンウィーク"
+      }
+    ]
+  },
+  {
+    "key": "kenpou-kinenbi",
+    "month": 5,
+    "name": "憲法記念日",
+    "nameEn": "Constitution Memorial Day",
+    "region": "japan",
+    "dateInfo": "5月3日",
+    "description": "1947年の日本国憲法施行を記念する国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/憲法記念日_(日本)"
+      }
+    ]
+  },
+  {
+    "key": "midori-no-hi",
+    "month": 5,
+    "name": "みどりの日",
+    "nameEn": "Greenery Day",
+    "region": "japan",
+    "dateInfo": "5月4日",
+    "description": "自然に親しみ、その恩恵に感謝する趣旨で定められた国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/みどりの日"
+      }
+    ]
+  },
+  {
+    "key": "kodomo-no-hi",
+    "month": 5,
+    "name": "こどもの日",
+    "nameEn": "Children's Day",
+    "region": "japan",
+    "dateInfo": "5月5日",
+    "description": "子どもの健やかな成長を願い、端午の節句とも重なる国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/こどもの日"
+      }
+    ]
+  },
+  {
+    "key": "haha-no-hi-japan",
+    "month": 5,
+    "name": "母の日",
+    "nameEn": "Mother's Day (Japan)",
+    "region": "japan",
+    "dateInfo": "5月第2日曜日",
+    "description": "日頃の感謝を込めて母親に花などを贈る日本の年中行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/母の日"
+      }
+    ]
+  },
+  {
+    "key": "aichou-shuukan",
+    "month": 5,
+    "name": "愛鳥週間",
+    "nameEn": "Bird Week",
+    "region": "japan",
+    "dateInfo": "5月10日〜16日",
+    "description": "野鳥保護の意識を広めることを目的に定められた期間。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/愛鳥週間"
+      }
+    ]
+  },
+  {
+    "key": "may-day",
+    "month": 5,
+    "name": "メーデー",
+    "nameEn": "May Day / International Workers' Day",
+    "region": "world",
+    "dateInfo": "5月1日",
+    "description": "世界各地で労働者の権利と連帯を訴える国際的な祭典の日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/メーデー"
+      }
+    ]
+  },
+  {
+    "key": "cinco-de-mayo",
+    "month": 5,
+    "name": "シンコ・デ・マヨ",
+    "nameEn": "Cinco de Mayo",
+    "region": "world",
+    "dateInfo": "5月5日",
+    "description": "1862年のプエブラの戦いでメキシコ軍が勝利したことを祝う記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/シンコ・デ・マヨ"
+      }
+    ]
+  },
+  {
+    "key": "mothers-day-world",
+    "month": 5,
+    "name": "母の日",
+    "nameEn": "Mother's Day",
+    "region": "world",
+    "dateInfo": "5月第2日曜日(多くの国)",
+    "description": "アメリカ発祥とされ、世界各国で同様の趣旨で祝われる母への感謝の日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/母の日"
+      }
+    ]
+  },
+  {
+    "key": "ve-day",
+    "month": 5,
+    "name": "ヨーロッパ戦勝記念日",
+    "nameEn": "Victory in Europe Day",
+    "region": "world",
+    "dateInfo": "5月8日(欧州)/5月9日(旧ソ連圏など)",
+    "description": "1945年に欧州で第二次世界大戦の戦闘が終結したことを記念する日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ヨーロッパ戦勝記念日"
+      }
+    ]
+  },
+  {
+    "key": "world-no-tobacco-day",
+    "month": 5,
+    "name": "世界禁煙デー",
+    "nameEn": "World No Tobacco Day",
+    "region": "world",
+    "dateInfo": "5月31日",
+    "description": "喫煙による健康被害への注意を促すためWHOが制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界禁煙デー"
+      }
+    ]
+  },
+  {
+    "key": "koromogae-summer",
+    "month": 6,
+    "name": "衣替え",
+    "nameEn": "Koromogae (Seasonal Wardrobe Change)",
+    "region": "japan",
+    "dateInfo": "6月1日",
+    "description": "学校や職場などで夏服に切り替える日本の季節の節目で、10月1日の冬服への衣替えと対をなす習慣。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/衣替え"
+      }
+    ]
+  },
+  {
+    "key": "tsuyu",
+    "month": 6,
+    "name": "梅雨",
+    "nameEn": "Tsuyu (Rainy Season)",
+    "region": "japan",
+    "dateInfo": "6月上旬〜7月中旬",
+    "description": "日本列島の広い範囲で雨や曇りの日が続く季節で、稲作など農業に欠かせない雨をもたらす一方、大雨災害への注意も呼びかけられる時期。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/梅雨"
+      }
+    ]
+  },
+  {
+    "key": "nyubai",
+    "month": 6,
+    "name": "入梅",
+    "nameEn": "Nyubai (Onset of the Rainy Season)",
+    "region": "japan",
+    "dateInfo": "6月11日頃",
+    "description": "暦の上で梅雨入りの目安とされる雑節のひとつで、実際の気象上の梅雨入りとは必ずしも一致しない。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/入梅"
+      }
+    ]
+  },
+  {
+    "key": "june_bride",
+    "month": 6,
+    "name": "ジューンブライド",
+    "nameEn": "June Bride",
+    "region": "japan",
+    "dateInfo": "6月全般",
+    "description": "6月に結婚すると幸せになれるという欧米由来の言い伝えが日本でも広まり、結婚式やブライダル業界のPRに使われている風習。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ジューン・ブライド"
+      }
+    ]
+  },
+  {
+    "key": "okinawa_irei_no_hi",
+    "month": 6,
+    "name": "沖縄慰霊の日",
+    "nameEn": "Okinawa Memorial Day",
+    "region": "japan",
+    "dateInfo": "6月23日",
+    "description": "1945年の沖縄戦で組織的な戦闘が終結したとされる日にちなみ、沖縄県が戦没者を追悼する日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/慰霊の日"
+      }
+    ]
+  },
+  {
+    "key": "nagoshi_no_harae",
+    "month": 6,
+    "name": "夏越の祓",
+    "nameEn": "Nagoshi no Harae (Summer Purification)",
+    "region": "japan",
+    "dateInfo": "6月30日",
+    "description": "半年間の罪や穢れを祓う神道の行事で、多くの神社で「茅の輪くぐり」が行われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/大祓"
+      }
+    ]
+  },
+  {
+    "key": "fathers_day",
+    "month": 6,
+    "name": "父の日",
+    "nameEn": "Father's Day",
+    "region": "world",
+    "dateInfo": "6月第3日曜日",
+    "description": "父親に感謝を伝える記念日で、アメリカで始まり日本を含む世界各国で6月第3日曜日に祝われている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/父の日"
+      }
+    ]
+  },
+  {
+    "key": "pride_month",
+    "month": 6,
+    "name": "プライド月間",
+    "nameEn": "Pride Month",
+    "region": "world",
+    "dateInfo": "6月全般",
+    "description": "1969年のストーンウォールの反乱を契機に、LGBTQ+の権利と多様性を祝う催しが世界各地で行われる期間。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/プライド月間"
+      }
+    ]
+  },
+  {
+    "key": "juneteenth",
+    "month": 6,
+    "name": "ジューンティーンス",
+    "nameEn": "Juneteenth",
+    "region": "world",
+    "dateInfo": "6月19日",
+    "description": "1865年にテキサス州で奴隷解放が布告されたことを記念する日で、2021年にアメリカの連邦祝日となった。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ジューンティーンス"
+      }
+    ]
+  },
+  {
+    "key": "summer_solstice",
+    "month": 6,
+    "name": "夏至",
+    "nameEn": "Summer Solstice",
+    "region": "world",
+    "dateInfo": "6月21日頃",
+    "description": "北半球で1年のうち昼が最も長くなる日で、世界各地で音楽祭や伝統行事が催される二十四節気のひとつ。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/夏至"
+      }
+    ]
+  },
+  {
+    "key": "tanabata",
+    "month": 7,
+    "name": "七夕",
+    "nameEn": "Tanabata",
+    "region": "japan",
+    "dateInfo": "7月7日",
+    "description": "織姫と彦星の伝説にちなみ、笹に短冊を飾って願い事をする日本の五節句の一つ。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/七夕"
+      }
+    ]
+  },
+  {
+    "key": "umi-no-hi",
+    "month": 7,
+    "name": "海の日",
+    "nameEn": "Marine Day",
+    "region": "japan",
+    "dateInfo": "7月第3月曜日",
+    "description": "海の恩恵に感謝し海洋国日本の発展を願う国民の祝日で、7月の第3月曜日にあたる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/海の日"
+      }
+    ]
+  },
+  {
+    "key": "ochugen",
+    "month": 7,
+    "name": "お中元",
+    "nameEn": "Ochugen",
+    "region": "japan",
+    "dateInfo": "7月上旬〜15日頃",
+    "description": "日頃お世話になっている人へ感謝を込めて品物を贈る、夏の贈答習慣。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/中元"
+      }
+    ]
+  },
+  {
+    "key": "gion-matsuri",
+    "month": 7,
+    "name": "祇園祭",
+    "nameEn": "Gion Matsuri",
+    "region": "japan",
+    "dateInfo": "7月1日〜31日",
+    "description": "京都・八坂神社の祭礼で、1000年以上の歴史を持ち1か月にわたり多彩な祭事が行われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/祇園祭"
+      }
+    ]
+  },
+  {
+    "key": "doyo-no-ushi",
+    "month": 7,
+    "name": "土用の丑の日",
+    "nameEn": "Day of the Ox",
+    "region": "japan",
+    "dateInfo": "7月下旬（年により変動）",
+    "description": "夏バテ防止にうなぎを食べる習慣で知られる、暦の雑節「土用」にあたる丑の日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/土用の丑の日"
+      }
+    ]
+  },
+  {
+    "key": "hakata-gion-yamakasa",
+    "month": 7,
+    "name": "博多祇園山笠",
+    "nameEn": "Hakata Gion Yamakasa",
+    "region": "japan",
+    "dateInfo": "7月1日〜15日",
+    "description": "福岡・櫛田神社の祭礼で、勇壮な山笠を担いで走る「追い山笠」が最終日のクライマックス。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/博多祇園山笠"
+      }
+    ]
+  },
+  {
+    "key": "us-independence-day",
+    "month": 7,
+    "name": "独立記念日",
+    "nameEn": "Independence Day (USA)",
+    "region": "world",
+    "dateInfo": "7月4日",
+    "description": "1776年のアメリカ独立宣言を祝う、花火や祝典で知られるアメリカ合衆国最大の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/独立記念日_(アメリカ合衆国)"
+      }
+    ]
+  },
+  {
+    "key": "bastille-day",
+    "month": 7,
+    "name": "パリ祭",
+    "nameEn": "Bastille Day",
+    "region": "world",
+    "dateInfo": "7月14日",
+    "description": "1789年のバスティーユ牢獄襲撃に始まるフランス革命を記念する、フランスの建国記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/パリ祭"
+      }
+    ]
+  },
+  {
+    "key": "nelson-mandela-day",
+    "month": 7,
+    "name": "ネルソン・マンデラ・デー",
+    "nameEn": "Nelson Mandela International Day",
+    "region": "world",
+    "dateInfo": "7月18日",
+    "description": "反アパルトヘイト運動の指導者ネルソン・マンデラの功績を称える国際連合の記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ネルソン・マンデラ・デー"
+      }
+    ]
+  },
+  {
+    "key": "world-population-day",
+    "month": 7,
+    "name": "世界人口デー",
+    "nameEn": "World Population Day",
+    "region": "world",
+    "dateInfo": "7月11日",
+    "description": "世界人口が50億人を超えたとされる1987年にちなみ、人口問題への関心を高めるため国連が制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界人口デー"
+      }
+    ]
+  },
+  {
+    "key": "obon",
+    "month": 8,
+    "name": "お盆",
+    "nameEn": "Obon",
+    "region": "japan",
+    "dateInfo": "8月13日〜16日ごろ(地域差あり)",
+    "description": "先祖の霊を迎えて供養する日本の伝統行事で、多くの企業がこの時期を休業期間とする。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/盆"
+      }
+    ]
+  },
+  {
+    "key": "shusen_no_hi",
+    "month": 8,
+    "name": "終戦の日",
+    "nameEn": "End of War Memorial Day",
+    "region": "japan",
+    "dateInfo": "8月15日",
+    "description": "1945年の終戦を受けて戦没者を追悼し平和を祈念する日本の記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/終戦の日"
+      }
+    ]
+  },
+  {
+    "key": "hiroshima_peace_day",
+    "month": 8,
+    "name": "広島平和記念日",
+    "nameEn": "Hiroshima Peace Memorial Day",
+    "region": "japan",
+    "dateInfo": "8月6日",
+    "description": "1945年の広島への原爆投下による犠牲者を悼み世界平和を祈る記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/広島平和記念日"
+      }
+    ]
+  },
+  {
+    "key": "nagasaki_atomic_bomb_day",
+    "month": 8,
+    "name": "長崎原爆の日",
+    "nameEn": "Nagasaki Atomic Bomb Day",
+    "region": "japan",
+    "dateInfo": "8月9日",
+    "description": "1945年の長崎への原爆投下による犠牲者を悼み平和を祈念する記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/8月9日"
+      }
+    ]
+  },
+  {
+    "key": "yama_no_hi",
+    "month": 8,
+    "name": "山の日",
+    "nameEn": "Mountain Day",
+    "region": "japan",
+    "dateInfo": "8月11日",
+    "description": "山に親しみその恩恵に感謝することを趣旨に2016年に新設された国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/山の日"
+      }
+    ]
+  },
+  {
+    "key": "natsuyasumi",
+    "month": 8,
+    "name": "夏休み",
+    "nameEn": "Summer Vacation",
+    "region": "japan",
+    "dateInfo": "7月下旬〜8月末ごろ(地域差あり)",
+    "description": "多くの学校で7月下旬から8月末にかけて設けられる、日本の長期休暇期間。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/夏休み"
+      }
+    ]
+  },
+  {
+    "key": "international_youth_day",
+    "month": 8,
+    "name": "国際青少年デー",
+    "nameEn": "International Youth Day",
+    "region": "world",
+    "dateInfo": "8月12日",
+    "description": "若者を取り巻く課題への関心を高めるために1999年の国連総会で定められた国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国際青少年デー"
+      }
+    ]
+  },
+  {
+    "key": "world_humanitarian_day",
+    "month": 8,
+    "name": "世界人道デー",
+    "nameEn": "World Humanitarian Day",
+    "region": "world",
+    "dateInfo": "8月19日",
+    "description": "2003年のバグダッド国連事務所爆破事件を機に制定された、人道支援活動に従事する人々を称える国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界人道デー"
+      }
+    ]
+  },
+  {
+    "key": "international_lefthanders_day",
+    "month": 8,
+    "name": "国際左利きの日",
+    "nameEn": "International Left Handers Day",
+    "region": "world",
+    "dateInfo": "8月13日",
+    "description": "左利きの人々への理解を深めることを目的に制定された国際的な記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/左利きの日"
+      }
+    ]
+  },
+  {
+    "key": "ferragosto",
+    "month": 8,
+    "name": "フェラゴスト",
+    "nameEn": "Ferragosto",
+    "region": "world",
+    "dateInfo": "8月15日",
+    "description": "聖母被昇天の祝日にあたる、イタリアをはじめヨーロッパ各地で夏休みの中心となる祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/聖母の被昇天"
+      }
+    ]
+  },
+  {
+    "key": "bousai",
+    "month": 9,
+    "name": "防災の日",
+    "nameEn": "Disaster Prevention Day",
+    "region": "japan",
+    "dateInfo": "9月1日",
+    "description": "1923年の関東大震災を教訓に1960年に制定された、地震や台風など災害への備えを呼びかける日本の記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/防災の日"
+      }
+    ]
+  },
+  {
+    "key": "keirou",
+    "month": 9,
+    "name": "敬老の日",
+    "nameEn": "Respect for the Aged Day",
+    "region": "japan",
+    "dateInfo": "9月第3月曜日",
+    "description": "多年にわたり社会に尽くしてきた高齢者を敬い、長寿を祝う日本の国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/敬老の日"
+      }
+    ]
+  },
+  {
+    "key": "shuubun",
+    "month": 9,
+    "name": "秋分の日",
+    "nameEn": "Autumnal Equinox Day",
+    "region": "japan",
+    "dateInfo": "9月22日〜23日頃(年により変動)",
+    "description": "祖先をうやまい、亡くなった人々をしのぶ日本の国民の祝日で、昼と夜の長さがほぼ等しくなる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/秋分の日"
+      }
+    ]
+  },
+  {
+    "key": "otsukimi",
+    "month": 9,
+    "name": "お月見(中秋の名月)",
+    "nameEn": "Mid-Autumn Moon Viewing",
+    "region": "japan",
+    "dateInfo": "旧暦8月15日(年により9月中旬〜10月上旬に変動)",
+    "description": "満月を眺めながら秋の実りに感謝する、日本に古くから伝わる月見の行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/中秋の名月"
+      }
+    ]
+  },
+  {
+    "key": "doubutsuaigo",
+    "month": 9,
+    "name": "動物愛護週間",
+    "nameEn": "Animal Welfare Week",
+    "region": "japan",
+    "dateInfo": "9月20日〜26日",
+    "description": "動物の愛護と適正な取り扱いについて国民の理解を深めることを目的に定められた日本の啓発週間。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/動物愛護週間"
+      }
+    ]
+  },
+  {
+    "key": "higan",
+    "month": 9,
+    "name": "秋の彼岸",
+    "nameEn": "Autumn Higan",
+    "region": "japan",
+    "dateInfo": "秋分の日を中日とする前後3日間、計7日間",
+    "description": "先祖を敬いお墓参りをする日本の仏教由来の風習で、秋分の日をはさむ1週間にあたる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/彼岸"
+      }
+    ]
+  },
+  {
+    "key": "peace",
+    "month": 9,
+    "name": "国際平和デー",
+    "nameEn": "International Day of Peace",
+    "region": "world",
+    "dateInfo": "9月21日",
+    "description": "世界の停戦と非暴力を呼びかけるために国連が1981年に制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国際平和デー"
+      }
+    ]
+  },
+  {
+    "key": "literacy",
+    "month": 9,
+    "name": "国際識字デー",
+    "nameEn": "International Literacy Day",
+    "region": "world",
+    "dateInfo": "9月8日",
+    "description": "世界の識字率向上を目指し、ユネスコが1965年の会議を機に制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国際識字デー"
+      }
+    ]
+  },
+  {
+    "key": "tourism",
+    "month": 9,
+    "name": "世界観光の日",
+    "nameEn": "World Tourism Day",
+    "region": "world",
+    "dateInfo": "9月27日",
+    "description": "観光が持つ社会的・文化的・経済的価値を広めるため、国連世界観光機関が1979年に制定した記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界観光の日"
+      }
+    ]
+  },
+  {
+    "key": "nuclear",
+    "month": 9,
+    "name": "核兵器の全面的廃絶のための国際デー",
+    "nameEn": "International Day for the Total Elimination of Nuclear Weapons",
+    "region": "world",
+    "dateInfo": "9月26日",
+    "description": "核兵器廃絶に向けた国際世論の機運を高めるため、国連総会が定めた国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/核兵器の全面的廃絶のための国際デー"
+      }
+    ]
+  },
+  {
+    "key": "koromogae-winter",
+    "month": 10,
+    "name": "衣替え",
+    "nameEn": "Seasonal Clothing Change",
+    "region": "japan",
+    "dateInfo": "10月1日",
+    "description": "夏服から冬服へ切り替える日本の季節の習慣で、制服のある学校や職場でも広く行われている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/衣替え"
+      }
+    ]
+  },
+  {
+    "key": "sports-day-japan",
+    "month": 10,
+    "name": "スポーツの日（体育の日）",
+    "nameEn": "Sports Day",
+    "region": "japan",
+    "dateInfo": "10月第2月曜日",
+    "description": "1964年の東京オリンピック開会を記念して制定された、スポーツに親しむ日本の国民の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/スポーツの日_(日本)"
+      }
+    ]
+  },
+  {
+    "key": "medical-eye-day",
+    "month": 10,
+    "name": "目の愛護デー",
+    "nameEn": "Eye Care Day",
+    "region": "japan",
+    "dateInfo": "10月10日",
+    "description": "数字の「10・10」を横にすると眉と目の形に見えることから定められた、目の健康を呼びかける日本の記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/10月10日"
+      }
+    ]
+  },
+  {
+    "key": "ebisu-kou",
+    "month": 10,
+    "name": "えびす講",
+    "nameEn": "Ebisu Festival",
+    "region": "japan",
+    "dateInfo": "10月20日",
+    "description": "商売繁盛の神様えびす様を祀り、商家を中心に秋の実りと商売の繁盛を祈る日本の伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/えびす講"
+      }
+    ]
+  },
+  {
+    "key": "kanname-sai",
+    "month": 10,
+    "name": "神嘗祭",
+    "nameEn": "Kanname-sai (First Fruits Festival)",
+    "region": "japan",
+    "dateInfo": "10月17日",
+    "description": "その年に収穫した新穀を天皇が伊勢神宮に奉納する、宮中で最も重んじられる祭祀の一つ。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/神嘗祭"
+      }
+    ]
+  },
+  {
+    "key": "dokusho-shukan",
+    "month": 10,
+    "name": "読書週間",
+    "nameEn": "Reading Week",
+    "region": "japan",
+    "dateInfo": "10月27日〜11月9日",
+    "description": "読書の習慣を広めるために毎年秋に行われる、日本全国の図書館や書店が参加する恒例行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/読書週間"
+      }
+    ]
+  },
+  {
+    "key": "halloween",
+    "month": 10,
+    "name": "ハロウィン",
+    "nameEn": "Halloween",
+    "region": "world",
+    "dateInfo": "10月31日",
+    "description": "古代ケルトの収穫祭に由来する行事で、現在では仮装をして楽しむイベントとして世界中に広まっている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ハロウィン"
+      }
+    ]
+  },
+  {
+    "key": "united-nations-day",
+    "month": 10,
+    "name": "国連の日",
+    "nameEn": "United Nations Day",
+    "region": "world",
+    "dateInfo": "10月24日",
+    "description": "1945年に国際連合憲章が発効し国連が正式に発足したことを記念して定められた国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/国連の日"
+      }
+    ]
+  },
+  {
+    "key": "world-food-day",
+    "month": 10,
+    "name": "世界食料デー",
+    "nameEn": "World Food Day",
+    "region": "world",
+    "dateInfo": "10月16日",
+    "description": "国連食糧農業機関の設立を記念し、世界の飢餓や食料問題について考えるために定められた国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界食料デー"
+      }
+    ]
+  },
+  {
+    "key": "world-teachers-day",
+    "month": 10,
+    "name": "世界教師デー",
+    "nameEn": "World Teachers' Day",
+    "region": "world",
+    "dateInfo": "10月5日",
+    "description": "1966年の「教師の地位向上に関する勧告」の調印を記念し、ユネスコが定めた教師をたたえる国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界教師デー"
+      }
+    ]
+  },
+  {
+    "key": "bunkanohi",
+    "month": 11,
+    "name": "文化の日",
+    "nameEn": "Culture Day",
+    "region": "japan",
+    "dateInfo": "11月3日",
+    "description": "1946年の日本国憲法公布を記念する国民の祝日。文化を大切にし、自由と平和を愛する日として文化勲章の授与式などが行われる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/文化の日"
+      }
+    ]
+  },
+  {
+    "key": "risshu",
+    "month": 11,
+    "name": "立冬",
+    "nameEn": "Rittō (Start of Winter)",
+    "region": "japan",
+    "dateInfo": "11月7日頃(年により変動)",
+    "description": "二十四節気の一つで、暦の上で冬が始まるとされる日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/立冬"
+      }
+    ]
+  },
+  {
+    "key": "shichigosan",
+    "month": 11,
+    "name": "七五三",
+    "nameEn": "Shichi-Go-San",
+    "region": "japan",
+    "dateInfo": "11月15日",
+    "description": "3歳・5歳・7歳になった子どもの成長を祝い、家族で神社や寺院に参詣する日本の伝統行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/七五三"
+      }
+    ]
+  },
+  {
+    "key": "toriohnoichi",
+    "month": 11,
+    "name": "酉の市",
+    "nameEn": "Tori-no-Ichi",
+    "region": "japan",
+    "dateInfo": "11月の酉の日",
+    "description": "開運招福・商売繁盛を願って熊手を売る露店が並ぶ、鷲神社などで行われる日本の年中行事。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/酉の市"
+      }
+    ]
+  },
+  {
+    "key": "niinamesai",
+    "month": 11,
+    "name": "新嘗祭",
+    "nameEn": "Niiname-sai",
+    "region": "japan",
+    "dateInfo": "11月23日",
+    "description": "その年に収穫された新穀を天皇が神に供え感謝する、宮中及び全国の神社で行われる伝統的な祭祀。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/新嘗祭"
+      }
+    ]
+  },
+  {
+    "key": "kinrokanshanohi",
+    "month": 11,
+    "name": "勤労感謝の日",
+    "nameEn": "Labor Thanksgiving Day",
+    "region": "japan",
+    "dateInfo": "11月23日",
+    "description": "勤労を尊び生産を祝い、国民が互いに感謝し合う日本の国民の祝日。新嘗祭がルーツとなっている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/勤労感謝の日"
+      }
+    ]
+  },
+  {
+    "key": "iifufunohi",
+    "month": 11,
+    "name": "いい夫婦の日",
+    "nameEn": "Good Couple's Day",
+    "region": "japan",
+    "dateInfo": "11月22日",
+    "description": "「1122」を「いい夫婦」と読む語呂合わせから制定された、夫婦の絆を見つめ直す日本の記念日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/いい夫婦の日"
+      }
+    ]
+  },
+  {
+    "key": "thanksgiving",
+    "month": 11,
+    "name": "感謝祭",
+    "nameEn": "Thanksgiving",
+    "region": "world",
+    "dateInfo": "11月第4木曜日(アメリカ)",
+    "description": "収穫に感謝し家族で食事を囲むアメリカの祝日で、七面鳥料理が定番として知られる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/感謝祭"
+      }
+    ]
+  },
+  {
+    "key": "blackfriday",
+    "month": 11,
+    "name": "ブラックフライデー",
+    "nameEn": "Black Friday",
+    "region": "world",
+    "dateInfo": "感謝祭の翌日の金曜日",
+    "description": "アメリカの感謝祭翌日に始まる年末商戦最大のセール日で、近年は世界各国の小売業にも広がっている。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ブラックフライデー"
+      }
+    ]
+  },
+  {
+    "key": "world_toilet_day",
+    "month": 11,
+    "name": "世界トイレの日",
+    "nameEn": "World Toilet Day",
+    "region": "world",
+    "dateInfo": "11月19日",
+    "description": "世界のトイレ・衛生問題への関心を高め、改善を訴えるために国連が制定した国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界トイレの日"
+      }
+    ]
+  },
+  {
+    "key": "world_diabetes_day",
+    "month": 11,
+    "name": "世界糖尿病デー",
+    "nameEn": "World Diabetes Day",
+    "region": "world",
+    "dateInfo": "11月14日",
+    "description": "インスリンを発見した医師の誕生日にちなみ、糖尿病への理解と対策を呼びかける国連の国際デー。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/世界糖尿病デー"
+      }
+    ]
+  },
+  {
+    "key": "oseibo",
+    "month": 12,
+    "name": "お歳暮",
+    "nameEn": "Oseibo (Year-End Gift Giving)",
+    "region": "japan",
+    "dateInfo": "12月上旬〜20日頃",
+    "description": "一年お世話になった人へ感謝を込めて贈り物をする、日本の年末の習わし。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/お歳暮"
+      }
+    ]
+  },
+  {
+    "key": "shigoto_osame",
+    "month": 12,
+    "name": "仕事納め・御用納め",
+    "nameEn": "Last Business Day of the Year",
+    "region": "japan",
+    "dateInfo": "12月28日頃",
+    "description": "官公庁や多くの企業がその年の業務を締めくくる日で、通常は12月28日にあたる。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/御用納め"
+      }
+    ]
+  },
+  {
+    "key": "shogatsu_kotohajime",
+    "month": 12,
+    "name": "正月事始め・煤払い",
+    "nameEn": "New Year Preparation Day",
+    "region": "japan",
+    "dateInfo": "12月13日",
+    "description": "正月を迎えるための大掃除や松迎えを始める、江戸時代から続く日本の習わし。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/正月事始め"
+      }
+    ]
+  },
+  {
+    "key": "osoji",
+    "month": 12,
+    "name": "大掃除",
+    "nameEn": "Year-End House Cleaning",
+    "region": "japan",
+    "dateInfo": "12月",
+    "description": "年神様を迎えるため一年の汚れを払い家を清める、日本の年末の風習。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/大掃除"
+      }
+    ]
+  },
+  {
+    "key": "toshikoshi_soba",
+    "month": 12,
+    "name": "年越しそば",
+    "nameEn": "Toshikoshi Soba",
+    "region": "japan",
+    "dateInfo": "12月31日",
+    "description": "長寿や厄払いを願って大晦日の夜に食べる、江戸時代中期から続く麺料理の習慣。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/年越し蕎麦"
+      }
+    ]
+  },
+  {
+    "key": "kohaku",
+    "month": 12,
+    "name": "NHK紅白歌合戦",
+    "nameEn": "NHK Kohaku Uta Gassen",
+    "region": "japan",
+    "dateInfo": "12月31日",
+    "description": "1951年から続く、大晦日の夜に放送される日本を代表する音楽特別番組。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦"
+      }
+    ]
+  },
+  {
+    "key": "christmas",
+    "month": 12,
+    "name": "クリスマス",
+    "nameEn": "Christmas",
+    "region": "world",
+    "dateInfo": "12月25日",
+    "description": "イエス・キリストの降誕を祝う、世界中で親しまれるキリスト教最大級の祭日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/クリスマス"
+      }
+    ]
+  },
+  {
+    "key": "christmas_eve",
+    "month": 12,
+    "name": "クリスマス・イブ",
+    "nameEn": "Christmas Eve",
+    "region": "world",
+    "dateInfo": "12月24日",
+    "description": "クリスマス当日の前夜で、家族や恋人と過ごす習慣が世界各地で見られる日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/クリスマス・イブ"
+      }
+    ]
+  },
+  {
+    "key": "boxing_day",
+    "month": 12,
+    "name": "ボクシング・デー",
+    "nameEn": "Boxing Day",
+    "region": "world",
+    "dateInfo": "12月26日",
+    "description": "イギリスや旧英連邦諸国を中心に祝われる、クリスマス翌日の祝日。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ボクシング・デー"
+      }
+    ]
+  },
+  {
+    "key": "new_years_eve",
+    "month": 12,
+    "name": "大晦日(ニューイヤーズ・イブ)",
+    "nameEn": "New Year's Eve",
+    "region": "world",
+    "dateInfo": "12月31日",
+    "description": "一年最後の日で、世界各地でカウントダウンイベントや花火が催される。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/大晦日"
+      }
+    ]
+  },
+  {
+    "key": "hanukkah",
+    "month": 12,
+    "name": "ハヌカー",
+    "nameEn": "Hanukkah",
+    "region": "world",
+    "dateInfo": "11月末〜12月(年により変動、8日間)",
+    "description": "ユダヤ暦に基づく光の祭りで、8日間にわたり燭台メノーラーに火を灯して祝う。",
+    "sources": [
+      {
+        "url": "https://ja.wikipedia.org/wiki/ハヌカー"
+      }
+    ]
+  }
+]
