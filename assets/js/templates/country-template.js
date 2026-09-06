@@ -3,6 +3,17 @@ function animalUrl(a) {
   return `animal-${a.key}.html`;
 }
 
+function slugify(text) {
+  return (text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function countryUrl(c) {
+  return `country-${c.id}-${slugify(c.nameEn)}.html`;
+}
+
 function listOrPlaceholder(values, placeholder) {
   if (!values || values.length === 0) {
     return `<p>${placeholder}</p>`;
@@ -14,7 +25,7 @@ function textOrPlaceholder(value, placeholder) {
   return `<p>${value || placeholder}</p>`;
 }
 
-function renderCountryBody(country, countryAnimals, motif) {
+function renderCountryBody(country, countryAnimals, motif, neighborCountries, prevCountry, nextCountry) {
   if (!country) {
     return `<p class="empty-state">国のデータが見つかりませんでした。</p>`;
   }
@@ -30,6 +41,19 @@ function renderCountryBody(country, countryAnimals, motif) {
   const motifLink = motif
     ? `<p><a href="flags.html#motif-${motif.key}">同じモチーフ「${motif.label}」の国を見る →</a></p>`
     : "";
+
+  const neighborsBlock =
+    !neighborCountries || neighborCountries.length === 0
+      ? `<p>海に囲まれている(または隣国データなし)ため、陸・海の隣接国は登録されていません。</p>`
+      : `<ul>${neighborCountries.map((n) => `<li><a href="${countryUrl(n)}">${n.name}</a></li>`).join("")}</ul>`;
+
+  const pagerRow =
+    prevCountry && nextCountry
+      ? `<div class="pager-row">
+          <a class="back-link" href="${countryUrl(prevCountry)}">← ${prevCountry.name}</a>
+          <a class="back-link" href="${countryUrl(nextCountry)}">${nextCountry.name} →</a>
+        </div>`
+      : "";
 
   const animalsBlock =
     !countryAnimals || countryAnimals.length === 0
@@ -49,6 +73,7 @@ function renderCountryBody(country, countryAnimals, motif) {
       <div class="id-badge">No.${country.id}</div>
     </section>
     <a class="back-link" href="countries.html">← 一覧に戻る</a>
+    ${pagerRow}
     ${notice}
     <div class="info-grid">
       <div class="info-card">
@@ -104,6 +129,10 @@ function renderCountryBody(country, countryAnimals, motif) {
         ${textOrPlaceholder(country.nature, "準備中です。")}
       </div>
       <div class="info-card">
+        <h3>🗺 隣接する国</h3>
+        ${neighborsBlock}
+      </div>
+      <div class="info-card">
         <h3>🦁 生息動物</h3>
         ${animalsBlock}
       </div>
@@ -137,5 +166,5 @@ function renderCountryBody(country, countryAnimals, motif) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { renderCountryBody, listOrPlaceholder, textOrPlaceholder };
+  module.exports = { renderCountryBody, listOrPlaceholder, textOrPlaceholder, countryUrl };
 }

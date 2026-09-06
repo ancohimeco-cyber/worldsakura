@@ -113,6 +113,8 @@ let totalWritten = 0;
   const countries = require(path.join(root, "data/countries.json"));
   const animals = require(path.join(root, "data/animals.json"));
   const motifs = require(path.join(root, "data/flag_motifs.json"));
+  const codeMap = new Map(countries.map((cc) => [cc.code, cc]));
+  const sortedById = [...countries].sort((a, b) => a.id - b.id);
 
   for (const c of countries) {
     const fileName = `country-${c.id}-${slugify(c.nameEn)}.html`;
@@ -124,7 +126,11 @@ let totalWritten = 0;
 
     const motif = motifs.find((m) => m.countries.includes(c.code));
     const countryAnimals = animals.filter((a) => a.countries.includes(c.code));
-    const body = renderCountryBody(c, countryAnimals, motif);
+    const neighborCountries = (c.borders || []).map((code) => codeMap.get(code)).filter(Boolean);
+    const idx = sortedById.findIndex((cc) => cc.id === c.id);
+    const prevCountry = sortedById[(idx - 1 + sortedById.length) % sortedById.length];
+    const nextCountry = sortedById[(idx + 1) % sortedById.length];
+    const body = renderCountryBody(c, countryAnimals, motif, neighborCountries, prevCountry, nextCountry);
 
     let html = injectHead(template, {
       title,

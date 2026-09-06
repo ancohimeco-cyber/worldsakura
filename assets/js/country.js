@@ -24,8 +24,15 @@ async function loadCountry() {
 
   const motif = motifs.find((m) => m.countries.includes(country.code));
   const countryAnimals = animals.filter((a) => a.countries.includes(country.code));
+  const codeMap = new Map(countries.map((c) => [c.code, c]));
+  const neighborCountries = (country.borders || []).map((code) => codeMap.get(code)).filter(Boolean);
 
-  root.innerHTML = renderCountryBody(country, countryAnimals, motif);
+  const sorted = [...countries].sort((a, b) => a.id - b.id);
+  const idx = sorted.findIndex((c) => c.id === country.id);
+  const prevCountry = sorted[(idx - 1 + sorted.length) % sorted.length];
+  const nextCountry = sorted[(idx + 1) % sorted.length];
+
+  root.innerHTML = renderCountryBody(country, countryAnimals, motif, neighborCountries, prevCountry, nextCountry);
 }
 
 document.addEventListener("DOMContentLoaded", loadCountry);

@@ -540,6 +540,18 @@ main {
   font-weight: 600;
 }
 
+.pager-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 6vw 20px;
+}
+
+.pager-row .back-link {
+  margin: 0;
+}
+
 footer {
   text-align: center;
   padding: 30px;
