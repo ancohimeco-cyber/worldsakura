@@ -31,6 +31,7 @@ const staticPages = [
   "matsurijapan.html",
   "souvenirs100.html",
   "events.html",
+  "japan.html",
 ];
 
 function slugify(text) {

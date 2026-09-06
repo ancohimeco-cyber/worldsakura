@@ -817,6 +817,11 @@ footer {
 .card-bg-animals { background: linear-gradient(135deg, #10352f, #05100e); }
 .card-bg-words { background: linear-gradient(135deg, #2a2560, #0d0b28); }
 .card-bg-peoples { background: linear-gradient(135deg, #1e3a8a, #0a0a2e); }
+.card-bg-foodjapan { background: linear-gradient(135deg, #c0392b, #2b0a06); }
+.card-bg-spotjapan { background: linear-gradient(135deg, #b8860b, #2b1e05); }
+.card-bg-matsurijapan { background: linear-gradient(135deg, #d63384, #2b0a1e); }
+.card-bg-souvenirs { background: linear-gradient(135deg, #2e8b57, #062b1c); }
+.card-bg-events { background: linear-gradient(135deg, #4f9eff, #0a1a2e); }
 
 /* ===== Monthly feature ===== */
 .monthly-feature-card {
