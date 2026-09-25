@@ -16,11 +16,8 @@ async function loadCountry() {
     return;
   }
 
-  updatePageMeta(
-    `${country.name}(${country.nameEn}) | 世界の図鑑`,
-    `${country.name}の位置・首都・人口・政治体制・言語・食文化・自然・国旗の由来などを紹介。${country.formation || ""}`.slice(0, 140),
-    countryUrl(country)
-  );
+  const meta = countryMeta(country);
+  updatePageMeta(meta.title, meta.description.slice(0, 150), countryUrl(country));
 
   const motif = motifs.find((m) => m.countries.includes(country.code));
   const countryAnimals = animals.filter((a) => a.countries.includes(country.code));

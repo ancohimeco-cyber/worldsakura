@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.join(__dirname, "..");
-const { renderCountryBody } = require(path.join(root, "assets/js/templates/country-template.js"));
+const { renderCountryBody, countryMeta } = require(path.join(root, "assets/js/templates/country-template.js"));
 const { renderAnimalBody } = require(path.join(root, "assets/js/templates/animal-template.js"));
 const { renderPeopleBody } = require(path.join(root, "assets/js/templates/people-template.js"));
 const { renderCastleBody } = require(path.join(root, "assets/js/templates/castle-template.js"));
@@ -118,11 +118,9 @@ let totalWritten = 0;
 
   for (const c of countries) {
     const fileName = `country-${c.id}-${slugify(c.nameEn)}.html`;
-    const title = `${c.name}(${c.nameEn}) | 世界の図鑑`;
-    // Lead with something country-specific (formation story) rather than a boilerplate
-    // opener repeated identically on all 193 pages — same instinct as varied thumbnails.
-    const leadIn = c.formation ? c.formation : `${c.name}の位置・首都・人口・文化などを紹介する国別ページです。`;
-    const description = truncate(`${leadIn} 首都・政治体制・言語・食文化・国旗の由来なども掲載。`, 150);
+    const meta = countryMeta(c);
+    const title = meta.title;
+    const description = truncate(meta.description, 150);
 
     const motif = motifs.find((m) => m.countries.includes(c.code));
     const countryAnimals = animals.filter((a) => a.countries.includes(c.code));

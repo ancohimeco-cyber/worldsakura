@@ -1215,3 +1215,13 @@ footer {
   border-color: var(--sakura-deep);
   box-shadow: 0 0 0 2px var(--sakura-deep) inset;
 }
+
+/* 国ページの見出し（SEO：h1 → h2 → h3 の順にする 2026-09-25） */
+.info-heading {
+  margin: 12px 6vw 14px;
+  font-size: 1.2rem;
+  color: var(--sakura-deep);
+}
+.country-sections .info-grid { padding-bottom: 36px; }
+.country-sections .info-grid:last-child { padding-bottom: 80px; }
+.info-card h3 a { color: inherit; }
